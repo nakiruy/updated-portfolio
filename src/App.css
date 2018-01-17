@@ -1,5 +1,10 @@
+* {
+  -webkit-font-smoothing: antialiased;
+}
+
 .App {
   text-align: center;
+  font-family: 'Lato', sans-serif;
 }
 
 .App-logo {
@@ -33,4 +38,30 @@
   padding: 0px 0px 0px 20px;
   font-size: 20px;
   color: black;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.navbar {
+  margin: 0;
+  padding: 15px 15px 15px 0px;
+  top: 0;
+  right: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 100;
+  box-shadow: 0 3px 6px -6px #999;
+}
+
+.ml-auto {
+  cursor: pointer;
+  font-size: 0.8em;
+}
+
+.nav-item {
+  padding: 0em 1.5em 0em 1.5em;
 }
