@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import { Container, Row, Col } from 'reactstrap';
+
 class Greetings extends React.Component {
   constructor(props) {
     super(props);
@@ -11,10 +13,16 @@ class Greetings extends React.Component {
 
   render() {
     return (
-      <div className="greetings">
-        <h1 id="name">Yurika Jacobsson.</h1>
-        <h3 id="headline">UX/UI Designer & Developer.</h3>
-        <h3 id="headline">I create thoughtful experiences.</h3>
+      <div>
+        <Container>
+          <Row>
+            <Col className="greetings" sm="12" md={{ size: 8, offset: 2}}>
+              <h1 id="name">Yurika Jacobsson.</h1>
+              <h3 id="headline">UX/UI Designer & Developer.</h3>
+              <h3 id="headline">I create thoughtful experiences.</h3>
+            </Col>
+          </Row>
+        </Container>
       </div>
     )
   }

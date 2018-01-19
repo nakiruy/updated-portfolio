@@ -17,10 +17,10 @@ class Navigation extends React.Component {
   constructor(props) {
     super(props);
 
-    this.toggle = this.toggle.bind(this);
     this.state = {
       isOpen: false
     };
+    this.toggle = this.toggle.bind(this);
   }
   toggle() {
     this.setState({
@@ -44,7 +44,7 @@ class Navigation extends React.Component {
                 <NavLink>ABOUT</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://drive.google.com/file/d/1BFVRhbwHr4rAcKRh8kM8uteZXV3wg5Qv/">RESUME</NavLink>
+                <NavLink href="https://drive.google.com/file/d/1Ymgc2ynoLrnzAbi6EvamKCYUpZLdQkwx/">RESUME</NavLink>
               </NavItem>
             </Nav>
           </Collapse>
