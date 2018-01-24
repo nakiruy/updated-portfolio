@@ -63,6 +63,19 @@ body {
   font-size: 3rem;
 }
 
+.contact-bar {
+  margin: 48px;
+}
+
+.contact-icon {
+  max-width: 24px;
+  opacity: 0.7;
+}
+
+.contact-icon:hover {
+  opacity: 1;
+}
+
 /* Footer */
 
 .footer {
