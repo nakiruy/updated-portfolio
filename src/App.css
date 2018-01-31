@@ -86,3 +86,7 @@ body {
 #copyright {
   font-size: 0.5rem;
 }
+
+#react-icon {
+  max-width: 15px;
+}
