@@ -9,6 +9,12 @@ body {
 .app {
   text-align: center;
   font-family: 'Lato', sans-serif;
+  position: absolute;
+  margin: 0 auto;
+  top: 10%;
+  bottom: 10%;
+  left: 0;
+  right: 0;
 }
 
 /* Navbar */
