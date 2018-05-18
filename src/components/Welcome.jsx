@@ -14,6 +14,7 @@ class Welcome extends React.Component {
   render() {
     return (
       <div className="welcome">
+        This is the welcome page.
       </div>
     )
   }
