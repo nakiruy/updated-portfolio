@@ -20,11 +20,11 @@ body {
 /* Navbar */
 
 #logo {
-  font-family: 'Pacifico', cursive;
+  font-family: 'GFS Didot', serif;
   float: left;
   padding: 0px 0px 0px 20px;
-  font-size: 20px;
-  color: #444444;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .navbar {
@@ -60,9 +60,12 @@ body {
   top: 50%;
   padding: 150px 0px 0px 0px;
   text-align: center;
-  font-weight: 100;
-  font-family: "Unna", serif;
-  letter-spacing: 0.3rem;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 0.1rem;
+}
+
+#name, #headline {
+  font-weight: 300;
 }
 
 #name {
