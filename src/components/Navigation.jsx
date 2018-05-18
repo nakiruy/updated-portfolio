@@ -38,12 +38,12 @@ class Navigation extends React.Component {
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
-              <NavItem>
-                <NavLink tag={Link} to="/work">WORK</NavLink>
-              </NavItem>
               {/* <NavItem>
                 <NavLink>ABOUT</NavLink>
               </NavItem> */}
+              <NavItem>
+                <NavLink tag={Link} to="/works">WORK</NavLink>
+              </NavItem>
               <NavItem>
                 <NavLink href="https://drive.google.com/file/d/1Ymgc2ynoLrnzAbi6EvamKCYUpZLdQkwx/">RESUME</NavLink>
               </NavItem>
