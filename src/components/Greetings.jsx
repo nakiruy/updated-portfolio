@@ -20,7 +20,7 @@ class Greetings extends React.Component {
           <Row>
             <Col className="greetings" sm="12" md={{ size: 8, offset: 2}}>
               <h1 id="name">Yurika Jacobsson.</h1>
-              <h3 id="headline">UX/UI Designer & Developer.</h3>
+              <h3 id="headline">UX/UI Designer.</h3>
               <h3 id="headline">I create thoughtful experiences.</h3>
               <Contact />
             </Col>
