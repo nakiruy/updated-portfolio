@@ -45,7 +45,7 @@ class Navigation extends React.Component {
                 <NavLink tag={Link} to="/about">ABOUT</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink tag={Link} to="/resume">>RESUME</NavLink>
+                <NavLink tag={Link} to="/resume">RESUME</NavLink>
               </NavItem>
             </Nav>
           </Collapse>
