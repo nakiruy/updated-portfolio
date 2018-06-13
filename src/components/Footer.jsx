@@ -13,6 +13,7 @@ class Footer extends React.Component {
   render() {
     return (
       <div className="footer">
+        <div class="icons">INSERT ICONS HERE</div>
         <div id="copyright">Made with 💕 & ☕ by Yurika</div>
       </div>
     )

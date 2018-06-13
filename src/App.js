@@ -13,7 +13,6 @@ class App extends Component {
       <div className="app">
         <Navigation />
         <Greetings />
-        <Footer />
       </div>
     );
   }

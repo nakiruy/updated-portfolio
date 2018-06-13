@@ -19,10 +19,8 @@ class Greetings extends React.Component {
         <Container>
           <Row>
             <Col className="greetings" sm="12" md={{ size: 8, offset: 2}}>
-              <h1 id="name">Yurika Jacobsson.</h1>
-              <h3 id="headline">UX/UI Designer.</h3>
-              <h3 id="headline">I create thoughtful experiences.</h3>
-              <Contact />
+              <h1 id="name">Hello. I'm Yurika.</h1>
+              <h3 id="headline">a designer and project manager based in the bay 🌊</h3>
             </Col>
           </Row>
         </Container>

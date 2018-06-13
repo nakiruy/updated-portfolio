@@ -33,22 +33,19 @@ class Navigation extends React.Component {
       <div className="navbar">
         <Navbar color="faded" light expand="md">
           <NavbarBrand href="/">
-            <div id="logo">YJ</div>
+            <div id="logo" to="/">YJ</div>
           </NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink tag={Link} to="/">HOME</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink tag={Link} to="/works">WORK</NavLink>
+                <NavLink tag={Link} to="/projects">PROJECTS</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink tag={Link} to="/about">ABOUT</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://drive.google.com/file/d/1Ymgc2ynoLrnzAbi6EvamKCYUpZLdQkwx/">RESUME</NavLink>
+                <NavLink tag={Link} to="/resume">>RESUME</NavLink>
               </NavItem>
             </Nav>
           </Collapse>

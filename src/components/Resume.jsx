@@ -1,8 +1,9 @@
 import React from 'react';
+import { Button } from 'reactstrap';
 
 import Navigation from './Navigation';
 
-class About extends React.Component {
+class Resume extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -12,11 +13,12 @@ class About extends React.Component {
 
   render() {
     return (
-      <div className="about">
+      <div className="resume">
         <Navigation />
+        <Button color="secondary" size="lg">RESUME</Button>
       </div>
     )
   }
 }
 
-export default About
+export default Resume

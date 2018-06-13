@@ -7,6 +7,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import App from './App';
 import About from './components/About';
 import Works from './components/Works';
+import Resume from './components/Resume';
 
 import registerServiceWorker from './registerServiceWorker';
 
@@ -26,7 +27,8 @@ ReactDOM.render(
     <div>
         <Route exact path="/" component={App} />
         <Route path="/about" component={About} />
-        <Route path="/works" component={Works} />
+        <Route path="/projects" component={Works} />
+        <Route path="/resume" component={Resume} />
     </div>
   </Router>, document.getElementById('root')
 );

@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 
 import { Container, Row, Col } from 'reactstrap';
 
@@ -19,9 +18,6 @@ class Works extends React.Component {
         <Navigation />
         <Container>
         <Row>
-          <Col>.col</Col>
-          <Col>.col</Col>
-          <Col>.col</Col>
           <Col>.col</Col>
         </Row>
         </Container>
