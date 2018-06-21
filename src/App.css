@@ -85,14 +85,25 @@ body {
 /* Footer */
 
 .footer {
-  text-align: center;
+  display: flex;
+  position: fixed;
+  left: 0;
+  bottom: 0;
   color: #505050;
+  width: 100%
 }
 
 #copyright {
+  width: 100%;
+  text-align: right;
   font-size: 0.5rem;
 }
 
 #react-icon {
   max-width: 15px;
+}
+
+.icons {
+  width: 100%;
+  text-align: left;
 }
