@@ -17,12 +17,10 @@ class Greetings extends React.Component {
     return (
       <div>
         <Container>
-          <Row>
-            <Col className="greetings" sm="12" md={{ size: 8, offset: 2}}>
-              <h1 id="name">Hello. I'm Yurika.</h1>
-              <h3 id="headline">a designer and project manager based in the bay 🌊</h3>
-            </Col>
-          </Row>
+          <Col className="greetings">
+            <h3 id="name">Hello. I'm Yurika.</h3>
+            <h3 id="headline">a designer and project manager based in the bay 🌊</h3>
+          </Col>
         </Container>
       </div>
     )

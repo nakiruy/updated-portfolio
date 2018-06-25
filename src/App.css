@@ -30,7 +30,7 @@ body {
 .navbar {
   font-family: 'Lato', sans-serif;
   margin: 0;
-  padding: 15px 15px 15px 0px;
+  padding: 15px;
   top: 0;
   right: 0;
   left: 0;
@@ -55,6 +55,11 @@ body {
   border-color: rgba(0, 0, 0, 0);
 }
 
+.navbar-nav .nav-link {
+  padding-right: 0;
+  padding-left: 0;
+  text-align: center;
+}
 /* Body */
 
 .greetings {
@@ -67,19 +72,12 @@ body {
 
 #name, #headline {
   font-weight: 300;
+  line-height: 1.5;
+  color: black;
 }
 
 .contact-bar {
   margin: 48px;
-}
-
-.contact-icon {
-  max-width: 24px;
-  opacity: 0.7;
-}
-
-.contact-icon:hover {
-  opacity: 1;
 }
 
 /* Footer */
@@ -97,6 +95,7 @@ body {
   width: 100%;
   text-align: right;
   font-size: 0.5rem;
+  color: #A1A1A1;
 }
 
 #react-icon {
@@ -106,4 +105,14 @@ body {
 .icons {
   width: 100%;
   text-align: left;
+}
+
+.contact-icon {
+  max-width: 24px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+.contact-icon:hover {
+  opacity: 0.5;
 }

@@ -1,7 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import {
+  Col,
   Collapse,
+  Container,
   Navbar,
   NavbarToggler,
   NavbarBrand,
@@ -30,16 +32,16 @@ class Navigation extends React.Component {
   }
   render() {
     return (
-      <div className="navbar">
+      <div className="navbar" >
         <Navbar color="faded" light expand="md">
           <NavbarBrand href="/">
             <div id="logo" to="/">YJ</div>
           </NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
-          <Collapse isOpen={this.state.isOpen} navbar>
+          <Collapse className="open-navbar" isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink tag={Link} to="/projects">PROJECTS</NavLink>
+                <NavLink tag={Link} to="/">PROJECTS</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink tag={Link} to="/about">ABOUT</NavLink>

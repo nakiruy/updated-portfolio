@@ -27,7 +27,6 @@ ReactDOM.render(
     <div>
         <Route exact path="/" component={App} />
         <Route path="/about" component={About} />
-        <Route path="/projects" component={Works} />
         <Route path="/resume" component={Resume} />
     </div>
   </Router>, document.getElementById('root')

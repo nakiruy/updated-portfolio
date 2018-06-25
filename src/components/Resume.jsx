@@ -15,7 +15,6 @@ class Resume extends React.Component {
     return (
       <div className="resume">
         <Navigation />
-        <Button color="secondary" size="lg">RESUME</Button>
       </div>
     )
   }
