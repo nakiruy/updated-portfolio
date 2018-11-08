@@ -60,6 +60,11 @@ body {
   padding-left: 0;
   text-align: center;
 }
+
+.nav-link.active {
+  color: #666;
+  border-left: 2px solid #d9534f;
+}
 /* Body */
 
 .greetings {
