@@ -4,6 +4,7 @@
 
 body {
   color: #444444;
+  background-color: rgba(0, 0, 0, 0.03);
 }
 
 .app {
@@ -19,26 +20,19 @@ body {
 
 /* Navbar */
 
-#logo {
-  font-family: 'GFS Didot', serif;
-  float: left;
-  padding: 0px 0px 0px 20px;
-  font-size: 24px;
-  font-weight: bold;
-}
-
 .navbar {
   font-family: 'Lato', sans-serif;
   margin: 0;
-  padding: 15px;
+  padding: 5px;
   top: 0;
   right: 0;
   left: 0;
   position: fixed;
   width: 100%;
-  background-color: white;
+  padding: -10px;
+  background-color: #ffffff;
   z-index: 100;
-  box-shadow: 0 3px 6px -6px #999;
+  box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
 }
 
 .ml-auto {
@@ -63,14 +57,24 @@ body {
 
 .nav-link.active {
   color: #666;
-  border-left: 2px solid #d9534f;
+  border-bottom: 2px solid #2829B6;
+}
+
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 1.2em;
+  height: 1.2em;
+  vertical-align: middle;
+  content: "";
+  background: no-repeat center center;
+  background-size: 100% 100%;
 }
 
 button:focus {
   outline: none;
 }
 
-.navbar-light .navbar-toggler-icon:active {
+span:after {
   background-image: url("https://images.emojiterra.com/google/android-pie/128px/1f354.png");
 }
 

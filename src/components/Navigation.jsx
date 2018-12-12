@@ -14,6 +14,8 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem } from 'reactstrap';
+  
+import logo from '../assets/logo.png';
 
 import { Slider } from 'react-burgers';
 
@@ -36,13 +38,13 @@ class Navigation extends React.Component {
       <div className="navbar" >
         <Navbar color="faded" light expand="md">
           <NavbarBrand href="/">
-            <div id="logo" to="/">YJ</div>
+            <img className="logo" src={logo} alt="Logo" />
           </NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse className="open-navbar" isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink tag={Link} to="/">PROJECTS</NavLink>
+                <NavLink tag={Link} to="/" active>PROJECTS</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink tag={Link} to="/about">ABOUT</NavLink>

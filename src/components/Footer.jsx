@@ -31,7 +31,7 @@ class Footer extends React.Component {
                       <img className="contact-icon" src={instagram} alt="Instagram" />
                   </a>
                  </Col>
-                 <Col lg="6">
+                 <Col xs="6">
                   <div id="copyright">copyright © 2018 yurika jacobsson. all rights reserved.</div>
                  </Col>
               </Row>
