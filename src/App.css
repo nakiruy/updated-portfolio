@@ -65,6 +65,15 @@ body {
   color: #666;
   border-left: 2px solid #d9534f;
 }
+
+button:focus {
+  outline: none;
+}
+
+.navbar-light .navbar-toggler-icon:active {
+  background-image: url("https://images.emojiterra.com/google/android-pie/128px/1f354.png");
+}
+
 /* Body */
 
 .greetings {

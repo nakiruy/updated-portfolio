@@ -18,8 +18,8 @@ class Greetings extends React.Component {
       <div>
         <Container>
           <Col className="greetings">
-            <h3 id="name">Hello. I'm Yurika.</h3>
-            <h3 id="headline">a designer and project manager based in the bay</h3>
+            {/* <h3 id="name">Hello. I'm Yurika.</h3>
+            <h3 id="headline">a designer and project manager based in the bay</h3> */}
           </Col>
         </Container>
       </div>

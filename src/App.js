@@ -11,8 +11,8 @@ class App extends Component {
   render() {
     return (
       <div className="app">
+        <Navigation />
         <div className="main">
-          <Navigation />
           <Greetings />
         </div>
         <div>

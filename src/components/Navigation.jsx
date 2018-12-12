@@ -15,6 +15,7 @@ import {
   DropdownMenu,
   DropdownItem } from 'reactstrap';
 
+import { Slider } from 'react-burgers';
 
 class Navigation extends React.Component {
   constructor(props) {
@@ -47,7 +48,7 @@ class Navigation extends React.Component {
                 <NavLink tag={Link} to="/about">ABOUT</NavLink>
               </NavItem>
               <NavItem>
-                <a href="https://drive.google.com/file/d/1yTcc5i362vARw2vnQtcjVMeANY_QheAG/">RESUME</a>
+                <NavLink href="https://drive.google.com/file/d/1yTcc5i362vARw2vnQtcjVMeANY_QheAG/">RESUME</NavLink>
               </NavItem>
             </Nav>
           </Collapse>
