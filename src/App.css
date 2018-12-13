@@ -91,6 +91,12 @@ button:focus {
   outline: none;
 }
 
+@media (min-width: 768px) {
+  .Burger {
+    display: none !important;
+  }
+} 
+
 /* Body */
 
 .greetings {
