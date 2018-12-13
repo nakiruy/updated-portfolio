@@ -40,7 +40,7 @@ class Navigation extends React.Component {
           <NavbarBrand href="/">
             <img className="logo" src={logo} alt="Logo" />
           </NavbarBrand>
-          <NavbarToggler onClick={this.toggle} />
+          <Slider active={this.state.isOpen} onClick={this.toggle} />
           <Collapse className="open-navbar" isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
