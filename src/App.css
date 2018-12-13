@@ -97,6 +97,15 @@ button:focus {
   }
 } 
 
+@media (max-width: 768px) {
+  .ml-auto {
+    font-size: 1rem;
+  }
+  .navbar-nav .nav-link {
+    margin: 15px;
+  }
+} 
+
 /* Body */
 
 .greetings {
