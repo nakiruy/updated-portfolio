@@ -40,14 +40,14 @@ class Navigation extends React.Component {
           <NavbarBrand href="/">
             <img className="logo" src={logo} alt="Logo" />
           </NavbarBrand>
-          <Slider active={this.state.isOpen} onClick={this.toggle} />
+          <Slider active={this.state.isOpen} onClick={this.toggle} width={24} lineSpacing={5} lineHeight={1} />
           <Collapse className="open-navbar" isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink tag={Link} to="/" active>PROJECTS</NavLink>
+                <NavLink tag={Link} exact to="/" activeClassName='active'>PROJECTS</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink tag={Link} to="/about">ABOUT</NavLink>
+                <NavLink tag={Link} exact to="/about" activeClassName='active'>ABOUT</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="https://drive.google.com/file/d/1yTcc5i362vARw2vnQtcjVMeANY_QheAG/">RESUME</NavLink>

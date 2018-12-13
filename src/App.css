@@ -75,17 +75,21 @@ body {
 }
 
 .Burger {
-  padding: 0 10px 20px 0 !important;
+  padding: 10px !important;
 }
 
-.BurgerBox {
+/* .BurgerBox {
   width: 25px !important;
   height: 5px !important;
-}
+} */
 
 .BurgerInner, .BurgerInner:before, .BurgerInner:after {
   height: 1px !important;
 }
+
+/* .BurgerInner, .BurgerInner:before, .BurgerInner:after {
+  margin: -5px 0 !important;
+} */
 
 button:focus {
   outline: none;
