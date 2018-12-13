@@ -37,11 +37,16 @@ body {
 
 .ml-auto {
   cursor: pointer;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
 }
 
 .nav-item {
   padding: 0em 1.5em 0em 1.5em;
+}
+
+.logo {
+  width: 24px;
+  margin: 0 0 0 10px;
 }
 
 .navbar-light .navbar-toggler {
@@ -60,22 +65,30 @@ body {
   border-bottom: 2px solid #2829B6;
 }
 
+.navbar-toggler {
+  font-size: 1rem;
+}
+
 .navbar-toggler-icon {
-  display: inline-block;
   width: 1.2em;
   height: 1.2em;
-  vertical-align: middle;
-  content: "";
-  background: no-repeat center center;
-  background-size: 100% 100%;
+}
+
+.Burger {
+  padding: 0 10px 20px 0 !important;
+}
+
+.BurgerBox {
+  width: 25px !important;
+  height: 5px !important;
+}
+
+.BurgerInner, .BurgerInner:before, .BurgerInner:after {
+  height: 1px !important;
 }
 
 button:focus {
   outline: none;
-}
-
-span:after {
-  background-image: url("https://images.emojiterra.com/google/android-pie/128px/1f354.png");
 }
 
 /* Body */
