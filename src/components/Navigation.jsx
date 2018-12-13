@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink as Link } from 'react-router-dom';
 import {
   Col,
   Collapse,
@@ -40,14 +40,14 @@ class Navigation extends React.Component {
           <NavbarBrand href="/">
             <img className="logo" src={logo} alt="Logo" />
           </NavbarBrand>
-          <Slider active={this.state.isOpen} onClick={this.toggle} width={24} lineSpacing={5} lineHeight={1} />
+          <Slider active={this.state.isOpen} onClick={this.toggle} width={20} lineSpacing={6} lineHeight={1} />
           <Collapse className="open-navbar" isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink tag={Link} exact to="/" activeClassName='active'>PROJECTS</NavLink>
+                <NavLink tag={Link} exact to="/">PROJECTS</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink tag={Link} exact to="/about" activeClassName='active'>ABOUT</NavLink>
+                <NavLink tag={Link} exact to="/about">ABOUT</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="https://drive.google.com/file/d/1yTcc5i362vARw2vnQtcjVMeANY_QheAG/">RESUME</NavLink>
