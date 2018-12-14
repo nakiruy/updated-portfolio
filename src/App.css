@@ -40,6 +40,10 @@ body {
   font-size: 0.7rem;
 }
 
+.ml-auto:active, .ml-auto:hover{
+  color: #000;
+}
+
 .nav-item {
   padding: 0em 1.5em 0em 1.5em;
 }
@@ -65,6 +69,23 @@ body {
   border-bottom: 2px solid #2829B6;
 }
 
+.nav-link.active:after {
+  content:'';
+  position:absolute;
+  background:green;
+  display:block;
+  height:2px;
+  bottom:-2px;
+  left:0;
+  min-width:0;
+  transition:all .2s linear;
+  -webkit-transition:all .2s linear;
+}
+
+.nav-link.active:hover:after {
+  min-width:100%;
+}
+
 .navbar-toggler {
   font-size: 1rem;
 }
@@ -77,19 +98,6 @@ body {
 .Burger {
   padding: 10px !important;
 }
-
-/* .BurgerBox {
-  width: 25px !important;
-  height: 5px !important;
-} */
-
-.BurgerInner, .BurgerInner:before, .BurgerInner:after {
-  height: 1px !important;
-}
-
-/* .BurgerInner, .BurgerInner:before, .BurgerInner:after {
-  margin: -5px 0 !important;
-} */
 
 button:focus {
   outline: none;
@@ -104,6 +112,9 @@ button:focus {
 @media (max-width: 768px) {
   .ml-auto {
     font-size: 1rem;
+  }
+  .ml-auto:active, .ml-auto:hover{
+    color: #000;
   }
   .navbar-nav .nav-link {
     margin: 15px;
@@ -163,6 +174,6 @@ button:focus {
   margin-bottom: 5px;
 }
 
-.contact-icon:hover {
+.contact-icon:hover .contact-icon:active{
   opacity: 0.5;
 }
