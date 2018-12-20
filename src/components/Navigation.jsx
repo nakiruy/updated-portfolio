@@ -24,18 +24,41 @@ class Navigation extends React.Component {
     super(props);
 
     this.state = {
-      isOpen: false
+      isOpen: false,
+      isHide: false
     };
     this.toggle = this.toggle.bind(this);
   }
+
+  componentDidMount() {
+    window.addEventListener('scroll', this.hideBar);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this.hideBar);
+  }
+
+  hideBar = () => {
+    const { isHide } = this.state
+
+    window.scrollY > this.prev ?
+    !isHide && this.setState({ isHide: true })
+    :
+    isHide && this.setState({ isHide: false });
+
+    this.prev = window.scrollY;
+ }
+
   toggle() {
     this.setState({
       isOpen: !this.state.isOpen
     });
   }
+
   render() {
+    const classHide = this.state.isHide ? 'hide' : '';
     return (
-      <div className="navbar" >
+      <div className={`navbar ${classHide}`}>
         <Navbar color="faded" light expand="md">
           <NavbarBrand href="/">
             <img className="logo" src={logo} alt="Logo" />
@@ -50,7 +73,7 @@ class Navigation extends React.Component {
                 <NavLink tag={Link} exact to="/about">ABOUT</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://drive.google.com/file/d/1yTcc5i362vARw2vnQtcjVMeANY_QheAG/">RESUME</NavLink>
+                <NavLink href="https://drive.google.com/file/d/1ExH3ErOqY3sfwsDVbvYq74LDkYSUGeRi/">RESUME</NavLink>
               </NavItem>
             </Nav>
           </Collapse>

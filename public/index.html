@@ -9,8 +9,8 @@
       homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
-    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
-    <link href="https://fonts.googleapis.com/css?family=Unna:100|Work+Sans:700|Lato:300,400|Roboto|GFS+Didot" rel="stylesheet">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico?v=6">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Nunito+Sans|Unna:100|Work+Sans:700|Lato:300,400|Roboto|GFS+Didot" rel="stylesheet">
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -21,7 +21,7 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <!-- Start of Async Drift Code -->
-    <script>
+    <!-- <script>
       "use strict";
       
       !function() {
@@ -46,7 +46,7 @@
       }();
       drift.SNIPPET_VERSION = '0.3.1';
       drift.load('i4tth33p85fw');
-      </script>
+      </script> -->
       <!-- End of Async Drift Code -->
       
       <!-- Start of FS Script -->
@@ -69,9 +69,22 @@
         </script>
         <!-- End of FS Script -->
 
-
-
-    <title>Yurika Jacobsson</title>
+        <!-- Start of Emojics Code -->
+        <div id="emojics-root"></div>
+        <script>
+          window.emojicsOpts = {
+          widget: '1cfa3d5c5af2eca4326ac503139201'
+          };
+          (function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          js = d.createElement(s);
+          js.id = id;
+          js.src = "//connect.emojics.com/dist/sdk.js";
+          fjs.parentNode.insertBefore(js, fjs);
+          })(document, "script", "emojics-js");
+        </script>
+        <!-- End of Emojics Code -->
+    <title>Yurika.</title>
   </head>
   <body>
     <div id="root"></div>
