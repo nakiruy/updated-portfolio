@@ -32,7 +32,7 @@ class Footer extends React.Component {
                   </a>
                  </Col>
                  <Col xs="6">
-                  <div id="copyright">copyright © 2018 yurika jacobsson. all rights reserved.</div>
+                  <div id="copyright">designed & developed with 💙 by yurika jacobsson. all rights reserved.</div>
                  </Col>
               </Row>
             </Container>
