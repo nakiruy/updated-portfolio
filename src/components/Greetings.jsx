@@ -19,11 +19,11 @@ class Greetings extends React.Component {
       <div>
         <Container>
           <Col className="greetings">
-            <h1 id="headline">Hi, I'm <Link exact to="/about"><span id="name">Yurika</span></Link>.</h1>
-            <h6 id="subtitle">a designer and a technical project manager based in the bay</h6> 
-            <div className="arrowDownContainer">
+            <h1 className="headline">Hi, I'm <Link exact to="/about"><span id="name">Yurika</span></Link>.</h1>
+            <h6 id="subtitle">a designer & technical project manager based in the bay</h6> 
+            {/* <div className="arrowDownContainer">
               <span className="arrowDown" id="arrowOne"></span>
-            </div>
+            </div> */}
           </Col>
         </Container>
       </div>

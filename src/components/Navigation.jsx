@@ -32,10 +32,12 @@ class Navigation extends React.Component {
 
   componentDidMount() {
     window.addEventListener('scroll', this.hideBar);
+    window.addEventListener('touchmove', this.hideBar);
   }
 
   componentWillUnmount() {
     window.removeEventListener('scroll', this.hideBar);
+    window.removeEventListener('touchmove', this.hideBar);
   }
 
   hideBar = () => {
