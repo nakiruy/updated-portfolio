@@ -25,6 +25,7 @@ class AllProjects extends React.Component {
             <Tapcast />
             <Moxtra />
             <Spotify />
+            <h6 className="secondary-header" id="contact">get in touch</h6>
           </Col>
         </Container>
       </div>

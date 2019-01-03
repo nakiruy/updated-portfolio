@@ -21,7 +21,7 @@ a:hover {
   text-decoration: none;
 }
 
-.app {
+.header {
   text-align: center;
   font-family: 'Lato', sans-serif;
   margin: 0 auto;
@@ -36,23 +36,22 @@ a:hover {
 
 .navbar {
   font-family: 'Lato', sans-serif;
-  margin: 0;
+  margin: 0 auto;
   top: 0;
-  right: 0;
-  left: 0;
-  position: sticky;
-  width: 100%;
-  background-color: #f8f8f8;
+  /* width: 88%; */
   z-index: 100;
+  letter-spacing: 0.05rem;
+  font-weight: 500;
 }
 
 .navbar.hide {
   visibility: hidden;
+  /* display: none; */
 }
 
 .ml-auto {
   cursor: pointer;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
 }
 
 .ml-auto:active, .ml-auto:hover{
@@ -64,7 +63,7 @@ a:hover {
 }
 
 .logo {
-  width: 30px;
+  width: 35px;
 }
 
 .nav-link {
@@ -92,6 +91,9 @@ a:hover {
 .nav-link:hover, .nav-link:active, .nav-link:focus {
   color: #191414 !important;
   border-bottom: 2px solid rgba(40, 41, 182, 0.5);
+  -webkit-transition: all .1s ease-in-out;
+  -moz-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
 }
 
 .Burger {
@@ -109,6 +111,9 @@ button:focus {
   .navbar-expand-md .navbar-nav .nav-link { 
     padding: 0;
   }
+  #subtitle {
+    width: 70%;
+  }
 } 
 
 @media (max-width: 767px) {
@@ -125,12 +130,13 @@ button:focus {
     margin: auto;
     padding: 2em 3em 2em 3em;
   }
-  .logo {
-    margin: 0 0 0 10px;
-  }
   .navbar {
     padding: 2rem;
     position: fixed;
+    right: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f8f8f8;
   }
   .greetings {
     margin: 100px 0 0 0;
@@ -141,14 +147,15 @@ button:focus {
 
 .main {
   background: #f8f8f8;
+  margin-bottom: -2rem;
+  margin-top: 3rem;
 }
 
 .greetings {
   top: 50%;
   width: 100%;
-  padding: 3em 1em 3em 1em;
+  padding: 5em 1em 5em 1em;
   text-align: left;
-  font-family: "Lato", sans-serif;
   letter-spacing: 0.1rem;
 }
 
@@ -173,16 +180,17 @@ button:focus {
 }
 
 #subtitle {
-  margin: 30px 0;
+  margin: 50px 0;
+  /* width: 75%; */
   font-weight: 300;
-  line-height: 1.5;
+  /* line-height: 1.5; */
 }
 
 /* .contact-bar {
   margin: 48px;
 } */
 
-/* .arrowDownContainer {
+.arrowDownContainer {
   margin: 20px auto;
 }
 
@@ -190,16 +198,16 @@ button:focus {
   margin: 2px auto 0;
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
-  border: solid #9C9DDD;
+  border: solid #2829B6;
   border-width: 0 2px 2px 0;
   display: inline-block;
   padding: 5px;
   -webkit-animation: 2s ease infinite wheel-up-down;
  -moz-animation: 2s ease infinite wheel-up-down;
   animation: 2s ease infinite wheel-up-down;
-} */
+} 
 
-/* @-webkit-keyframes wheel-up-down {
+@-webkit-keyframes wheel-up-down {
 	0% {
 	    margin-top: 2px;
 	    opacity: 0;
@@ -238,12 +246,16 @@ button:focus {
 	    margin-top: 20px;
 	    opacity: 0;
 	}
-} */
+}
 
 /* Projects */
 
 .body {
-  background-color: #f8f8f8;
+  background-color: rgba(40, 41, 182, 0.9);
+}
+
+.allProjects.container {
+  padding: 100px 15px;
 }
 
 .btn {
@@ -253,7 +265,7 @@ button:focus {
 }
 
 .btn, .btn:link, .btn:visited {
-  padding: 13px 10px;
+  padding: 0.8rem 0.8rem;
   border: 3px solid #2829B6;
   color: #2829B6;
   font-weight: 700;
@@ -261,6 +273,7 @@ button:focus {
   /* font-size: 11px; */
   letter-spacing: 3px;
   -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
 }
 
@@ -271,37 +284,55 @@ button:focus {
   border-radius: 30px;
 }
 
-
-#project-headline {
-  font-size: 24px;
-  margin: 25px;
-}
-
 .jumbotron {
   border-radius: 0.1rem;
   background: #fff;
+  padding: 2rem 2rem;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.secondary-header {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: #2829B6;
+  margin-top: 10rem;
+  margin-bottom: 3rem;
+}
+
+#contact {
+  color: #f8f8f8;
+  margin: 0;
+}
+
+.tapcast.jumbotron {
+  margin-top: -10rem;
 }
 
 .display-3, .lead {
   text-align: left;
+  margin: 2rem 0;
 }
 
 .display-3 {
   font-family: 'Playfair Display', serif;
-  font-size: 2em;
+  font-size: 2rem;
+}
+
+.lead {
+  font-size: 1.1rem;
+  font-family: 'Lato', sans-serif;
 }
 
 
 /* Footer */
 
 .footer {
-  /* display: flex; */
-  position: fixed;
   left: 0;
   bottom: 0;
   color: #505050;
   width: 100%;
-  background-color: #fff;
+  background-color: #f8f8f8;
 }
 
 #copyright {

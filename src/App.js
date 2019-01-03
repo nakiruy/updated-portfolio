@@ -11,16 +11,20 @@ import Footer from './components/Footer';
 class App extends Component {
   render() {
     return (
-      <Container className="app">
-        <Navigation />
-        <div className="main">
-          <Greetings />
-        </div>
-        <div className="body">
+      <div>
+        <Container className="header" fluid>
+          <Navigation />
+          <div className="main">
+            <Greetings />
+          </div>
+        </Container>
+        <Container className="body" fluid>
           <AllProjects />
-          {/* <Footer /> */}
-        </div>
-      </Container>
+        </Container>
+        <Container className="footer" fluid>
+          <Footer />
+        </Container>
+      </div>
     );
   }
 }

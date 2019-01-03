@@ -2,6 +2,7 @@ import React from 'react';
 import { Button } from 'reactstrap';
 
 import Navigation from './Navigation';
+import { Container, Row, Col } from 'reactstrap';
 
 class Resume extends React.Component {
   constructor(props) {
@@ -13,9 +14,9 @@ class Resume extends React.Component {
 
   render() {
     return (
-      <div className="resume">
+      <Container className="resume">
         <Navigation />
-      </div>
+      </Container>
     )
   }
 }

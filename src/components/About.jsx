@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Navigation from './Navigation';
+import { Container, Row, Col } from 'reactstrap';
 
 class About extends React.Component {
   constructor(props) {
@@ -12,9 +13,9 @@ class About extends React.Component {
 
   render() {
     return (
-      <div className="about">
+      <Container className="about">
         <Navigation />
-      </div>
+      </Container>
     )
   }
 }

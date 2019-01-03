@@ -13,7 +13,8 @@ import {
   UncontrolledDropdown,
   DropdownToggle,
   DropdownMenu,
-  DropdownItem } from 'reactstrap';
+  DropdownItem, 
+  Row } from 'reactstrap';
   
 import logo from '../assets/logo.png';
 
@@ -61,7 +62,7 @@ class Navigation extends React.Component {
     const classHide = this.state.isHide ? 'hide' : '';
     return (
       <div className={`navbar ${classHide}`}>
-        <Navbar color="faded" light expand="md">
+        <Navbar color="faded" light expand="md" fixed={`top`} className={`container`}> 
           <NavbarBrand href="/">
             <img className="logo" src={logo} alt="Logo" />
           </NavbarBrand>
@@ -75,7 +76,7 @@ class Navigation extends React.Component {
                 <NavLink tag={Link} exact to="/about">ABOUT</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://drive.google.com/file/d/1ExH3ErOqY3sfwsDVbvYq74LDkYSUGeRi/">RESUME</NavLink>
+                <NavLink href="https://drive.google.com/file/d/1oQY40RfEZWq7aQY0W4lArUg_gCar8Cog/">RESUME</NavLink>
               </NavItem>
             </Nav>
           </Collapse>
