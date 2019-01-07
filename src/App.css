@@ -3,18 +3,18 @@
 }
 
 body {
-  color: #303030;
-  background-color: #f8f8f8;
+  color: #000000;
+  background-color: #fef7f1;
 }
 
 ::-moz-selection { /* Code for Firefox */
-  color: #303030;
-  background: #CBF0E3;
+  color: #fff;
+  background: #EF8760;
 }
 
 ::selection {
-  color: #303030; 
-  background: #CBF0E3;
+  color: #fff;
+  background: #EF8760;
 }
 
 a:hover {
@@ -55,7 +55,7 @@ a:hover {
 }
 
 .ml-auto:active, .ml-auto:hover{
-  color: #303030;
+  color: #000000;
 }
 
 .nav-item {
@@ -63,7 +63,7 @@ a:hover {
 }
 
 .logo {
-  width: 35px;
+  width: 30px;
 }
 
 .nav-link {
@@ -81,16 +81,16 @@ a:hover {
 }
 
 .nav-link.active {
-  border-bottom: 2px solid #2829B6;
+  border-bottom: 2px solid #0061FF;
 }
 
 .nav-link.active:hover {
-  border-bottom: 2px solid #2829B6;
+  border-bottom: 2px solid #0061FF;
 }
 
 .nav-link:hover, .nav-link:active, .nav-link:focus {
-  color: #191414 !important;
-  border-bottom: 2px solid rgba(40, 41, 182, 0.5);
+  color: #000000 !important;
+  border-bottom: 2px solid rgba(0,97,255, 0.5);
   -webkit-transition: all .1s ease-in-out;
   -moz-transition: all .1s ease-in-out;
   transition: all .1s ease-in-out;
@@ -114,14 +114,30 @@ button:focus {
   #subtitle {
     width: 70%;
   }
+  .tapcast-jumbo.jumbotron {
+    margin-right: 15rem;
+    margin-left: -2rem;
+  }
+  .moxtra-jumbo.jumbotron {
+    margin-left: 15rem;
+    margin-right: -2rem;
+  }
+  #moxtra-lead {
+    text-align: right;
+  }
+  .spotify-jumbo.jumbotron {
+    margin-right: 15rem;
+    margin-left: -2rem;
+  }
 } 
+
 
 @media (max-width: 767px) {
   .ml-auto {
     font-size: 1rem;
   }
   .ml-auto:active, .ml-auto:hover{
-    color:#191414;
+    color:#000000;
   }
   .navbar-nav .nav-link {
     margin: 15px;
@@ -136,7 +152,7 @@ button:focus {
     right: 0;
     left: 0;
     width: 100%;
-    background-color: #f8f8f8;
+    background-color: #fff;
   }
   .greetings {
     margin: 100px 0 0 0;
@@ -146,7 +162,6 @@ button:focus {
 /* Body */
 
 .main {
-  background: #f8f8f8;
   margin-bottom: -2rem;
   margin-top: 3rem;
 }
@@ -163,20 +178,27 @@ button:focus {
   font-family: 'Playfair Display', serif;
   font-weight: 500;
   /* color: #2829B6; */
+  font-size: 2.5rem;
+  letter-spacing: 0rem;
 }
 
 #name {
-  color:#191414;
+  color:#000000;
   text-decoration: none;
-  background-image: linear-gradient(120deg, #CBF0E3 10%, #2829B6 110%);
+  background-image: linear-gradient(120deg, #0061FF 10%, #0061FF 110%); 
   background-repeat: no-repeat;
-  background-size: 100% 0.2em;
+  background-size: 100% 0.05em;
   background-position: 0 88%;
   transition: background-size 0.25s ease-in;
 }
 
+#developer {
+  color: #0061FF;
+}
+
 #name:hover, #name:active {
   background-size: 100% 88%;
+  color: #fff;
 }
 
 #subtitle {
@@ -184,6 +206,7 @@ button:focus {
   /* width: 75%; */
   font-weight: 300;
   /* line-height: 1.5; */
+  font-size: 1.1rem;
 }
 
 /* .contact-bar {
@@ -198,7 +221,7 @@ button:focus {
   margin: 2px auto 0;
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
-  border: solid #2829B6;
+  border: solid #0061FF;
   border-width: 0 2px 2px 0;
   display: inline-block;
   padding: 5px;
@@ -251,7 +274,11 @@ button:focus {
 /* Projects */
 
 .body {
-  background-color: rgba(40, 41, 182, 0.9);
+  /* background-color: rgba(40, 41, 182, 0.9); */
+  /* background: #0061FF; */
+  /* background: #d8dce4; */
+  /* border: 1rem solid #0061FF; */
+  background: #fff;
 }
 
 .allProjects.container {
@@ -261,51 +288,50 @@ button:focus {
 .btn {
   border-radius: 0rem;
   font-size: 0.8rem;
-  margin: 1rem 0;
 }
 
 .btn, .btn:link, .btn:visited {
   padding: 0.8rem 0.8rem;
-  border: 3px solid #2829B6;
-  color: #2829B6;
+  border: 3px solid #000000;
+  color: #000000;
   font-weight: 700;
   text-transform: uppercase;
   /* font-size: 11px; */
   letter-spacing: 3px;
-  -webkit-transition: all .2s ease-in-out;
-  -moz-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
 }
 
 .btn:hover {
-  background: #2829B6;
-  border: 3px solid #2829B6;
-  color: #f8f8f8;
+  background: #000000;
+  border: 3px solid #000000;
+  color: #fff;
   border-radius: 30px;
 }
 
 .jumbotron {
   border-radius: 0.1rem;
   background: #fff;
-  padding: 2rem 2rem;
+  padding: 1rem 2rem;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
 }
 
 .secondary-header {
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 0.8rem;
-  color: #2829B6;
-  margin-top: 10rem;
+  color: #0061FF;
+  margin-top: 6rem;
   margin-bottom: 3rem;
 }
 
-#contact {
-  color: #f8f8f8;
+/* #contact-header {
   margin: 0;
-}
+  color: #fff;
+} */
 
-.tapcast.jumbotron {
+.tapcast-jumbo.jumbotron {
   margin-top: -10rem;
 }
 
@@ -330,9 +356,9 @@ button:focus {
 .footer {
   left: 0;
   bottom: 0;
-  color: #505050;
+  color: #000000;
   width: 100%;
-  background-color: #f8f8f8;
+  background-color: #fff;
 }
 
 #copyright {

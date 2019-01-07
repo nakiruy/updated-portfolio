@@ -8,6 +8,9 @@ import App from './App';
 import About from './components/About';
 import Works from './components/Works';
 import Resume from './components/Resume';
+import Tapcast from './components/Tapcast';
+import Moxtra from './components/Moxtra';
+import Spotify from './components/Spotify';
 
 import registerServiceWorker from './registerServiceWorker';
 
@@ -28,6 +31,9 @@ ReactDOM.render(
         <Route exact path="/" component={App} />
         <Route path="/about" component={About} />
         <Route path="/resume" component={Resume} />
+        <Route path="/tapcast" component={Tapcast} />
+        <Route path="/moxtra" component={Moxtra} />
+        <Route path="/spotify" component={Spotify} />
     </div>
   </Router>, document.getElementById('root')
 );
