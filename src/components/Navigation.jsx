@@ -70,13 +70,13 @@ class Navigation extends React.Component {
           <Collapse className="open-navbar" isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink tag={Link} exact to="/">HOME</NavLink>
+                <NavLink tag={Link} exact to="/">PORTFOLIO</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink tag={Link} exact to="/about">ABOUT</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://drive.google.com/file/d/1oQY40RfEZWq7aQY0W4lArUg_gCar8Cog/">RESUME</NavLink>
+                <NavLink href="https://drive.google.com/file/d/1eKN9C3ctdTQ1kI03yxyHtY6oJ85POLY1/">RESUME</NavLink>
               </NavItem>
             </Nav>
           </Collapse>

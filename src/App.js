@@ -6,7 +6,7 @@ import { Container, Row, Col } from 'reactstrap';
 import Navigation from './components/Navigation';
 import Greetings from './components/Greetings';
 import AllProjects from './components/AllProjects';
-import Footer from './components/Footer';
+import SocialIcons from './components/SocialIcons';
 
 class App extends Component {
   render() {
@@ -21,9 +21,7 @@ class App extends Component {
         <Container className="body" fluid>
           <AllProjects />
         </Container>
-        <Container className="footer" fluid>
-          <Footer />
-        </Container>
+        <SocialIcons />
       </div>
     );
   }

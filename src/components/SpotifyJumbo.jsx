@@ -6,9 +6,9 @@ const SpotifyJumbo = (props) => {
   return (
     <div>
       <Jumbotron className="spotify-jumbo">
-        <h1 className="display-3">Spotify Driving Mode</h1>
-        <p className="lead">This is a simple hero unit, a simple Jumbotron-style component for calling extra attention to featured content or information.</p>
-        <p className="lead">
+        <h1 className="display-3" id="spotify-lead"><span className="highlight">Spotify Driving Mode</span></h1>
+        <p className="lead" id="spotify-lead"><span className="highlight">Gesture-based solution for listening to music on the roads.</span></p>
+        <p className="lead" id="spotify-lead">
         <Link exact to="/spotify"><a href="#" className="btn">View Project</a></Link>
         </p>
       </Jumbotron>

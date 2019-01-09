@@ -6,7 +6,7 @@ import email from '../assets/email.png';
 import linkedin from '../assets/linkedin.png';
 import instagram from '../assets/instagram.png';
 
-class Footer extends React.Component {
+class SocialIcons extends React.Component {
   constructor(props) {
     super(props);
 
@@ -16,11 +16,10 @@ class Footer extends React.Component {
   }
   render() {
     return (
-      <div className="footer">
+      <div className="social-icons">
           <div className="icons">
             <Container>
-              <Row>
-                <Col xs="6">
+              <Col xs="3">
                   <a href="mailto:nakiruy@gmail.com">
                       <img className="contact-icon" src={email} alt="Email" />
                   </a>
@@ -30,11 +29,7 @@ class Footer extends React.Component {
                   <a href="https://www.instagram.com/yurikaffeine/">
                       <img className="contact-icon" src={instagram} alt="Instagram" />
                   </a>
-                 </Col>
-                 <Col xs="6">
-                  <div id="copyright">designed & developed with 💙 by yurika jacobsson. all rights reserved.</div>
-                 </Col>
-              </Row>
+                </Col>
             </Container>
           </div>
       </div>
@@ -42,4 +37,4 @@ class Footer extends React.Component {
   }
 }
 
-export default Footer
+export default SocialIcons
