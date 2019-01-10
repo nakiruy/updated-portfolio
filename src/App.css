@@ -105,75 +105,6 @@ button:focus {
   outline: none;
 }
 
-@media (min-width: 768px) {
-  .Burger {
-    display: none !important;
-  }
-  .navbar-expand-md .navbar-nav .nav-link { 
-    padding: 0;
-  }
-  #subtitle {
-    width: 70%;
-  }
-  .tapcast-jumbo.jumbotron {
-    margin-left: 15rem;
-    margin-right: -2rem;
-  }
-  .moxtra-jumbo.jumbotron {
-    margin-right: 15rem;
-    margin-left: -2rem;
-  }
-  #moxtra-lead {
-    text-align: right;
-    margin: 2rem -17rem 0 0;
-  }
-  #tapcast-lead, #spotify-lead {
-    margin: 2rem 0 0 -17rem;
-  }
-  .spotify-jumbo.jumbotron {
-    margin-left: 15rem;
-    margin-right: -2rem;
-  }
-} 
-
-
-@media (max-width: 575px) {
-  .navbar {
-    border: #fff 1em solid;
-    border-bottom: none;
-  }
-}
-
-
-@media (max-width: 767px) {
-  .ml-auto {
-    font-size: 1rem;
-  }
-  .ml-auto:active, .ml-auto:hover{
-    color:#1C1B1F;
-  }
-  .navbar-nav .nav-link {
-    margin: 15px;
-  }
-  .nav-item {
-    margin: auto;
-    padding: 2em 3em 2em 3em;
-  }
-  .navbar {
-    padding: 2rem;
-    position: fixed;
-    right: 0;
-    left: 0;
-    width: 100%;
-    background-color: #F8F8F8;
-    margin: 0 auto;
-    border-top: #fff 1em solid;
-  }
-  .greetings {
-    margin: 100px 0 0 0;
-  }
-} 
-
 /* Body */
 
 .main {
@@ -200,7 +131,7 @@ button:focus {
 #name {
   color:#1C1B1F;
   text-decoration: none;
-  background-image: linear-gradient(120deg, #4724F7 10%, #1C1B1F 110%); 
+  background-image: linear-gradient(120deg, #7D4AFC 10%, #4724f7 110%); 
   background-repeat: no-repeat;
   background-size: 100% 0.05em;
   background-position: 0 90%;
@@ -305,7 +236,7 @@ button:focus {
 .btn, .btn:link, .btn:visited {
   padding: 0.7rem 0.7rem;
   border: 3px solid #1C1B1F;
-  color: #1C1B1F;
+  color: #1C1B1F !important;
   font-weight: 700;
   text-transform: uppercase;
   font-size: 0.8rem;
@@ -355,7 +286,7 @@ button:focus {
 } */
 
 .tapcast-jumbo.jumbotron {
-  margin-top: -10rem;
+  margin-top: -6rem;
   background-image: url("../src/assets/tapcastproj.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -381,16 +312,26 @@ button:focus {
 .display-3 {
   font-family: 'Playfair Display', serif;
   font-size: 2rem;
+  font-weight: 600;
 }
 
 .lead {
   font-size: 1.1rem;
+  font-weight: 500;
 }
 
 .highlight {
   background: #F8F8F8;
   color: #1C1B1F;
-  padding: 0 0.5rem;
+  border: #F8F8F8 1rem solid;
+  border-left: none;
+}
+
+.highlight-moxtra {
+  background: #F8F8F8;
+  color: #1C1B1F;
+  border: #F8F8F8 1rem solid;
+  border-right: none;
 }
 
 /* SocialIcons */
@@ -410,3 +351,84 @@ button:focus {
   margin-right: 10px;
   margin-bottom: 5px;
 }
+
+/* Media Queries */
+
+
+@media (min-width: 768px) {
+  .Burger {
+    display: none !important;
+  }
+  .navbar-expand-md .navbar-nav .nav-link { 
+    padding: 0;
+  }
+  #subtitle {
+    width: 70%;
+  }
+  .tapcast-jumbo.jumbotron {
+    margin-left: 15rem;
+    margin-right: -2rem;
+  }
+  .moxtra-jumbo.jumbotron {
+    margin-right: 15rem;
+    margin-left: -2rem;
+  }
+  #moxtra-lead {
+    text-align: right;
+    margin: 2rem -17rem 0 0;
+  }
+  #tapcast-lead, #spotify-lead {
+    margin: 2rem 0 0 -17rem;
+  }
+  .spotify-jumbo.jumbotron {
+    margin-left: 15rem;
+    margin-right: -2rem;
+  }
+} 
+
+
+@media (max-width: 575px) {
+  .navbar {
+    border: #fff 1em solid;
+    border-bottom: none;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .ml-auto {
+    font-size: 1rem;
+  }
+  .ml-auto:active, .ml-auto:hover{
+    color:#1C1B1F;
+  }
+  .navbar-nav .nav-link {
+    margin: 15px;
+  }
+  .nav-item {
+    margin: auto;
+    padding: 2em 3em 2em 3em;
+  }
+  .navbar {
+    padding: 2rem;
+    position: fixed;
+    right: 0;
+    left: 0;
+    width: 100%;
+    background-color: #F8F8F8;
+    margin: 0 auto;
+    border-top: #fff 1em solid;
+  }
+  .greetings {
+    margin: 100px 0 0 0;
+  }
+  .highlight, .highlight-moxtra {
+    background: none;
+    border: transparent;
+  }
+  .jumbotron {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    margin: -1.5rem -1.5rem 6rem -1.5rem;
+  }
+} 

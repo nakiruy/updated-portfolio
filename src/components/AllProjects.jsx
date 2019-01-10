@@ -25,7 +25,7 @@ class AllProjects extends React.Component {
             <TapcastJumbo />
             <MoxtraJumbo />
             <SpotifyJumbo />
-            <h6 className="secondary-header" id="contact-header">get in touch</h6>
+            {/* <h6 className="secondary-header" id="contact-header">get in touch</h6> */}
           </Col>
         </Container>
       </div>

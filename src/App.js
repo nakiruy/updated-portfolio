@@ -7,6 +7,7 @@ import Navigation from './components/Navigation';
 import Greetings from './components/Greetings';
 import AllProjects from './components/AllProjects';
 import SocialIcons from './components/SocialIcons';
+import Contact from './components/Contact';
 
 class App extends Component {
   render() {
@@ -20,6 +21,9 @@ class App extends Component {
         </Container>
         <Container className="body" fluid>
           <AllProjects />
+        </Container>
+        <Container className="footer" fluid>
+          <Contact />
         </Container>
         <SocialIcons />
       </div>
