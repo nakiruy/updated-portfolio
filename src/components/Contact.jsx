@@ -18,7 +18,7 @@ class Contact extends React.Component {
         <Container className="contact">
           <Col className="contact-method">
             <hr></hr>
-            <h1 className="footer"><span id="name">Get in touch.</span></h1>
+            <h1 className="footer">Interested in working together? <span id="getintouch">Get in touch.</span></h1>
           </Col>
         </Container>
       </div>
