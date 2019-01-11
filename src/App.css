@@ -339,6 +339,8 @@ button:focus {
 
 .footer {
   font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+  font-weight: 700;
 }
 
 #getintouch {
@@ -349,14 +351,12 @@ button:focus {
   background-size: 100% 0.05em;
   background-position: 0 90%;
   transition: background-size 0.25s ease-in;
-  font-weight: 500;
 }
 
 #getintouch:hover, #getintouch:active, #getintouch:focus {
   background-size: 100% 88%;
   color: #fff;
   font-weight: bold;
-  font-size: 2.38rem;
 }
 
 /* SocialIcons */
@@ -453,15 +453,17 @@ button:focus {
     opacity: 0.9;
   }
   .jumbotron {
-    -webkit-filter: none; /* Safari 6.0 - 9.0 */
-    filter: none;
     margin: -1.5rem -1.5rem 6rem -1.5rem;
   }
   .btn {
     background: #4724F7;
     color: #fff !important;
-    /* border: #fff 2px solid; */
     border: none;
     border-radius: 30px;
   }
+  /* .btn {
+    background: #F8F8F8;
+    opacity: 0.9;
+    border: none;
+  } */
 } 
