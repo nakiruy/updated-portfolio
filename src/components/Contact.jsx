@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 
 import { Link } from 'react-router-dom';
 import { Container, Row, Col } from 'reactstrap';
+import { Jumbotron } from 'reactstrap';
 
 class Contact extends React.Component {
   constructor(props) {
@@ -15,12 +16,10 @@ class Contact extends React.Component {
   render() {
     return (
       <div>
-        <Container className="contact">
-          <Col className="contact-method">
-            <hr></hr>
-            <h1 className="footer">Interested in working together? <a href="mailto:nakiruy@gmail.com"><span id="getintouch">Get in touch.</span></a></h1>
-          </Col>
-        </Container>
+        <Jumbotron className="contact">
+          <h1 className="footer">Interested in working together? Get in touch.</h1>
+          <a href="mailto:nakiruy@gmail.com" className="btn" id="contact-btn"><span id="getintouch">Contact Me</span></a>
+        </Jumbotron>
       </div>
     )
   }
