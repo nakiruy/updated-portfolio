@@ -5,6 +5,9 @@ import { Link } from 'react-router-dom';
 import { Container, Row, Col } from 'reactstrap';
 import { Jumbotron } from 'reactstrap';
 
+import { Card, CardImg, CardText, CardBody, CardLink,
+  CardTitle, CardSubtitle } from 'reactstrap';
+
 class Contact extends React.Component {
   constructor(props) {
     super(props);
@@ -17,8 +20,16 @@ class Contact extends React.Component {
     return (
       <div>
         <Jumbotron className="contact">
-          <h1 className="footer">Interested in working together? Get in touch.</h1>
-          <a href="mailto:nakiruy@gmail.com" className="btn" id="contact-btn"><span id="getintouch">Contact Me</span></a>
+          <Container className="contact-container">
+            <Row>
+              <Col lg="10">
+              <h1 className="footer">Interested in working together? Get in touch.</h1>
+              </Col>
+              <Col lg="2">
+              <a href="mailto:nakiruy@gmail.com" className="btn" id="contact-btn"><div id="getintouch">Contact Me</div></a>
+              </Col>
+            </Row>
+          </Container>
         </Jumbotron>
       </div>
     )
