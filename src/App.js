@@ -22,10 +22,10 @@ class App extends Component {
         <Container className="body" fluid>
           <AllProjects />
         </Container>
-        <Container className="footer" fluid>
+        <Container className="footer" fludi>
           <Contact />
+          <SocialIcons />
         </Container>
-        <SocialIcons />
       </div>
     );
   }
