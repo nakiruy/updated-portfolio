@@ -23,10 +23,10 @@ class Contact extends React.Component {
           <Container className="contact-container">
             <Row>
               <Col lg="10">
-              <h1 className="footer">Interested in working together? Get in touch.</h1>
+                <h1 className="contact-copy">Interested in working together? Get in touch.</h1>
               </Col>
               <Col lg="2">
-              <a href="mailto:nakiruy@gmail.com" className="btn" id="contact-btn"><div id="getintouch">Contact Me</div></a>
+                <a href="mailto:nakiruy@gmail.com" className="btn" id="contact-btn"><div id="getintouch">Contact Me</div></a>
               </Col>
             </Row>
           </Container>

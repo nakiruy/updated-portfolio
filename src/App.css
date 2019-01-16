@@ -303,6 +303,7 @@ button:focus {
   background-image: url("../src/assets/spotifyproj.png");
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: -5rem;
 }
 
 .display-3, .lead {
@@ -339,6 +340,14 @@ button:focus {
   padding: 0.5rem 0;
 }
 
+/* About */
+
+.about-desc {
+  font-size: 1.2rem;
+  margin: 2rem 0;
+}
+
+
 /* Contact */
 
 .contact {
@@ -346,10 +355,10 @@ button:focus {
   -webkit-filter: none;
   filter: none;
   padding: 3rem;
-  margin: -3rem -1.5rem 3rem 0;
+  margin: 3rem -1.5rem 3rem 0;
 }
 
-.footer {
+.contact-copy {
   font-family: 'Playfair Display', serif;
   font-size: 1.8rem;
   font-weight: 700;
@@ -363,7 +372,6 @@ button:focus {
   border: #ffffff80 0.1rem solid;
   font-family: 'Lato', sans-serif;
   color:#fff !important;
-  margin-top: -0.5rem;
 }
 
 #contact-btn:hover, #contact-btn:active, #contact-btn:focus {
@@ -377,20 +385,26 @@ button:focus {
 
 /* Footer */
 
+.footer {
+  background: #fff;
+  padding: 1rem 0;
+  margin-top: 6rem;
+}
+
 .copyright {
-  margin: 3rem 0;
   font-family: 'Lato', sans-serif;
-  font-size: 0.5rem !important;
-  color: rgba(71, 36, 247, 0.5);
+  font-size: 0.9rem;
+  color: #1C1B1F30;
   text-align: center;
+  margin: 6rem 0 0 0;
 }
 
 /* SocialIcons */
 
 .social-icons {
   position: fixed;
-  left: -1%;
-  top: 50%;
+  left: 0%;
+  top: 30%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -420,7 +434,7 @@ button:focus {
     width: 70%;
   }
   .tapcast-jumbo.jumbotron {
-    margin-left: 15rem;
+    margin-left: 14rem;
     margin-right: -2rem;
   }
   .moxtra-jumbo.jumbotron {
@@ -435,8 +449,9 @@ button:focus {
     margin: 2rem 0 0 -17rem;
   }
   .spotify-jumbo.jumbotron {
-    margin-left: 15rem;
+    margin-left: 14rem;
     margin-right: -2rem;
+    margin-bottom: -5rem;
   }
 } 
 
@@ -504,7 +519,7 @@ button:focus {
   }
   .contact {
     margin: 0 auto;
-    margin-top: -3rem;
+    margin-top: 4rem;
     /* margin: -1.5rem -1.5rem 6rem -1.5rem; */
   }
   #contact-btn {

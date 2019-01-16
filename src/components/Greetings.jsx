@@ -16,7 +16,6 @@ class Greetings extends React.Component {
 
   render() {
     return (
-      <div>
         <Container>
           <Col md="9" className="greetings">
             <h1 className="headline"><Link exact to="/about"><span id="name">Yurika Jacobsson</span></Link> is a designer & technical project manager located in the Bay Area. <span id="developer">Also dabbles in code</span>.</h1>
@@ -28,7 +27,6 @@ class Greetings extends React.Component {
             <h6 className="secondary-header" id="projects">selected projects</h6>
           </Col>
         </Container>
-      </div>
     )
   }
 }

@@ -18,11 +18,12 @@ class Footer extends React.Component {
 
   render() {
     return (
-      <div>
-        <Container className="copyright">
-          2019 © Built & beautified by Yurika Jacobsson
+        <Container className="copyright" fluid>
+          <Col>
+            <hr></hr>
+            <h6>Built & beautified by Yurika Jacobsson</h6>
+          </Col>
         </Container> 
-      </div>
     )
   }
 }

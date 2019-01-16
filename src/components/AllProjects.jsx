@@ -18,7 +18,6 @@ class AllProjects extends React.Component {
 
   render() {
     return (
-      <div>
         <Container className="allProjects">
           <Col className="projects">
             {/* <h1 className="headline" id="project-headline">Projects.</h1> */}
@@ -28,7 +27,6 @@ class AllProjects extends React.Component {
             {/* <h6 className="secondary-header" id="contact-header">get in touch</h6> */}
           </Col>
         </Container>
-      </div>
     )
   }
 }
