@@ -8,6 +8,7 @@ import Greetings from './components/Greetings';
 import AllProjects from './components/AllProjects';
 import SocialIcons from './components/SocialIcons';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 class App extends Component {
   render() {
@@ -22,9 +23,10 @@ class App extends Component {
         <Container className="body" fluid>
           <AllProjects />
         </Container>
-        <Container className="footer" fludi>
+        <Container className="footer" fluid>
           <Contact />
           <SocialIcons />
+          <Footer />
         </Container>
       </div>
     );

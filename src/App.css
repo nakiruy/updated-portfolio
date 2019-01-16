@@ -11,12 +11,14 @@ body {
 
 ::-moz-selection { /* Code for Firefox */
   color: #fff;
-  background: rgba(71,36,247, 0.5);
+  /* background: rgba(71, 36, 247, 0.5); */
+  background: #9F54CC;
 }
 
 ::selection {
   color: #fff;
-  background: rgba(71,36,247, 0.5);
+  /* background: rgba(71, 36, 247, 0.5); */
+  background: #9F54CC;
 }
 
 a:hover, a:focus, a:active {
@@ -358,7 +360,7 @@ button:focus {
   /* background: #fff; */
   border: 0rem;
   /* margin: 0 auto; */
-  border: #ffffff70 0.1rem solid;
+  border: #ffffff80 0.1rem solid;
   font-family: 'Lato', sans-serif;
   color:#fff !important;
   margin-top: -0.5rem;
@@ -373,12 +375,25 @@ button:focus {
   color: #4724F7 !important;
 }
 
+/* Footer */
+
+.copyright {
+  margin: 3rem 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.5rem !important;
+  color: rgba(71, 36, 247, 0.5);
+  text-align: center;
+}
+
 /* SocialIcons */
 
 .social-icons {
   position: fixed;
-  left: 95%;
+  left: -1%;
   top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .icons {
@@ -489,6 +504,7 @@ button:focus {
   }
   .contact {
     margin: 0 auto;
+    margin-top: -3rem;
     /* margin: -1.5rem -1.5rem 6rem -1.5rem; */
   }
   #contact-btn {

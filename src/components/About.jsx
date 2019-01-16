@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Navigation from './Navigation';
+import AboutContent from './AboutContent';
 import { Container, Row, Col } from 'reactstrap';
 
 class About extends React.Component {
@@ -15,6 +16,7 @@ class About extends React.Component {
     return (
       <Container className="about">
         <Navigation />
+        <AboutContent />
       </Container>
     )
   }
