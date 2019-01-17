@@ -8,7 +8,7 @@ import { Jumbotron } from 'reactstrap';
 import { Card, CardImg, CardText, CardBody, CardLink,
   CardTitle, CardSubtitle } from 'reactstrap';
 
-class Contact extends React.Component {
+class ContactBanner extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -36,4 +36,4 @@ class Contact extends React.Component {
   }
 }
 
-export default Contact
+export default ContactBanner

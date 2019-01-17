@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 import { Link } from 'react-router-dom';
 import { Container, Row, Col, Badge } from 'reactstrap';
 
-import Contact from './Contact';
+import AboutBanner from './AboutBanner';
 
 class AboutContent extends React.Component {
   constructor(props) {
@@ -23,6 +23,7 @@ class AboutContent extends React.Component {
             Born in Tokyo and raised in Silicon Valley, I always loved to design, create, and build anything that leverages technology. I truly believe design can help develop a successful business and product.
             When I’m not designing or developing, you can find me perfecting the art of cold brew, counting down for the next limited edition sneakers (yes, I’m a sneaker head), and if budget allows, traveling to new locations.
             Whether you’d like to talk about design, development, or avocados - I’m always open to chat. Feel free to get in touch!</h6>
+            <AboutBanner />
           </Col>
       </Container>
     )

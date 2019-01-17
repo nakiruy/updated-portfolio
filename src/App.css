@@ -392,11 +392,15 @@ button:focus {
 }
 
 .copyright {
-  font-family: 'Lato', sans-serif;
-  font-size: 0.9rem;
-  color: #1C1B1F30;
-  text-align: center;
   margin: 6rem 0 0 0;
+}
+
+#copyright-copy {
+  margin-top: 2rem;
+  background: transparent;
+  font-size: 0.7rem !important;
+  text-align: right;
+  color: #1C1B1F50;
 }
 
 /* SocialIcons */
@@ -455,14 +459,12 @@ button:focus {
   }
 } 
 
-
 @media (max-width: 575px) {
   .navbar {
     border: #fff 1em solid;
     border-bottom: none;
   }
 }
-
 
 @media (max-width: 767px) {
   .ml-auto {
@@ -529,8 +531,4 @@ button:focus {
   #btn-moxtra, #btn-tapcast, #btn-spotify {
     background: none;
   }
-}
-
-.proj-description {
-  background: #fff;
 }

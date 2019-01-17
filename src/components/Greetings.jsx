@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 import { Link } from 'react-router-dom';
 import { Container, Row, Col, Badge } from 'reactstrap';
 
-import Contact from './Contact';
+import Contact from './ContactBanner';
 
 class Greetings extends React.Component {
   constructor(props) {

@@ -7,7 +7,7 @@ import Navigation from './components/Navigation';
 import Greetings from './components/Greetings';
 import AllProjects from './components/AllProjects';
 import SocialIcons from './components/SocialIcons';
-import Contact from './components/Contact';
+import ContactBanner from './components/ContactBanner';
 import Footer from './components/Footer';
 
 class App extends Component {
@@ -26,7 +26,7 @@ class App extends Component {
         <Container className="footer" fluid>
           {/* <SocialIcons /> */}
           <Container>
-            <Contact />
+            <ContactBanner />
           </Container>
           <Footer />
         </Container>

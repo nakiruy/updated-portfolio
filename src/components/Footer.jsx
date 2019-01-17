@@ -21,7 +21,7 @@ class Footer extends React.Component {
         <Container className="copyright" fluid>
           <Col>
             <hr></hr>
-            <h6>Built & beautified by Yurika Jacobsson</h6>
+            <body id="copyright-copy">Built & beautified by Yurika Jacobsson</body>
           </Col>
         </Container> 
     )
