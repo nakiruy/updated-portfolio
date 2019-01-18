@@ -25,9 +25,9 @@ class App extends Component {
         </Container>
         <Container className="footer" fluid>
           {/* <SocialIcons /> */}
-          <Container>
+          {/* <Container> */}
             <ContactBanner />
-          </Container>
+          {/* </Container> */}
           <Footer />
         </Container>
       </div>

@@ -8,6 +8,8 @@ import { Jumbotron } from 'reactstrap';
 import { Card, CardImg, CardText, CardBody, CardLink,
   CardTitle, CardSubtitle } from 'reactstrap';
 
+import SocialIcons from './SocialIcons';
+
 class Footer extends React.Component {
   constructor(props) {
     super(props);
@@ -20,7 +22,7 @@ class Footer extends React.Component {
     return (
         <Container className="copyright" fluid>
           <Col>
-            <hr></hr>
+            <SocialIcons />
             <body id="copyright-copy">Built & beautified by Yurika Jacobsson</body>
           </Col>
         </Container> 

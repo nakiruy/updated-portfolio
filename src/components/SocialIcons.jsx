@@ -19,7 +19,7 @@ class SocialIcons extends React.Component {
       <div className="social-icons">
           <div className="icons">
             <Container>
-              <Col xs="3">
+              <Col>
                   <a href="mailto:nakiruy@gmail.com">
                       <img className="contact-icon" src={email} alt="Email" />
                   </a>

@@ -18,8 +18,7 @@ class ContactBanner extends React.Component {
 
   render() {
     return (
-      <div>
-        <Jumbotron className="contact">
+      <Jumbotron className="contact">
           <Container className="contact-container">
             <Row>
               <Col lg="10">
@@ -30,8 +29,7 @@ class ContactBanner extends React.Component {
               </Col>
             </Row>
           </Container>
-        </Jumbotron>
-      </div>
+      </Jumbotron>
     )
   }
 }
