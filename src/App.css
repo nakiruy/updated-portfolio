@@ -37,8 +37,7 @@ a:hover, a:focus, a:active {
 
 /* Navbar */
 
-.navbar {
-  margin: 1rem auto;
+.navigation {
   top: 0;
   /* width: 88%; */
   z-index: 100;
@@ -46,9 +45,15 @@ a:hover, a:focus, a:active {
   font-weight: 500;
 }
 
-.navbar.hide {
+.navigation.hide {
   visibility: hidden;
   /* display: none; */
+}
+
+.navbar {
+  background: #F8F8F8;
+  margin: 2rem auto;
+  top: 0;
 }
 
 .ml-auto {
@@ -111,7 +116,7 @@ button:focus {
 
 .main {
   margin-bottom: -2rem;
-  margin-top: 3rem;
+  margin-top: 100px;
 }
 
 .greetings {
@@ -429,8 +434,9 @@ button:focus {
 
 .contact-icon {
   max-width: 24px;
-  margin-right: 10px;
-  margin-bottom: 5px;
+  margin: 1rem 0.7rem;
+  justify-content: center;
+  display: inline-flex;
 }
 
 /* Media Queries */
@@ -466,10 +472,13 @@ button:focus {
     margin-right: -2rem;
     margin-bottom: -5rem;
   }
+  .navbar {
+    background: none;
+  }
 } 
 
 @media (max-width: 575px) {
-  .navbar {
+  .navigation {
     border: #fff 1em solid;
     border-bottom: none;
   }
@@ -489,7 +498,7 @@ button:focus {
     margin: auto;
     padding: 2em 3em 2em 3em;
   }
-  .navbar {
+  .navigation {
     padding: 2rem;
     position: fixed;
     right: 0;
@@ -497,7 +506,8 @@ button:focus {
     width: 100%;
     background-color: #F8F8F8;
     margin: 0 auto;
-    border-top: #fff 1em solid;
+    border: #fff 1em solid;
+    border-bottom: none;
   }
   .greetings {
     margin: 100px 0 0 0;

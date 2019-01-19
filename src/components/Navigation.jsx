@@ -61,7 +61,7 @@ class Navigation extends React.Component {
   render() {
     const classHide = this.state.isHide ? 'hide' : '';
     return (
-      <div className={`navbar ${classHide}`}>
+      <div className={`navigation ${classHide}`}>
         <Navbar color="faded" light expand="md" fixed={`top`} className={`container`}> 
           <NavbarBrand href="/">
             <img className="logo" src={logo} alt="Logo" />
