@@ -477,10 +477,14 @@ button:focus {
   }
 } 
 
-@media (max-width: 575px) {
-  .navigation {
+@media (max-width: 570px) {
+  /* .navigation {
     border: #fff 1em solid;
     border-bottom: none;
+  } */
+  .navbar {
+    border-left: #fff 1em solid;
+    border-right: #fff 1em solid;
   }
 }
 
