@@ -1,8 +1,9 @@
 import React from 'react';
 
+import { Container, Row, Col } from 'reactstrap';
+
 import Navigation from './Navigation';
 import AboutContent from './AboutContent';
-import { Container, Row, Col } from 'reactstrap';
 
 class About extends React.Component {
   constructor(props) {

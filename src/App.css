@@ -12,13 +12,13 @@ body {
 ::-moz-selection { /* Code for Firefox */
   color: #fff;
   /* background: rgba(71, 36, 247, 0.5); */
-  background: #9F54CC;
+  background: #1C1B1F;
 }
 
 ::selection {
   color: #fff;
   /* background: rgba(71, 36, 247, 0.5); */
-  background: #9F54CC;
+  background: #1C1B1F;
 }
 
 a:hover, a:focus, a:active {
@@ -116,7 +116,7 @@ button:focus {
 
 .main {
   margin-bottom: -2rem;
-  margin-top: 100px;
+  margin-top: 6rem;
 }
 
 .greetings {
@@ -279,7 +279,6 @@ button:focus {
 
 .secondary-header {
   text-transform: uppercase;
-  font-weight: 700;
   color: #4724F7;
   margin-top: 6rem;
   margin-bottom: 3rem;
@@ -347,9 +346,31 @@ button:focus {
 
 /* About */
 
+#about-fact {
+  color: #1C1B1F;
+  font-weight: 800;
+  font-style: normal;
+}
+
+#about-header {
+  color: #4724F7;
+  font-style: italic;
+}
+
+#period {
+  color: #1C1B1F;
+}
+
 .about-desc {
   font-size: 1.2rem;
-  margin: 2rem 0;
+  line-height: 2rem;
+  margin-bottom: 6rem;
+  white-space: pre-wrap;
+}
+
+#about-greetings {
+  margin-top: 6rem;
+  padding: 5em 0;
 }
 
 
@@ -360,8 +381,8 @@ button:focus {
   -webkit-filter: none;
   filter: none;
   padding: 3rem;
-  margin-top: -1rem;
-  margin-bottom: -6rem;
+  /* margin-top: -1rem; */
+  /* margin-bottom: -6rem; */
   /* margin: 3rem -1.5rem 3rem 0; */
 }
 
@@ -395,11 +416,17 @@ button:focus {
 .footer {
   /* background: #fff; */
   padding: 1rem 0;
-  margin-top: 6rem;
+  /* margin-top: 6rem; */
+}
+
+hr {
+  border: 0.6px solid #1C1B1F;
+  opacity: 0.1;
 }
 
 .copyright {
-  margin: 6rem 0 0 0;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
 }
 
 #copyright-copy {
@@ -416,9 +443,8 @@ button:focus {
 /* SocialIcons */
 
 .social-icons {
-    opacity: 0.3;
     text-align: center;
-    padding: 3rem 0 1rem 0;
+    padding: 1rem 0 1rem 0;
     /* 
     position: fixed;
     left: 0%;
@@ -437,6 +463,11 @@ button:focus {
   margin: 1rem 0.7rem;
   justify-content: center;
   display: inline-flex;
+  opacity: 0.3;
+}
+
+.contact-icon:hover {
+  opacity: 0.7;
 }
 
 /* Media Queries */
@@ -543,9 +574,9 @@ button:focus {
     line-height: 2.6rem;
   }
   .contact {
-    margin: 0 auto;
-    margin-top: -1rem;
-    margin-bottom: -6rem;
+    /* margin: 0 auto; */
+    /* margin-top: -1rem; */
+    /* margin-bottom: -6rem; */
     /* margin: -1.5rem -1.5rem 6rem -1.5rem; */
   }
   #contact-btn {
