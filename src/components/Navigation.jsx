@@ -45,12 +45,12 @@ class Navigation extends React.Component {
   hideBar = () => {
     const { isHide } = this.state
 
-    window.scrollY > this.prev ?
+    window.scrollY > this.prev + 3 ?
     !isHide && this.setState({ isHide: true })
     :
     isHide && this.setState({ isHide: false });
 
-    this.prev = window.scrollY;
+    this.prev = window.scrollY + 3;
  }
 
   toggle() {
