@@ -373,6 +373,10 @@ button:focus {
   padding: 5em 0;
 }
 
+.about-photos{
+  margin-bottom: 6rem;
+}
+
 
 /* Contact */
 
@@ -420,7 +424,7 @@ button:focus {
 }
 
 hr {
-  border: 0.6px solid #1C1B1F;
+  border: 0.5px solid #1C1B1F;
   opacity: 0.1;
 }
 
