@@ -563,7 +563,7 @@ hr {
   .btn {
     background: #4724F7;
     color: #fff !important;
-    border: none;
+    border: #4724F7 3px solid;
     border-radius: 30px;
   }
   /* .btn {
@@ -572,7 +572,7 @@ hr {
     border: none;
   } */
   .display-3 {
-    line-height: 2.6rem;
+    line-height: 3rem;
   }
   /* .contact { */
     /* margin: 0 auto; */
