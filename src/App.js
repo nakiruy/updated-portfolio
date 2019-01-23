@@ -23,7 +23,7 @@ class App extends Component {
         <Container className="body" fluid>
           <AllProjects />
         </Container>
-        <Container className="footer">
+        <Container className="footer" fluid>
           {/* <SocialIcons /> */}
           {/* <Container> */}
           {/* </Container> */}

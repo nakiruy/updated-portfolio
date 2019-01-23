@@ -4,8 +4,8 @@
 
 body {
   color: #1C1B1F;
-  background-color: #F8F8F8;
-  border: #fff 1em solid;
+  background-color: #f4f4f4;
+  border: #fff 1rem solid;
   font-family: 'Lato', sans-serif;
 }
 
@@ -51,7 +51,7 @@ a:hover, a:focus, a:active {
 }
 
 .navbar {
-  background: #F8F8F8;
+  background: #f4f4f4;
   margin: 2rem auto;
   top: 0;
 }
@@ -233,6 +233,7 @@ button:focus {
 
 .allProjects.container {
   padding: 100px 15px;
+  margin-bottom: 6rem;
 }
 
 .btn {
@@ -418,19 +419,14 @@ button:focus {
 /* Footer */
 
 .footer {
-  /* background: #fff; */
+  background: #fff;
   padding: 1rem 0;
   /* margin-top: 6rem; */
 }
 
 hr {
-  border: 0.5px solid #1C1B1F;
-  opacity: 0.1;
-}
-
-.copyright {
-  margin-top: 3rem;
-  margin-bottom: 2rem;
+  border: 1px solid #4724F7;
+  margin: 0 auto;
 }
 
 #copyright-copy {
@@ -505,7 +501,7 @@ hr {
   .spotify-jumbo.jumbotron {
     margin-left: 14rem;
     margin-right: -2rem;
-    margin-bottom: -5rem;
+    margin-bottom: -2rem;
   }
   .navbar {
     background: none;
@@ -540,10 +536,11 @@ hr {
   .navigation {
     padding: 2rem;
     position: fixed;
+    top: 0;
     right: 0;
     left: 0;
     width: 100%;
-    background-color: #F8F8F8;
+    background-color: #f4f4f4;
     margin: 0 auto;
     border: #fff 1em solid;
     border-bottom: none;
@@ -577,12 +574,12 @@ hr {
   .display-3 {
     line-height: 2.6rem;
   }
-  .contact {
+  /* .contact { */
     /* margin: 0 auto; */
     /* margin-top: -1rem; */
     /* margin-bottom: -6rem; */
     /* margin: -1.5rem -1.5rem 6rem -1.5rem; */
-  }
+  /* } */
   #contact-btn {
     border-radius: 0;
     background: transparent;

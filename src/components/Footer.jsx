@@ -21,8 +21,8 @@ class Footer extends React.Component {
   render() {
     return (
         <Container className="copyright" fluid>
+          {/* <hr></hr> */}
           <Col>
-            <hr></hr>
             <SocialIcons />
             <body id="copyright-copy">Built & beautified by Yurika Jacobsson</body>
           </Col>
