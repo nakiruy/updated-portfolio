@@ -243,9 +243,9 @@ button:focus {
 
 .btn, .btn:link, .btn:visited {
   padding: 0.7rem 0.7rem;
-  border: 3px solid #1C1B1F;
+  border: 2px solid #1C1B1F;
   color: #1C1B1F !important;
-  font-weight: 700;
+  font-weight: 600;
   text-transform: uppercase;
   font-size: 0.8rem;
   letter-spacing: 3px;
@@ -256,7 +256,7 @@ button:focus {
 
 .btn:hover, .btn:active, .btn:focus {
   background: #4724F7;
-  border: 3px solid #4724F7;
+  border: 2px solid #4724F7;
   color: #fff !important;
   border-radius: 30px;
 }
@@ -280,10 +280,26 @@ button:focus {
 
 .secondary-header {
   text-transform: uppercase;
+  /* color: #1C1B1F70; */
   color: #4724F7;
   margin-top: 6rem;
-  margin-bottom: 3rem;
-  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+  font-size: 0.8rem;
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+
+.secondary-header::after {
+  background: #4724F7;
+  /* background: #1C1B1F50; */
+  content: "";
+  display: inline-block;
+  height: 1.5px;
+  width: 40px;
+  position: relative;
+  top: -4px;
+  margin-left: 10px;
+  letter-spacing: -.05em;
 }
 
 /* #contact-header {
@@ -363,10 +379,36 @@ button:focus {
 }
 
 .about-desc {
-  font-size: 1.2rem;
-  line-height: 2rem;
-  margin-bottom: 6rem;
+  font-size: 1.1rem;
+  line-height: 1.8em;
+  margin-bottom: 1rem;
   white-space: pre-wrap;
+}
+
+.chunky-underline {
+  text-decoration: none;
+  background-image: linear-gradient(120deg, #4724f750 10%, #4724f750 110%); 
+  background-repeat: no-repeat;
+  background-size: 100% 0.4em;
+  background-position: 0 90%;
+  transition: background-size 0.25s ease-in;
+}
+
+#getintouch {
+  color: #1C1B1F;
+  text-decoration: none;
+  background-image: linear-gradient(120deg, #9F54CC 10%, #4724f7 110%); 
+  background-repeat: no-repeat;
+  background-size: 100% 0.1em;
+  background-position: 0 100%;
+  transition: background-size 0.25s ease-in;
+  font-weight: 700;
+}
+
+#getintouch:hover, #getintouch:active, #getintouch:focus {
+  background-size: 100% 90%;
+  color: #fff;
+  font-style: normal;
 }
 
 #about-greetings {
@@ -374,8 +416,81 @@ button:focus {
   padding: 5em 0;
 }
 
-.about-photos{
+.about-photos {
   margin-bottom: 6rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.rotate180 {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.card {
+  border: none;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  background: #f4f4f4;
+  text-align: center;
+}
+
+.card:hover {
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.card-img-top {
+  width: 100%;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+/* .insta-btn {
+  color: #1C1B1F !important;
+} */
+
+.insta-card {
+  border: 2px solid #1C1B1F;
+  border-radius: 0;
+  color: #1C1B1F !important;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  letter-spacing: 3px;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 110px;
+}
+
+/* .insta-body {
+  border: 2px solid #1C1B1F;
+  color: #1C1B1F !important;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 3px;
+  padding: 1.51rem 0.5rem;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+} */
+
+.insta-card:hover {
+  background: #1C1B1F;
+  border: #fff 0.1rem solid;
+  border-radius: 50px;
+  color: #fff !important;
 }
 
 
@@ -419,7 +534,7 @@ button:focus {
 /* Footer */
 
 .footer {
-  background: #fff;
+  background: #1C1B1F;
   padding: 1rem 0;
   /* margin-top: 6rem; */
 }
@@ -435,7 +550,7 @@ hr {
   font-size: 0.6rem !important;
   text-align: center;
   text-transform: uppercase;
-  color: #1C1B1F50;
+  color: #fff;
   letter-spacing: 3px;
   border: none;
 }
@@ -445,6 +560,8 @@ hr {
 .social-icons {
     text-align: center;
     padding: 1rem 0 1rem 0;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
     /* 
     position: fixed;
     left: 0%;
@@ -463,11 +580,10 @@ hr {
   margin: 1rem 0.7rem;
   justify-content: center;
   display: inline-flex;
-  opacity: 0.3;
 }
 
 .contact-icon:hover {
-  opacity: 0.7;
+  opacity: 0.5;
 }
 
 /* Media Queries */

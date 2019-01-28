@@ -3,6 +3,11 @@ import React from 'react';
 import Navigation from './Navigation';
 import { Container, Row, Col } from 'reactstrap';
 
+import Navigation from './Navigation';
+import SpotifyHeader from './SpotifyHeader';
+import SpotifyContent from './SpotifyContent';
+import Footer from './Footer';
+
 class Spotify extends React.Component {
   constructor(props) {
     super(props);

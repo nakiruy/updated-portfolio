@@ -3,7 +3,9 @@ import React from 'react';
 import Navigation from './Navigation';
 import { Container, Row, Col } from 'reactstrap';
 
+import MoxtraHeader from './MoxtraHeader';
 import MoxtraContent from './MoxtraContent';
+import Footer from './Footer';
 
 
 class Moxtra extends React.Component {
@@ -18,7 +20,9 @@ class Moxtra extends React.Component {
     return (
       <Container className="moxtra">
         <Navigation />
+        <MoxtraHeader />
         <MoxtraContent />
+        <Footer />
       </Container>
     )
   }

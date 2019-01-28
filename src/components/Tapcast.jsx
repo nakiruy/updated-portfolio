@@ -1,7 +1,11 @@
 import React from 'react';
 
-import Navigation from './Navigation';
 import { Container, Row, Col } from 'reactstrap';
+
+import Navigation from './Navigation';
+import TapcastHeader from './TapcastHeader';
+import TapcastContent from './TapcastContent';
+import Footer from './Footer';
 
 class Tapcast extends React.Component {
   constructor(props) {

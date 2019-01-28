@@ -22,15 +22,23 @@ class AboutContent extends React.Component {
           <Col md="9" className="greetings" id="about-greetings">
             <h1 className="headline" id="about-header"><span id="about-fact">Fun fact:</span> I like eating avocados with ketchup<span id="period">.</span></h1>
             <h6 className="secondary-header">about</h6>
-            <h6 className="about-desc">Hello there! I’m Yurika (pronounced like Eureka) Jacobsson. Currently, I am a technical project manager/designer at Tapcast, a marketing intelligence startup located in San Francisco Bay Area. Previously, I was a UI/UX design intern at Moxtra. 
-            Born in Tokyo and raised in Silicon Valley, I always loved to design, create, and build anything that leverages technology. I truly believe design can help develop a successful business and product.
+            <h6 className="about-desc">
+            Hello there! I’m <span className="chunky-underline">Yurika Jacobsson</span>. Currently, I am a <span className="chunky-underline">technical project manager/designer</span> at Tapcast, a marketing intelligence startup located in San Francisco Bay Area. Previously, I was a UI/UX design intern at Moxtra.
+            </h6>
+            <h6 className="about-desc">
+            Born in Tokyo and raised in Silicon Valley, I always drew from my environment to motivate myself <span className="chunky-underline">to design, create, and build</span>. I truly believe design can help develop a successful business and product.
+            </h6>
+            <h6 className="about-desc">
             When I’m not designing or developing, you can find me perfecting the art of cold brew, counting down for the next limited edition sneakers (yes, I’m a sneaker head), and if budget allows, traveling to new locations.
-            Whether you’d like to talk about design, development, or avocados - I’m always open to chat. Feel to contact me!</h6>
+            </h6>
+            <h6 className="about-desc">
+            Whether you’d like to talk about design, development, or avocados - <span className="chunky-underline">I’m always open to chat</span>. <a href="mailto:nakiruy@gmail.com"><span id="getintouch">Get in touch!</span></a>
+            </h6>
           </Col>
           <h6 className="secondary-header">skills</h6>
           <h6 className="secondary-header">delights</h6>
           <AboutPhotos />
-          <ContactBanner /> 
+          <ContactBanner />
       </Container>
     )
   }

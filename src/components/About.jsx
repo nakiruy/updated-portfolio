@@ -4,6 +4,8 @@ import { Container, Row, Col } from 'reactstrap';
 
 import Navigation from './Navigation';
 import AboutContent from './AboutContent';
+import ContactBanner from './ContactBanner';
+import Footer from './Footer';
 
 class About extends React.Component {
   constructor(props) {
@@ -15,10 +17,15 @@ class About extends React.Component {
 
   render() {
     return (
+      <div>
       <Container className="about">
         <Navigation />
         <AboutContent />
       </Container>
+      <Container className="footer" fluid>
+        <Footer />
+      </Container>
+    </div>
     )
   }
 }

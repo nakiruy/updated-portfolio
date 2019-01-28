@@ -21,11 +21,11 @@ class ContactBanner extends React.Component {
       <Jumbotron className="contact">
           <Container className="contact-container">
             <Row>
-              <Col lg="10">
-                <h1 className="contact-copy">Let's learn more about each other! Get in touch.</h1>
+              <Col lg="9">
+                <h1 className="contact-copy">Want to learn more about me?</h1>
               </Col>
-              <Col lg="2">
-                <a href="mailto:nakiruy@gmail.com" className="btn" id="contact-btn"><div id="getintouch">Contact Me</div></a>
+              <Col lg="3">
+                <a href="https://drive.google.com/file/d/1eKN9C3ctdTQ1kI03yxyHtY6oJ85POLY1/" className="btn" id="contact-btn">Download Resume</a>
               </Col>
             </Row>
           </Container>
