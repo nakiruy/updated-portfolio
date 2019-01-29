@@ -1,6 +1,5 @@
 import React from 'react';
 
-import Navigation from './Navigation';
 import { Container, Row, Col } from 'reactstrap';
 
 import Navigation from './Navigation';

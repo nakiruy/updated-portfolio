@@ -387,7 +387,7 @@ button:focus {
 
 .chunky-underline {
   text-decoration: none;
-  background-image: linear-gradient(120deg, #4724f750 10%, #4724f750 110%); 
+  background-image: linear-gradient(120deg, #4724f710 10%, #4724f710 110%); 
   background-repeat: no-repeat;
   background-size: 100% 0.4em;
   background-position: 0 90%;
