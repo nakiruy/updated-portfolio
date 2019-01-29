@@ -31,7 +31,32 @@ const items = [
     src: pancakes,
     altText: 'Slide 3',
     caption: 'Slide 3'
-  }
+  },
+  {
+    src: us,
+    altText: 'Slide 4',
+    caption: 'Slide 4'
+  },
+  {
+    src: baybridge,
+    altText: 'Slide 5',
+    caption: 'Slide 5'
+  },
+  {
+    src: lucas,
+    altText: 'Slide 6',
+    caption: 'Slide 6'
+  },
+  {
+    src: cafe,
+    altText: 'Slide 7',
+    caption: 'Slide 7'
+  },
+  {
+    src: hibiscus,
+    altText: 'Slide 8',
+    caption: 'Slide 8'
+  },
 ];
 
 class AboutPhotosCarousel extends Component {
@@ -89,6 +114,7 @@ class AboutPhotosCarousel extends Component {
     return (
       <Carousel
         activeIndex={activeIndex}
+        className="about-photos-carousel"
         next={this.next}
         previous={this.previous}
       >

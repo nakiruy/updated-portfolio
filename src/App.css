@@ -498,6 +498,13 @@ button:focus {
   color: #fff !important;
 }
 
+.carousel-item > img { 
+  width: 100%;
+}
+
+.about-photos-carousel {
+  margin-bottom: 6rem;
+}
 
 /* Contact */
 
@@ -739,5 +746,8 @@ hr {
   }
   #btn-moxtra, #btn-tapcast, #btn-spotify {
     background: none;
+  }
+  .about-photos {
+    display: none;
   }
 }
