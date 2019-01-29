@@ -503,7 +503,7 @@ button:focus {
 }
 
 .about-photos-carousel {
-  margin-bottom: 6rem;
+  display: none;
 }
 
 /* Contact */
@@ -749,5 +749,9 @@ hr {
   }
   .about-photos {
     display: none;
+  }
+  .about-photos-carousel {
+    display: inline-block;
+    margin-bottom: 6rem;
   }
 }

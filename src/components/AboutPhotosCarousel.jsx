@@ -34,6 +34,7 @@ const items = [
   },
   {
     src: us,
+    className: 'rotate180',
     altText: 'Slide 4',
     caption: 'Slide 4'
   },
@@ -105,7 +106,7 @@ class AboutPhotosCarousel extends Component {
           onExited={this.onExited}
           key={item.src}
         >
-          <img src={item.src} alt={item.altText} />
+          <img src={item.src} alt={item.altText} className={item.className}/>
           <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
         </CarouselItem>
       );
