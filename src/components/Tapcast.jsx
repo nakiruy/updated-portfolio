@@ -19,6 +19,7 @@ class Tapcast extends React.Component {
     return (
       <Container className="tapcast">
         <Navigation />
+        <TapcastHeader />
       </Container>
     )
   }

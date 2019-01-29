@@ -50,7 +50,7 @@ class Navigation extends React.Component {
     :
     isHide && this.setState({ isHide: false });
 
-    this.prev = window.pageYOffset + 3;
+    this.prev = window.pageYOffset;
  }
 
   toggle() {

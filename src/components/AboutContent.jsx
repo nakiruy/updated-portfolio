@@ -7,6 +7,7 @@ import { Container, Row, Col, Badge, Media } from 'reactstrap';
 import AboutBanner from './AboutBanner';
 import ContactBanner from './ContactBanner';
 import AboutPhotos from './AboutPhotos';
+import AboutPhotosCarousel from './AboutPhotosCarousel';
 
 class AboutContent extends React.Component {
   constructor(props) {
@@ -29,15 +30,15 @@ class AboutContent extends React.Component {
             Born in Tokyo and raised in Silicon Valley, I always drew from my environment to motivate myself <span className="chunky-underline">to design, create, and build</span>. I truly believe design can help develop a successful business and product.
             </h6>
             <h6 className="about-desc">
-            When I’m not designing or developing, you can find me perfecting the art of cold brew, counting down for the next limited edition sneakers (yes, I’m a sneaker head), and if budget allows, traveling to new locations.
+            When I’m not designing or developing, you can find me <span className="chunky-underline">perfecting the art of cold brew</span>, counting down for the next limited edition <span className="chunky-underline">sneakers (yes, I’m a sneaker head)</span>, and if budget allows, <span className="chunky-underline">traveling to new locations</span>.
             </h6>
             <h6 className="about-desc">
-            Whether you’d like to talk about design, development, or avocados - <span className="chunky-underline">I’m always open to chat</span>. <a href="mailto:nakiruy@gmail.com"><span id="getintouch">Get in touch!</span></a>
+            Whether you’d like to talk about design, development, or avocados - I’m always open to chat. <a href="mailto:nakiruy@gmail.com"><span id="getintouch">Get in touch!</span></a>
             </h6>
           </Col>
-          <h6 className="secondary-header">skills</h6>
-          <h6 className="secondary-header">delights</h6>
+          <h6 className="secondary-header" id="insta-header">personal</h6>
           <AboutPhotos />
+          <AboutPhotosCarousel />
           <ContactBanner />
       </Container>
     )

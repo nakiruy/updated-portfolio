@@ -29,10 +29,9 @@ const AboutPhotos = (props) => {
       </Card>
       <a href="https://www.instagram.com/yurikaffeine/">
       <Card className="insta-card">
-      VIEW MORE ON INSTAGRAM
-        <CardImg className="insta-body" />
-          {/* VIEW MORE ON INSTAGRAM */}
-        {/* </CardBody> */}
+        <CardBody className="insta-body">
+          VIEW MORE ON INSTAGRAM
+        </CardBody>
       </Card>
       </a>
       <Card>
