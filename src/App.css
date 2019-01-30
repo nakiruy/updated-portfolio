@@ -515,6 +515,10 @@ button:focus {
   height: 350px;
 }
 
+.footer-row {
+  margin-right: 0;
+}
+
 /* .item, img{
   height: 100% !important;
   width:  100% !important;
@@ -561,7 +565,6 @@ button:focus {
 
 .social-icons {
   text-align: left;
-  padding: 1rem 0 1rem 0;
   -webkit-filter: invert(100%);
   filter: invert(100%);
   /* 
@@ -579,7 +582,7 @@ width: 100%;
 
 .contact-icon {
 max-width: 24px;
-margin: 1rem 0.7rem;
+margin: 0 0.7rem;
 justify-content: center;
 display: inline-flex;
 }

@@ -22,11 +22,11 @@ class Footer extends React.Component {
     return (
         <Container className="copyright">
           {/* <hr></hr> */}
-          <Row>
-          <Col md="6">
+          <Row className="footer-row">
+          <Col lg="6">
             <SocialIcons />
           </Col>
-          <Col md="6">
+          <Col lg="6">
             <body id="copyright-copy">Built & beautified by Yurika Jacobsson</body>
           </Col>
           </Row>
