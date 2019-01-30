@@ -39,6 +39,9 @@ class AboutContent extends React.Component {
           <h6 className="secondary-header" id="insta-header">personal</h6>
           <AboutPhotos />
           <AboutPhotosCarousel />
+          <div className="insta-btn-wrapper">
+            <a href="https://www.instagram.com/yurikaffeine/" className="btn" id="insta-btn">follow me on instagram</a>
+          </div>
           <ContactBanner />
       </Container>
     )

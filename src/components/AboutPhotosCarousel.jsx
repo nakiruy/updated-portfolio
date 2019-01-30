@@ -18,45 +18,29 @@ import hibiscus from '../assets/hibiscus.jpg';
 
 const items = [
   {
-    src: beach,
-    altText: 'Slide 1',
-    caption: 'Slide 1'
+    src: beach
   },
   {
-    src: cappucino,
-    altText: 'Slide 2',
-    caption: 'Slide 2'
+    src: cappucino
   },
   {
-    src: pancakes,
-    altText: 'Slide 3',
-    caption: 'Slide 3'
+    src: pancakes
   },
   {
     src: us,
-    className: 'rotate180',
-    altText: 'Slide 4',
-    caption: 'Slide 4'
+    className: 'rotate180'
   },
   {
-    src: baybridge,
-    altText: 'Slide 5',
-    caption: 'Slide 5'
+    src: baybridge
   },
   {
-    src: lucas,
-    altText: 'Slide 6',
-    caption: 'Slide 6'
+    src: lucas
   },
   {
-    src: cafe,
-    altText: 'Slide 7',
-    caption: 'Slide 7'
+    src: cafe
   },
   {
-    src: hibiscus,
-    altText: 'Slide 8',
-    caption: 'Slide 8'
+    src: hibiscus
   },
 ];
 

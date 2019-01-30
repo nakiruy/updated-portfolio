@@ -20,12 +20,16 @@ class Footer extends React.Component {
 
   render() {
     return (
-        <Container className="copyright" fluid>
+        <Container className="copyright">
           {/* <hr></hr> */}
-          <Col>
+          <Row>
+          <Col md="6">
             <SocialIcons />
+          </Col>
+          <Col md="6">
             <body id="copyright-copy">Built & beautified by Yurika Jacobsson</body>
           </Col>
+          </Row>
         </Container> 
     )
   }
