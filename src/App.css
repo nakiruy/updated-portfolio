@@ -462,13 +462,17 @@ button:focus {
   margin-top: 0;
 }
 
+.insta-btn-wrapper {
+  display: none;
+}
+
 .insta-card {
   border: 2px solid #1C1B1F;
   border-radius: 0;
   color: #1C1B1F !important;
   font-weight: 700;
   text-transform: uppercase;
-  font-size: 0.7em;
+  font-size: 0.8em;
   letter-spacing: 3px;
   -webkit-transition: all .3s ease-in-out;
   -moz-transition: all .3s ease-in-out;
@@ -493,28 +497,9 @@ button:focus {
 
 .insta-card:hover {
   background: #1C1B1F;
-  border: #fff 0.1rem solid;
-  border-radius: 50px;
+  border: #fff 2px solid;
+  border-radius: 70px;
   color: #fff !important;
-}
-
-.insta-btn-wrapper {
-  text-align: center;
-}
-
-#insta-btn {
-  display: inline-block;
-  margin-bottom: 8rem;
-  padding: 1rem;
-  border: 0rem;
-  border-radius: 0rem;
-  border: #191414 0.1rem solid;
-  background: transparent;
-  font-family: 'Lato', sans-serif;
-  color:#191414 !important;
-  -webkit-transition: all .3s ease-in-out;
-  -moz-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
 }
 
 .carousel-item > img { 
@@ -807,5 +792,43 @@ hr {
   }
   #copyright-copy {
     text-align: center;
+  }
+  .insta-btn-wrapper {
+    display: block;
+    text-align: center;
+  }
+  #insta-btn {
+    /* display: inline-block; */
+    margin-bottom: 8rem;
+    padding: 1rem;
+    border: 0rem;
+    border-radius: 0rem;
+    border: #191414 0.1rem solid;
+    background: transparent;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.6rem;
+    color:#191414 !important;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+  }
+}
+
+
+@media (min-width: 1199px) {
+  .insta-body {
+    padding: 2.8rem 0.6rem;
+  }
+}
+
+@media (max-width: 1198px) {
+  .insta-body {
+    padding: 2.1rem 0.6rem;
+  }
+}
+
+@media (max-width: 988px) {
+  .insta-body {
+    padding: 0.6rem 0.6rem;
   }
 }
