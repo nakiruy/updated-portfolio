@@ -11,6 +11,7 @@ import Resume from './components/Resume';
 import Tapcast from './components/Tapcast';
 import Moxtra from './components/Moxtra';
 import Spotify from './components/Spotify';
+import NotFound from './components/NotFound';
 
 import registerServiceWorker from './registerServiceWorker';
 
@@ -27,14 +28,15 @@ import {
 
 ReactDOM.render(
   <Router>
-    <div>
+    <Switch>
         <Route exact path="/" component={App} />
         <Route path="/about" component={About} />
         <Route path="/resume" component={Resume} />
-        <Route path="/tapcast" component={Tapcast} />
-        <Route path="/moxtra" component={Moxtra} />
-        <Route path="/spotify" component={Spotify} />
-    </div>
+        <Route path="/projects/tapcast" component={Tapcast} />
+        <Route path="/projects/moxtra" component={Moxtra} />
+        <Route path="/projects/spotify" component={Spotify} />
+        <Route component={NotFound} />
+    </Switch>
   </Router>, document.getElementById('root')
 );
 registerServiceWorker();

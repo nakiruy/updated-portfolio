@@ -36,7 +36,7 @@ class AboutContent extends React.Component {
             Whether you’d like to talk about design, development, or avocados - I’m always open to chat. <a href="mailto:nakiruy@gmail.com"><span id="getintouch">Get in touch!</span></a>
             </h6>
           </Col>
-          <h6 className="secondary-header" id="insta-header">personal</h6>
+          <h6 className="secondary-header" id="insta-header">instagram feed</h6>
           <AboutPhotos />
           <AboutPhotosCarousel />
           <div className="insta-btn-wrapper">

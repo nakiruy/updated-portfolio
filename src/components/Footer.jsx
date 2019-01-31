@@ -23,10 +23,10 @@ class Footer extends React.Component {
         <Container className="copyright">
           {/* <hr></hr> */}
           <Row className="footer-row">
-          <Col lg="6">
+          <Col sm="6">
             <SocialIcons />
           </Col>
-          <Col lg="6">
+          <Col sm="6">
             <body id="copyright-copy">Built & beautified by Yurika Jacobsson</body>
           </Col>
           </Row>

@@ -15,29 +15,29 @@ import hibiscus from '../assets/hibiscus.jpg';
 const AboutPhotos = (props) => {
   return (
     <CardColumns className="about-photos">
-      <Card>
+      <Card className="card h-100">
         <CardImg top width="100%" src={baybridge} alt="Bay Bridge" />
       </Card>
-      <Card>
+      <Card className="card h-100">
         <CardImg top width="100%" src={hibiscus} alt="Hibiscus" />
       </Card>
-      <Card>
+      <Card className="card h-100">
         <CardImg top width="100%" src={beach} alt="Beach" />
       </Card>
-      <Card>
+      <Card className="card h-100">
         <CardImg top width="100%" src={us} alt="Us" className="rotate180" />
       </Card>
-      <a href="https://www.instagram.com/yurikaffeine/">
+      {/* <a href="https://www.instagram.com/yurikaffeine/">
       <Card className="insta-card">
-        <CardBody className="insta-body">
+        <CardBody className="insta-body card h-200">
           VIEW MORE ON INSTAGRAM
         </CardBody>
       </Card>
-      </a>
-      <Card>
+      </a> */}
+      <Card className="card h-100">
         <CardImg top width="100%" src={cappucino} alt="Cappucino" />
       </Card>
-      <Card>
+      <Card className="card h-100">
         <CardImg top width="100%" src={pancakes} alt="Pancakes" />
       </Card>
     </CardColumns>

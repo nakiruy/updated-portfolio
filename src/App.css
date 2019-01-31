@@ -419,7 +419,7 @@ button:focus {
 }
 
 .about-photos {
-  margin-bottom: 6rem;
+  margin-bottom: 3rem;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -498,8 +498,23 @@ button:focus {
   color: #fff !important;
 }
 
+.insta-btn-wrapper {
+  text-align: center;
+}
+
 #insta-btn {
-  display: none;
+  display: inline-block;
+  margin-bottom: 8rem;
+  padding: 1rem;
+  border: 0rem;
+  border-radius: 0rem;
+  border: #191414 0.1rem solid;
+  background: transparent;
+  font-family: 'Lato', sans-serif;
+  color:#191414 !important;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
 }
 
 .carousel-item > img { 
@@ -582,13 +597,23 @@ width: 100%;
 
 .contact-icon {
 max-width: 24px;
-margin: 0 0.7rem;
+margin: 0.7rem 0.7rem 0.7rem 0;
 justify-content: center;
 display: inline-flex;
 }
 
 .contact-icon:hover {
 opacity: 0.5;
+}
+
+/* Project Nav */
+
+.project-nav-wrapper {
+  background: linear-gradient(to right, #9F54CC 50%, #fff 50%);
+  background: -moz-linear-gradient(left, #9F54CC 50%, #fff 50%);
+  background: -webkit-linear-gradient(left, #9F54CC 50%, #fff 50%);
+  padding: 1rem 0;
+  /* margin-top: 6rem; */
 }
 
 /* Footer */
@@ -682,6 +707,12 @@ hr {
   .navbar {
     background: none;
   }
+  #insta-btn:hover, #insta-btn:active, #insta-btn:focus {
+    background: #4724F7;
+    border: 2px solid #4724F7;
+    color: #fff !important;
+    border-radius: 30px;
+  }
 } 
 
 @media (max-width: 570px) {
@@ -771,18 +802,10 @@ hr {
     display: inline-block;
     margin-bottom: 3rem;
   }
-  .insta-btn-wrapper {
+  .social-icons {
     text-align: center;
   }
-  #insta-btn {
-    display: inline-block;
-    margin-bottom: 8rem;
-    padding: 1rem;
-    border: 0rem;
-    border-radius: 0rem;
-    border: #191414 0.1rem solid;
-    background: transparent;
-    font-family: 'Lato', sans-serif;
-    color:#191414 !important;
+  #copyright-copy {
+    text-align: center;
   }
 }

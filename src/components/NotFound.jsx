@@ -3,12 +3,9 @@ import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 
 import Navigation from './Navigation';
-import TapcastHeader from './TapcastHeader';
-import TapcastContent from './TapcastContent';
-import ProjectNav from './ProjectNav';
 import Footer from './Footer';
 
-class Tapcast extends React.Component {
+class NotFound extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -19,12 +16,9 @@ class Tapcast extends React.Component {
   render() {
     return (
       <div>
-      <Container className="tapcast">
+      <Container className="not-found">
         <Navigation />
-        <TapcastHeader />
-      </Container>
-      <Container className="project-nav-wrapper" fluid>
-        <ProjectNav />
+        <h1 className="headline" id="about-header"><span id="about-fact">404</span> : Page Not Found.<span id="period">.</span></h1>
       </Container>
       <Container className="footer" fluid>
         <Footer />
@@ -34,4 +28,4 @@ class Tapcast extends React.Component {
   }
 }
 
-export default Tapcast
+export default NotFound
