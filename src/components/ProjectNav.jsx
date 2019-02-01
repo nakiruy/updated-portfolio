@@ -19,26 +19,26 @@ class ProjectNav extends React.Component {
     let nextButton;
 
     if (window.location.pathname === "/projects/tapcast") {
-      prevButton = <p className="lead" id="moxtra-lead"><Link exact to="/projects/moxtra"><span className="highlight-moxtra" id="btn-moxtra"><a className="btn">View Project</a></span></Link></p>
-      nextButton = <p className="lead" id="spotify-lead"><Link exact to="/projects/spotify"><span className="highlight" id="btn-spotify"><a className="btn">View Project</a></span></Link></p>
+      prevButton = <Link exact to="/projects/moxtra"><a className="btn">View Project</a></Link>
+      nextButton = <Link exact to="/projects/spotify"><a className="btn">View Project</a></Link>
     } else if (window.location.pathname === "/projects/moxtra") {
-      prevButton = <p className="lead" id="tapcast-lead"><Link exact to="/projects/tapcast"><span className="highlight" id="btn-tapcast"><a className="btn">View Project</a></span></Link></p>
-      nextButton = <p className="lead" id="spotify-lead"><Link exact to="/projects/spotify"><span className="highlight" id="btn-spotify"><a className="btn">View Project</a></span></Link></p>
+      prevButton = <Link exact to="/projects/tapcast"><a className="btn">View Project</a></Link>
+      nextButton = <Link exact to="/projects/spotify"><a className="btn">View Project</a></Link>
     } else {
-      prevButton = <p className="lead" id="tapcast-lead"><Link exact to="/projects/tapcast"><span className="highlight" id="btn-tapcast"><a className="btn">View Project</a></span></Link></p>
-      nextButton = <p className="lead" id="moxtra-lead"><Link exact to="/projects/moxtra"><span className="highlight-moxtra" id="btn-moxtra"><a className="btn">View Project</a></span></Link></p>
+      prevButton = <Link exact to="/projects/tapcast"><a className="btn">View Project</a></Link>
+      nextButton = <Link exact to="/projects/moxtra"><a className="btn">View Project</a></Link>
     }
 
     return (
       <Row className="project-nav">
-      <Col md="6">
+      <Col md="6" className="prev-card">
         <Card body>
           <CardTitle>See Prev</CardTitle>
           <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
           {prevButton}
         </Card>
       </Col>
-      <Col md="6">
+      <Col md="6" className="next-card">
         <Card body>
           <CardTitle>See Next</CardTitle>
           <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
