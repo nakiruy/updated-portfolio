@@ -5,7 +5,7 @@ import { Card, Button, CardImg, CardTitle, CardText, CardColumns,
 import beach from '../assets/beach.jpg';
 import cappucino from '../assets/cappucino.jpg';
 import pancakes from '../assets/pancakes.jpg';
-import us from '../assets/us.jpg';
+// import us from '../assets/us.jpg';
 import baybridge from '../assets/baybridge.jpg';
 import lucas from '../assets/lucas.jpg';
 import cafe from '../assets/cafe.jpg';
@@ -25,7 +25,7 @@ const AboutPhotos = (props) => {
         <CardImg top width="100%" src={beach} alt="Beach" />
       </Card>
       <Card>
-        <CardImg top width="100%" src={us} alt="Us" className="rotate180" />
+        <CardImg top width="100%" src={pancakes} alt="Us" className="rotate180" />
       </Card>
       <a href="https://www.instagram.com/yurikaffeine/">
       <Card className="insta-card">

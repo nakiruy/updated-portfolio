@@ -10,7 +10,6 @@ import {
 import beach from '../assets/beach.jpg';
 import cappucino from '../assets/cappucino.jpg';
 import pancakes from '../assets/pancakes.jpg';
-import us from '../assets/us.jpg';
 import baybridge from '../assets/baybridge.jpg';
 import lucas from '../assets/lucas.jpg';
 import cafe from '../assets/cafe.jpg';
@@ -27,7 +26,7 @@ const items = [
     src: pancakes
   },
   {
-    src: us,
+    src: pancakes,
     className: 'rotate180'
   },
   {
