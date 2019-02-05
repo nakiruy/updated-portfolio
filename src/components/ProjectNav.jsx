@@ -31,15 +31,15 @@ class ProjectNav extends React.Component {
 
     return (
       <Row className="project-nav">
-      <Col md="6" className="prev-card">
-        <Card body>
+      <Col md="6">
+        <Card body className="prev-card">
           <CardTitle>See Prev</CardTitle>
           <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
           {prevButton}
         </Card>
       </Col>
-      <Col md="6" className="next-card">
-        <Card body>
+      <Col md="6">
+        <Card body className="next-card">
           <CardTitle>See Next</CardTitle>
           <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
           {nextButton}

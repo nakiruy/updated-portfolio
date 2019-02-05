@@ -14,6 +14,7 @@ import baybridge from '../assets/baybridge.jpg';
 import lucas from '../assets/lucas.jpg';
 import cafe from '../assets/cafe.jpg';
 import hibiscus from '../assets/hibiscus.jpg';
+import us from '../assets/us.jpg';
 
 const items = [
   {
@@ -26,7 +27,7 @@ const items = [
     src: pancakes
   },
   {
-    src: pancakes,
+    src: us,
     className: 'rotate180'
   },
   {

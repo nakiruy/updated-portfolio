@@ -25,6 +25,7 @@ class Spotify extends React.Component {
       <Container className="project-nav-wrapper" fluid>
         <ProjectNav />
       </Container>
+      <hr></hr>
       <Container className="footer" fluid>
         <Footer />
       </Container>

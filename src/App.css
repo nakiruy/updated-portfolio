@@ -807,6 +807,10 @@ hr {
   } */
   .display-3 {
     line-height: 3rem;
+    background: #ffffff99;
+    background: #fff;
+    opacity: 0.9;
+    padding: 0.1rem;
   }
   /* .contact { */
     /* margin: 0 auto; */
