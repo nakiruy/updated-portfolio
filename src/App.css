@@ -330,7 +330,7 @@ button:focus {
 
 .display-3, .lead {
   text-align: left;
-  margin: 2rem 0;
+  margin: 1rem 0;
 }
 
 .display-3 {
@@ -344,21 +344,38 @@ button:focus {
   font-weight: 400;
 }
 
-.highlight {
-  background: #fff;
-  color: #1C1B1F;
-  border: #fff 1rem solid;
-  /* border-left: none; */
+.description-wrapper {
+  background: #fff !important;
+  margin-left: -17rem;
+  margin-right: 300px;
   box-shadow: 0 3px 10px -3px rgba(0, 0, 0, 0.15);
+  border-radius: 0rem;
+}
+
+.moxtra-description-wrapper {
+  background: #fff !important;
+  margin-right: -18.3rem;
+  margin-left: 300px;
+  box-shadow: 0 3px 10px -3px rgba(0, 0, 0, 0.15);
+  border-radius: 0rem;
+}
+
+
+.highlight {
+  /* background: #fff; */
+  color: #1C1B1F;
+  /* border: #fff 1rem solid; */
+  /* border-left: none; */
+  /* box-shadow: 0 3px 10px -3px rgba(0, 0, 0, 0.15); */
   padding: 0.5rem 0;
 }
 
 .highlight-moxtra {
-  background: #fff;
+  /* background: #fff; */
   color: #1C1B1F;
-  border: #fff 1rem solid;
+  /* border: #fff 1rem solid; */
   /* border-right: none; */
-  box-shadow: 0 3px 10px -3px rgba(0, 0, 0, 0.15);
+  /* box-shadow: 0 3px 10px -3px rgba(0, 0, 0, 0.15); */
   padding: 0.5rem 0;
 }
 
@@ -715,10 +732,10 @@ hr {
   }
   #moxtra-lead {
     text-align: right;
-    margin: 2rem -17rem 0 0;
+    margin: 1rem 0;
   }
   #tapcast-lead, #spotify-lead {
-    margin: 2rem 0 0 -17rem;
+    margin: 1rem 0;
   }
   .spotify-jumbo.jumbotron {
     margin-left: 14rem;
@@ -784,7 +801,7 @@ hr {
     padding: 0.2rem 0;
   }
   .jumbotron {
-    margin: -1.5rem -1.5rem 6rem -1.5rem;
+    margin: -1.5rem -1.5rem 6rem 0;
     -webkit-filter: none;
     filter: none;
   }
@@ -807,10 +824,9 @@ hr {
   } */
   .display-3 {
     line-height: 3rem;
-    background: #ffffff99;
     background: #fff;
     opacity: 0.9;
-    padding: 0.1rem;
+    /* padding: 0.1rem; */
   }
   /* .contact { */
     /* margin: 0 auto; */
@@ -860,6 +876,11 @@ hr {
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
+  }
+  .description-wrapper, .moxtra-description-wrapper {
+    margin: 0;
+    filter: none; 
+    -webkit-filter: none; 
   }
 }
 
