@@ -18,7 +18,6 @@ class MoxtraHeader extends React.Component {
         <Container>
           <Col md="9" className="greetings" id="moxtra-greetings">
             <h1 className="headline" id="moxtra-headline">Introducing a new way of business team collaboration</h1>
-            <Badge color="primary" pill>Primary</Badge>
           </Col>
         </Container>
     )

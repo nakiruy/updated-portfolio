@@ -17,8 +17,7 @@ class TapcastHeader extends React.Component {
     return (
         <Container>
           <Col md="9" className="greetings" id="tapcast-greetings">
-            <h1 className="headline" id="tapcast-headline">Designing a marketing SaaS platform to drive understanding of your audiences</h1>
-            <Badge color="primary" pill>Primary</Badge>
+            <h1 className="headline" id="tapcast-headline">Designing a marketing SaaS platform to drive understanding of customers</h1>
           </Col>
         </Container>
     )
