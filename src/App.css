@@ -801,9 +801,12 @@ hr {
     padding: 0.2rem 0;
   }
   .jumbotron {
-    margin: -1.8rem -1.8rem 0rem -1.8rem;
+    margin: -1.5rem -1.5rem 6rem -1.5rem;
     -webkit-filter: none;
     filter: none;
+  }
+  .spotify-jumbo.jumbotron, .tapcast-jumbo.jumbotron, .moxtra-jumbo.jumbotron {
+    margin: -0.05rem -1.5rem 0rem -1.5rem;
   }
   .btn {
     background: #4724F7;
