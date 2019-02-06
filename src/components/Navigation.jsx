@@ -64,11 +64,18 @@ class Navigation extends React.Component {
 
   render() {
     const classHide = this.state.isHide ? 'hide' : '';
+    let conditionalLogo;
+
+    if (window.location.pathname.includes("/projects/")) {
+      conditionalLogo = <img className="logo-wback" src={logo} alt="Logo" />;
+    } else {
+      conditionalLogo = <img className="logo" src={logo} alt="Logo" />;
+    }
     return (
       <div className={`navigation ${classHide}`}>
         <Navbar color="faded" light expand="md" fixed={`top`} className={`container`}> 
           <NavbarBrand href="/">
-            <img className="logo" src={logo} alt="Logo" />
+            {conditionalLogo}
           </NavbarBrand>
           <Slider active={this.state.isOpen} onClick={this.toggle} width={20} lineSpacing={6} lineHeight={1} />
           <Collapse className="open-navbar" isOpen={this.state.isOpen} navbar>
