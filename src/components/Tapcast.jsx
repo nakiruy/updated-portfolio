@@ -22,6 +22,7 @@ class Tapcast extends React.Component {
       <Container className="tapcast">
         <Navigation />
         <TapcastHeader />
+        <TapcastContent />
       </Container>
       <Container className="project-nav-wrapper" fluid>
         <ProjectNav />

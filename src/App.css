@@ -74,6 +74,13 @@ a:hover, a:focus, a:active {
   margin-left: 9px;
 }
 
+.logo-wback {
+  width: 35px;
+  margin-left: 9px;
+  filter: grayscale(100%) brightness(2);
+  -webkit-filter: grayscale(100%) brightness(2);
+}
+
 .nav-link {
   padding: 0;
   -webkit-transition: all .1s ease-in-out;
@@ -258,7 +265,7 @@ button:focus {
   background: #4724F7;
   border: 2px solid #4724F7;
   color: #fff !important;
-  border-radius: 30px;
+  /* border-radius: 30px; */
 }
 
 .jumbotron {
@@ -570,7 +577,7 @@ button:focus {
 #contact-btn:hover, #contact-btn:active, #contact-btn:focus {
   font-family: 'Lato', sans-serif;
   border: #fff 0.1rem solid;
-  border-radius: 30px;
+  /* border-radius: 30px; */
   background: #fff;
   /* color: #4724F7; */
   color: #4724F7 !important;
@@ -631,9 +638,27 @@ button:focus {
   /* margin-top: 6rem; */
 }
 
+.project-navlink {
+  color: #fff !important;
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  border-bottom: 2px solid #f4f4f450;
+}
+
 .prev-card, .next-card {
   background: transparent;
-  text-align: left !important;
+  -webkit-filter: none;
+  filter: none;
+}
+
+#prev-proj, #next-proj {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  color: #f4f4f4;
+}
+
+#prev-proj::after, #next-proj::after {
+  display: none;
 }
 
 /* Footer */
@@ -664,9 +689,32 @@ hr {
 
 /* Tapcast & Moxtra & Spotify */
 
-#tapcast-greetings, #moxtra-greetings, #spotify-greetings  {
+#tapcast-greetings, #moxtra-greetings, #spotify-greetings {
   margin-top: 6rem;
   padding: 5em 0;
+}
+
+#tapcast-secondary, #moxtra-secondary, #spotify-secondary {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+#tapcast-secondary {
+  color: #FF4F81;
+}
+
+#moxtra-secondary {
+  color: #0052FF;
+}
+
+#spotify-secondary {
+  color: #1DB954;
+}
+
+#tapcast-secondary::after, #moxtra-secondary::after, #spotify-secondary::after {
+  display: none;
 }
 
 /* Not Found */
@@ -723,7 +771,7 @@ hr {
     background: #4724F7;
     border: 1px solid #4724F7;
     color: #fff !important;
-    border-radius: 30px;
+    /* border-radius: 30px; */
   }
 } 
 
@@ -786,13 +834,13 @@ hr {
     background: #4724F7;
     color: #fff !important;
     border: #4724F7 2px solid;
-    border-radius: 30px;
+    /* border-radius: 30px; */
   }
   .btn:hover, .btn:active, .btn:focus {
     background: #4724F7;
     border: 2px solid #4724F7;
     color: #fff !important;
-    border-radius: 30px;
+    /* border-radius: 30px; */
   }
   /* .btn {
     background: #F8F8F8;

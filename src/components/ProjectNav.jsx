@@ -19,29 +19,27 @@ class ProjectNav extends React.Component {
     let nextButton;
 
     if (window.location.pathname === "/projects/tapcast") {
-      prevButton = <Link exact to="/projects/moxtra"><a className="btn">View Project</a></Link>
-      nextButton = <Link exact to="/projects/spotify"><a className="btn">View Project</a></Link>
+      prevButton = <Link exact to="/projects/moxtra"><a className="project-navlink">Moxtra</a></Link>
+      nextButton = <Link exact to="/projects/spotify"><a className="project-navlink">Spotify</a></Link>
     } else if (window.location.pathname === "/projects/moxtra") {
-      prevButton = <Link exact to="/projects/tapcast"><a className="btn">View Project</a></Link>
-      nextButton = <Link exact to="/projects/spotify"><a className="btn">View Project</a></Link>
+      prevButton = <Link exact to="/projects/tapcast"><a className="project-navlink">tapcast</a></Link>
+      nextButton = <Link exact to="/projects/spotify"><a className="project-navlink">Spotify</a></Link>
     } else {
-      prevButton = <Link exact to="/projects/tapcast"><a className="btn">View Project</a></Link>
-      nextButton = <Link exact to="/projects/moxtra"><a className="btn">View Project</a></Link>
+      prevButton = <Link exact to="/projects/tapcast"><a className="project-navlink">Tapcast</a></Link>
+      nextButton = <Link exact to="/projects/moxtra"><a className="project-navlink">Moxtra</a></Link>
     }
 
     return (
       <Row className="project-nav">
       <Col md="6">
-        <Card body className="prev-card">
-          <CardTitle>See Prev</CardTitle>
-          <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
+        <Card body className="prev-card text-left">
+          <h6 className="secondary-header" id="prev-proj">previous project</h6>
           {prevButton}
         </Card>
       </Col>
       <Col md="6">
-        <Card body className="next-card">
-          <CardTitle>See Next</CardTitle>
-          <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
+        <Card body className="next-card text-right">
+        <h6 className="secondary-header" id="next-proj">next project</h6>
           {nextButton}
         </Card>
       </Col>
