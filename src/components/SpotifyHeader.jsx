@@ -16,8 +16,8 @@ class SpotifyHeader extends React.Component {
   render() {
     return (
         <Container>
-          <Col md="9" className="spotify-header">
-            <h1 className="headline">Controlling your music through gestures and sounds</h1>
+          <Col md="9" className="greetings" id="spotify-greetings">
+            <h1 className="headline" id="spotify-headline">Controlling your music through gestures and sounds</h1>
             <Badge color="primary" pill>Primary</Badge>
           </Col>
         </Container>

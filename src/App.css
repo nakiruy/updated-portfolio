@@ -662,37 +662,11 @@ hr {
 }
 
 
-/* Tapcast */
+/* Tapcast & Moxtra & Spotify */
 
-.tapcast-header {
-  top: 50%;
-  width: 100%;
-  padding: 5em 1em 5em 1em;
-  text-align: left;
-  letter-spacing: 0.1rem;
-  margin: 3rem 0;
-}
-
-/* Moxtra */
-
-.moxtra-header {
-  top: 50%;
-  width: 100%;
-  padding: 5em 1em 5em 1em;
-  text-align: left;
-  letter-spacing: 0.1rem;
-  margin: 3rem 0;
-}
-
-/* Spotify */
-
-.spotify-header {
-  top: 50%;
-  width: 100%;
-  padding: 5em 1em 5em 1em;
-  text-align: left;
-  letter-spacing: 0.1rem;
-  margin: 3rem 0;
+#tapcast-greetings, #moxtra-greetings, #spotify-greetings  {
+  margin-top: 6rem;
+  padding: 5em 0;
 }
 
 /* Not Found */
@@ -790,7 +764,7 @@ hr {
     border: #fff 1em solid;
     border-bottom: none;
   }
-  .greetings, .tapcast-header, .moxtra-header, .spotify-header {
+  .greetings {
     margin: 100px 0 0 0;
   }
   .highlight, .highlight-moxtra {
