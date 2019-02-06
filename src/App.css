@@ -76,6 +76,9 @@ a:hover, a:focus, a:active {
 
 .nav-link {
   padding: 0;
+  -webkit-transition: all .1s ease-in-out;
+  -moz-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
 }
 
 .navbar-nav .nav-link {
@@ -99,9 +102,6 @@ a:hover, a:focus, a:active {
 .nav-link:hover, .nav-link:active, .nav-link:focus {
   color: #1C1B1F !important;
   border-bottom: 2px solid rgba(71,36,247, 0.5);
-  -webkit-transition: all .1s ease-in-out;
-  -moz-transition: all .1s ease-in-out;
-  transition: all .1s ease-in-out;
 }
 
 .Burger {
@@ -269,14 +269,14 @@ button:focus {
   filter: grayscale(100%);
   margin-bottom: 6rem;
   background-position: center center;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
 }
 
 .jumbotron:hover, .jumbotron:focus, .jumbotron:active {
   -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
   filter: grayscale(0%);
-  -webkit-transition: all .3s ease-in-out;
-  -moz-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
 }
 
 .secondary-header {
@@ -347,7 +347,7 @@ button:focus {
 .description-wrapper {
   background: #fff !important;
   margin-left: -17rem;
-  margin-right: 300px;
+  margin-right: 60%;
   box-shadow: 0 3px 10px -3px rgba(0, 0, 0, 0.15);
   border-radius: 0rem;
 }
@@ -355,7 +355,7 @@ button:focus {
 .moxtra-description-wrapper {
   background: #fff !important;
   margin-right: -18.3rem;
-  margin-left: 300px;
+  margin-left: 60%;
   box-shadow: 0 3px 10px -3px rgba(0, 0, 0, 0.15);
   border-radius: 0rem;
 }
@@ -456,14 +456,14 @@ button:focus {
   -webkit-filter: grayscale(100%);
   background: #f4f4f4;
   text-align: center;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
 }
 
 .card:hover {
   -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
   filter: grayscale(0%);
-  -webkit-transition: all .3s ease-in-out;
-  -moz-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
 }
 
 .card-img-top {
@@ -604,6 +604,9 @@ button:focus {
   border-radius: 50%;
   -webkit-filter: invert(100%);
   filter: invert(100%);
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
 }
 
 .contact-icon:hover {
@@ -611,9 +614,6 @@ button:focus {
   border: #fff 1px solid;
   -webkit-filter: invert(0%);
   filter: invert(0%);
-  -webkit-transition: all .3s ease-in-out;
-  -moz-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
 }
 
 #email-icon {
@@ -621,7 +621,7 @@ button:focus {
 }
 
 #ig-icon {
-  padding: 0.18rem 0.18rem 0.2rem 0.2rem;
+  padding: 3px;
 }
 
 /* Project Nav */
@@ -658,7 +658,7 @@ hr {
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 3px;
-  border: none;
+  border: 1px solid #1C1B1F;
 }
 
 
@@ -801,7 +801,7 @@ hr {
     padding: 0.2rem 0;
   }
   .jumbotron {
-    margin: -1.5rem -1.5rem 6rem 0;
+    margin: -1.8rem -1.8rem 0rem -1.8rem;
     -webkit-filter: none;
     filter: none;
   }
@@ -880,7 +880,7 @@ hr {
   .description-wrapper, .moxtra-description-wrapper {
     margin: 0;
     filter: none; 
-    -webkit-filter: none; 
+    -webkit-filter: none;
   }
 }
 

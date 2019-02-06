@@ -21,11 +21,12 @@ class Spotify extends React.Component {
       <div>
       <Container className="spotify">
         <Navigation />
+        <SpotifyHeader />
+        <SpotifyContent />
       </Container>
       <Container className="project-nav-wrapper" fluid>
         <ProjectNav />
       </Container>
-      <hr></hr>
       <Container className="footer" fluid>
         <Footer />
       </Container>
