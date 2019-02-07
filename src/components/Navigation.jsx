@@ -66,7 +66,11 @@ class Navigation extends React.Component {
     const classHide = this.state.isHide ? 'hide' : '';
     let conditionalLogo;
 
-    if (window.location.pathname.includes("/projects/")) {
+    if (window.location.pathname.includes("/tapcast")) {
+      conditionalLogo = <img className="logo-wback" src={logo} alt="Logo" />;
+    } else if (window.location.pathname.includes("/moxtra")) {
+      conditionalLogo = <img className="logo-wback" src={logo} alt="Logo" />;
+    } else if (window.location.pathname.includes("/spotify")) {
       conditionalLogo = <img className="logo-wback" src={logo} alt="Logo" />;
     } else {
       conditionalLogo = <img className="logo" src={logo} alt="Logo" />;
