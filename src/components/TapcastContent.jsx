@@ -1,9 +1,13 @@
 import React from 'react';
-import { Media, Jumbotron } from 'reactstrap';
+import { Media, Jumbotron, Container } from 'reactstrap';
 
 const TapcastContent = () => {
   return (
-    <Jumbotron className="tapcast-jumbo" fluid></Jumbotron>
+    <Container>
+      <Jumbotron className="tapcast-projpic" fluid>
+      </Jumbotron>
+      <h6 className="secondary-header tapcast-header">01. Intro</h6>
+    </Container>
   );
 };
 
