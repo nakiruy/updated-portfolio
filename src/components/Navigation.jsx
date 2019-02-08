@@ -17,6 +17,9 @@ import {
   Row } from 'reactstrap';
   
 import logo from '../assets/logo.png';
+import logotapcastcol from '../assets/logo-tapcastcol.png';
+import logomoxtracol from '../assets/logo-moxtracol.png';
+import logospotifycol from '../assets/logo-spotifycol.png';
 import SocialIcons from './SocialIcons';
 
 import { Slider } from 'react-burgers';
@@ -67,11 +70,11 @@ class Navigation extends React.Component {
     let conditionalLogo;
 
     if (window.location.pathname.includes("/tapcast")) {
-      conditionalLogo = <img className="logo-wback" src={logo} alt="Logo" />;
+      conditionalLogo = <img className="logo" src={logotapcastcol} alt="Logo" />;
     } else if (window.location.pathname.includes("/moxtra")) {
-      conditionalLogo = <img className="logo-wback" src={logo} alt="Logo" />;
+      conditionalLogo = <img className="logo" src={logomoxtracol} alt="Logo" />;
     } else if (window.location.pathname.includes("/spotify")) {
-      conditionalLogo = <img className="logo-wback" src={logo} alt="Logo" />;
+      conditionalLogo = <img className="logo" src={logospotifycol} alt="Logo" />;
     } else {
       conditionalLogo = <img className="logo" src={logo} alt="Logo" />;
     }

@@ -74,13 +74,6 @@ a:hover, a:focus, a:active {
   margin-left: 9px;
 }
 
-.logo-wback {
-  width: 35px;
-  margin-left: 9px;
-  filter: grayscale(100%) brightness(2);
-  -webkit-filter: grayscale(100%) brightness(2);
-}
-
 .nav-link {
   padding: 0;
   -webkit-transition: all .1s ease-in-out;
@@ -682,9 +675,10 @@ hr {
 }
 
 .card-title {
-  margin-top: -3rem;
+  margin-top: -4rem;
   font-size: 0.75rem;
-  text-transform: uppercase;
+  text-transform: lowercase;
+  letter-spacing: 3px;
 }
 
 .card-text:last-child {
