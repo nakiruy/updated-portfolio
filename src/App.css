@@ -617,8 +617,7 @@ button:focus {
 }
 
 hr {
-  border: 1px solid #4724F7;
-  margin: 0 auto;
+  margin-top: 1rem;
 }
 
 #copyright-copy {
@@ -698,6 +697,10 @@ hr {
 .text-left {
   filter: none;
   -webkit-filter: none;
+}
+
+#top-header {
+  margin-top: 3rem;
 }
 
 /* Project Nav */
