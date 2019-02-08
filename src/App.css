@@ -502,8 +502,7 @@ button:focus {
 
 .insta-card:hover {
   background: #1C1B1F;
-  border: #fff 2px solid;
-  border-radius: 70px;
+  border: #1C1B1F 2px solid;
   color: #fff !important;
 }
 
@@ -836,7 +835,7 @@ hr {
     filter: none;
   }
   .spotify-jumbo.jumbotron, .tapcast-jumbo.jumbotron, .moxtra-jumbo.jumbotron {
-    margin: -0.05rem -1.5rem 0rem -1.5rem;
+    margin: -1.5rem -1.5rem 3rem -1.5rem;
   }
   .btn {
     background: #4724F7;
