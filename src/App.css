@@ -642,14 +642,17 @@ hr {
 
 #tapcast-secondary, .tapcast-color, .tapcast-color::after {
   color: #FF4F81;
+  font-size: 1rem;
 }
 
 #moxtra-secondary, .moxtra-color, .moxtra-color::after {
   color: #0052FF;
+  font-size: 1rem;
 }
 
 #spotify-secondary, .spotify-color, .spotify-color::after {
   color: #1DB954;
+  font-size: 1rem;
 }
 
 .tapcast-color::after {
@@ -673,9 +676,40 @@ hr {
   z-index: -1;
 }
 
+.tapcast-projpic {
+  background-image: url("../src/assets/tapcastproj2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: none;
+  -webkit-filter: none;
+  width: 100%;
+  height: 400px;
+}
+
+.moxtra-projpic {
+  background-image: url("../src/assets/moxtraproj2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: none;
+  -webkit-filter: none;
+  width: 100%;
+  height: 400px;
+}
+
+.spotify-projpic {
+  background-image: url("../src/assets/spotifyproj2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: none;
+  -webkit-filter: none;
+  width: 100%;
+  height: 400px;
+}
+
 .card-title {
   margin-top: -4rem;
-  font-size: 0.75rem;
+  font-size: 0.9em;
+  font-weight: 700;
   text-transform: lowercase;
   letter-spacing: 3px;
 }
@@ -684,7 +718,7 @@ hr {
   margin-bottom: 0;
   letter-spacing: 1px;
   font-style: italic;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 .text-left {
