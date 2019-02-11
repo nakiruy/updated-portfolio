@@ -10,25 +10,28 @@ const SpotifyContent = () => {
         <Card className="text-left">
           <CardBody>
             <CardTitle className="spotify-color">Role</CardTitle>
-            <CardText>UX, UI...</CardText>
+            <CardText>UI/UX, Research</CardText>
           </CardBody>
         </Card>
         <Card className="text-left">
           <CardBody>
-            <CardTitle className="spotify-color">Timeline</CardTitle>
-            <CardText>Early 2018</CardText>
+            <CardTitle className="spotify-color">Duration</CardTitle>
+            <CardText>Summer 2018</CardText>
           </CardBody>
         </Card>
         <Card className="text-left">
           <CardBody>
             <CardTitle className="spotify-color">Tools</CardTitle>
-            <CardText>Sketch...</CardText>
+            <CardText>Sketch, InVision, Trello, Paper & Pen</CardText>
           </CardBody>
         </Card>
       </CardGroup>
       <Col className="spotify-process">
         <hr></hr>
         <h6 className="secondary-header spotify-color">01. The Beginning</h6>
+        <Media body>
+          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+        </Media>
         <h6 className="secondary-header spotify-color" id="top-header">02. The Challenge</h6>
         <Media body>
           Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
