@@ -30,7 +30,9 @@ const TapcastContent = () => {
         <hr></hr>
         <h6 className="secondary-header tapcast-color">01. The Beginning</h6>
         <Media body>
-          Tapcast is a data-driven, marketing intelligence platform aimed to help people to understand and scale their audiences. After the initial platform 2.0 release, we (Product) often discussed how we could improve UX and possibly UI of the new Platform. As a project manager with design and technical chops, I decided to tackle this as my own side project to revamp the Tapcast platform.
+          Tapcast is a data-driven, marketing intelligence platform aimed to help people to understand and scale their audiences. 
+          After the initial platform 2.0 release, we (Product) often discussed how we could improve UX and possibly redesign the UI of the new Platform. 
+          As a project manager with design and technical chops, I decided to tackle this as my own side project to revamp the Tapcast platform from branding, visual components, onboarding, and most of all, experience.
         </Media>
         <h6 className="secondary-header tapcast-color" id="top-header"><span className="bold">02.</span> The Challenge</h6>
         <Media body>
@@ -40,7 +42,7 @@ const TapcastContent = () => {
           In addition, the concepts around the Tapcast platform are complicated and requires a ramp-up period. Why? 
           The focus of this platform is to provide insights and help demystify your Facebook audiences. Advertising on Facebook can be confusing and complicated (read here, here, here). 
           Without a baseline knowledge of advertising on Facebook, it will be a challenge for any users to understand the purpose of Tapcast. 
-          In other words, this product is not for everybody. Regardless, I believe design is a necessary component to a successful business and decided to immerse myself into this project.
+          In other words, this product is not for everybody. Then, how do you create a platform that is comprehensive and comprehensible - all while keeping in mind of engineering resources? I decided to immerse myself into this particular problem.
         </Media>
         <h6 className="secondary-header tapcast-color">03. The Research</h6>
         <Media body>
