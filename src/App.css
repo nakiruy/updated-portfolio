@@ -259,6 +259,7 @@ button:focus {
   border: 2px solid #4724F7;
   color: #fff !important;
   /* border-radius: 30px; */
+  box-shadow: 0 3px 10px rgba(71, 36, 247, 0.15); 
 }
 
 .jumbotron {
@@ -504,6 +505,7 @@ button:focus {
   background: #1C1B1F;
   border: #1C1B1F 2px solid;
   color: #fff !important;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15); 
 }
 
 .carousel-item > img { 
@@ -537,6 +539,7 @@ button:focus {
   font-size: 1.8rem;
   font-weight: 700;
   color: #fff;
+  padding: 0.5rem 0;
 }
 
 #contact-btn {
@@ -546,6 +549,7 @@ button:focus {
   border: #ffffff80 0.1rem solid;
   font-family: 'Lato', sans-serif;
   color:#fff !important;
+  padding: 1rem;
 }
 
 #contact-btn:hover, #contact-btn:active, #contact-btn:focus {
@@ -555,6 +559,7 @@ button:focus {
   background: #fff;
   /* color: #4724F7; */
   color: #4724F7 !important;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15); 
 }
 
 /* SocialIcons */
@@ -588,6 +593,7 @@ button:focus {
   border: #fff 1px solid;
   -webkit-filter: invert(0%);
   filter: invert(0%);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15); 
 }
 
 #email-icon {
