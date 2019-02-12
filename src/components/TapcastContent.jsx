@@ -30,11 +30,17 @@ const TapcastContent = () => {
         <hr></hr>
         <h6 className="secondary-header tapcast-color">01. The Beginning</h6>
         <Media body>
-          Tapcast is a data-driven, marketing intelligence platform aimed to help people to understand and scale their audiences. After the initial Platform 2.0 release, we (Product) often discussed how we could improve UX and possibly UI of the new Platform. As a project manager with design and technical chops, I decided to tackle this as my own side project to revamp the Tapcast Platform.
+          Tapcast is a data-driven, marketing intelligence platform aimed to help people to understand and scale their audiences. After the initial platform 2.0 release, we (Product) often discussed how we could improve UX and possibly UI of the new Platform. As a project manager with design and technical chops, I decided to tackle this as my own side project to revamp the Tapcast platform.
         </Media>
         <h6 className="secondary-header tapcast-color" id="top-header"><span className="bold">02.</span> The Challenge</h6>
         <Media body>
-          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+          As with any startup, the biggest challenge for this project was the lack of resources. 
+          In particular, we were in dire need of engineering resources. 
+          With only two full-time developers and one part-time developer, it was a difficult proposition to focus limited engineering resources on the redesigning of the platform (I’ll expand more on this later). 
+          In addition, the concepts around the Tapcast platform are complicated and requires a ramp-up period. Why? 
+          The focus of this platform is to provide insights and help demystify your Facebook audiences. Advertising on Facebook can be confusing and complicated (read here, here, here). 
+          Without a baseline knowledge of advertising on Facebook, it will be a challenge for any users to understand the purpose of Tapcast. 
+          In other words, this product is not for everybody. Regardless, I believe design is a necessary component to a successful business and decided to immerse myself into this project.
         </Media>
         <h6 className="secondary-header tapcast-color">03. The Research</h6>
         <Media body>
