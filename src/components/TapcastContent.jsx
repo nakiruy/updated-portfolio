@@ -43,10 +43,14 @@ const TapcastContent = () => {
           The focus of this platform is to provide insights and help demystify your Facebook audiences. Advertising on Facebook can be confusing and complicated (read here, here, here). 
           Without a baseline knowledge of advertising on Facebook, it will be a challenge for any users to understand the purpose of Tapcast. 
           In other words, this product is not for everybody. Then, how do you create a platform that is comprehensive and comprehensible - all while keeping in mind of engineering resources? I decided to immerse myself into this particular problem.
+          [Add image of Tapcast v2.0 here]
         </Media>
         <h6 className="secondary-header tapcast-color">03. The Research</h6>
         <Media body>
-          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+          To begin, I decided to research our competitors. Fortunately, Facebook has a handy directory (https://www.facebook.com/business/solutions-explorer/) of their marketing partners and most offer free trials of their product. After comparing and contrasting a handful of companies and coupled with watching few user sessions, I identified the major bottleneck in the experience of our software. Our onboarding simply lacked. For a platform with complicated concepts, we provided very little guidance to our users. How can we expect users to convert without understanding the value of our software? So I sketched up possible solutions: 
+          With iterations and wireframes:
+          To be competitive, I felt like our platform also needed some serious rebranding. I aimed for a modern, clean, simple look while being respectful of the previous design. Logo was the first victim here:
+          [Add previous logo to new logo here]
         </Media>
         <h6 className="secondary-header tapcast-color">04. The Process</h6>
         <Media body>

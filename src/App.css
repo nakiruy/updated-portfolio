@@ -714,17 +714,17 @@ hr {
 
 .card-title {
   margin-top: -4rem;
-  font-size: 0.9em;
   font-weight: 700;
   text-transform: lowercase;
   letter-spacing: 3px;
+  font-size: 1.1rem;
 }
 
 .card-text:last-child {
   margin-bottom: 0;
   letter-spacing: 1px;
   font-style: italic;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 .text-left {
@@ -734,6 +734,11 @@ hr {
 
 #top-header {
   margin-top: 3rem;
+}
+
+.media-body {
+  font-size: 1.2rem;
+  line-height: 2;
 }
 
 /* Project Nav */
