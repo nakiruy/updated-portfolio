@@ -58,7 +58,7 @@ a:hover, a:focus, a:active {
 
 .ml-auto {
   cursor: pointer;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 .ml-auto:active, .ml-auto:hover, .ml-auto:focus {
