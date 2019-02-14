@@ -47,18 +47,20 @@ const TapcastContent = () => {
         </Media>
         <h6 className="secondary-header tapcast-color">03. The Process</h6>
         <Media body>
-          To begin, I decided to research our competitors. Fortunately, Facebook has a handy directory (https://www.facebook.com/business/solutions-explorer/) of their marketing partners and most offer free trials of their product. After comparing and contrasting a handful of companies and coupled with watching few user sessions, I identified the major bottleneck in the experience of our software. Our onboarding simply lacked. For a platform with complicated concepts, we provided very little guidance to our users. How can we expect users to convert without understanding the value of our software? So I sketched up possible solutions: 
+          To begin, I decided to research our competitors. Fortunately, Facebook has a handy directory (https://www.facebook.com/business/solutions-explorer/) of their marketing partners and most offer free trials of their product. After comparing and contrasting a handful of companies and coupled with watching few user sessions/demo recap calls with our Sales team, I identified the major bottleneck in the experience of our software. Our onboarding simply lacked. For a platform with complicated concepts, we provided very little guidance to our users. How can we expect users to convert without understanding the value of our software? So I sketched up possible solutions: 
           With iterations and wireframes:
           To be competitive, I felt like our platform also needed some serious rebranding. I aimed for a modern, clean, simple look while being respectful of the previous design. Logo was the first victim here:
           [Add previous logo to new logo here]
+          Now I had something to work off of, I started to iteratively build the potential final product.
         </Media>
         <h6 className="secondary-header tapcast-color">04. The Solution</h6>
         <Media body>
-          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+          [Add Final images/prototype here]
         </Media>
         <h6 className="secondary-header tapcast-color"><span className="bold">05.</span> The End</h6>
         <Media body>
-          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+          Although this project never took off to be in a development sprint, it was extremely valuable to my own capability to design with numerous constraints. As such, one of the biggest challenges to this project was to design a Platform where custom UI components had to be negligible for engineering and limit to components that are found in Material UI (https://material-ui.com) without sacrificing the look of Tapcast brand. In addition, we had to play nice with Facebook app review policies and formulate UX flows that abided by their policies. If this project was ever green-lighted for development, I would have worked closely with the engineers to determine if we can create custom UI from the above library without sacrificing a lot of developer time. 
+          To add, there are definitely some scenarios that I did not solve with this project - what if user’s free trial expires before they upgrade? What if a new user decides not to follow the Get Started checklist? What if they do not have a pre-existing ad account on Facebook? I would love to tackle these issues if this project ever found itself in Product again.
         </Media>
       </Col>
     </Container>
