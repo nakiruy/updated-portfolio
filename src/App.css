@@ -21,7 +21,12 @@ body {
   background: #1C1B1F;
 }
 
+a {
+  color: #1C1B1F;
+}
+
 a:hover, a:focus, a:active {
+  color: #1C1B1F;
   text-decoration: none;
 }
 
@@ -341,8 +346,13 @@ button:focus {
 }
 
 .lead {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: 400;
+  font-family: 'Georgia', serif;
+}
+
+#btn-moxtra, #btn-tapcast, #btn-spotify {
+  font-family: 'Lato', sans-serif;
 }
 
 .description-wrapper {
@@ -397,6 +407,7 @@ button:focus {
   margin-bottom: 1rem;
   white-space: pre-wrap;
   font-weight: 300;
+  font-family: 'Georgia', serif;
 }
 
 .chunky-underline {
@@ -407,6 +418,26 @@ button:focus {
   background-position: 0 90%;
   transition: background-size 0.25s ease-in;
   font-weight: 400;
+}
+#tapcast-underline-color {
+  background-image: linear-gradient(120deg, #FF4F8140 10%, #FF4F8140 110%); 
+}
+
+.tapcast-links {
+  color: #1C1B1F;
+  text-decoration: none;
+  background-image: linear-gradient(120deg, #FF4F81 10%, #FF4F81 110%); 
+  background-repeat: no-repeat;
+  background-size: 100% 0.15em;
+  background-position: 0 100%;
+  transition: background-size 0.25s ease-in;
+  font-weight: 400;
+}
+
+.tapcast-links:hover, .tapcast-links:active, .tapcast-links:focus {
+  background-size: 100% 90%;
+  color: #fff;
+  font-style: normal;
 }
 
 #getintouch {
@@ -739,6 +770,8 @@ hr {
 .media-body {
   font-size: 1.2rem;
   line-height: 2;
+  font-weight: 300;
+  font-family: 'Georgia', serif;
 }
 
 /* Project Nav */
