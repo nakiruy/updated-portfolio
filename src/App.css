@@ -429,15 +429,15 @@ button:focus {
   text-decoration: none;
   background-image: linear-gradient(120deg, #FF4F81 10%, #FF4F81 110%); 
   background-repeat: no-repeat;
-  background-size: 100% 0.15em;
-  background-position: 0 100%;
-  transition: background-size 0.25s ease-in;
+  background-size: 100% 0.12em;
+  background-position: 0 95%;
+  transition: color 0.25s ease-in-out;
   font-weight: 400;
 }
 
 .tapcast-links:hover, .tapcast-links:active, .tapcast-links:focus {
-  background-size: 100% 90%;
-  color: #fff;
+  background-size: 0%;
+  color: #FF4F81;
   font-style: normal;
 }
 
@@ -446,15 +446,15 @@ button:focus {
   text-decoration: none;
   background-image: linear-gradient(120deg, #0052FF 10%, #0052FF 110%); 
   background-repeat: no-repeat;
-  background-size: 100% 0.15em;
-  background-position: 0 100%;
-  transition: background-size 0.25s ease-in;
+  background-size: 100% 0.12em;
+  background-position: 0 95%;
+  transition: color 0.25s ease-in-out;
   font-weight: 400;
 }
 
 .moxtra-links:hover, .moxtra-links:active, .moxtra-links:focus {
-  background-size: 100% 90%;
-  color: #fff;
+  background-size: 0%;
+  color: #0052FF;
   font-style: normal;
 }
 
@@ -463,15 +463,15 @@ button:focus {
   text-decoration: none;
   background-image: linear-gradient(120deg, #1DB954 10%, #1DB954 110%); 
   background-repeat: no-repeat;
-  background-size: 100% 0.15em;
-  background-position: 0 100%;
-  transition: background-size 0.25s ease-in;
+  background-size: 100% 0.12em;
+  background-position: 0 95%;
+  transition: color 0.25s ease-in-out;
   font-weight: 400;
 }
 
 .spotify-links:hover, .spotify-links:active, .spotify-links:focus {
-  background-size: 100% 90%;
-  color: #fff;
+  background-size: 0%;
+  color: #1DB954;
   font-style: normal;
 }
 
@@ -480,15 +480,15 @@ button:focus {
   text-decoration: none;
   background-image: linear-gradient(120deg, #9F54CC 10%, #4724f7 110%); 
   background-repeat: no-repeat;
-  background-size: 100% 0.15em;
-  background-position: 0 100%;
-  transition: background-size 0.25s ease-in;
+  background-size: 100% 0.12em;
+  background-position: 0 95%;
+  transition: color 0.25s ease-in-out;
   font-weight: 700;
 }
 
 #getintouch:hover, #getintouch:active, #getintouch:focus {
-  background-size: 100% 90%;
-  color: #fff;
+  background-size: 0%;
+  color: #4724f7;
   font-style: normal;
 }
 
