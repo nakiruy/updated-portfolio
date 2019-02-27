@@ -402,7 +402,7 @@ button:focus {
 }
 
 .about-desc {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   line-height: 1.8em;
   margin-bottom: 1rem;
   white-space: pre-wrap;
@@ -418,6 +418,7 @@ button:focus {
   background-position: 0 90%;
   transition: background-size 0.25s ease-in;
   font-weight: 400;
+  font-style: italic;
 }
 #tapcast-underline-color {
   background-image: linear-gradient(120deg, #FF4F8140 10%, #FF4F8140 110%); 
@@ -435,6 +436,40 @@ button:focus {
 }
 
 .tapcast-links:hover, .tapcast-links:active, .tapcast-links:focus {
+  background-size: 100% 90%;
+  color: #fff;
+  font-style: normal;
+}
+
+.moxtra-links {
+  color: #1C1B1F;
+  text-decoration: none;
+  background-image: linear-gradient(120deg, #0052FF 10%, #0052FF 110%); 
+  background-repeat: no-repeat;
+  background-size: 100% 0.15em;
+  background-position: 0 100%;
+  transition: background-size 0.25s ease-in;
+  font-weight: 400;
+}
+
+.moxtra-links:hover, .moxtra-links:active, .moxtra-links:focus {
+  background-size: 100% 90%;
+  color: #fff;
+  font-style: normal;
+}
+
+.spotify-links {
+  color: #1C1B1F;
+  text-decoration: none;
+  background-image: linear-gradient(120deg, #1DB954 10%, #1DB954 110%); 
+  background-repeat: no-repeat;
+  background-size: 100% 0.15em;
+  background-position: 0 100%;
+  transition: background-size 0.25s ease-in;
+  font-weight: 400;
+}
+
+.spotify-links:hover, .spotify-links:active, .spotify-links:focus {
   background-size: 100% 90%;
   color: #fff;
   font-style: normal;
@@ -922,12 +957,14 @@ hr {
     background: #4724F7;
     color: #fff !important;
     border: #4724F7 2px solid;
+    box-shadow: 0 3px 10px rgba(71, 36, 247, 0.15); 
     /* border-radius: 30px; */
   }
   .btn:hover, .btn:active, .btn:focus {
     background: #4724F7;
     border: 2px solid #4724F7;
     color: #fff !important;
+    box-shadow: 0 3px 10px rgba(71, 36, 247, 0.15); 
     /* border-radius: 30px; */
   }
   .display-3 {
@@ -977,6 +1014,7 @@ hr {
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15); 
   }
   .description-wrapper, .moxtra-description-wrapper {
     margin: 0;

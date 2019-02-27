@@ -30,11 +30,17 @@ const SpotifyContent = () => {
         <hr></hr>
         <h6 className="secondary-header spotify-color">01. The Beginning</h6>
         <Media body>
-          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+        When internet caught on <a href="https://www.spotify.com/"><span className="spotify-links">Spotify</span></a> was testing a driving mode on their Android app back in 2017, there was sizable anticipation for the new mode which allows for a safer, music-listening experience. However, as Spotify started rolling out the mode to real users, a plague of complaints flooded the internet.
+        [ADD SCREENSHOTS OF USER COMPLAINTS BELOW]
+        https://community.spotify.com/t5/Android/Driving-Mode-Woes/td-p/4532127
+        https://community.spotify.com/t5/Android/Stupid-Car-Mode/td-p/4530902
+        Intrigued by the negative feedbacks, I had to take on this challenge to improve the user experience while still accomplishing the goal for a distraction-free driving interface. 
         </Media>
         <h6 className="secondary-header spotify-color" id="top-header">02. The Challenge</h6>
         <Media body>
-          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+        Setting aside the buggy nature of car mode, there were quite a lot of experience issues to tackle. Here are some of the most common grievances as reported by the earliest adopters: 
+        [ADD COMMON COMPLAINTS YOU TACKLED IN THE NEW ONBOARDING FLOW HERE]
+        [ADD SUMMARY + HANDS-FREE REASONING HERE]
         </Media>
         <h6 className="secondary-header spotify-color">03. The Process</h6>
         <Media body>
