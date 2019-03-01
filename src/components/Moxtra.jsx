@@ -6,6 +6,7 @@ import { Container, Row, Col } from 'reactstrap';
 import MoxtraHeader from './MoxtraHeader';
 import MoxtraContent from './MoxtraContent';
 import ProjectNav from './ProjectNav';
+import ScrollUpButton from './ScrollUpButton';
 import Footer from './Footer';
 
 
@@ -29,6 +30,7 @@ class Moxtra extends React.Component {
         <ProjectNav />
       </Container>
       <Container className="footer" fluid>
+        <ScrollUpButton />
         <Footer />
       </Container>
     </div>

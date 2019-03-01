@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import { Container, Row, Col, Badge } from 'reactstrap';
+import ScrollToTop from 'react-scroll-up';
 
 class ScrollUpButton extends React.Component {
   constructor(props) {
@@ -13,9 +14,10 @@ class ScrollUpButton extends React.Component {
 
   render() {
     return (
-        <Container>
-          <Col className="scroll-up">
-          </Col>
+        <Container className="scroll-up">
+          <ScrollToTop showUnder={160}>
+            <span>UP</span>
+          </ScrollToTop>
         </Container>
     )
   }

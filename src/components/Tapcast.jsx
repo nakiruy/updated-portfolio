@@ -6,6 +6,7 @@ import Navigation from './Navigation';
 import TapcastHeader from './TapcastHeader';
 import TapcastContent from './TapcastContent';
 import ProjectNav from './ProjectNav';
+import ScrollUpButton from './ScrollUpButton';
 import Footer from './Footer';
 
 class Tapcast extends React.Component {
@@ -28,6 +29,7 @@ class Tapcast extends React.Component {
         <ProjectNav />
       </Container>
       <Container className="footer" fluid>
+        <ScrollUpButton />
         <Footer />
       </Container>
     </div>

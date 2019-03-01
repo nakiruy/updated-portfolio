@@ -6,6 +6,7 @@ import Navigation from './Navigation';
 import SpotifyHeader from './SpotifyHeader';
 import SpotifyContent from './SpotifyContent';
 import ProjectNav from './ProjectNav';
+import ScrollUpButton from './ScrollUpButton';
 import Footer from './Footer';
 
 class Spotify extends React.Component {
@@ -28,6 +29,7 @@ class Spotify extends React.Component {
         <ProjectNav />
       </Container>
       <Container className="footer" fluid>
+        <ScrollUpButton />
         <Footer />
       </Container>
       </div>
