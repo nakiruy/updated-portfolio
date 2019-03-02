@@ -16,7 +16,7 @@ class ScrollUpButton extends React.Component {
     return (
         <Container className="scroll-up">
           <ScrollToTop showUnder={160}>
-            <span>UP</span>
+            <span className="scroll-up-btn"></span>
           </ScrollToTop>
         </Container>
     )
