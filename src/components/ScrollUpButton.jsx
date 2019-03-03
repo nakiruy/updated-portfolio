@@ -15,7 +15,7 @@ class ScrollUpButton extends React.Component {
   render() {
     return (
         <Container className="scroll-up">
-          <ScrollToTop showUnder={160}>
+          <ScrollToTop showUnder={200}>
             <span className="scroll-up-btn"></span>
           </ScrollToTop>
         </Container>

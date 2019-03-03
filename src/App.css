@@ -1045,6 +1045,14 @@ hr {
     margin-top: -10rem;
     margin-bottom: 6rem;
   }
+  .card-text:last-child {
+    margin-bottom: 3rem;
+  }
+  .scroll-up-btn {
+    width: 10px;
+    height: 10px;
+    margin: -5px 3px;
+  }
 }
 
 
