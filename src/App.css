@@ -291,7 +291,7 @@ button:focus {
   color: #4724F7;
   margin-top: 6rem;
   margin-bottom: 1.5rem;
-  /* font-size: 0.8rem; */
+  font-size: 0.9rem;
   font-weight: 400;
   letter-spacing: 3px;
 }
@@ -735,8 +735,18 @@ hr {
 .process-heading {
   font-family: 'Playfair Display', serif;
   font-size: 1.8rem;
-  font-weight: 700;
+  font-weight: 800;
   color: #1C1B1F;
+}
+
+.numbers {
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  margin-top: 6rem;
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+  font-weight: 400;
+  letter-spacing: 3px;
 }
 
 #tapcast-greetings, #moxtra-greetings, #spotify-greetings {
