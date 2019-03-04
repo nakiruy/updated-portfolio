@@ -30,7 +30,7 @@ const TapcastContent = () => {
       <Col className="tapcast-process">
         <Row>
           <Col lg="4">
-            <h6 className="secondary-header process-heading"><div className="numbers">01.</div>The Beginning</h6>
+            <h6 className="secondary-header process-heading"><div className="numbers tapcast-color">01.</div>The Beginning</h6>
           </Col>
           <Col lg="8">
             <Media body>
@@ -42,7 +42,7 @@ const TapcastContent = () => {
           </Row>
           <Row>
             <Col lg="4">
-              <h6 className="secondary-header process-heading"><div className="numbers">02.</div> The Challenge</h6>
+              <h6 className="secondary-header process-heading"><div className="numbers tapcast-color">02.</div> The Challenge</h6>
             </Col>
             <Col lg="8">
               <Media body>
@@ -55,7 +55,7 @@ const TapcastContent = () => {
           </Row>
           <Row>
             <Col lg="4">
-              <h6 className="secondary-header process-heading"><div className="numbers">03.</div> The Process</h6>
+              <h6 className="secondary-header process-heading"><div className="numbers tapcast-color">03.</div> The Process</h6>
             </Col>
             <Col lg="8">
               <Media body>
@@ -72,7 +72,7 @@ const TapcastContent = () => {
           </Row>
           <Row>
             <Col lg="4">
-              <h6 className="secondary-header process-heading"><div className="numbers">04.</div> The Solution</h6>
+              <h6 className="secondary-header process-heading"><div className="numbers tapcast-color">04.</div> The Solution</h6>
             </Col>
             <Col lg="8">
               <Media body>
@@ -82,7 +82,7 @@ const TapcastContent = () => {
           </Row>
           <Row>
             <Col lg="4">
-              <h6 className="secondary-header process-heading"><div className="numbers">05.</div> The End</h6>
+              <h6 className="secondary-header process-heading"><div className="numbers tapcast-color">05.</div> The End</h6>
             </Col>
             <Col lg="8">
               <Media body>
