@@ -732,6 +732,13 @@ hr {
 
 /* Tapcast & Moxtra & Spotify */
 
+.process-heading {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #1C1B1F;
+}
+
 #tapcast-greetings, #moxtra-greetings, #spotify-greetings {
   margin-top: 6rem;
   padding: 5em 0;
@@ -748,17 +755,17 @@ hr {
 
 #tapcast-secondary, .tapcast-color, .tapcast-color::after {
   color: #FF4F81;
-  font-size: 1rem;
+  /* font-size: 1rem; */
 }
 
 #moxtra-secondary, .moxtra-color, .moxtra-color::after {
   color: #0052FF;
-  font-size: 1rem;
+  /* font-size: 1rem; */
 }
 
 #spotify-secondary, .spotify-color, .spotify-color::after {
   color: #1DB954;
-  font-size: 1rem;
+  /* font-size: 1rem; */
 }
 
 .tapcast-color::after {

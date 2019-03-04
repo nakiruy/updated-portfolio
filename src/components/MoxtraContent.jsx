@@ -28,11 +28,11 @@ const MoxtraContent = () => {
         </CardGroup>
         <hr></hr>
         <Col className="moxtra-process">
-          <h6 className="secondary-header moxtra-color">01. The Beginning</h6>
+          <h6 className="secondary-header process-heading">01. The Beginning</h6>
           <Media body>
             <a href="https://moxtra.com/"><span className="moxtra-links">Moxtra</span></a> is an embeddable, collaboration solution that allows its users to seamlessly integrate itself to power another software with collaboration features - messaging, file sharing, document sharing, video conferencing/chat, etc. It is widely available in iOS, Android, desktop, and web. 
             Their primary business focus is mobile first with Moxtra having their own native iOS app and featuring their own APIs and SDKs that allow integrations on other mobile platforms. During my time as a UI/UX Design Developer intern, we identified one of the pain points to the user experience to be the onboarding. As my time at Moxtra came to a close, I was tasked to improve and re-envision the onboarding of Moxtra’s mobile application.          </Media>
-          <h6 className="secondary-header moxtra-color" id="top-header">02. The Challenge</h6>
+          <h6 className="secondary-header process-heading">02. The Challenge</h6>
           <Media body>
           Frankly, when I signed up for Moxtra iOS app for the first time, I was quite unclear on what Moxtra offered out of the box. Personally, it was somewhat abrupt in its flow in addition to not nearly enough guidance provided as a new user. 
           [ADD ORIGINAL ONBOARDING FLOW HERE]
@@ -42,15 +42,15 @@ const MoxtraContent = () => {
           [ADD PERSONAS HERE]
           To summarize, the onboarding flow of Moxtra’s native iOS application required clearer messaging, better onboarding cues, and more consistent visual design.
           </Media>
-          <h6 className="secondary-header moxtra-color">03. The Process</h6>
+          <h6 className="secondary-header process-heading">03. The Process</h6>
           <Media body>
           Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
           </Media>
-          <h6 className="secondary-header moxtra-color">04. The Solution</h6>
+          <h6 className="secondary-header process-heading">04. The Solution</h6>
           <Media body>
           Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
           </Media>
-          <h6 className="secondary-header moxtra-color">05. The End</h6>
+          <h6 className="secondary-header process-heading">05. The End</h6>
           <Media body>
           Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
           </Media>
