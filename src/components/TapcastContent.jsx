@@ -28,7 +28,9 @@ const TapcastContent = () => {
       </CardGroup>
       <Col className="tapcast-process">
         <hr></hr>
+        <Col lg="9">
         <h6 className="secondary-header tapcast-color">01. The Beginning</h6>
+        </Col>
         <Media body>
           <a href="https://www.tapcast.io"><span className="tapcast-links">Tapcast</span></a> is a data-driven, marketing intelligence platform aimed to help people to understand and scale their audiences. <br></br><br></br>
           After the initial platform 2.0 release, I worked closely with product team as we often discussed how we could further improve UX and possibly redesign the UI of the new Platform. 

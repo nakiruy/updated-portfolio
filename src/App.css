@@ -110,7 +110,7 @@ a:hover, a:focus, a:active {
 }
 
 .Burger {
-  padding: 10px !important;
+  padding: 1rem 0.5rem !important;
 }
 
 button:focus {
@@ -301,7 +301,7 @@ button:focus {
   /* background: #1C1B1F50; */
   content: "";
   display: inline-block;
-  height: 1.5px;
+  height: 1px;
   width: 40px;
   position: relative;
   top: -4px;
@@ -1049,9 +1049,11 @@ hr {
     margin-bottom: 3rem;
   }
   .scroll-up-btn {
-    width: 10px;
-    height: 10px;
-    margin: -5px 3px;
+    margin: -5px 0px;
+  }
+  #projects {
+    margin-bottom: -5rem;
+    margin-top: 10rem;
   }
 }
 
