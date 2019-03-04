@@ -291,13 +291,13 @@ button:focus {
   color: #4724F7;
   margin-top: 6rem;
   margin-bottom: 1.5rem;
-  font-size: 0.8rem;
+  /* font-size: 0.8rem; */
   font-weight: 400;
   letter-spacing: 3px;
 }
 
 .secondary-header::after {
-  background: #4724F7;
+  /* background: #4724F7; */
   /* background: #1C1B1F50; */
   content: "";
   display: inline-block;
@@ -607,6 +607,21 @@ button:focus {
   margin: -10px 10px;
 }
 
+#tapcast-scroll-up {
+  border: #FF4F81 solid;
+  border-width: 0 2px 2px 0;
+}
+
+#moxtra-scroll-up {
+  border: #0052FF solid;
+  border-width: 0 2px 2px 0;
+}
+
+#spotify-scroll-up {
+  border: #1DB954 solid;
+  border-width: 0 2px 2px 0;
+}
+
 /* Contact */
 
 .contact {
@@ -747,15 +762,15 @@ hr {
 }
 
 .tapcast-color::after {
-  background: #FF4F81;
+  /* background: #FF4F81; */
 }
 
 .moxtra-color::after {
-  background: #0052FF;
+  /* background: #0052FF; */
 }
 
 .spotify-color::after {
-  background: #1DB954;
+  /* background: #1DB954; */
 }
 
 #tapcast-secondary::after, #moxtra-secondary::after, #spotify-secondary::after {
@@ -1022,13 +1037,13 @@ hr {
   }
   #insta-btn {
     margin-bottom: 8rem;
-    padding: 1rem;
+    padding: 1rem 0.8rem;
     border: 0rem;
     border-radius: 0rem;
     border: #4724F7 0.1rem solid;
     background: #4724F7;
     font-family: 'Lato', sans-serif;
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     color:#fff !important;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;

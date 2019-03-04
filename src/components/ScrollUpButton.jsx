@@ -13,10 +13,20 @@ class ScrollUpButton extends React.Component {
   }
 
   render() {
+    let dynamicId;
+
+    if (window.location.pathname === "/projects/tapcast") {
+      dynamicId = "tapcast-scroll-up";
+    } else if (window.location.pathname === "/projects/moxtra") {
+      dynamicId = "moxtra-scroll-up";
+    } else if (window.location.pathname === "/projects/spotify") {
+      dynamicId = "spotify-scroll-up";
+    }
+
     return (
         <Container className="scroll-up">
           <ScrollToTop showUnder={200}>
-            <span className="scroll-up-btn"></span>
+            <span className="scroll-up-btn" id={dynamicId}></span>
           </ScrollToTop>
         </Container>
     )
