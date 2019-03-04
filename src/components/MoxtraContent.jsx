@@ -1,5 +1,5 @@
 import React from 'react';
-import { Media, Col, Jumbotron, Container, Card, CardTitle, CardText, CardGroup, CardBody } from 'reactstrap';
+import { Media, Col, Row, Jumbotron, Container, Card, CardTitle, CardText, CardGroup, CardBody } from 'reactstrap';
 
 const MoxtraContent = () => {
   return (
@@ -26,8 +26,8 @@ const MoxtraContent = () => {
             </CardBody>
           </Card>
         </CardGroup>
+        <hr></hr>
         <Col className="moxtra-process">
-          <hr></hr>
           <h6 className="secondary-header moxtra-color">01. The Beginning</h6>
           <Media body>
             <a href="https://moxtra.com/"><span className="moxtra-links">Moxtra</span></a> is an embeddable, collaboration solution that allows its users to seamlessly integrate itself to power another software with collaboration features - messaging, file sharing, document sharing, video conferencing/chat, etc. It is widely available in iOS, Android, desktop, and web. 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Media, Col, Jumbotron, Container, Card, CardTitle, CardText, CardGroup, CardBody } from 'reactstrap';
+import { Media, Col, Row, Jumbotron, Container, Card, CardTitle, CardText, CardGroup, CardBody } from 'reactstrap';
 
 const SpotifyContent = () => {
   return (
@@ -26,8 +26,8 @@ const SpotifyContent = () => {
           </CardBody>
         </Card>
       </CardGroup>
+      <hr></hr>
       <Col className="spotify-process">
-        <hr></hr>
         <h6 className="secondary-header spotify-color">01. The Beginning</h6>
         <Media body>
         When internet caught on <a href="https://www.spotify.com/"><span className="spotify-links">Spotify</span></a> was testing a driving mode on their Android app back in 2017, there was sizable anticipation for the new mode which allows for a safer, music-listening experience. However, as Spotify started rolling out the mode to real users, a plague of complaints flooded the internet.
