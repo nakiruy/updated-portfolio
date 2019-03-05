@@ -61,7 +61,7 @@ const TapcastContent = () => {
               <Media body>
                 [ADD PROCESS OVERVIEW]
                 To kick off, I decided to research our competitors. Fortunately, Facebook has a <a href="https://www.facebook.com/business/solutions-explorer/"><span className="tapcast-links">handy directory</span></a> of their marketing partners. 
-                After comparing and contrasting a handful of companies and coupled with watching few user sessions/demo recap calls with our Sales team, it was clear that our onboarding simply lacked. [ADD COMPETITOR FLOW vs. OURS] For a platform with complicated concepts, we provided very little guidance to our users. How can we expect users to convert without conveying the value of the software? So I sketched up possible solutions: 
+                After comparing and contrasting a handful of companies and coupled with watching few user sessions/demo recap calls with our Sales team, it was clear that <span className="chunky-underline" id="tapcast-underline-color">our onboarding simply lacked</span>. [ADD COMPETITOR FLOW vs. OURS] For a platform with complicated concepts, we provided very little guidance to our users. How can we expect users to convert without conveying the value of the software? So I sketched up possible solutions: 
                 With iterations and wireframes:
                 To be competitive, I felt like our platform also needed some serious rebranding. I aimed for a modern, clean, simple look while being respectful of the previous design. I came up with a brand identity and here's the result in form of a logo:
                 [Add previous logo to new logo here]

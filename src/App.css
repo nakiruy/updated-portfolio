@@ -745,10 +745,10 @@ hr {
 .process-heading {
   font-family: 'Playfair Display', serif;
   font-size: 1.8rem;
-  font-weight: 800;
   color: #1C1B1F;
   margin-top: -3.5rem;
   word-wrap: break-word;
+  font-style: italic;
 }
 
 .numbers {
@@ -907,7 +907,7 @@ hr {
 .project-navlink {
   font-family: 'Playfair Display', serif;
   color: #fff !important;
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   text-transform: capitalize;
   border-bottom: 2px solid #f4f4f450;
   letter-spacing: 0.05rem;
