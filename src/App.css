@@ -831,7 +831,6 @@ hr {
 
 .card-title {
   margin-top: -4rem;
-  font-weight: 700;
   text-transform: lowercase;
   letter-spacing: 3px;
   font-size: 1.1rem;
@@ -839,8 +838,8 @@ hr {
 
 .card-text:last-child {
   margin-bottom: 0;
-  letter-spacing: 1px;
-  font-style: italic;
+  letter-spacing: 0.5px;
+  /* font-style: italic; */
   font-size: 1.1rem;
 }
 
