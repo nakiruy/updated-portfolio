@@ -35,7 +35,7 @@ const TapcastContent = () => {
           <Col lg="8">
             <Media body>
               <a href="https://www.tapcast.io"><span className="tapcast-links">Tapcast</span></a> is a data-driven, marketing intelligence platform aimed to help people to understand and scale their audiences. <br></br><br></br>
-              After the initial platform 2.0 release, I worked closely with product team as we often discussed how we could further improve UX and possibly redesign the UI of the new Platform. <br></br><br></br>
+              After the initial platform 2.0 release, I met frequently with product team as we often discussed how we could further improve UX and possibly redesign the UI of the new Platform. <br></br><br></br>
               As a project manager with design and technical chops, I decided to tackle this as my own side project to <span className="chunky-underline" id="tapcast-underline-color">revamp the Tapcast platform from branding, visual components, onboarding, and most of all, experience.</span> <br></br><br></br>
             </Media>
           </Col>
@@ -48,7 +48,8 @@ const TapcastContent = () => {
               <Media body>
                 Simply put, Tapcast platform is complicated. <br></br><br></br>Why? Advertising on Facebook can be confusing to many (read <span className="tapcast-links">here</span>, <span className="tapcast-links">here</span>, and <span className="tapcast-links">here</span>) and the purpose of this platform is to provide insights and help demystify your Facebook audiences. Without a baseline knowledge of advertising on Facebook, it will be a challenge for any users to understand the merit of Tapcast.<br></br><br></br>
                 [ADD CUSTOMER MAIL/ZENDESK ETC HERE]
-                As our platform had previous users, we quickly found out it was a huge pain point for a user to understand the new capabilities of the platform. Naturally, this bottleneck became a business issue as we had very low conversion rates in both existing and new users. <br></br><br></br>After going through platform individually - paired with customer feedback - we concluded this product requires a heavy ramp-up period. Then, how can we take our current platform and minimize the ramp-up period?<br></br><br></br> 
+                As our platform had previous users, we quickly found out that understanding the new platform was the huge pain point for many of our users. Previously, Tapcast was a product focused on targeted videos (think <a href="https://www.intercom.com/"><span className="tapcast-links">Intercom</span></a> but with a video) but as the business stepped away from the original product, we lost some existing users along the way. Soon after, we started observing low conversion rates from both existing and new users. <br></br><br></br>
+                After going through platform as a team and individually - paired with customer feedback - we concluded our product requires a heavy ramp-up period and hand-holding. Then, how can we improve and guide our users through the platform?<br></br><br></br> 
                 [Add image of Tapcast v2.0 here]
               </Media>
             </Col>
