@@ -34,7 +34,8 @@ const SpotifyContent = () => {
           </Col>
           <Col lg="8">
             <Media body>
-            When internet caught on <a href="https://www.spotify.com/"><span className="spotify-links">Spotify</span></a> was testing a driving mode on their Android app back in 2017, there was sizable anticipation for the new mode which allows for a safer, music-listening experience. 
+            When internet caught on that <a href="https://www.spotify.com/"><span className="spotify-links">Spotify</span></a> was testing a driving mode on their Android app in 2017, there was sizable anticipation for this release. <br></br><br></br>
+            The new mode aimed to allow for a safer, music-listening experience on the go. 
             However, as Spotify started rolling out the mode to real users, a plague of complaints flooded the internet.<br></br><br></br>
             [ADD SCREENSHOTS OF USER COMPLAINTS BELOW]
             https://community.spotify.com/t5/Android/Driving-Mode-Woes/td-p/4532127

@@ -36,7 +36,7 @@ const TapcastContent = () => {
             <Media body>
               <a href="https://www.tapcast.io"><span className="tapcast-links">Tapcast</span></a> is a data-driven, marketing intelligence platform aimed to help people to understand and scale their audiences. <br></br><br></br>
               After the initial platform 2.0 release, I worked closely with product team as we often discussed how we could further improve UX and possibly redesign the UI of the new Platform. <br></br><br></br>
-              As a project manager with design and technical chops, I decided to tackle this as my own side project to revamp the Tapcast platform from branding, visual components, onboarding, and most of all, experience. <br></br><br></br>
+              As a project manager with design and technical chops, I decided to tackle this as my own side project to <span className="chunky-underline" id="tapcast-underline-color">revamp the Tapcast platform from branding, visual components, onboarding, and most of all, experience.</span> <br></br><br></br>
             </Media>
           </Col>
           </Row>
@@ -46,7 +46,7 @@ const TapcastContent = () => {
             </Col>
             <Col lg="8">
               <Media body>
-                Simply put, Tapcast platform is complicated. <br></br><br></br>Why? Advertising on Facebook can be confusing to many (read <span className="tapcast-links">here</span>, <span className="tapcast-links">here</span>) and the purpose of this platform is to provide insights and help demystify your Facebook audiences. Without a baseline knowledge of advertising on Facebook, it will be a challenge for any users to understand the merit of Tapcast.<br></br><br></br>
+                Simply put, Tapcast platform is complicated. <br></br><br></br>Why? Advertising on Facebook can be confusing to many (read <span className="tapcast-links">here</span>, <span className="tapcast-links">here</span>, and <span className="tapcast-links">here</span>) and the purpose of this platform is to provide insights and help demystify your Facebook audiences. Without a baseline knowledge of advertising on Facebook, it will be a challenge for any users to understand the merit of Tapcast.<br></br><br></br>
                 [ADD CUSTOMER MAIL/ZENDESK ETC HERE]
                 As our platform had previous users, we quickly found out it was a huge pain point for a user to understand the new capabilities of the platform. Naturally, this bottleneck became a business issue as we had very low conversion rates in both existing and new users. <br></br><br></br>After going through platform individually - paired with customer feedback - we concluded this product requires a heavy ramp-up period. Then, how can we take our current platform and minimize the ramp-up period?<br></br><br></br> 
                 [Add image of Tapcast v2.0 here]
@@ -86,7 +86,7 @@ const TapcastContent = () => {
             </Col>
             <Col lg="8">
               <Media body>
-              Although this project never took off to be in a development sprint (as with any startup, engineering resources was scarce), it was extremely valuable to growing my own capabilities to design with numerous constraints. With limited engineering resources, one of the biggest challenges in implementing this project was to design a Platform where custom UI components was minimal and limited to components that are found in Material UI (https://material-ui.com) without sacrificing the look of Tapcast brand. In general, we also had to play nice with Facebook app review policies and formulate UX flows that abided by their policies. If this project was ever green-lighted for development, I would have worked closely with the engineers to determine if we can create more custom UI from the above library without sacrificing a lot of developer time. 
+              Although this project never took off to be in a development sprint (as with any startup, engineering resources was scarce), it was extremely valuable to growing my own capabilities to design with numerous constraints. With limited engineering resources, one of the biggest challenges in implementing this project was to design a Platform where custom UI components was minimal and limited to components that are found in <a href="https://material-ui.com"><span className="tapcast-links">Material UI</span></a> without sacrificing the look of Tapcast brand. In general, we also had to play nice with Facebook app review policies and formulate UX flows that abided by their policies. If this project was ever green-lighted for development, I would have worked closely with the engineers to determine if we can create more custom UI from the above library without sacrificing a lot of developer time. 
               To add, there are definitely some scenarios that I did not solve with this project - what if user’s free trial expires before they upgrade? What if a new user decides not to follow the Get Started checklist? What if they do not have a pre-existing ad account on Facebook? I would love to tackle these issues if this project ever found itself in product discussion again.
               [Add prototype?]
               </Media>

@@ -138,6 +138,7 @@ button:focus {
   /* color: #2829B6; */
   letter-spacing: 0.05rem;
   /* font-style: italic; */
+  word-wrap: break-word;
 }
 
 #name {
@@ -420,8 +421,17 @@ button:focus {
   font-weight: 400;
   font-style: italic;
 }
+
 #tapcast-underline-color {
   background-image: linear-gradient(120deg, #FF4F8140 10%, #FF4F8140 110%); 
+}
+
+#moxtra-underline-color {
+  background-image: linear-gradient(120deg, #0052FF40 10%, #0052FF40 110%); 
+}
+
+#spotify-underline-color {
+  background-image: linear-gradient(120deg, #1DB95440 10%, #1DB95440 110%); 
 }
 
 .tapcast-links {
@@ -738,6 +748,7 @@ hr {
   font-weight: 800;
   color: #1C1B1F;
   margin-top: -3.5rem;
+  word-wrap: break-word;
 }
 
 .numbers {
@@ -876,15 +887,15 @@ hr {
   padding-top: 30px; height: 0; overflow: hidden;
   }
   
-  .video-container iframe,
-  .video-container object,
-  .video-container embed {
+.video-container iframe,
+.video-container object,
+.video-container embed {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  }
+}
 
 /* Project Nav */
 
@@ -896,7 +907,7 @@ hr {
 .project-navlink {
   font-family: 'Playfair Display', serif;
   color: #fff !important;
-  font-size: 2rem;
+  font-size: 1.7rem;
   text-transform: capitalize;
   border-bottom: 2px solid #f4f4f450;
   letter-spacing: 0.05rem;
@@ -1011,6 +1022,7 @@ hr {
   }
   .greetings {
     margin: 100px 0 0 0;
+    word-wrap: break-word;
   }
   .highlight, .highlight-moxtra {
     background: #fff;
