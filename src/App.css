@@ -806,8 +806,10 @@ hr {
   background-size: cover;
   filter: none;
   -webkit-filter: none;
+  height: 100%;
   width: 100%;
-  height: 400px;
+  padding: 25% 0%; 
+  /* height: 400px; */
 }
 
 .moxtra-projpic {
@@ -817,7 +819,8 @@ hr {
   filter: none;
   -webkit-filter: none;
   width: 100%;
-  height: 400px;
+  height: 100%;
+  padding: 25% 0%; 
 }
 
 .spotify-projpic {
@@ -827,7 +830,8 @@ hr {
   filter: none;
   -webkit-filter: none;
   width: 100%;
-  height: 400px;
+  height: 100%;
+  padding: 25% 0%; 
 }
 
 .card-title {
