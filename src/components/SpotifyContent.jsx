@@ -61,8 +61,10 @@ const SpotifyContent = () => {
           </Col>
           <Col lg="8">
             <Media body>
-            As gesture-free control will be the core component of the application, it was essential to find a method of implementation prior to building a user flow. Fortunately, I have development experience so the first place I knew to look was Github and StackOverflow. After some digging, I found a perfect library for this purpose (https://github.com/kritts/HandWave). Essentially, this Android library allows developers to add hands-free capabilities by taking advantage of the front-facing camera of smartphones. Here’s a video of the library’s capabilities for those interested:
-            [ADD HANDWAVE VIDEO CAPABILITY VIDEO HERE]
+            As gesture-free control will be the core component of the application, it was essential to find a method of implementation prior to building a user flow. Fortunately, I have development experience so the first place I knew to look was Github and StackOverflow. After some digging, I found a <a href="https://github.com/kritts/HandWave"><span className="spotify-links">perfect library</span></a> for this purpose. Essentially, this Android library allows developers to add hands-free capabilities by taking advantage of the front-facing camera of smartphones. Here’s a video of the library’s capabilities for those interested:
+            <div className="video-container">
+              <iframe width="400" height="300" src="https://www.youtube.com/embed/ws8UipMmJLE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
             This library can add up to five gesture methods to any Android application: left (by waving left), right (by waving right), up (by waving up), down (by waving down), and clicks (by hovering a hand over the front camera). Keeping that in mind, I sketched up a possible solution: 
             [ADD SKETCHES HERE]
             Several sketches later…
@@ -91,6 +93,13 @@ const SpotifyContent = () => {
             <Media body>
               Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
             </Media>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <div className="numbers">
+              NOTE: I am not affiliated with Spotify
+            </div>
           </Col>
         </Row>
       </Col>
