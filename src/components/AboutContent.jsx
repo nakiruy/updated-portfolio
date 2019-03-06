@@ -36,8 +36,6 @@ class AboutContent extends React.Component {
               <h6 className="about-desc">
               Born in Tokyo and raised in Silicon Valley, I always drew from my environment to motivate myself <span className="chunky-underline">to design, create, and build</span>. I truly believe design can help develop a successful business and product.
               </h6>
-            </div>
-            <div data-aos="fade-up">
               <h6 className="about-desc">
               When I’m not designing or developing, you can find me <span className="chunky-underline">perfecting the art of cold brew</span>, counting down for the next limited edition <span className="chunky-underline">sneakers (yes, I’m a sneaker head)</span>, and if budget allows, <span className="chunky-underline">traveling to new locations</span>.
               </h6>
@@ -47,7 +45,9 @@ class AboutContent extends React.Component {
             </div>
           </Col>
           <h6 className="secondary-header" id="insta-header" data-aos="fade-up">instagram feed</h6>
-          <AboutPhotos />
+          <div data-aos="fade-up">
+            <AboutPhotos />
+          </div>
           <AboutPhotosCarousel />
           <div className="insta-btn-wrapper" data-aos="fade-up">
             <a href="https://www.instagram.com/yurikaffeine/" className="btn" id="insta-btn">follow me on instagram</a>
