@@ -28,13 +28,13 @@ class AllProjects extends React.Component {
           <Col className="projects">
             {/* <h1 className="headline" id="project-headline">Projects.</h1> */}
             <div data-aos="fade-up">
-            <TapcastJumbo />
+              <TapcastJumbo />
             </div>
             <div data-aos="fade-up">
-            <MoxtraJumbo />
+              <MoxtraJumbo />
             </div>
             <div data-aos="fade-up">
-            <SpotifyJumbo />
+              <SpotifyJumbo />
             </div>
             {/* <h6 className="secondary-header" id="contact-header">get in touch</h6> */}
           </Col>
