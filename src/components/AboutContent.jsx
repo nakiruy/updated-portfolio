@@ -29,7 +29,7 @@ class AboutContent extends React.Component {
           <Col md="9" className="greetings" id="about-greetings">
             <h1 className="headline" id="about-header" data-aos="fade-up"><span id="about-fact">Fun fact:</span> I like eating avocados with ketchup<span id="period">.</span></h1>
             <div data-aos="fade-up">
-              <h6 className="secondary-header">about</h6>
+              <h6 className="secondary-header" data-aos="fade-up">about</h6>
               <h6 className="about-desc">
               Hello there! I’m <span className="chunky-underline">Yurika Jacobsson</span>. Currently, I am a <span className="chunky-underline">technical project manager/designer</span> at Tapcast, a marketing intelligence startup located in San Francisco Bay Area. Previously, I was a UI/UX design developer intern at Moxtra.
               </h6>
