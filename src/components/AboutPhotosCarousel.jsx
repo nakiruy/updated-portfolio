@@ -104,7 +104,6 @@ class AboutPhotosCarousel extends Component {
     });
 
     return (
-      <div data-aos="fade-up">
       <Carousel
         activeIndex={activeIndex}
         className="about-photos-carousel"
@@ -116,7 +115,6 @@ class AboutPhotosCarousel extends Component {
         <CarouselControl direction="prev" directionText="Previous" onClickHandler={this.previous} />
         <CarouselControl direction="next" directionText="Next" onClickHandler={this.next} />
       </Carousel>
-      </div>
     );
   }
 }

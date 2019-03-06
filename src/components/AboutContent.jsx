@@ -48,9 +48,11 @@ class AboutContent extends React.Component {
           <div data-aos="fade-up">
             <AboutPhotos />
           </div>
-          <AboutPhotosCarousel />
-          <div className="insta-btn-wrapper" data-aos="fade-up">
-            <a href="https://www.instagram.com/yurikaffeine/" className="btn" id="insta-btn">follow me on instagram</a>
+          <div data-aos="fade-up">
+            <AboutPhotosCarousel />
+            <div className="insta-btn-wrapper">
+              <a href="https://www.instagram.com/yurikaffeine/" className="btn" id="insta-btn">follow me on instagram</a>
+            </div>
           </div>
           <ContactBanner />
       </Container>
