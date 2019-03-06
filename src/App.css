@@ -602,7 +602,8 @@ button:focus {
 .scroll-up {
 	width: 100%;
 	margin: 0 auto;
-	position: fixed;
+  position: fixed;
+  z-index: 10;
 }
 
 .scroll-up-btn {
@@ -738,6 +739,7 @@ hr {
   color: #fff;
   letter-spacing: 3px;
   border: none;
+  z-index: -1;
 }
 
 
