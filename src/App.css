@@ -404,7 +404,7 @@ button:focus {
 
 .about-desc {
   font-size: 1.2rem;
-  line-height: 1.8em;
+  line-height: 2rem;
   margin-bottom: 1rem;
   white-space: pre-wrap;
   font-weight: 300;
@@ -871,7 +871,7 @@ hr {
 
 .media-body {
   font-size: 1.2rem;
-  line-height: 2;
+  line-height: 2rem;
   font-weight: 300;
   font-family: 'Georgia', serif;
   margin-top: 2rem;
