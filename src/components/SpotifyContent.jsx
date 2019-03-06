@@ -34,13 +34,12 @@ const SpotifyContent = () => {
           </Col>
           <Col lg="8">
             <Media body>
-            When internet caught on that <a href="https://www.spotify.com/"><span className="spotify-links">Spotify</span></a> was testing a driving mode on their Android app in 2017, there was sizable anticipation for this release. <br></br><br></br>
-            The new mode aimed to allow for a safer, music-listening experience on the go. 
+            When internet caught on that <a href="https://www.spotify.com/"><span className="spotify-links">Spotify</span></a> was testing a driving mode on their Android app in 2017, there was sizable anticipation for this new mode - allowing users to have a safer, music-listening experience on the go.<br></br><br></br>
             However, as Spotify started rolling out the mode to real users, a plague of complaints flooded the internet.<br></br><br></br>
-            [ADD SCREENSHOTS OF USER COMPLAINTS BELOW]
+            [ADD SCREENSHOTS OF USER COMPLAINTS BELOW]<br></br><br></br>
             https://community.spotify.com/t5/Android/Driving-Mode-Woes/td-p/4532127
-            https://community.spotify.com/t5/Android/Stupid-Car-Mode/td-p/4530902
-            Intrigued by the negative feedbacks, I had to take on this challenge to improve the user experience while still accomplishing the goal for a distraction-free driving interface. 
+            https://community.spotify.com/t5/Android/Stupid-Car-Mode/td-p/4530902<br></br><br></br>
+            Intrigued by the negative feedbacks, I decided to take on this challenge <span className="chunky-underline" id="spotify-underline-color">to improve the user experience of Spotify's car mode with a distraction-free, drivers-first interface</span>. 
             </Media>
           </Col>
         </Row>
@@ -50,8 +49,8 @@ const SpotifyContent = () => {
           </Col>
           <Col lg="8">
             <Media body>
-            Setting aside the buggy nature of car mode, there were quite a lot of experience issues to tackle. Here are some of the most common grievances as reported by the earliest adopters: 
-            [ADD COMMON COMPLAINTS YOU TACKLED IN THE NEW ONBOARDING FLOW HERE]
+            Setting aside the buggy nature of car mode, there were quite a lot of experience issues to tackle. Here are some of the most common grievances as reported by the earliest adopters:<br></br><br></br>
+            [ADD COMMON COMPLAINTS YOU TACKLED IN THE NEW ONBOARDING FLOW HERE]<br></br><br></br>
             [ADD SUMMARY + HANDS-FREE REASONING HERE]
             </Media>
           </Col>
@@ -62,16 +61,17 @@ const SpotifyContent = () => {
           </Col>
           <Col lg="8">
             <Media body>
-            As gesture-free control will be the core component of the application, it was essential to find a method of implementation prior to building a user flow. Fortunately, I have development experience so the first place I knew to look was Github and StackOverflow. After some digging, I found a <a href="https://github.com/kritts/HandWave"><span className="spotify-links">perfect library</span></a> for this purpose. Essentially, this Android library allows developers to add hands-free capabilities by taking advantage of the front-facing camera of smartphones. Here’s a video of the library’s capabilities for those interested:
+            As gesture-free control will be the core component of the application, it was essential to find an implementation method prior to building a user flow. Fortunately, I have some development experience so the first place I knew to look was Github and StackOverflow.<br></br><br></br>
+            After some digging, I found a <a href="https://github.com/kritts/HandWave"><span className="spotify-links">perfect library</span></a> for this purpose. Essentially, this Android library allows developers to add hands-free capabilities by taking advantage of the front-facing camera of smartphones. Here’s a video of the library’s capabilities for those interested:
             <div className="video-container">
               <iframe width="400" height="300" src="https://www.youtube.com/embed/ws8UipMmJLE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            This library can add up to five gesture methods to any Android application: left (by waving left), right (by waving right), up (by waving up), down (by waving down), and clicks (by hovering a hand over the front camera). Keeping that in mind, I sketched up a possible solution: 
-            [ADD SKETCHES HERE]
-            Several sketches later…
-            [ADD INITAL MOCKUPS]
-            At this point, I had a solid foundation. However, I needed a capability for a user to navigate through their playlists and add support for other features that comes native with Spotify. Fortunately, Spotify introduced Spotify Voice during the time of this project inception. 
-            With voice control added:
+            This library can add up to five gesture methods to any Android application: left (by waving left), right (by waving right), up (by waving up), down (by waving down), and clicks (by hovering a hand over the front camera). Keeping that in mind, I sketched up a possible solution:<br></br><br></br>
+            [ADD SKETCHES HERE]<br></br><br></br>
+            Several sketches later…<br></br><br></br>
+            [ADD INITAL MOCKUPS]<br></br><br></br>
+            At this point, I had a solid foundation. However, I needed a capability for a user to navigate through their playlists and add support for other features that comes native with Spotify. Fortunately, Spotify introduced Spotify Voice during the time of this project inception.<br></br><br></br> 
+            With voice control added:<br></br><br></br>
             [ADD MOCKUP WITH SPOTIFY VOICE]
             </Media>
           </Col>

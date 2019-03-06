@@ -873,6 +873,7 @@ hr {
   font-weight: 300;
   font-family: 'Georgia', serif;
   margin-top: 2rem;
+  margin-bottom: 2rem;
   word-wrap: break-word;
 }
 
@@ -1133,6 +1134,9 @@ hr {
   #projects {
     margin-bottom: -5rem;
     margin-top: 10rem;
+  }
+  .process-heading {
+    margin: 0rem;
   }
 }
 
