@@ -28,7 +28,7 @@ class App extends Component {
             <Greetings />
           </div>
         </Container>
-        <Container className="body" data-aos="fade-up" fluid>
+        <Container className="body" fluid>
           <AllProjects />
         </Container>
         <Container className="footer" fluid>
