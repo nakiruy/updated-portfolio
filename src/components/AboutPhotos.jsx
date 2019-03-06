@@ -1,6 +1,7 @@
 import React from 'react';
 import { Card, Button, CardImg, CardTitle, CardText, CardColumns,
  CardSubtitle, CardBody, CardDeck, CardGroup } from 'reactstrap';
+import AOS from 'aos';
 
 import beach from '../assets/beach.jpg';
 import cappucino from '../assets/cappucino.jpg';

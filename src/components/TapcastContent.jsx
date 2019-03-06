@@ -94,7 +94,6 @@ const TapcastContent = () => {
               With limited engineering resources, one of the biggest challenges in implementing this project was to design a Platform where custom UI components was minimal and limited to components that are found in <a href="https://material-ui.com"><span className="tapcast-links">Material UI</span></a> without sacrificing the look of Tapcast brand.<br></br><br></br>
               In general, we also had to play nice with Facebook app review policies and formulate UX flows that abided by their policies. If this project was ever green-lighted for development, I would have worked closely with the engineers to determine if we can create more custom UI from the above library without sacrificing a lot of developer time. <br></br><br></br>
               To add, there are definitely some scenarios that I did not solve with this project - what if user’s free trial expires before they upgrade? What if a new user decides not to follow the Get Started checklist? What if they do not have a pre-existing ad account on Facebook? I would love to tackle these issues if this project ever found itself in product discussion again.<br></br><br></br>
-              [Add prototype?]
               </Media>
             </Col>
           </Row>

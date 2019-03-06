@@ -6,6 +6,7 @@ import {
   CarouselIndicators,
   CarouselCaption
 } from 'reactstrap';
+import AOS from 'aos';
 
 import beach from '../assets/beach.jpg';
 import cappucino from '../assets/cappucino.jpg';
@@ -55,6 +56,12 @@ class AboutPhotosCarousel extends Component {
     this.onExited = this.onExited.bind(this);
   }
 
+  componentDidMount(){
+    AOS.init({
+      duration : 2000
+    })
+  }
+
   onExiting() {
     this.animating = true;
   }
@@ -97,6 +104,7 @@ class AboutPhotosCarousel extends Component {
     });
 
     return (
+      <div data-aos="fade-up">
       <Carousel
         activeIndex={activeIndex}
         className="about-photos-carousel"
@@ -108,6 +116,7 @@ class AboutPhotosCarousel extends Component {
         <CarouselControl direction="prev" directionText="Previous" onClickHandler={this.previous} />
         <CarouselControl direction="next" directionText="Next" onClickHandler={this.next} />
       </Carousel>
+      </div>
     );
   }
 }

@@ -7,6 +7,7 @@ import { Jumbotron } from 'reactstrap';
 
 import { Card, CardImg, CardText, CardBody, CardLink,
   CardTitle, CardSubtitle } from 'reactstrap';
+import AOS from 'aos';
 
 class ContactBanner extends React.Component {
   constructor(props) {
@@ -15,10 +16,15 @@ class ContactBanner extends React.Component {
 
     };
   }
+  componentDidMount(){
+    AOS.init({
+      duration : 2000
+    })
+  }
 
   render() {
     return (
-      <Jumbotron className="contact">
+      <Jumbotron className="contact" data-aos="fade-up">
           <Container className="contact-container">
             <Row>
               <Col lg="9">
