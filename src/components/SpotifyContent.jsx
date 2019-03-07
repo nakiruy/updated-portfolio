@@ -112,8 +112,8 @@ class SpotifyContent extends React.Component {
             </Col>
           </Row>
           <Row>
-            <Col>
-              <div className="numbers">
+            <Col right>
+              <div className="numbers" id="not-affiliated">
                 NOTE: I am not affiliated with Spotify
               </div>
             </Col>
