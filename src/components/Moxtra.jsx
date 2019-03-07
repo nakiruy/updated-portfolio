@@ -29,7 +29,7 @@ class Moxtra extends React.Component {
     <div>
       <Container className="moxtra">
         <Navigation />
-        <div data-aos="fade-up">
+        <div data-aos="fade-up" data-aos-once="true">
           <MoxtraHeader />
         </div>
         <MoxtraContent />

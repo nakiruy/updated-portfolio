@@ -28,7 +28,7 @@ class Tapcast extends React.Component {
       <div>
       <Container className="tapcast">
         <Navigation />
-        <div data-aos="fade-up">
+        <div data-aos="fade-up" data-aos-once="true">
           <TapcastHeader />
         </div>
         <TapcastContent />

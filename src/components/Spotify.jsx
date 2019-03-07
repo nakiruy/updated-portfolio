@@ -28,7 +28,7 @@ class Spotify extends React.Component {
       <div>
       <Container className="spotify">
         <Navigation />
-        <div data-aos="fade-up">
+        <div data-aos="fade-up" data-aos-once="true">
           <SpotifyHeader />
         </div>
         <SpotifyContent />
