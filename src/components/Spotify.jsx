@@ -21,6 +21,7 @@ class Spotify extends React.Component {
     AOS.init({
       duration : 2000
     })
+    window.scrollTo(0, 0);
   }
 
   render() {
@@ -28,7 +29,7 @@ class Spotify extends React.Component {
       <div>
       <Container className="spotify">
         <Navigation />
-        <div data-aos="fade-up" data-aos-once="true">
+        <div data-aos="fade-up">
           <SpotifyHeader />
         </div>
         <SpotifyContent />

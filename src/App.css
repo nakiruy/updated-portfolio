@@ -813,6 +813,7 @@ hr {
 .tapcast-projpic, .moxtra-projpic, .spotify-projpic {
   margin-top: -10rem;
   z-index: 1;
+  pointer-events: none;
 }
 
 .tapcast-projpic {

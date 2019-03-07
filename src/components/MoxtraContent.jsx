@@ -17,7 +17,7 @@ class MoxtraContent extends React.Component {
   render() {
   return (
     <Container>
-      <Jumbotron className= "moxtra-projpic" fluid />
+      <Jumbotron className= "moxtra-projpic" fluid></Jumbotron>
           <CardGroup className="proj-brief" id="moxtra-brief">
           <Card className="text-left" data-aos="fade-up">
             <CardBody>

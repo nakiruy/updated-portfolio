@@ -18,7 +18,7 @@ class TapcastContent extends React.Component {
   render() {
     return (
       <Container>
-        <Jumbotron className="tapcast-projpic" fluid />
+        <Jumbotron className="tapcast-projpic" fluid></Jumbotron>
         <CardGroup className="proj-brief" id="tapcast-brief">
           <Card className="text-left">
             <CardBody data-aos="fade-up">

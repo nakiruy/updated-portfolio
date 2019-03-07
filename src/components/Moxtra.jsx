@@ -22,6 +22,7 @@ class Moxtra extends React.Component {
     AOS.init({
       duration : 2000
     })
+    window.scrollTo(0, 0);
   }
 
   render() {
@@ -29,7 +30,7 @@ class Moxtra extends React.Component {
     <div>
       <Container className="moxtra">
         <Navigation />
-        <div data-aos="fade-up" data-aos-once="true">
+        <div data-aos="fade-up">
           <MoxtraHeader />
         </div>
         <MoxtraContent />

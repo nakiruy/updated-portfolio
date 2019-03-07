@@ -21,6 +21,7 @@ class Tapcast extends React.Component {
     AOS.init({
       duration : 2000
     })
+    window.scrollTo(0, 0);
   }
 
   render() {
@@ -28,7 +29,7 @@ class Tapcast extends React.Component {
       <div>
       <Container className="tapcast">
         <Navigation />
-        <div data-aos="fade-up" data-aos-once="true">
+        <div data-aos="fade-up">
           <TapcastHeader />
         </div>
         <TapcastContent />
