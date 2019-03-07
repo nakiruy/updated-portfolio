@@ -636,7 +636,10 @@ button:focus {
 /* Contact */
 
 .contact {
-  background: linear-gradient(160deg, #9F54CC, #4724f7);
+  /* background: linear-gradient(160deg, #9F54CC, #4724f7); */
+  background-image: url("../src/assets/contact.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   -webkit-filter: none;
   filter: none;
   padding: 2.5rem;
