@@ -93,7 +93,8 @@ class TapcastContent extends React.Component {
               </Col>
               <Col lg="8" data-aos="fade-up">
                 <Media body>
-                  [Add Final images/prototype here]
+                  [Add Final images/prototype here]<br></br><br></br>
+                  <a href="https://invis.io/7FQVFPD92ZM"><span className="tapcast-links">Click here to view prototype</span></a>
                 </Media>
               </Col>
             </Row>

@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { Container, Row, Col } from 'reactstrap';
+import AOS from 'aos';
 
 import Navigation from './Navigation';
 import SpotifyHeader from './SpotifyHeader';
@@ -16,13 +17,20 @@ class Spotify extends React.Component {
 
     };
   }
+  componentDidMount(){
+    AOS.init({
+      duration : 2000
+    })
+  }
 
   render() {
     return (
       <div>
       <Container className="spotify">
         <Navigation />
-        <SpotifyHeader />
+        <div data-aos="fade-up">
+          <SpotifyHeader />
+        </div>
         <SpotifyContent />
       </Container>
       <Container className="project-nav-wrapper" fluid>

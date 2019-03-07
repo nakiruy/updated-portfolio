@@ -1,8 +1,9 @@
 import React from 'react';
 
-import Navigation from './Navigation';
 import { Container, Row, Col } from 'reactstrap';
+import AOS from 'aos';
 
+import Navigation from './Navigation';
 import MoxtraHeader from './MoxtraHeader';
 import MoxtraContent from './MoxtraContent';
 import ProjectNav from './ProjectNav';
@@ -17,13 +18,20 @@ class Moxtra extends React.Component {
 
     };
   }
+  componentDidMount(){
+    AOS.init({
+      duration : 2000
+    })
+  }
 
   render() {
     return (
     <div>
       <Container className="moxtra">
         <Navigation />
-        <MoxtraHeader />
+        <div data-aos="fade-up">
+          <MoxtraHeader />
+        </div>
         <MoxtraContent />
       </Container>
       <Container className="project-nav-wrapper" fluid>

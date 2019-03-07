@@ -96,7 +96,7 @@ class SpotifyContent extends React.Component {
             </Col>
             <Col lg="8" data-aos="fade-up">
               <Media body>
-                <iframe width="424" height="916" src="//invis.io/GUQVGDOEHZD" frameborder="0" allowfullscreen></iframe>
+                <iframe width="424" height="916" src="//invis.io/GUQVGDOEHZD" frameborder="0" allowfullscreen></iframe><br></br><br></br>
                 Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
               </Media>
             </Col>

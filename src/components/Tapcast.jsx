@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { Container, Row, Col } from 'reactstrap';
+import AOS from 'aos';
 
 import Navigation from './Navigation';
 import TapcastHeader from './TapcastHeader';
@@ -16,13 +17,20 @@ class Tapcast extends React.Component {
 
     };
   }
+  componentDidMount(){
+    AOS.init({
+      duration : 2000
+    })
+  }
 
   render() {
     return (
       <div>
       <Container className="tapcast">
         <Navigation />
-        <TapcastHeader />
+        <div data-aos="fade-up">
+          <TapcastHeader />
+        </div>
         <TapcastContent />
       </Container>
       <Container className="project-nav-wrapper" fluid>

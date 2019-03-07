@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import AOS from 'aos';
 
 import { Container, Row, Col, Badge } from 'reactstrap';
 
@@ -13,15 +12,10 @@ class TapcastHeader extends React.Component {
 
     };
   }
-  componentDidMount(){
-    AOS.init({
-      duration : 2000
-    })
-  }
 
   render() {
     return (
-        <Container data-aos="fade-up">
+        <Container>
           <Col md="9" className="greetings" id="tapcast-greetings">
             <h1 className="headline" id="tapcast-headline">Reimagining a marketing intelligence platform</h1>
             <h6 className="secondary-header" id="tapcast-secondary">tapcast</h6>
