@@ -724,6 +724,7 @@ button:focus {
 .footer {
   background: #1C1B1F;
   padding: 1rem 0;
+  margin-top: -0.1rem;
   /* margin-top: 6rem; */
   /* border-top: 5px solid #4724F7; */
 }
@@ -912,7 +913,7 @@ hr {
 /* Project Nav */
 
 .project-nav-wrapper {
-  background: #1C1B1F90;
+  background: linear-gradient(160deg, #4724f790, #4724f7);
   /* margin-top: 6rem; */
 }
 

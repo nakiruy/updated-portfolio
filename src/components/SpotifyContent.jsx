@@ -112,8 +112,8 @@ class SpotifyContent extends React.Component {
           </Row>
           <Row>
             <Col>
-              <div className="numbers" id="not-affiliated" data-aos="fade-up">
-                NOTE: I am not affiliated with Spotify
+              <div className="numbers" id="not-affiliated">
+                Disclaimer: I am not affiliated with Spotify
               </div>
             </Col>
           </Row>
