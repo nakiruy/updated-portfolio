@@ -887,6 +887,7 @@ hr {
 #not-affiliated {
   text-align: right;
   font-size: 0.5rem;
+  margin-top: 3rem;
 }
 
 /* Project Vids */
@@ -1151,6 +1152,9 @@ hr {
   }
   .process-heading {
     margin: 0rem;
+  }
+  #not-affiliated {
+    margin-top: -1rem;
   }
 }
 

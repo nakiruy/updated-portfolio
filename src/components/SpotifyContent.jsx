@@ -39,6 +39,13 @@ class SpotifyContent extends React.Component {
             </CardBody>
           </Card>
         </CardGroup>
+        <Row>
+            <Col>
+              <div className="numbers" id="not-affiliated" data-aos="fade-up">
+                Disclaimer: I am not affiliated with Spotify
+              </div>
+            </Col>
+        </Row>
         <hr></hr>
         <Col className="spotify-process">
           <Row>
@@ -108,13 +115,6 @@ class SpotifyContent extends React.Component {
               <Media body>
                 Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
               </Media>
-            </Col>
-          </Row>
-          <Row>
-            <Col>
-              <div className="numbers" id="not-affiliated">
-                Disclaimer: I am not affiliated with Spotify
-              </div>
             </Col>
           </Row>
         </Col>
