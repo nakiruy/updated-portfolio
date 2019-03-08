@@ -918,8 +918,10 @@ hr {
 /* Project Nav */
 
 .project-nav-wrapper {
-  background: linear-gradient(160deg, #4724f790, #4724f7);
+  background: #1C1B1F;
   /* margin-top: 6rem; */
+  -webkit-clip-path: polygon(0 60%, 100% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(0 60%, 100% 0, 100% 100%, 0% 100%);
 }
 
 .project-navlink {
@@ -1171,6 +1173,10 @@ hr {
   }
   .contact-container {
     text-align: center;
+  }
+  .project-nav-wrapper {
+    -webkit-clip-path: polygon(0 25%, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 25%, 100% 0, 100% 100%, 0% 100%);
   }
 }
 

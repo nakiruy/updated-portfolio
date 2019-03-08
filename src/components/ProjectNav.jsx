@@ -26,7 +26,7 @@ class ProjectNav extends React.Component {
       <Container>
         <Row className="project-nav">
         <Col>
-          <Card body className="next-card text-left">
+          <Card body className="next-card text-right">
           <h6 className="secondary-header" id="next-proj">next project</h6>
             {nextButton}
           </Card>
