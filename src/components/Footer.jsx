@@ -27,7 +27,7 @@ class Footer extends React.Component {
             <SocialIcons />
           </Col>
           <Col md="6">
-            <body id="copyright-copy">Built & beautified by Yurika Jacobsson</body>
+            <div id="copyright-copy">Built & beautified by Yurika Jacobsson</div>
           </Col>
           </Row>
         </Container> 
