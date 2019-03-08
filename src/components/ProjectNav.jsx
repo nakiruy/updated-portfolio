@@ -32,15 +32,15 @@ class ProjectNav extends React.Component {
     return (
       <Container>
         <Row className="project-nav">
-        <Col xs="6">
+        {/* <Col xs="6">
           <Card body className="prev-card text-left">
             <h6 className="secondary-header" id="prev-proj"></h6>
             {prevButton}
           </Card>
-        </Col>
-        <Col xs="6">
-          <Card body className="next-card text-right">
-          <h6 className="secondary-header" id="next-proj"></h6>
+        </Col> */}
+        <Col lg="6">
+          <Card body className="next-card text-left">
+          <h6 className="secondary-header" id="next-proj">next project</h6>
             {nextButton}
           </Card>
         </Col>
