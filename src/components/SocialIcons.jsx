@@ -1,6 +1,5 @@
 import React from 'react';
-import { Navbar } from 'reactstrap';
-import { Container, Row, Col } from 'reactstrap';
+import { Container, Col } from 'reactstrap';
 
 import email from '../assets/email.png';
 import linkedin from '../assets/linkedin.png';

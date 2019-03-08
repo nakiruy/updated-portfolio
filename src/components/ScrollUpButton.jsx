@@ -1,7 +1,6 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 
-import { Container, Row, Col, Badge } from 'reactstrap';
+import { Container } from 'reactstrap';
 import ScrollToTop from 'react-scroll-up';
 
 class ScrollUpButton extends React.Component {

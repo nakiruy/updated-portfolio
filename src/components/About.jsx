@@ -1,10 +1,9 @@
 import React from 'react';
 
-import { Container, Row, Col } from 'reactstrap';
+import { Container } from 'reactstrap';
 
 import Navigation from './Navigation';
 import AboutContent from './AboutContent';
-import ContactBanner from './ContactBanner';
 import ScrollUpButton from './ScrollUpButton';
 import Footer from './Footer';
 

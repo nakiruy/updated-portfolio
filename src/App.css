@@ -798,17 +798,17 @@ hr {
   /* font-size: 1rem; */
 }
 
-.tapcast-color::after {
-  /* background: #FF4F81; */
+/* .tapcast-color::after {
+  background: #FF4F81;
 }
 
 .moxtra-color::after {
-  /* background: #0052FF; */
+  background: #0052FF;
 }
 
 .spotify-color::after {
-  /* background: #1DB954; */
-}
+  background: #1DB954;
+} */
 
 #tapcast-secondary::after, #moxtra-secondary::after, #spotify-secondary::after {
   display: none;

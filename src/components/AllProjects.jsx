@@ -1,8 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-
-import { Link } from 'react-router-dom';
-import { Container, Row, Col } from 'reactstrap';
+import { Container, Col } from 'reactstrap';
 import AOS from 'aos';
 
 import TapcastJumbo from './TapcastJumbo';

@@ -1,11 +1,7 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-
-import { Link } from 'react-router-dom';
-import { Container, Row, Col, Badge, Media } from 'reactstrap';
+import { Container, Col } from 'reactstrap';
 import AOS from 'aos';
 
-import AboutBanner from './AboutBanner';
 import ContactBanner from './ContactBanner';
 import AboutPhotos from './AboutPhotos';
 import AboutPhotosCarousel from './AboutPhotosCarousel';

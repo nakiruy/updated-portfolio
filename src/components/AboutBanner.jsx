@@ -1,12 +1,6 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-
-import { Link } from 'react-router-dom';
 import { Container, Row, Col } from 'reactstrap';
 import { Jumbotron } from 'reactstrap';
-
-import { Card, CardImg, CardText, CardBody, CardLink,
-  CardTitle, CardSubtitle } from 'reactstrap';
 
 class AboutBanner extends React.Component {
   constructor(props) {

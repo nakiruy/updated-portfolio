@@ -1,15 +1,11 @@
 import React from 'react';
-import { Card, Button, CardImg, CardTitle, CardText, CardColumns,
- CardSubtitle, CardBody, CardDeck, CardGroup } from 'reactstrap';
-import AOS from 'aos';
+import { Card, CardImg, CardColumns, CardBody } from 'reactstrap';
 
 import beach from '../assets/beach.jpg';
 import cappucino from '../assets/cappucino.jpg';
 import pancakes from '../assets/pancakes.jpg';
 import us from '../assets/us.jpg';
 import baybridge from '../assets/baybridge.jpg';
-import lucas from '../assets/lucas.jpg';
-import cafe from '../assets/cafe.jpg';
 import hibiscus from '../assets/hibiscus.jpg';
 
 

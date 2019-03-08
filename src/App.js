@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import { Container, Row, Col } from 'reactstrap';
+import { Container } from 'reactstrap';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -13,6 +13,9 @@ import Footer from './components/Footer';
 class App extends Component {
   constructor(props){
     super(props);
+    this.state = {
+
+    };
   }
   componentDidMount(){
     AOS.init({

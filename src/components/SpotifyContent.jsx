@@ -84,7 +84,7 @@ class SpotifyContent extends React.Component {
               As gesture-free control will be the core component of the application, it was essential to find an implementation method prior to building a user flow. Fortunately, I have some development experience so the first place I knew to look was Github and StackOverflow.<br></br><br></br>
               After some digging, I found a <a href="https://github.com/kritts/HandWave"><span className="spotify-links">perfect library</span></a> for this purpose. Essentially, this Android library allows developers to add hands-free capabilities by taking advantage of the front-facing camera of smartphones. Here’s a video of the library’s capabilities for those interested:
               <div className="video-container">
-                <iframe width="400" height="300" src="https://www.youtube.com/embed/ws8UipMmJLE" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                <iframe title="HandWave Video" width="400" height="300" src="https://www.youtube.com/embed/ws8UipMmJLE" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
               </div>
               This library can add up to five gesture methods to any Android application: left (by waving left), right (by waving right), up (by waving up), down (by waving down), and clicks (by hovering a hand over the front camera). Keeping that in mind, I sketched up a possible solution:<br></br><br></br>
               [ADD SKETCHES HERE]<br></br><br></br>
@@ -103,7 +103,7 @@ class SpotifyContent extends React.Component {
             <Col lg="8" data-aos="fade-up">
               <Media body>
                 <div className="center">
-                  <iframe width="424" height="916" src="//invis.io/GUQVGDOEHZD" frameBorder="0" allowFullScreen></iframe>
+                  <iframe title="Spotify Car Mode Prototype" width="424" height="916" src="//invis.io/GUQVGDOEHZD" frameBorder="0" allowFullScreen></iframe>
                 </div><br></br><br></br>
                 Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
               </Media>

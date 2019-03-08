@@ -1,26 +1,17 @@
 import React from 'react';
 import { NavLink as Link } from 'react-router-dom';
 import {
-  Col,
   Collapse,
-  Container,
   Navbar,
-  NavbarToggler,
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem, 
-  Row } from 'reactstrap';
+  NavLink } from 'reactstrap';
   
 import logo from '../assets/logo.png';
 import logotapcastcol from '../assets/logo-tapcastcol.png';
 import logomoxtracol from '../assets/logo-moxtracol.png';
 import logospotifycol from '../assets/logo-spotifycol.png';
-import SocialIcons from './SocialIcons';
 
 import { Slider } from 'react-burgers';
 

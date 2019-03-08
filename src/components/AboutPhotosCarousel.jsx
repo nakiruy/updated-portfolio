@@ -19,29 +19,37 @@ import us from '../assets/us.jpg';
 
 const items = [
   {
-    src: beach
+    src: beach,
+    caption: 'beach'
   },
   {
-    src: cappucino
+    src: cappucino,
+    caption: 'cappucino'
   },
   {
-    src: pancakes
+    src: pancakes,
+    caption: 'pancakes'
   },
   {
     src: us,
+    caption: 'us',
     className: 'rotate180'
   },
   {
-    src: baybridge
+    src: baybridge,
+    caption: 'baybridge'
   },
   {
-    src: lucas
+    src: lucas,
+    caption: 'lucas'
   },
   {
-    src: cafe
+    src: cafe,
+    caption: 'cafe'
   },
   {
-    src: hibiscus
+    src: hibiscus,
+    caption: 'hibiscus'
   },
 ];
 

@@ -1,9 +1,7 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 
-import { Container, Row, Col, Badge } from 'reactstrap';
+import { Container, Col } from 'reactstrap';
 
-import Contact from './ContactBanner';
 
 class SpotifyHeader extends React.Component {
   constructor(props) {

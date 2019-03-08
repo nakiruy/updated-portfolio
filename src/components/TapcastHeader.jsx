@@ -1,9 +1,6 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 
-import { Container, Row, Col, Badge } from 'reactstrap';
-
-import Contact from './ContactBanner';
+import { Container, Col } from 'reactstrap';
 
 class TapcastHeader extends React.Component {
   constructor(props) {
