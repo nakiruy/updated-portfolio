@@ -105,11 +105,16 @@ class TapcastContent extends React.Component {
               </Col>
               <Col lg="8" data-aos="fade-up">
                 <Media body>
-                  <CardImg top width="100%" src={tapcastPlatform} className="proj-img"></CardImg> <br></br><br></br>
-                  <CardImg top width="100%" src={tapcastLanding} className="proj-img"></CardImg> <br></br><br></br>
-                  <CardImg top width="100%" src={tapcastSignup} className="proj-img"></CardImg> <br></br><br></br>
-                  <CardImg top width="100%" src={tapcastAudience} className="proj-img"></CardImg> <br></br><br></br>
-                  <CardImg top width="100%" src={tapcastPayment} className="proj-img"></CardImg> <br></br><br></br>
+                  <CardImg top width="100%" src={tapcastPlatform} className="proj-img"></CardImg> <br></br>
+                  <span className="img-caption">dashboard</span> <br></br><br></br>
+                  <CardImg top width="100%" src={tapcastLanding} className="proj-img"></CardImg> <br></br>
+                  <span className="img-caption">landing page</span> <br></br><br></br>
+                  <CardImg top width="100%" src={tapcastSignup} className="proj-img"></CardImg> <br></br>
+                  <span className="img-caption">sign up</span> <br></br><br></br>
+                  <CardImg top width="100%" src={tapcastAudience} className="proj-img"></CardImg> <br></br>
+                  <span className="img-caption">audience page</span> <br></br><br></br>
+                  <CardImg top width="100%" src={tapcastPayment} className="proj-img"></CardImg> <br></br>
+                  <span className="img-caption">payment</span> <br></br><br></br>
                   <a href="https://invis.io/7FQVFPD92ZM"><span className="tapcast-links">Click here to view the full prototype</span></a>
                 </Media>
               </Col>
