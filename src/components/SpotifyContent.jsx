@@ -1,6 +1,9 @@
 import React from 'react';
-import { Media, Col, Row, Jumbotron, Container, Card, CardTitle, CardText, CardGroup, CardBody } from 'reactstrap';
+import { Media, Col, Row, Jumbotron, Container, Card, CardImg, CardTitle, CardText, CardGroup, CardBody } from 'reactstrap';
 import AOS from 'aos';
+
+import complaintOne from '../assets/spotify/complaintOne.png';
+import complaintTwo from '../assets/spotify/complaintTwo.png';
 
 class SpotifyContent extends React.Component {
   constructor(props) {
@@ -55,10 +58,9 @@ class SpotifyContent extends React.Component {
             <Col lg="8" data-aos="fade-up">
               <Media body>
               When internet caught on that <a href="https://www.spotify.com/"><span className="spotify-links">Spotify</span></a> was testing a driving mode on their Android app in 2017, there was sizable anticipation for this new mode - allowing users to have a safer, music-listening experience on the go.<br></br><br></br>
-              However, as Spotify started rolling out the mode to real users, a plague of complaints flooded the internet.<br></br><br></br>
-              [ADD SCREENSHOTS OF USER COMPLAINTS BELOW]<br></br><br></br>
-              https://community.spotify.com/t5/Android/Driving-Mode-Woes/td-p/4532127
-              https://community.spotify.com/t5/Android/Stupid-Car-Mode/td-p/4530902<br></br><br></br>
+              However, couple months later - as Spotify started rolling out the mode to real users - a plague of complaints flooded the internet.<br></br><br></br>
+              <CardImg top width="100%" src={complaintOne} className="proj-img"></CardImg><br></br><br></br> 
+              <CardImg top width="100%" src={complaintTwo} className="proj-img"></CardImg><br></br><br></br> 
               Intrigued by the negative feedbacks, I decided to take on this challenge <span className="chunky-underline" id="spotify-underline-color">to improve the user experience of Spotify's car mode with a distraction-free, drivers-first interface</span>. 
               </Media>
             </Col>
@@ -102,7 +104,7 @@ class SpotifyContent extends React.Component {
             </Col>
             <Col lg="8" data-aos="fade-up">
               <Media body>
-                <div className="center">
+                <div className="center" id="spotify-prototype">
                   <iframe title="Spotify Car Mode Prototype" width="424" height="916" src="//invis.io/GUQVGDOEHZD" frameBorder="0" allowFullScreen></iframe>
                 </div><br></br><br></br>
                 Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.

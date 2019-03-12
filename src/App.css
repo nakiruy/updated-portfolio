@@ -870,6 +870,10 @@ hr {
   -webkit-filter: none;
 }
 
+.proj-img {
+  box-shadow: 0 3px 10px -3px rgba(0, 0, 0, 0.15);
+}
+
 #top-header {
   margin-top: 3rem;
 }

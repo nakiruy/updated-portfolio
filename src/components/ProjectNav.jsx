@@ -20,7 +20,7 @@ class ProjectNav extends React.Component {
       nextButton = <Link to="/projects/spotify"><span className="project-navlink">Spotify</span></Link>
     } else if (window.location.pathname === "/projects/spotify") {
       nextButton = <Link to="/projects/tapcast"><span className="project-navlink">Tapcast</span></Link>
-    }
+    } 
 
     return (
       <Container>
