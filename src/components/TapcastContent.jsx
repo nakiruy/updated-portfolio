@@ -64,11 +64,11 @@ class TapcastContent extends React.Component {
               <Col lg="8" data-aos="fade-up">
                 <Media body>
                   <span className="chunky-underline" id="tapcast-underline-color">Tapcast platform is complicated.</span> <br></br><br></br>
+                  <CardImg top width="100%" src={oldTapcast} className="proj-img"></CardImg> <br></br>
+                  <span className="img-caption">tapcast v2.0</span> <br></br><br></br>
                   Why? The purpose of this platform is to provide marketing insights and help demystify <a href="https://www.facebook.com/business/insights/people/audiences"><span className="tapcast-links">Facebook audiences</span></a>. However, advertising on Facebook is confusing to many (read <a href="https://www.wired.com/story/facebooks-targeted-ads-are-more-complex-than-it-lets-on/"><span className="tapcast-links">here</span></a>, <a href="https://www.postplanner.com/blog/how-to-fix-facebook-ads-not-working"><span className="tapcast-links">here</span></a>, and <a href="https://www.929marketing.com/blog/this-is-why-your-facebook-ads-didnt-work"><span className="tapcast-links">here</span></a>) and without a baseline knowledge of advertising on Facebook, it is a challenge to understand the platform, let alone its merit.<br></br><br></br>
                   In addition, the new platform is vastly different from before. Previous iteration of the platform focused on targeted videos (think <a href="https://www.intercom.com"><span className="tapcast-links">Intercom</span></a> but with a video) which allowed users to install a video widget to their websites. Unfortunately, this meant that many of our existing users did not have any prior knowledge on Facebook advertising and <span className="chunky-underline" id="tapcast-underline-color">we quickly found out that understanding the new platform was a huge struggle for many</span>. As expected, we lost some existing users along the way and soon after, we started observing low conversion rates for new users as well.<br></br><br></br>
-                  After going through platform as a team and individually - paired with customer feedback - we concluded our product requires a heavy ramp-up period and extensive onboarding. A A complete overhaul of the platform was necessary.<br></br><br></br> 
-                  [Add image of Tapcast v2.0 here]
-                  <CardImg top width="100%" src={oldTapcast} className="proj-img"></CardImg>
+                  After going through platform as a team and individually - combined with customer feedback - we concluded our product requires a heavy ramp-up period and extensive onboarding. Paired with our business goal of converting as many new users as possible, I decided to <span className="chunky-underline" id="tapcast-underline-color">focus on new user journey and payment flow</span>.<br></br><br></br> 
                 </Media>
               </Col>
             </Row>
@@ -84,10 +84,11 @@ class TapcastContent extends React.Component {
                   [ADD COMPETITOR FLOW vs. OURS]<br></br><br></br>
                   For a platform with complicated concepts, we provided very little guidance to our users. How can we expect users to convert without conveying the value of the software? So I sketched up possible solutions:<br></br><br></br>
                   With iterations and wireframes:<br></br><br></br>
-                  To be competitive, I also felt that our platform also needed some serious rebranding. I aimed for a modern, clean, simple look while being respectful of the previous design. I came up with a brand direction and started off with the logo:<br></br><br></br>
-                  <CardImg top width="100%" src={currTapcastLogo} className="proj-img"></CardImg>
-                  <CardImg top width="100%" src={tapcastLogos} className="proj-img"></CardImg>
-                  [Add previous logo to new logo here]<br></br><br></br>
+                  To be competitive, I also felt that our platform also needed some serious rebranding. I aimed for a modern, clean, simple look while being respectful of the previous design. I first redesigned the the logo:<br></br><br></br>
+                  <CardImg top width="100%" src={currTapcastLogo} className="proj-img" id="old-logo"></CardImg> <br></br>
+                  <span className="img-caption">old tapcast logo</span>
+                  <CardImg top width="100%" src={tapcastLogos} className="proj-img"></CardImg> <br></br>
+                  <span className="img-caption">new tapcast logo</span> <br></br><br></br>
                   Now I had something to work off of, I started to iteratively build the potential final product.<br></br><br></br>
                   [ADD PROGRESS]
                 </Media>

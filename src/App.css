@@ -731,7 +731,7 @@ button:focus {
 
 hr {
   margin-top: 1rem;
-  border-top: #1C1B1F10 solid 1px;
+  border-top: #1C1B1F05 solid 2px;
 }
 
 #copyright-copy {
@@ -874,6 +874,11 @@ hr {
   box-shadow: 0 3px 10px -3px rgba(0, 0, 0, 0.15);
 }
 
+#old-logo {
+  max-width: 40%;
+  height: auto;
+}
+
 #top-header {
   margin-top: 3rem;
 }
@@ -886,6 +891,16 @@ hr {
   margin-top: 2rem;
   margin-bottom: 2rem;
   word-wrap: break-word;
+}
+
+.img-caption {
+  font-family: 'Lato', sans-serif;
+  color: rgba(28, 27, 31, 0.4);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.7rem;
+  letter-spacing: 0.05rem;
+  /* font-style: italic; */
 }
 
 #not-affiliated {
