@@ -5,6 +5,11 @@ import AOS from 'aos';
 import oldTapcast from '../assets/tapcast/oldtapcast.png';
 import tapcastLogos from '../assets/tapcast/tapcastlogos.png';
 import currTapcastLogo from '../assets/tapcast/currTapcastLogo.png';
+import tapcastPlatform from '../assets/tapcast/tapcast-platform.png';
+import tapcastAudience from '../assets/tapcast/tapcast-audience.png';
+import tapcastLanding from '../assets/tapcast/tapcast-landing.png';
+import tapcastPayment from '../assets/tapcast/tapcast-payment.png';
+import tapcastSignup from '../assets/tapcast/tapcast-signup.png';
 
 class TapcastContent extends React.Component {
   constructor(props) {
@@ -100,8 +105,12 @@ class TapcastContent extends React.Component {
               </Col>
               <Col lg="8" data-aos="fade-up">
                 <Media body>
-                  [Add Final images/prototype here]<br></br><br></br>
-                  <a href="https://invis.io/7FQVFPD92ZM"><span className="tapcast-links">Click here to view prototype</span></a>
+                  <CardImg top width="100%" src={tapcastPlatform} className="proj-img"></CardImg> <br></br><br></br>
+                  <CardImg top width="100%" src={tapcastLanding} className="proj-img"></CardImg> <br></br><br></br>
+                  <CardImg top width="100%" src={tapcastSignup} className="proj-img"></CardImg> <br></br><br></br>
+                  <CardImg top width="100%" src={tapcastAudience} className="proj-img"></CardImg> <br></br><br></br>
+                  <CardImg top width="100%" src={tapcastPayment} className="proj-img"></CardImg> <br></br><br></br>
+                  <a href="https://invis.io/7FQVFPD92ZM"><span className="tapcast-links">Click here to view the full prototype</span></a>
                 </Media>
               </Col>
             </Row>

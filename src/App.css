@@ -901,10 +901,10 @@ hr {
   font-family: 'Lato', sans-serif;
   color: rgba(28, 27, 31, 0.4);
   text-transform: uppercase;
-  font-weight: 700;
+  /* font-weight: 700; */
   font-size: 0.7rem;
   letter-spacing: 0.05rem;
-  /* font-style: italic; */
+  font-style: italic;
 }
 
 #not-affiliated {
@@ -944,6 +944,7 @@ hr {
 
 .project-nav {
   margin-top: 6rem;
+  padding: 0.5rem 0rem;
 }
 
 .project-nav-wrapper {
@@ -1209,7 +1210,7 @@ hr {
   }
   .spotify-prototype {
     transform: scale(0.7);
-    margin: -50%;
+    margin: -20% -50%;
   }
 }
 
