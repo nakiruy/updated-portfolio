@@ -911,6 +911,7 @@ hr {
   text-align: right;
   font-size: 0.5rem;
   margin-top: 3rem;
+  color: rgba(28, 27, 31, 0.6);
 }
 
 .center {
@@ -940,6 +941,10 @@ hr {
 }
 
 /* Project Nav */
+
+.project-nav {
+  margin-top: 6rem;
+}
 
 .project-nav-wrapper {
   background: #1C1B1F;
