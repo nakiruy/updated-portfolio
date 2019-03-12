@@ -71,8 +71,16 @@ class SpotifyContent extends React.Component {
             </Col>
             <Col lg="8" data-aos="fade-up">
               <Media body>
-              Setting aside the buggy nature of car mode, there were quite a lot of experience issues to tackle. Here are some of the most common grievances as reported by the earliest adopters:<br></br><br></br>
+              Setting aside the buggy nature of car mode, there were quite a lot of UX issues to tackle. Here are some of the most common grievances as reported by the earliest adopters:<br></br><br></br>
               [ADD COMMON COMPLAINTS YOU TACKLED IN THE NEW ONBOARDING FLOW HERE]<br></br><br></br>
+              <ul class="spotify-painpoints">
+                <li>Ambiguous names of features and on navigations</li>
+                  <li className="secondary-li"></li>
+                <li>Lack of clarity on what the application does</li>
+                  <li className="secondary-li"></li>
+                <li>Plain</li>
+                  <li className="secondary-li"></li>
+              </ul>
               [ADD SUMMARY + HANDS-FREE REASONING HERE]
               </Media>
             </Col>
@@ -92,7 +100,7 @@ class SpotifyContent extends React.Component {
               [ADD SKETCHES HERE]<br></br><br></br>
               Several sketches later…<br></br><br></br>
               [ADD INITAL MOCKUPS]<br></br><br></br>
-              At this point, I had a solid foundation. However, I needed a capability for a user to navigate through their playlists and add support for other features that comes native with Spotify. Fortunately, Spotify introduced Spotify Voice during the time of this project inception.<br></br><br></br> 
+              At this point, I had a solid foundation. However, I needed a capability for a user to navigate through their playlists and add support for other features that comes native with Spotify. Fortunately, Spotify introduced <a href="https://support.spotify.com/us/listen_everywhere/voice_assistants/spotify-voice/"><span className="spotify-links">Spotify Voice</span></a> during the time of this project inception.<br></br><br></br> 
               With voice control added:<br></br><br></br>
               [ADD MOCKUP WITH SPOTIFY VOICE]
               </Media>
@@ -105,7 +113,7 @@ class SpotifyContent extends React.Component {
             <Col lg="8" data-aos="fade-up">
               <Media body>
                 <div className="center" id="spotify-prototype">
-                  <iframe title="Spotify Car Mode Prototype" width="424" height="916" src="//invis.io/GUQVGDOEHZD" frameBorder="0" allowFullScreen></iframe>
+                  <iframe title="Spotify Car Mode Prototype" className="spotify-prototype" width="424" height="916" src="//invis.io/GUQVGDOEHZD" frameBorder="0" allowFullScreen></iframe>
                 </div><br></br><br></br>
                 Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
               </Media>

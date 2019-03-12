@@ -870,6 +870,10 @@ hr {
   -webkit-filter: none;
 }
 
+.secondary-li {
+  margin-left: 2rem;
+}
+
 .proj-img {
   box-shadow: 0 3px 10px -3px rgba(0, 0, 0, 0.15);
 }
@@ -922,6 +926,7 @@ hr {
   height: 0; 
   overflow: hidden;
   margin: 3rem 0;
+  box-shadow: 0 3px 10px -3px rgba(0, 0, 0, 0.15);
 }
   
 .video-container iframe,
@@ -1196,6 +1201,10 @@ hr {
   .project-nav-wrapper {
     -webkit-clip-path: polygon(0 25%, 100% 0, 100% 100%, 0% 100%);
     clip-path: polygon(0 25%, 100% 0, 100% 100%, 0% 100%);
+  }
+  .spotify-prototype {
+    transform: scale(0.7);
+    margin: -50%;
   }
 }
 
