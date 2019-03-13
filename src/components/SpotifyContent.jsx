@@ -73,7 +73,7 @@ class SpotifyContent extends React.Component {
               <Media body>
               Setting aside the buggy nature of car mode, there were quite a lot of UX issues to tackle. Here are some of the most common grievances as reported by the earliest adopters:<br></br><br></br>
               [ADD COMMON COMPLAINTS YOU TACKLED IN THE NEW ONBOARDING FLOW HERE]<br></br><br></br>
-              <ul class="spotify-painpoints">
+              <ul className="spotify-painpoints">
                 <li>Ambiguous names of features and on navigations</li>
                   <li className="secondary-li"></li>
                 <li>Lack of clarity on what the application does</li>

@@ -60,7 +60,7 @@ class MoxtraContent extends React.Component {
               Frankly, when I signed up for Moxtra iOS app for the first time, I was quite unclear on what Moxtra offered out of the box even after going through the onboarding. Personally, it was somewhat abrupt in its flow in addition to insufficient amount of context provided to a new user about the product.<br></br><br></br> 
               [ADD ORIGINAL ONBOARDING FLOW HERE]<br></br><br></br> 
               Of course, to confirm my initial impressions, I conducted a series on user interviews who have never used/heard of Moxtra before. Here are high-level resounding themes that were brought up during interviews:<br></br><br></br> 
-              <ul class="moxtra-painpoints">
+              <ul className="moxtra-painpoints">
                 <li>Ambiguous names of features and on navigations</li>
                   <li className="secondary-li"></li>
                 <li>Lack of clarity on what the application does</li>
