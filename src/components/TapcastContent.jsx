@@ -3,8 +3,12 @@ import { Media, Col, Row, Jumbotron, Container, Card, CardImg, CardTitle, CardTe
 import AOS from 'aos';
 
 import oldTapcast from '../assets/tapcast/oldtapcast.png';
-import tapcastLogos from '../assets/tapcast/tapcastlogos.png';
 import currTapcastLogo from '../assets/tapcast/currTapcastLogo.png';
+import fullTapcastGrid from '../assets/tapcast/fullwgrid.png';
+import fullTapcast from '../assets/tapcast/fullLogo.png';
+import mainLogo from '../assets/tapcast/main.png';
+import pinkLogo from '../assets/tapcast/pink.png';
+import blueLogo from '../assets/tapcast/blue.png';
 import tapcastPlatform from '../assets/tapcast/tapcast-platform.png';
 import tapcastAudience from '../assets/tapcast/tapcast-audience.png';
 import tapcastLanding from '../assets/tapcast/tapcast-landing.png';
@@ -83,16 +87,25 @@ class TapcastContent extends React.Component {
               </Col>
               <Col lg="8" data-aos="fade-up">
                 <Media body>
-                  [ADD PROCESS OVERVIEW]<br></br><br></br>
                   To kick off, I decided to research our competitors. Fortunately, Facebook has a <a href="https://www.facebook.com/business/solutions-explorer/"><span className="tapcast-links">handy directory</span></a> of their marketing partners.<br></br><br></br>
                   After comparing and contrasting a handful of companies and coupled with watching few user sessions/demo recap calls with our Sales team, it was clear that <span className="chunky-underline" id="tapcast-underline-color">our onboarding simply lacked</span>.<br></br><br></br>
                   [ADD COMPETITOR FLOW vs. OURS]<br></br><br></br>
                   For a platform with complicated concepts, we provided very little guidance to our users. How can we expect users to convert without conveying the value of the software? So I sketched up possible solutions:<br></br><br></br>
                   With iterations and wireframes:<br></br><br></br>
                   To be competitive, I also felt that our platform also needed some serious rebranding. I aimed for a modern, clean, simple look while being respectful of the previous design. I first redesigned the the logo:<br></br><br></br>
-                  <CardImg top width="100%" src={currTapcastLogo} className="proj-img" id="old-logo"></CardImg> <br></br>
-                  <span className="img-caption">old tapcast logo</span>
-                  <CardImg top width="100%" src={tapcastLogos} className="proj-img"></CardImg> <br></br>
+                  <Row>
+                    <Col xs="4">
+                      <CardImg top width="100%" src={mainLogo} className="proj-imgxsall-logo"></CardImg>
+                    </Col>
+                    <Col xs="4">
+                      <CardImg top width="100%" src={pinkLogo} className="proj-img small-logo"></CardImg> 
+                    </Col>
+                    <Col xs="4">
+                      <CardImg top width="100%" src={blueLogo} className="proj-img small-logo"></CardImg> 
+                    </Col>
+                  </Row> <br></br>
+                  <CardImg top width="100%" src={fullTapcastGrid} className="proj-img"></CardImg> <br></br><br></br>
+                  <CardImg top width="100%" src={fullTapcast} className="proj-img"></CardImg> <br></br>
                   <span className="img-caption">new tapcast logo</span> <br></br><br></br>
                   Now I had something to work off of, I started to iteratively build the potential final product.<br></br><br></br>
                   [ADD PROGRESS]

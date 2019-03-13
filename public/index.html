@@ -83,7 +83,13 @@
 
         <!-- Start of Custom Tab Script -->
         <script>
-          window.onblur = function () { document.title = 'See you soon!'; }
+          window.onblur = function () {
+            if (document.activeElement === document.getElementById('iframe')) {
+              document.title = 'Yurika Jacobsson'; 
+            } else {
+              document.title = 'See you soon!'; 
+            }
+          }
           window.onfocus = function () { document.title = 'Yurika Jacobsson'; }
         </script>
         <!-- End of Custom Tab Script -->
