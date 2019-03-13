@@ -106,17 +106,19 @@ class MoxtraContent extends React.Component {
             </Col>
           </Row>
           <Row>
-              <Col lg="8" data-aos="fade-up">
+              <Col lg="4" data-aos="fade-up">
                 <h6 className="secondary-header" id="moxtra-secondary">key takeways</h6>
+              </Col>
+              <Col lg="8" data-aos="fade-up">
                 <Media body>
-                  <ol class="takeaways">
-                    <li>Ambiguous names of features and on navigations</li>
-                    <li>Lack of clarity on what the application does</li>
-                    <li>Plain</li>
+                  <ol className="takeaways">
+                    <li>Embrace constraints and challenge yourself.</li>
+                    <li>Collaborate with stakeholders and cross-functionally to understand the overarching pain points of customers.</li>
+                    <li>Set project scope and maintain focus yet be open to changes.</li>
                   </ol>
                 </Media>
               </Col>
-          </Row>
+            </Row>
         </Col>
     </Container>
     );

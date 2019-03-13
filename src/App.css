@@ -918,6 +918,11 @@ hr {
   text-align: center;
 }
 
+.takeaways {
+  margin-top: -1.5rem;
+  margin-left: -1rem;
+}
+
 /* Project Vids */
 
 .video-container {
@@ -1211,6 +1216,9 @@ hr {
   .spotify-prototype {
     transform: scale(0.7);
     margin: -20% -50%;
+  }
+  .takeaways {
+    margin-top: 0rem;
   }
 }
 
