@@ -94,17 +94,23 @@ class TapcastContent extends React.Component {
                   To be competitive, I also felt that our platform also needed some serious rebranding. I aimed for a modern, clean, simple look while being respectful of the previous design. I first redesigned the the logo:<br></br><br></br>
                   <Row>
                     <Col xs="4">
-                      <CardImg top width="100%" src={mainLogo} className="proj-img"></CardImg>
+                      <CardImg top width="100%" src={mainLogo} className="proj-img no-shadow" id="tapcast-logo"></CardImg>
                     </Col>
                     <Col xs="4">
-                      <CardImg top width="100%" src={pinkLogo} className="proj-img"></CardImg> 
+                      <CardImg top width="100%" src={pinkLogo} className="proj-img no-shadow" id="tapcast-logo"></CardImg> 
                     </Col>
                     <Col xs="4">
-                      <CardImg top width="100%" src={blueLogo} className="proj-img"></CardImg> 
+                      <CardImg top width="100%" src={blueLogo} className="proj-img no-shadow" id="tapcast-logo"></CardImg> 
                     </Col>
                   </Row> <br></br>
-                  <CardImg top width="100%" src={fullTapcastGrid} className="proj-img"></CardImg> <br></br><br></br>
-                  <CardImg top width="100%" src={fullTapcast} className="proj-img"></CardImg> <br></br>
+                  <Row>
+                    <Col lg="6">
+                      <CardImg top width="100%" src={fullTapcastGrid} className="proj-img no-shadow"></CardImg>
+                    </Col>
+                    <Col lg="6">
+                      <CardImg top width="100%" src={fullTapcast} className="proj-img no-shadow"></CardImg>
+                    </Col>
+                  </Row>
                   <span className="img-caption">new tapcast logos</span> <br></br><br></br>
                   Now I had something to work off of, I started to iteratively build the potential final product.<br></br><br></br>
                   [ADD PROGRESS]

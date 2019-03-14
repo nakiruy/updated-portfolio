@@ -112,9 +112,9 @@ class MoxtraContent extends React.Component {
               <Col lg="8" data-aos="fade-up">
                 <Media body>
                   <ol className="takeaways">
-                    <li>Embrace constraints and challenge yourself.</li>
-                    <li>Collaborate with stakeholders and cross-functionally to understand the overarching pain points of customers.</li>
-                    <li>Set project scope and maintain focus yet be open to changes.</li>
+                    <li>Don't be afraid to ask questions.</li>
+                    <li>Be honest with designs whether it's your own or others.</li>
+                    <li>Expecting perfection is stupidity - strive for better and keep iterating.</li>
                   </ol>
                 </Media>
               </Col>

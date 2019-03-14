@@ -878,6 +878,15 @@ hr {
   box-shadow: 0 3px 10px -3px rgba(0, 0, 0, 0.15);
 }
 
+.no-shadow {
+  box-shadow: none;
+}
+
+#tapcast-logo {
+  max-width: 50%;
+  height: auto;
+}
+
 #top-header {
   margin-top: 3rem;
 }

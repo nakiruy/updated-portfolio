@@ -60,7 +60,8 @@ class SpotifyContent extends React.Component {
               When internet caught on that <a href="https://www.spotify.com/"><span className="spotify-links">Spotify</span></a> was testing a driving mode on their Android app in 2017, there was sizable anticipation for this new mode - allowing users to have a safer, music-listening experience on the go.<br></br><br></br>
               However, couple months later - as Spotify started rolling out the mode to real users - a plague of complaints flooded the internet.<br></br><br></br>
               <CardImg top width="100%" src={complaintOne} className="proj-img"></CardImg><br></br><br></br> 
-              <CardImg top width="100%" src={complaintTwo} className="proj-img"></CardImg><br></br><br></br> 
+              <CardImg top width="100%" src={complaintTwo} className="proj-img"></CardImg><br></br>
+              <span className="img-caption">comments from spotify community</span> <br></br><br></br>
               Intrigued by the negative feedbacks, I decided to take on this challenge <span className="chunky-underline" id="spotify-underline-color">to improve the user experience of Spotify's car mode with a distraction-free, drivers-first interface</span>. 
               </Media>
             </Col>
@@ -71,17 +72,13 @@ class SpotifyContent extends React.Component {
             </Col>
             <Col lg="8" data-aos="fade-up">
               <Media body>
-              Setting aside the buggy nature of car mode, there were quite a lot of UX issues to tackle. Here are some of the most common grievances as reported by the earliest adopters:<br></br><br></br>
-              [ADD COMMON COMPLAINTS YOU TACKLED IN THE NEW ONBOARDING FLOW HERE]<br></br><br></br>
+              Besides the buggy nature of car mode, there were quite a lot of other UX issues to tackle. Here are some of the most common grievances as reported by the earliest adopters:<br></br><br></br>
               <ul className="spotify-painpoints">
-                <li>Ambiguous names of features and on navigations</li>
-                  <li className="secondary-li"></li>
-                <li>Lack of clarity on what the application does</li>
-                  <li className="secondary-li"></li>
-                <li>Plain</li>
-                  <li className="secondary-li"></li>
-              </ul>
-              [ADD SUMMARY + HANDS-FREE REASONING HERE]
+                <li>Unable to select and jump through playlists early in the user flow</li>
+                <li>Better playback controls - preferences of button sizes varied among users</li>
+                <li>No option to turn off car mode from Settings</li>
+              </ul> <br></br>
+              To tackle the first pain point
               </Media>
             </Col>
           </Row>
@@ -136,9 +133,9 @@ class SpotifyContent extends React.Component {
               <Col lg="8" data-aos="fade-up">
                 <Media body>
                   <ol className="takeaways">
-                    <li>Embrace constraints and challenge yourself.</li>
-                    <li>Collaborate with stakeholders and cross-functionally to understand the overarching pain points of customers.</li>
-                    <li>Set project scope and maintain focus yet be open to changes.</li>
+                    <li>Starting a project off from an implementation method can go a long way.</li>
+                    <li>Address user concerns and when possible, be creative with those solutions.</li>
+                    <li>Reminder: Always provide users a way to opt out from the flow.</li>
                   </ol>
                 </Media>
               </Col>
