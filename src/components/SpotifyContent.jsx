@@ -4,6 +4,7 @@ import AOS from 'aos';
 
 import complaintOne from '../assets/spotify/complaintOne.png';
 import complaintTwo from '../assets/spotify/complaintTwo.png';
+import oldCarView1 from '../assets/spotify/oldCarView1.jpg';
 
 class SpotifyContent extends React.Component {
   constructor(props) {
@@ -71,14 +72,20 @@ class SpotifyContent extends React.Component {
               <h6 className="secondary-header process-heading"><div className="numbers spotify-color">02.</div> The Challenge</h6>
             </Col>
             <Col lg="8" data-aos="fade-up">
+              <br></br><br></br> 
+              <CardImg top width="100%" src={oldCarView1} className="proj-img" id="spotify-small-img"></CardImg><br></br>
+              <span className="img-caption">original spotify car mode</span> <br></br><br></br> 
               <Media body>
               Besides the buggy nature of car mode, there were quite a lot of other UX issues to tackle. Here are some of the most common grievances as reported by the earliest adopters:<br></br><br></br>
-              <ul className="spotify-painpoints">
-                <li>Unable to select and jump through playlists early in the user flow</li>
+              <ol className="spotify-painpoints">
+                <li>Unable to select and jump through playlists from car mode interface</li>
                 <li>Better playback controls - preferences of button sizes varied among users</li>
                 <li>No option to turn off car mode from Settings</li>
-              </ul> <br></br>
-              To tackle the first pain point
+              </ol> <br></br>
+              Taking user problems into consideration, I sketched and mapped out some ideas to solve above problems. <br></br><br></br> 
+              [ADD SKETCHES HERE] <br></br><br></br> 
+              From multiple iteration of sketches and feedback from others, it was clear that addition of voice functionality and a toggle for Car Mode will solve issues 1 and 3. However, a solution for issue 2 was not so apparent.<br></br><br></br> 
+              With further input from others, it was evident that <span className="chunky-underline" id="spotify-underline-color">just simply making buttons bigger is not enough</span>. 
               </Media>
             </Col>
           </Row>
@@ -137,6 +144,13 @@ class SpotifyContent extends React.Component {
                     <li>Address user concerns and when possible, be creative with those solutions.</li>
                     <li>Reminder: Always provide users a way to opt out from the flow.</li>
                   </ol>
+                </Media>
+              </Col>
+            </Row>
+            <Row>
+              <Col data-aos="fade-up">
+                <Media body>
+                  Update: As of 2019, Spotify launched an <a href="https://www.theverge.com/2019/1/16/18185644/spotify-car-view-now-testing-android-simple-controls"><span className="spotify-links">updated Car View</span></a> and rumored to release a <a href="https://bgr.com/2019/01/18/spotify-in-car-music-player-details/"><span className="spotify-links">hardware device</span></a> to create a more hands-free experience by Q4 of 2019.
                 </Media>
               </Col>
             </Row>

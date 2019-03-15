@@ -87,7 +87,7 @@ class TapcastContent extends React.Component {
               <Col lg="8" data-aos="fade-up">
                 <Media body>
                   To kick off, I decided to research our competitors. Fortunately, Facebook has a <a href="https://www.facebook.com/business/solutions-explorer/"><span className="tapcast-links">handy directory</span></a> of their marketing partners.<br></br><br></br>
-                  After comparing and contrasting a handful of companies and coupled with watching few user sessions/demo recap calls with our Sales team, it was clear that <span className="chunky-underline" id="tapcast-underline-color">our onboarding simply lacked</span>.<br></br><br></br>
+                  After comparing and contrasting a handful of companies and coupled with watching few user sessions/gathering feedbacks from our customer success team, it was clear that <span className="chunky-underline" id="tapcast-underline-color">our onboarding simply lacked</span>.<br></br><br></br>
                   [ADD COMPETITOR FLOW vs. OURS]<br></br><br></br>
                   For a platform with complicated concepts, we provided very little guidance to our users. How can we expect users to convert without conveying the value of the software? So I sketched up possible solutions:<br></br><br></br>
                   With iterations and wireframes:<br></br><br></br>

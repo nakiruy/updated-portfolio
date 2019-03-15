@@ -113,7 +113,7 @@ class MoxtraContent extends React.Component {
                 <Media body>
                   <ol className="takeaways">
                     <li>Don't be afraid to ask questions.</li>
-                    <li>Be honest with designs whether it's your own or others.</li>
+                    <li>Implementing dark mode is not as simple as it looks.</li>
                     <li>Expecting perfection is stupidity - strive for better and keep iterating.</li>
                   </ol>
                 </Media>

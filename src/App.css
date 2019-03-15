@@ -887,6 +887,11 @@ hr {
   height: auto;
 }
 
+#spotify-small-img {
+  max-width: 70%;
+  height: auto;
+}
+
 #top-header {
   margin-top: 3rem;
 }
