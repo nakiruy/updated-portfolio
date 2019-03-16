@@ -72,11 +72,11 @@ class SpotifyContent extends React.Component {
               <h6 className="secondary-header process-heading"><div className="numbers spotify-color">02.</div> The Challenge</h6>
             </Col>
             <Col lg="8" data-aos="fade-up">
-              <br></br><br></br> 
-              <CardImg top width="100%" src={oldCarView1} className="proj-img" id="spotify-small-img"></CardImg><br></br>
-              <span className="img-caption">original spotify car mode</span> <br></br><br></br> 
+              {/* <br></br><br></br>  */}
+              {/* <CardImg top width="100%" src={oldCarView1} className="proj-img" id="spotify-small-img"></CardImg><br></br> */}
+              {/* <span className="img-caption">original spotify car mode</span> <br></br><br></br>  */}
               <Media body>
-              Besides the buggy nature of car mode, there were quite a lot of other UX issues to tackle. Here are some of the most common grievances as reported by the earliest adopters:<br></br><br></br>
+              As alluded to above, there were rampant reports of poor UX practices with Spotify's car mode. Besides the buggy nature of car mode, here are some of the most common grievances as reported by the earliest adopters:<br></br><br></br>
               <ol className="spotify-painpoints">
                 <li>Unable to select and jump through playlists from car mode interface</li>
                 <li>Better playback controls - preferences of button sizes varied among users</li>

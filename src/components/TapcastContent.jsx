@@ -8,6 +8,7 @@ import fullTapcast from '../assets/tapcast/fullLogo.png';
 import mainLogo from '../assets/tapcast/main.png';
 import pinkLogo from '../assets/tapcast/pink.png';
 import blueLogo from '../assets/tapcast/blue.png';
+import tapcastPIP from '../assets/tapcast/tapcastPIP.png';
 import mockupBW from '../assets/tapcast/mockupBW.png';
 import mockupColor from '../assets/tapcast/mockupColor.png';
 import tapcastPlatform from '../assets/tapcast/tapcast-platform.png';
@@ -77,8 +78,10 @@ class TapcastContent extends React.Component {
                   <CardImg top width="100%" src={oldTapcast} className="proj-img"></CardImg> <br></br>
                   <span className="img-caption">tapcast v2.0</span> <br></br><br></br>
                   Why? The purpose of this platform is to provide marketing insights and help demystify <a href="https://www.facebook.com/business/insights/people/audiences"><span className="tapcast-links">Facebook audiences</span></a>. However, advertising on Facebook is confusing to many (read <a href="https://www.wired.com/story/facebooks-targeted-ads-are-more-complex-than-it-lets-on/"><span className="tapcast-links">here</span></a>, <a href="https://www.postplanner.com/blog/how-to-fix-facebook-ads-not-working"><span className="tapcast-links">here</span></a>, and <a href="https://www.929marketing.com/blog/this-is-why-your-facebook-ads-didnt-work"><span className="tapcast-links">here</span></a>) and without a baseline knowledge of advertising on Facebook, it is a challenge to understand the platform, let alone its merit.<br></br><br></br>
-                  In addition, the new platform is vastly different from before. Previous iteration of the platform focused on targeted videos (think <a href="https://www.intercom.com"><span className="tapcast-links">Intercom</span></a> but with a video) which allowed users to install a video widget to their websites. Unfortunately, this meant that many of our existing users did not have any prior knowledge on Facebook advertising and <span className="chunky-underline" id="tapcast-underline-color">we quickly found out that understanding the new platform was a huge struggle for many</span>. As expected, we lost some existing users along the way and soon after, we started observing low conversion rates for new users as well.<br></br><br></br>
-                  After going through platform as a team and individually - combined with customer feedback - we concluded our product requires a heavy ramp-up period and extensive onboarding. Keeping in mind of our high priority business goal of converting as many new users as possible, I decided to <span className="chunky-underline" id="tapcast-underline-color">focus on new user journey and payment flow</span>.<br></br><br></br> 
+                  In addition, the new platform is vastly different from before. Previous iteration of the platform focused on targeted videos (think <a href="https://www.intercom.com"><span className="tapcast-links">Intercom</span></a> but with a video) which allowed users to install a video widget to their websites through Tapcast SDK. <br></br><br></br>
+                  <CardImg top width="100%" src={tapcastPIP} className="proj-img"></CardImg> <br></br>
+                  <span className="img-caption">Example of Tapcast SDK </span> <br></br><br></br>
+                  Unfortunately, this meant that many of our existing users did not have any prior knowledge on Facebook advertising and <span className="chunky-underline" id="tapcast-underline-color">we quickly found out that understanding the new platform was a huge struggle for many</span>. As expected, we lost some existing users along the way and soon after, we started observing low conversion rates for new users as well.<br></br><br></br>
                 </Media>
               </Col>
             </Row>
@@ -88,10 +91,11 @@ class TapcastContent extends React.Component {
               </Col>
               <Col lg="8" data-aos="fade-up">
                 <Media body>
-                  To kick off, I decided to research our competitors. Fortunately, Facebook has a <a href="https://www.facebook.com/business/solutions-explorer/"><span className="tapcast-links">handy directory</span></a> of their marketing partners.<br></br><br></br>
-                  After comparing and contrasting a handful of companies and coupled with watching few user sessions/gathering feedbacks from our customer success team, it was clear that <span className="chunky-underline" id="tapcast-underline-color">our onboarding simply lacked</span>.<br></br><br></br>
-                  [ADD COMPETITOR FLOW vs. OURS]<br></br><br></br>
-                  For a platform with complicated concepts, we provided very little guidance to our users. How can we expect users to convert without conveying the value of the software? So I sketched up possible solutions:<br></br><br></br>
+                  As a first step to tackle this problem, I decided to research our competitors. Fortunately, Facebook has a <a href="https://www.facebook.com/business/solutions-explorer/"><span className="tapcast-links">handy directory</span></a> of their marketing partners and provides a quick overview of each company which expedited my search of identifying Tapcast's closest competiton.<br></br><br></br>
+                  After comparing and contrasting a handful of companies and coupled with watching few user sessions/gathering feedbacks from our customer success team, it was clear that <span className="chunky-underline" id="tapcast-underline-color">our onboarding simply lacked</span>.
+                  We provided no clear path for users to utilize the platform and at that time, no tooltips to prompt users to act. 
+                  Moreover, we concluded internally Tapcast as a product requires a heavy ramp-up period and extensive onboarding. Keeping in mind of the high priority business goal of converting as many new users as possible, I decided to <span className="chunky-underline" id="tapcast-underline-color">focus on new user journey and payment flow</span>.<br></br><br></br> 
+                  [ADD WIREFRAMES + LO-FI MOCKUP]
                   To be competitive, I also felt that our platform also needed some serious rebranding. I aimed for a modern, clean, simple look while being respectful of the previous design. I first redesigned the the logo:<br></br><br></br>
                   <Row>
                     <Col lg="6">
