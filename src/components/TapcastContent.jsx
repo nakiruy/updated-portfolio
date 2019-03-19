@@ -9,6 +9,7 @@ import mainLogo from '../assets/tapcast/main.png';
 import pinkLogo from '../assets/tapcast/pink.png';
 import blueLogo from '../assets/tapcast/blue.png';
 import tapcastPIP from '../assets/tapcast/tapcastPIP.png';
+import tapcastFlow from '../assets/tapcast/tapcastFlow.png';
 import mockupBW from '../assets/tapcast/mockupBW.png';
 import mockupColor from '../assets/tapcast/mockupColor.png';
 import tapcastPlatform from '../assets/tapcast/tapcast-platform.png';
@@ -95,7 +96,8 @@ class TapcastContent extends React.Component {
                   After comparing and contrasting a handful of companies and coupled with watching few user sessions/gathering feedbacks from our customer success team, it was clear that <span className="chunky-underline" id="tapcast-underline-color">our onboarding simply lacked</span>.
                   We provided no clear path for users to utilize the platform and at that time, no tooltips to prompt users to act. 
                   Moreover, we concluded internally Tapcast as a product requires a heavy ramp-up period and extensive onboarding. Keeping in mind of the high priority business goal of converting as many new users as possible, I decided to <span className="chunky-underline" id="tapcast-underline-color">focus on new user journey and payment flow</span>.<br></br><br></br> 
-                  [ADD WIREFRAMES + LO-FI MOCKUP]
+                  <CardImg top width="100%" src={tapcastFlow} className="proj-img no-shadow"></CardImg> <br></br>
+                  <span className="img-caption">Signup to payment flowchart</span> <br></br><br></br>
                   To be competitive, I also felt that our platform also needed some serious rebranding. I aimed for a modern, clean, simple look while being respectful of the previous design. I first redesigned the the logo:<br></br><br></br>
                   <Row>
                     <Col lg="6">
