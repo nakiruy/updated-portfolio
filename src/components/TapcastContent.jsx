@@ -97,20 +97,20 @@ class TapcastContent extends React.Component {
                   <span className="img-caption">Signup to payment flowchart</span> <br></br><br></br>
                   To be competitive, I also felt that our platform also needed some serious rebranding. I aimed for a modern, clean, simple look while being respectful of the previous design. I first redesigned the the logo:<br></br><br></br>
                   <Row>
-                    <Col lg="6">
+                    <Col md="6">
                       <CardImg top width="100%" src={fullTapcastGrid} className="proj-img no-shadow"></CardImg>
                     </Col>
-                    <Col lg="6">
+                    <Col md="6">
                       <CardImg top width="100%" src={fullTapcast} className="proj-img no-shadow"></CardImg>
                     </Col>
                   </Row>
                   <span className="img-caption">new tapcast logos</span> <br></br><br></br>
                   With logo design complete, I started to iteratively build the final design.<br></br><br></br>
                   <Row>
-                    <Col lg="6">
+                    <Col md="6">
                       <CardImg top width="100%" src={mockupBW} className="proj-img"></CardImg>
                     </Col>
-                    <Col lg="6">
+                    <Col md="6">
                       <CardImg top width="100%" src={mockupColor} className="proj-img"></CardImg>
                     </Col>
                   </Row>
