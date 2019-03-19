@@ -4,7 +4,6 @@ import AOS from 'aos';
 
 import complaintOne from '../assets/spotify/complaintOne.png';
 import complaintTwo from '../assets/spotify/complaintTwo.png';
-import oldCarView1 from '../assets/spotify/oldCarView1.jpg';
 
 class SpotifyContent extends React.Component {
   constructor(props) {
