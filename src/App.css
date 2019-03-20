@@ -755,7 +755,8 @@ hr {
   color: #1C1B1F;
   margin-top: -3.5rem;
   word-wrap: break-word;
-  font-style: italic;
+  /* font-style: italic; */
+  font-weight: 700;
 }
 
 .numbers {
@@ -852,17 +853,18 @@ hr {
 
 .card-title {
   margin-top: -4rem;
-  text-transform: lowercase;
-  letter-spacing: 3px;
-  font-size: 1rem;
+  /* text-transform: lowercase; */
+  letter-spacing: 0.5px;
+  font-size: 1.1rem;
 }
 
 .card-text:last-child {
   margin-bottom: 0;
   letter-spacing: 0.5px;
   /* font-style: italic; */
-  /* font-size: 1.1rem; */
-  font-family: 'Georgia', serif;
+  font-size: 1.1rem;
+  /* font-family: 'Georgia', serif; */
+  font-weight: 300;
 }
 
 .text-left {
@@ -900,7 +902,7 @@ hr {
   font-size: 1.2rem;
   line-height: 2rem;
   font-weight: 300;
-  font-family: 'Georgia', serif;
+  /* font-family: 'Georgia', serif; */
   margin-top: 2rem;
   margin-bottom: 2rem;
   word-wrap: break-word;

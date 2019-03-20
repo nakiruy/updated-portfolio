@@ -118,7 +118,7 @@ class SpotifyContent extends React.Component {
                 <div className="center" id="spotify-prototype">
                   <iframe title="Spotify Car Mode Prototype" className="spotify-prototype" width="424" height="916" src="//invis.io/GUQVGDOEHZD" frameBorder="0" allowFullScreen></iframe>
                 </div><br></br><br></br>
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                [ADD EXPLANATION OF FINAL PRODUCT HERE?]
               </Media>
             </Col>
           </Row>
