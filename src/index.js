@@ -30,8 +30,8 @@ ReactDOM.render(
         <Route path="/about" component={About} />
         <Route path="/resume" component={Resume} />
         <Route path="/projects/tapcast" component={Tapcast} />
-        {/* <Route path="/projects/moxtra" component={Moxtra} /> */}
-        {/* <Route path="/projects/spotify" component={Spotify} /> */}
+        <Route path="/projects/moxtra" component={Moxtra} />
+        <Route path="/projects/spotify" component={Spotify} />
         <Route component={NotFound} />
     </Switch>
   </Router>, document.getElementById('root')
