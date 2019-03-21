@@ -350,6 +350,8 @@ button:focus {
   font-size: 1.1rem;
   font-weight: 400;
   /* font-family: 'Georgia', serif; */
+  color: rgba(28, 27, 31, 0.8) !important;
+
 }
 
 #btn-moxtra, #btn-tapcast, #btn-spotify {
@@ -375,13 +377,13 @@ button:focus {
 
 .highlight {
   /* background: #fff; */
-  color: #1C1B1F;
+  /* color: #1C1B1F; */
   padding: 0.5rem 0;
 }
 
 .highlight-moxtra {
   /* background: #fff; */
-  color: #1C1B1F;
+  /* color: #1C1B1F; */
   padding: 0.5rem 0;
 }
 
@@ -420,6 +422,7 @@ button:focus {
   transition: background-size 0.25s ease-in;
   font-weight: 400;
   font-style: italic;
+  color: rgb(28, 27, 31);
 }
 
 #tapcast-underline-color {
@@ -860,7 +863,8 @@ hr {
   /* font-style: italic; */
   font-size: 1.1rem;
   /* font-family: 'Georgia', serif; */
-  font-weight: 300;
+  /* font-weight: 300; */
+  color: rgba(28, 27, 31, 0.8);
 }
 
 .text-left {
@@ -895,13 +899,14 @@ hr {
 }
 
 .media-body {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   line-height: 2rem;
-  font-weight: 300;
+  /* font-weight: 300; */
   /* font-family: 'Georgia', serif; */
   margin-top: 2rem;
   margin-bottom: 2rem;
   word-wrap: break-word;
+  color: rgba(28, 27, 31, 0.8);
 }
 
 .img-caption {
