@@ -1,11 +1,6 @@
 import React, { Component } from 'react';
-import {
-  Carousel,
-  CarouselItem,
-  CarouselControl,
-  CarouselIndicators,
-  CarouselCaption
-} from 'reactstrap';
+import Carousel from 'nuka-carousel';
+import { CardImg } from 'reactstrap';
 import AOS from 'aos';
 
 import beach from '../assets/beach.jpg';
@@ -32,8 +27,7 @@ const items = [
   },
   {
     src: us,
-    caption: 'us',
-    className: 'rotate180'
+    caption: 'us'
   },
   {
     src: baybridge,
@@ -53,15 +47,9 @@ const items = [
   },
 ];
 
-class AboutPhotosCarousel extends Component {
+class AboutPhotosCarouselNew extends Component {
   constructor(props) {
     super(props);
-    this.state = { activeIndex: 0 };
-    this.next = this.next.bind(this);
-    this.previous = this.previous.bind(this);
-    this.goToIndex = this.goToIndex.bind(this);
-    this.onExiting = this.onExiting.bind(this);
-    this.onExited = this.onExited.bind(this);
   }
 
   componentDidMount(){
@@ -70,62 +58,25 @@ class AboutPhotosCarousel extends Component {
     })
   }
 
-  onExiting() {
-    this.animating = true;
-  }
-
-  onExited() {
-    this.animating = false;
-  }
-
-  next() {
-    if (this.animating) return;
-    const nextIndex = this.state.activeIndex === items.length - 1 ? 0 : this.state.activeIndex + 1;
-    this.setState({ activeIndex: nextIndex });
-  }
-
-  previous() {
-    if (this.animating) return;
-    const nextIndex = this.state.activeIndex === 0 ? items.length - 1 : this.state.activeIndex - 1;
-    this.setState({ activeIndex: nextIndex });
-  }
-
-  goToIndex(newIndex) {
-    if (this.animating) return;
-    this.setState({ activeIndex: newIndex });
-  }
-
   render() {
-    const { activeIndex } = this.state;
-
-    const slides = items.map((item) => {
-      return (
-        <CarouselItem
-          onExiting={this.onExiting}
-          onExited={this.onExited}
-          key={item.src}
-        >
-          <img src={item.src} alt={item.altText} className={item.className}/>
-          <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
-        </CarouselItem>
-      );
-    });
-
     return (
-      <Carousel
-        activeIndex={activeIndex}
-        className="about-photos-carousel"
-        next={this.next}
-        previous={this.previous}
+      <Carousel 
+      className="about-photos-carousel"
+      withoutControls="false"
+      swiping="true"
       >
-        <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={this.goToIndex} />
-        {slides}
-        <CarouselControl direction="prev" directionText="Previous" onClickHandler={this.previous} />
-        <CarouselControl direction="next" directionText="Next" onClickHandler={this.next} />
+        <CardImg src={beach}></CardImg>
+        <CardImg src={cappucino}></CardImg>
+        <CardImg src={pancakes}></CardImg>
+        <CardImg src={us}></CardImg>
+        <CardImg src={baybridge}></CardImg>
+        <CardImg src={lucas}></CardImg>
+        <CardImg src={cafe}></CardImg>
+        <CardImg src={hibiscus}></CardImg>
       </Carousel>
     );
   }
 }
 
 
-export default AboutPhotosCarousel;
+export default AboutPhotosCarouselNew;

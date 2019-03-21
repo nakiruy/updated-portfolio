@@ -41,10 +41,10 @@ class AboutContent extends React.Component {
             </div>
           </Col>
           <h6 className="secondary-header" id="insta-header" data-aos="fade-up">instagram feed</h6>
-          <div data-aos="fade-up">
+          <div>
             <AboutPhotos />
           </div>
-          <div data-aos="fade-up">
+          <div>
             <AboutPhotosCarousel />
             <div className="insta-btn-wrapper">
               <a href="https://www.instagram.com/yurikaffeine/" className="btn" id="insta-btn">follow me on instagram</a>
