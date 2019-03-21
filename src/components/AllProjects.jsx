@@ -22,17 +22,11 @@ class AllProjects extends React.Component {
   render() {
     return (
         <Container className="allProjects">
-          <Col className="projects">
+          <Col className="projects" data-aos="fade-up">
             {/* <h1 className="headline" id="project-headline">Projects.</h1> */}
-            <div data-aos="fade-up">
-              <TapcastJumbo />
-            </div>
-            <div data-aos="fade-up">
-              <MoxtraJumbo />
-            </div>
-            <div data-aos="fade-up">
-              <SpotifyJumbo />
-            </div>
+            <TapcastJumbo />
+            <MoxtraJumbo />
+            <SpotifyJumbo />
             {/* <h6 className="secondary-header" id="contact-header">get in touch</h6> */}
           </Col>
         </Container>

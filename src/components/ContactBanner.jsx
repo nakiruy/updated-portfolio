@@ -18,7 +18,7 @@ class ContactBanner extends React.Component {
 
   render() {
     return (
-      <Jumbotron className="contact" data-aos="fade-up">
+      <Jumbotron className="contact">
           <Container className="contact-container">
             <Row>
               <Col lg="9">
