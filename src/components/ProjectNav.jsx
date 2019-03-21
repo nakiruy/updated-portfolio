@@ -15,9 +15,9 @@ class ProjectNav extends React.Component {
     let nextButton;
 
     if (window.location.pathname === "/projects/tapcast") {
-      nextButton = <Link to="/projects/moxtra"><span className="project-navlink">Moxtra</span></Link>
-    } else if (window.location.pathname === "/projects/moxtra") {
       nextButton = <Link to="/projects/spotify"><span className="project-navlink">Spotify</span></Link>
+    } else if (window.location.pathname === "/projects/moxtra") {
+      nextButton = <Link to="/projects/moxtra"><span className="project-navlink">Moxtra</span></Link>
     } else if (window.location.pathname === "/projects/spotify") {
       nextButton = <Link to="/projects/tapcast"><span className="project-navlink">Tapcast</span></Link>
     } 

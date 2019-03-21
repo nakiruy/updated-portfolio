@@ -93,7 +93,7 @@ a:hover, a:focus, a:active {
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: #191414;
+  color: #1C1B1F;
 }
 
 .nav-link.active {
@@ -144,7 +144,7 @@ button:focus {
 #name {
   color:#1C1B1F;
   text-decoration: none;
-  background-image: linear-gradient(120deg, #9F54CC 10%, #4724f7 110%); 
+  background-image: linear-gradient(120deg, #F74824 10%, #4724f7 110%); 
   background-repeat: no-repeat;
   background-size: 100% 0.05em;
   background-position: 0 90%;
@@ -347,9 +347,9 @@ button:focus {
 }
 
 .lead {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 400;
-  font-family: 'Georgia', serif;
+  /* font-family: 'Georgia', serif; */
 }
 
 #btn-moxtra, #btn-tapcast, #btn-spotify {
@@ -1089,8 +1089,12 @@ hr {
   .navbar-nav .nav-link {
     margin: 15px;
   }
+  .navbar-nav {
+    height: calc(100vh - 6rem);
+  }
   .nav-item {
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     padding: 2em 3em 2em 3em;
   }
   .navigation {
