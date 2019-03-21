@@ -590,10 +590,6 @@ button:focus {
   object-fit: cover;
 }
 
-.about-photos-carousel {
-  display: none;
-}
-
 .footer-row {
   margin-right: 0;
 }
@@ -1070,6 +1066,9 @@ hr {
     border: 1px solid #4724F7;
     color: #fff !important;
     /* border-radius: 30px; */
+  }
+  .about-photos-carousel {
+    display: none !important;
   }
 } 
 
