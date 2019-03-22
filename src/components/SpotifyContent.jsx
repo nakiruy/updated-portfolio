@@ -5,6 +5,7 @@ import AOS from 'aos';
 import complaintOne from '../assets/spotify/complaintOne.png';
 import complaintTwo from '../assets/spotify/complaintTwo.png';
 import spotifyWireframe from '../assets/spotify/spotifyWireframe.png';
+import spotifyVoiceAdd from '../assets/spotify/spotifyVoiceAdd.png';
 
 class SpotifyContent extends React.Component {
   constructor(props) {
@@ -107,7 +108,8 @@ class SpotifyContent extends React.Component {
               <span className="img-caption">Wireframe</span> <br></br><br></br>
               At this point, I had a solid foundation. However, I needed a capability for a user to navigate through their playlists and add support for other features that comes native with Spotify. Fortunately, Spotify introduced <a href="https://support.spotify.com/us/listen_everywhere/voice_assistants/spotify-voice/"><span className="spotify-links">Spotify Voice</span></a> during the time of this project inception.<br></br><br></br> 
               With voice control added:<br></br><br></br>
-              [ADD MOCKUP WITH SPOTIFY VOICE]
+              <CardImg top width="100%" src={spotifyVoiceAdd} className="proj-img no-shadow"></CardImg><br></br>
+              <span className="img-caption">Voice control</span> <br></br><br></br>
               </Media>
             </Col>
           </Row>
