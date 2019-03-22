@@ -93,7 +93,7 @@ a:hover, a:focus, a:active {
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: #1C1B1F;
+  color: rgba(28, 27, 31, 0.8);
 }
 
 .nav-link.active {
@@ -405,11 +405,12 @@ button:focus {
 }
 
 .about-desc {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   line-height: 2rem;
   margin-bottom: 1rem;
   white-space: pre-wrap;
-  font-weight: 300;
+  color: rgba(28, 27, 31, 0.8);
+  /* font-weight: 300; */
   /* font-family: 'Georgia', serif; */
 }
 
@@ -852,9 +853,10 @@ hr {
 
 .card-title {
   margin-top: -4rem;
-  /* text-transform: lowercase; */
+  text-transform: uppercase;
   letter-spacing: 0.5px;
   font-size: 1.1rem;
+  font-weight: 700;
 }
 
 .card-text:last-child {
