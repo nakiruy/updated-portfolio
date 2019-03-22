@@ -4,6 +4,7 @@ import AOS from 'aos';
 
 import complaintOne from '../assets/spotify/complaintOne.png';
 import complaintTwo from '../assets/spotify/complaintTwo.png';
+import spotifyWireframe from '../assets/spotify/spotifyWireframe.png';
 
 class SpotifyContent extends React.Component {
   constructor(props) {
@@ -102,7 +103,8 @@ class SpotifyContent extends React.Component {
               This library can add up to five gesture methods to any Android application: <span className="chunky-underline" id="spotify-underline-color">left</span> (by waving left), <span className="chunky-underline" id="spotify-underline-color">right</span> (by waving right), <span className="chunky-underline" id="spotify-underline-color">up</span> (by waving up), <span className="chunky-underline" id="spotify-underline-color">down</span> (by waving down), and <span className="chunky-underline" id="spotify-underline-color">selection</span> (by hovering a hand over the front camera). Keeping that in mind, I sketched up a possible solution:<br></br><br></br>
               [ADD SKETCHES HERE]<br></br><br></br>
               Several sketches later…<br></br><br></br>
-              [ADD INITAL MOCKUPS]<br></br><br></br>
+              <CardImg top width="100%" src={spotifyWireframe} className="proj-img no-shadow"></CardImg><br></br>
+              <span className="img-caption">Wireframe</span> <br></br><br></br>
               At this point, I had a solid foundation. However, I needed a capability for a user to navigate through their playlists and add support for other features that comes native with Spotify. Fortunately, Spotify introduced <a href="https://support.spotify.com/us/listen_everywhere/voice_assistants/spotify-voice/"><span className="spotify-links">Spotify Voice</span></a> during the time of this project inception.<br></br><br></br> 
               With voice control added:<br></br><br></br>
               [ADD MOCKUP WITH SPOTIFY VOICE]

@@ -695,8 +695,8 @@ button:focus {
   display: inline-flex;
   border: #1C1B1F 1px solid;
   border-radius: 50%;
-  -webkit-filter: invert(100%);
-  filter: invert(100%);
+  -webkit-filter: invert(90%);
+  filter: invert(90%);
   -webkit-transition: all .3s ease-in-out;
   -moz-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
@@ -855,7 +855,7 @@ hr {
   margin-top: -4rem;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 700;
 }
 
