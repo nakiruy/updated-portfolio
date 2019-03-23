@@ -40,7 +40,7 @@ class AboutContent extends React.Component {
               </h6>
             </div>
           </Col>
-          <h6 className="secondary-header" id="insta-header" data-aos="fade-up">instagram feed</h6>
+          <h6 className="secondary-header" id="insta-header">instagram feed</h6>
           <div>
             <AboutPhotos />
           </div>
