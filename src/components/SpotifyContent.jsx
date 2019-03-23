@@ -7,6 +7,7 @@ import complaintTwo from '../assets/spotify/complaintTwo.png';
 import spotifySketch from '../assets/spotify/spotifySketch.png';
 import spotifyWireframe from '../assets/spotify/spotifyWireframe.png';
 import spotifyVoiceAdd from '../assets/spotify/spotifyVoiceAdd.png';
+import spotifyToggle from '../assets/spotify/spotifyToggle.png';
 
 class SpotifyContent extends React.Component {
   constructor(props) {
@@ -122,7 +123,9 @@ class SpotifyContent extends React.Component {
                 <div className="center" id="spotify-prototype">
                   <iframe title="Spotify Car Mode Prototype" className="spotify-prototype" width="424" height="916" src="//invis.io/GUQVGDOEHZD" frameBorder="0" allowFullScreen></iframe>
                 </div><br></br>
-                To summarize, the final iteration of this project ensures that it is following the <a href="https://developer.spotify.com/branding-guidelines/"><span className="spotify-links">design guidelines</span></a> as outlined by Spotify. Also, as an extra touch, I decided to add an overall color theme of purple to visually establish this driving mode separately from the main view.
+                To summarize, the final iteration of this project ensures that it is following the <a href="https://developer.spotify.com/branding-guidelines/"><span className="spotify-links">design guidelines</span></a> as outlined by Spotify. Also, as an extra touch, I decided to add an overall purple theme to visually separate this driving mode from the main view. Also, let's not forget...<br></br><br></br>
+                <CardImg top width="100%" className="proj-img spotify-toggle" src={spotifyToggle}></CardImg><br></br>
+                <span className="img-caption">Pretty self-explanatory</span> <br></br><br></br>
               </Media>
             </Col>
           </Row>
@@ -132,7 +135,10 @@ class SpotifyContent extends React.Component {
             </Col>
             <Col lg="8" data-aos="fade-up">
               <Media body>
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+              To be frank, <span className="chunky-underline" id="spotify-underline-color">this might be my favorite project yet</span>. Recreating an existing feature on a large platform such as Spotify’s had its own challenges and tribulations but having a community of online users to receive feedback from helped facilitate the process. I enjoyed tackling early user problems from different angles and ultimately reach a solution that greatly differed from the initial implementation. Definitely got the creative juices flowing.<br></br><br></br>
+              Another plus to taking on this project is that I had the chance <span className="chunky-underline" id="spotify-underline-color">to find a solution from the implementation level</span>. At the time of writing, I spend majority of my days managing development sprints and crafting mockups and as a side effect, I haven’t looked from a developer’s perspective as much as I used to. This project served as a much needed refresher for me.<br></br><br></br>
+              Looking back, one major missing component of my version of driving mode is that there is no way to skip through a song (at least with gestures). Although there are only five gesture methods available from the library, I would imagine there would be a way to add that method and/or circumvent the limit by registering combination of gestures. <br></br><br></br>
+              Either way, I’m glad to have applied myself to this project.<br></br><br></br>
               </Media>
             </Col>
           </Row>

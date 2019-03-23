@@ -937,6 +937,11 @@ hr {
   margin-left: -1rem;
 }
 
+.spotify-toggle {
+  width: 50%;
+  height: auto;
+}
+
 /* Project Vids */
 
 .video-container {
