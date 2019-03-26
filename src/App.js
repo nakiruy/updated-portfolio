@@ -21,6 +21,7 @@ class App extends Component {
     AOS.init({
       duration : 2000
     })
+    window.scrollTo(0, 0);
   }
   render() {
     return (

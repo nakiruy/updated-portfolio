@@ -46,7 +46,7 @@ class MoxtraContent extends React.Component {
             </Col>
             <Col lg="8" data-aos="fade-up">
               <Media body>
-                <a href="https://moxtra.com/"><span className="moxtra-links">Moxtra</span></a> is an embeddable, collaboration solution that allows its users to seamlessly integrate itself to power another software with collaboration features - messaging, file sharing, document sharing, video conferencing/chat, etc. It is widely available in iOS, Android, desktop, and web. Their primary business focus is mobile first with Moxtra having their own native iOS app and featuring their own APIs and SDKs that allow integrations on other mobile platforms.<br></br><br></br> 
+                <a href="https://moxtra.com/"><span className="moxtra-links">Moxtra</span></a> is an embeddable, collaboration solution that allows its users to seamlessly power any application with collaboration features - messaging, file sharing, document sharing, video conferencing/chat, etc. It is widely available on iOS, Android, desktop, and web. Their primary business focus is mobile first with Moxtra having their own native iOS app and featuring their own APIs and SDKs that allow integrations on other mobile platforms.<br></br><br></br> 
                 During my time as a UI/UX Design Developer intern, we identified one of the pain points to the user experience to be the onboarding. As my time at Moxtra came to a close, I was tasked <span className="chunky-underline" id="moxtra-underline-color">to improve and re-envision the onboarding of Moxtra’s mobile application</span>.
               </Media>
             </Col>
