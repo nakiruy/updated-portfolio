@@ -46,8 +46,8 @@ class MoxtraContent extends React.Component {
             </Col>
             <Col lg="8" data-aos="fade-up">
               <Media body>
-                <a href="https://moxtra.com/"><span className="moxtra-links">Moxtra</span></a> is an embeddable, collaboration solution that allows its users to seamlessly power any application with collaboration features - messaging, file sharing, document sharing, video conferencing/chat, etc. It is widely available on iOS, Android, desktop, and web. Their primary business focus is mobile first with Moxtra having their own native iOS app and featuring their own APIs and SDKs that allow integrations on other mobile platforms.<br></br><br></br> 
-                During my time as a UI/UX Design Developer intern, we identified one of the pain points to the user experience to be the onboarding. As my time at Moxtra came to a close, I was tasked <span className="chunky-underline" id="moxtra-underline-color">to improve and re-envision the onboarding of Moxtra’s mobile application</span>.
+                <a href="https://moxtra.com/"><span className="moxtra-links">Moxtra</span></a> is an embeddable, collaboration solution that allows its users to seamlessly power any application with collaboration features - messaging, file sharing, document sharing, video conferencing/chat, etc. It is widely available on iOS, Android, desktop, and web. They are a mobile-first company with a native iOS app and develops APIs and SDKs that integrates to other mobile applications.<br></br><br></br> 
+                During my time as a UI/UX Design Developer intern, we identified one of the pain points to the user experience to be the onboarding. As my time at Moxtra came to a close, I was tasked to <span className="chunky-underline" id="moxtra-underline-color">improve and re-envision the onboarding of Moxtra’s mobile application</span>.
               </Media>
             </Col>
           </Row>
@@ -57,21 +57,31 @@ class MoxtraContent extends React.Component {
             </Col>
             <Col lg="8" data-aos="fade-up">
               <Media body>
-              Frankly, when I signed up for Moxtra iOS app for the first time, I was quite unclear on what Moxtra offered out of the box even after going through the onboarding. Personally, it was somewhat abrupt in its flow in addition to insufficient amount of context provided to a new user about the product.<br></br><br></br> 
+              <span className="chunky-underline" id="moxtra-underline-color">Good app onboarding is essential for user attention but Moxtra's was failing me.</span> Frankly, when I signed up for Moxtra iOS app at the start of my internship, I was unclear on what Moxtra offered out of the box even after going through the in-app onboarding. Personally, the onboarding was insufficient to understand the value of the product as a new user.<br></br><br></br> 
               [ADD ORIGINAL ONBOARDING FLOW HERE]<br></br><br></br> 
-              Of course, to confirm my initial impressions, I conducted a series on user interviews who have never used/heard of Moxtra before. Here are high-level resounding themes that were brought up during interviews:<br></br><br></br> 
+              Of course, to confirm my initial impressions, I conducted a series on user interviews who have never used/heard of Moxtra before. A lot of other people's user sentiments resonated with mine. Here are high-level feedback that were brought up during interviews:<br></br><br></br> 
               <ul className="moxtra-painpoints">
-                <li>Ambiguous names of features and on navigations</li>
-                  <li className="secondary-li"></li>
-                <li>Lack of clarity on what the application does</li>
-                  <li className="secondary-li"></li>
-                <li>Plain</li>
-                  <li className="secondary-li"></li>
+                <div className="numbers moxtra-color">The Good</div>
+                <li>Onboarding time, start to finish, is quick and short</li>
+                  add quote
+                <li>Nice graphics on the onboarding carousel</li>
+                  add quote
+                <li>Ability to sign up via Facebook, Google, and SSO is helpful</li>
+                  add quote
+                <div className="numbers moxtra-color">The Bad</div>
+                <li>Ambiguous and nonintuitive names of app features and navigation labels</li>
+                  add quote
+                <li>In-app onboarding provides little to no clarity on what the product offers</li>
+                  add quote
+                <li>Application's visual design is plain and could use an update</li>
+                  add quote
+                <li>Add Avatar and Your Plan screens emerges too soon in the app onboarding process</li>
+                add quote
               </ul>
               <br></br><br></br> 
-              Moxtra is a product with multiple deployments so it was essential to formulate a user flow that was uniquely built for mobile for it to be any effective. For this flow, I was targeting these two categories of users:<br></br><br></br> 
+              To establish focus, I verified that I was targeting these two categories of Moxtra users:<br></br><br></br> 
               [ADD PERSONAS HERE]<br></br><br></br> 
-              To summarize, the onboarding flow of Moxtra’s native iOS application required clearer messaging, better onboarding cues, and more consistent visual design.
+              To summarize, the new onboarding flow of Moxtra’s iOS app required clearer messaging, better onboarding cues, and more vibrant visual design while achieving an overall goal to increase user attention during onboarding process.
               </Media>
             </Col>
           </Row>
