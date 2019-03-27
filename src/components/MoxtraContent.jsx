@@ -61,14 +61,14 @@ class MoxtraContent extends React.Component {
               [ADD ORIGINAL ONBOARDING FLOW HERE]<br></br><br></br> 
               Of course, to confirm my initial impressions, I conducted a series on user interviews who have never used/heard of Moxtra before. A lot of other people's user sentiments resonated with mine. Here are high-level feedback that were brought up during interviews:
               <ul className="moxtra-painpoints">
-                <div className="numbers moxtra-color">The Good</div>
+                <div className="numbers moxtra-color" id="good">The Good</div>
                 <li>Onboarding time, start to finish, is quick and short</li>
                   add quote
                 <li>Nice graphics on the onboarding carousel</li>
                   add quote
                 <li>Ability to sign up via Facebook, Google, and SSO is helpful</li>
                   add quote
-                <div className="numbers moxtra-color">The Bad</div>
+                <div className="numbers moxtra-color" id="bad">The Bad</div>
                 <li>Ambiguous and nonintuitive names of app features and navigation labels</li>
                   add quote
                 <li>In-app onboarding provides little to no clarity on what the product offers</li>
@@ -93,8 +93,9 @@ class MoxtraContent extends React.Component {
               <Media body>
               Now I had confirmed the overarching goal and user pain points, my first step is to always start out with pen and paper. Here’s the result from my first go:<br></br><br></br> 
               [ADD SKETCHES WITH MULTIPLE OPTIONS]<br></br><br></br>
-              In-app onboarding serves no purpose if the value of the application is not properly conveyed to users. As there are many competitors in Moxtra’s space, I felt that a breakdown of Moxtra vs. competitors was a necessity. This will also help me establish which portions of the platform I should showcase to new users throughout the onboarding process.<br></br><br></br>
+              In-app onboarding serves no purpose if the value of the application is not properly conveyed to users. As there are many competitors in Moxtra’s space, I felt that a breakdown of Moxtra vs. competitors was a necessity. This would also help me establish which portions of the platform I should showcase to new users throughout the onboarding process.<br></br><br></br>
               [ADD COMPETITIVE ANALYSIS TABLE HERE]<br></br><br></br>
+              With the help of the above table, I first developed a lo-fi mockup of the onboarding cards 
               </Media>
             </Col>
           </Row>

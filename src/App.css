@@ -374,7 +374,6 @@ button:focus {
   border-radius: 0rem;
 }
 
-
 .highlight {
   /* background: #fff; */
   /* color: #1C1B1F; */
@@ -940,6 +939,19 @@ hr {
 .spotify-toggle {
   width: 60%;
   height: auto;
+}
+
+#good, #bad {
+  margin-left: -1rem;
+}
+
+#bad {
+  margin-top: 3rem;
+}
+
+.moxtra-painpoints {
+  margin-top: -3rem;
+  margin-left: -1.4rem;
 }
 
 /* Project Vids */
