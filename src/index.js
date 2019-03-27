@@ -11,6 +11,7 @@ import Tapcast from './components/Tapcast';
 import Moxtra from './components/Moxtra';
 import Spotify from './components/Spotify';
 import NotFound from './components/NotFound';
+import ComingSoon from './components/ComingSoon';
 
 import registerServiceWorker from './registerServiceWorker';
 
@@ -30,8 +31,9 @@ ReactDOM.render(
         <Route path="/about" component={About} />
         <Route path="/resume" component={Resume} />
         <Route path="/projects/tapcast" component={Tapcast} />
-        <Route path="/projects/moxtra" component={Moxtra} />
+        <Route path="/projects/moxtra" component={ComingSoon} />
         <Route path="/projects/spotify" component={Spotify} />
+        <Route path="/construction" component={ComingSoon} />
         <Route component={NotFound} />
     </Switch>
   </Router>, document.getElementById('root')
