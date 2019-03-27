@@ -47,7 +47,7 @@ class MoxtraContent extends React.Component {
             <Col lg="8" data-aos="fade-up">
               <Media body>
                 <a href="https://moxtra.com/"><span className="moxtra-links">Moxtra</span></a> is an embeddable, collaboration solution that allows its users to seamlessly power any application with collaboration features - messaging, file sharing, document sharing, video conferencing/chat, etc. It is widely available on iOS, Android, desktop, and web. They are a mobile-first company with a native iOS app and develops APIs and SDKs that integrates to other mobile applications.<br></br><br></br> 
-                During my time as a UI/UX Design Developer intern, we identified one of the pain points to the user experience to be the onboarding. As my time at Moxtra came to a close, I was tasked to <span className="chunky-underline" id="moxtra-underline-color">improve and re-envision the onboarding of Moxtra’s mobile application</span>.
+                During my time as a UI/UX Design Developer intern, we identified one of the pain points to the user experience is the onboarding. As my time at Moxtra came near, I was tasked to <span className="chunky-underline" id="moxtra-underline-color">improve and re-envision the onboarding of Moxtra’s mobile application</span>.
               </Media>
             </Col>
           </Row>
@@ -57,9 +57,9 @@ class MoxtraContent extends React.Component {
             </Col>
             <Col lg="8" data-aos="fade-up">
               <Media body>
-              <span className="chunky-underline" id="moxtra-underline-color">Good app onboarding is essential for user attention but Moxtra's was failing me.</span> Frankly, when I signed up for Moxtra iOS app at the start of my internship, I was unclear on what Moxtra offered out of the box even after going through the in-app onboarding. Personally, the onboarding was insufficient to understand the value of the product as a new user.<br></br><br></br> 
+              <span className="chunky-underline" id="moxtra-underline-color">Good app onboarding is essential for user attention but Moxtra's was losing mine.</span> Frankly, when I signed up for Moxtra iOS app at the start of my internship, I was unclear on what Moxtra offered out of the box even after going through the in-app onboarding. Personally, the onboarding was insufficient to understand the value of the product as a new user.<br></br><br></br> 
               [ADD ORIGINAL ONBOARDING FLOW HERE]<br></br><br></br> 
-              Of course, to confirm my initial impressions, I conducted a series on user interviews who have never used/heard of Moxtra before. A lot of other people's user sentiments resonated with mine. Here are high-level feedback that were brought up during interviews:<br></br><br></br> 
+              Of course, to confirm my initial impressions, I conducted a series on user interviews who have never used/heard of Moxtra before. A lot of other people's user sentiments resonated with mine. Here are high-level feedback that were brought up during interviews:
               <ul className="moxtra-painpoints">
                 <div className="numbers moxtra-color">The Good</div>
                 <li>Onboarding time, start to finish, is quick and short</li>
@@ -78,8 +78,8 @@ class MoxtraContent extends React.Component {
                 <li>Add Avatar and Your Plan screens emerges too soon in the app onboarding process</li>
                 add quote
               </ul>
-              <br></br><br></br> 
-              To establish focus, I verified that I was targeting these two categories of Moxtra users:<br></br><br></br> 
+              <br></br>
+              To ensure focus, I verified that I was targeting these two categories of new users:<br></br><br></br> 
               [ADD PERSONAS HERE]<br></br><br></br> 
               To summarize, the new onboarding flow of Moxtra’s iOS app required clearer messaging, better onboarding cues, and more vibrant visual design while achieving an overall goal to increase user attention during onboarding process.
               </Media>
@@ -91,7 +91,10 @@ class MoxtraContent extends React.Component {
             </Col>
             <Col lg="8" data-aos="fade-up">
               <Media body>
-              Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+              Now I had confirmed the overarching goal and user pain points, my first step is to always start out with pen and paper. Here’s the result from my first go:<br></br><br></br> 
+              [ADD SKETCHES WITH MULTIPLE OPTIONS]<br></br><br></br>
+              In-app onboarding serves no purpose if the value of the application is not properly conveyed to users. As there are many competitors in Moxtra’s space, I felt that a breakdown of Moxtra vs. competitors was a necessity. This will also help me establish which portions of the platform I should showcase to new users throughout the onboarding process.<br></br><br></br>
+              [ADD COMPETITIVE ANALYSIS TABLE HERE]<br></br><br></br>
               </Media>
             </Col>
           </Row>
