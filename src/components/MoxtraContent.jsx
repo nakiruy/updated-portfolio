@@ -57,16 +57,16 @@ class MoxtraContent extends React.Component {
             </Col>
             <Col lg="8" data-aos="fade-up">
               <Media body>
-              <span className="chunky-underline" id="moxtra-underline-color">Good app onboarding is essential for user attention but Moxtra's was losing mine.</span> In addition, when I signed up for Moxtra iOS app for the first time, I was unclear on what Moxtra offered out of the box even after completing the in-app onboarding. Frankly, I would have left the app in the midst of th.<br></br><br></br> 
+              <span className="chunky-underline" id="moxtra-underline-color">Good app onboarding is essential for user attention but Moxtra's was losing mine.</span> In addition, when I signed up for Moxtra iOS app for the first time, I was unclear on what Moxtra offered out of the box even after completing the in-app onboarding. I assumed that a lot of user may have felt the same.<br></br><br></br> 
               [ADD ORIGINAL ONBOARDING FLOW HERE]<br></br><br></br> 
-              Of course, to confirm my assumptions, I conducted a series on user interviews who have never used/heard of Moxtra before. A lot of other people's sentiments resonated with mine. Itemized below are feedbacks that were brought up during interviews:
+              Of course, to confirm my assumptions, I conducted series of user interviews who have never used/heard of Moxtra before. A lot of other people's sentiments resonated with mine. Itemized below are feedbacks that were brought up during interviews:
               <ul className="moxtra-painpoints">
                 <div className="numbers moxtra-color" id="good">The Good</div>
                 <li>Onboarding time, start to finish, is quick and short</li>
                   add quote
                 <li>Nice graphics on the onboarding carousel</li>
                   add quote
-                <li>Sign up process is quick and painless with the ability to sign up via Facebook, Google, and/or SSO</li>
+                <li>Sign up process is quick and painless with the ability to continue with Facebook, Google, and/or SSO</li>
                   add quote
                 <div className="numbers moxtra-color" id="bad">The Bad</div>
                 <li>Ambiguous and nonintuitive names of app features and navigation labels</li>
@@ -75,7 +75,7 @@ class MoxtraContent extends React.Component {
                   add quote
                 <li>Application's visual design is plain and could use an update</li>
                   add quote
-                <li>Add Avatar and Your Plan screens emerges too soon in the app onboarding process</li>
+                <li>"Add Avatar" and "Your Plan" screens appears too soon in the app onboarding process</li>
                 add quote
               </ul>
               <br></br>
@@ -91,7 +91,7 @@ class MoxtraContent extends React.Component {
             </Col>
             <Col lg="8" data-aos="fade-up">
               <Media body>
-              Now I had confirmed the overarching goal and user pain points, my first step is to always start out with pen and paper. Here’s the result from my first go:<br></br><br></br> 
+              Now that I had confirmed the overarching goal and user pain points, my first step is to always start out with pen and paper. Here’s the result from my first go:<br></br><br></br> 
               [ADD SKETCHES WITH MULTIPLE OPTIONS]<br></br><br></br>
               In-app onboarding serves no purpose if the value of the application is not properly conveyed to users. As there are many competitors in Moxtra’s space, I felt that a breakdown of Moxtra vs. competitors was a necessity. This would also help me establish which portions of the platform I should showcase to new users throughout the onboarding process.<br></br><br></br>
               [ADD COMPETITIVE ANALYSIS TABLE HERE]<br></br><br></br>
