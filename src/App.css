@@ -933,7 +933,7 @@ hr {
 
 .takeaways {
   margin-top: -1.5rem;
-  margin-left: -1rem;
+  margin-left: -1.4rem;
 }
 
 .spotify-toggle {
@@ -951,6 +951,11 @@ hr {
 
 .moxtra-painpoints {
   margin-top: -3rem;
+  margin-left: -1.4rem;
+  list-style-type: circle;
+}
+
+.spotify-painpoints {
   margin-left: -1.4rem;
 }
 

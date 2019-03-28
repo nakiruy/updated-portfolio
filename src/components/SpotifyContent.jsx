@@ -72,14 +72,15 @@ class SpotifyContent extends React.Component {
           </Row>
           <Row>
             <Col lg="4" data-aos="fade-up">
-              <h6 className="secondary-header process-heading"><div className="numbers spotify-color">02.</div> The Challenge</h6>
+              <h6 className="secondary-header process-heading"><div className="numbers spotify-color">02.</div> The Problem</h6>
             </Col>
             <Col lg="8" data-aos="fade-up">
               {/* <br></br><br></br>  */}
               {/* <CardImg top width="100%" src={oldCarView1} className="proj-img" id="spotify-small-img"></CardImg><br></br> */}
               {/* <span className="img-caption">original spotify car mode</span> <br></br><br></br>  */}
               <Media body>
-              As alluded to above, there were rampant reports of poor UX practices with Spotify's car mode. Besides the buggy nature of car mode, here are the most common grievances as reported by the earliest adopters:<br></br><br></br>
+              As mentioned above, there were rampant reports of poor UX practices with Spotify's car mode. A handful of Android users in the <a href="https://community.spotify.com/"><span className="spotify-links">Spotify Community</span></a> even stated they'll leave for a competitor due to these issues. <span className="chunky-underline" id="spotify-underline-color">Clearly, not a good sign</span>.<br></br><br></br>
+              I decided to consolidate reported issues to the most frequent mentions and setting aside the buggy nature of car mode, here are the most common grievances as reported by the earliest adopters:<br></br><br></br>
               <ol className="spotify-painpoints">
                 <li>Unable to select and jump through playlists from car mode interface</li>
                 <li>Better playback controls - note: preferences of button sizes varied among users</li>
