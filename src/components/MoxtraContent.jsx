@@ -47,7 +47,7 @@ class MoxtraContent extends React.Component {
             <Col lg="8" data-aos="fade-up">
               <Media body>
                 <a href="https://moxtra.com/"><span className="moxtra-links">Moxtra</span></a> is an embeddable, collaboration solution that allows its users to seamlessly power any application with collaboration features - messaging, file sharing, document sharing, video conferencing/chat, etc. It is widely available on iOS, Android, desktop, and web. They are a mobile-first company with a native iOS app and develops APIs and SDKs that integrates to other mobile applications.<br></br><br></br> 
-                During my time as a UI/UX Design Developer intern, we identified one of the pain points to the user experience is the onboarding. As my time at Moxtra came near, I was tasked to <span className="chunky-underline" id="moxtra-underline-color">improve and re-envision the onboarding of Moxtra’s mobile application</span>.
+                During my time as a UI/UX Design Developer intern, we identified one of the pain points to the user experience is the onboarding. As my time at Moxtra came near, I was tasked <span className="chunky-underline" id="moxtra-underline-color">to improve and visually enhance the onboarding of Moxtra’s mobile application</span>.
               </Media>
             </Col>
           </Row>
@@ -57,9 +57,9 @@ class MoxtraContent extends React.Component {
             </Col>
             <Col lg="8" data-aos="fade-up">
               <Media body>
-              <span className="chunky-underline" id="moxtra-underline-color">Good app onboarding is essential for user attention but Moxtra's was losing mine.</span> In addition, when I signed up for Moxtra iOS app for the first time, I was unclear on what Moxtra offered out of the box even after completing the in-app onboarding. I assumed that a lot of user may have felt the same.<br></br><br></br> 
+              <span className="chunky-underline" id="moxtra-underline-color">Good app onboarding is essential for user attention but Moxtra's was losing mine.</span> When I signed up for Moxtra iOS app for the first time, I found the experience stale and unclear on what Moxtra offered out of the box even after completing the in-app onboarding. I assumed that a lot of user may have felt the same.<br></br><br></br> 
               [ADD ORIGINAL ONBOARDING FLOW HERE]<br></br><br></br> 
-              Of course, to confirm my assumptions, I conducted series of user interviews who have never used/heard of Moxtra before. A lot of other people's sentiments resonated with mine. Itemized below are feedbacks that were brought up during interviews:
+              Of course, to confirm my assumptions, I conducted series of user interviews who have never used/heard of Moxtra before. A lot of other people's sentiments resonated with mine. Itemized below are feedbacks that I jotted down during my research:
               <ul className="moxtra-painpoints">
                 <div className="numbers moxtra-color" id="good">The Good</div>
                 <li>Onboarding time, start to finish, is quick and short</li>
@@ -93,7 +93,7 @@ class MoxtraContent extends React.Component {
               <Media body>
               Now that I had confirmed the overarching goal and user pain points, my first step is to always start out with pen and paper. Here’s the result from my first go:<br></br><br></br> 
               [ADD SKETCHES WITH MULTIPLE OPTIONS]<br></br><br></br>
-              In-app onboarding serves no purpose if the value of the application is not properly conveyed to users. As there are many competitors in Moxtra’s space, I felt that a breakdown of Moxtra vs. competitors was a necessity. This would also help me establish which portions of the platform I should showcase to new users throughout the onboarding process.<br></br><br></br>
+              In-app onboarding serves no purpose if the value of the application is not properly conveyed to users. As there are many competitors in Moxtra’s space, I felt that a breakdown of Moxtra vs. its competitors was a necessity. This would also help me determine which competitive advantages of the platform I should showcase to new users throughout the onboarding process.<br></br><br></br>
               [ADD COMPETITIVE ANALYSIS TABLE HERE]<br></br><br></br>
               With the help of the above table, I dissected the original onboarding cards and revamped it to have a clearer and stronger messaging.<br></br><br></br>
               [ADD LO-FI FOR ONBOARDING CARDS]<br></br><br></br>
@@ -118,7 +118,9 @@ class MoxtraContent extends React.Component {
             </Col>
             <Col lg="8" data-aos="fade-up">
               <Media body>
-              Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+              <span className="chunky-underline" id="moxtra-underline-color">As my first independent design project, there are slew of items I would change if I were to tackle this problem now.</span> For example, the icons are notably too rounded for a business application. Sharper edges for this icon library would have been better suited for this visual representation of a business like Moxtra’s. 
+              Using less variants of colors would have also helped this application to look more “serious”. In terms of user flow, adding a way to keep user engagement <span className="chunky-underline" id="moxtra-underline-color">after</span> user leaves the application would have increased user engagement over time. Perhaps adding incentives for users to return to the application (like <a href="https://www.starbucks.com/starbucks-rewards"><span className="moxtra-links">Starbucks Rewards</span></a>) would have drove user retention. One idea I would love to have implemented is that there would be a bot added as one of the contacts when a user first signs up and that bot could be the driver for a user to keep coming back to Moxtra. I’d like to think this bot could be similar to a friend telling you to check out a new app or a clothing line - prompting you to do so. <br></br><br></br>
+              <span className="chunky-underline" id="moxtra-underline-color">Despite the flaws, I took plenty away from this project that helped me to become a better designer and developer.</span> This internship gave me a solid grasp on the fundamentals of design and as a self-taught learner, this was invaluable to me. My manager taught me the iterative processes and organizing assets in Sketch which I still use in both in design and development today. <span className="chunky-underline" id="moxtra-underline-color">Thank you, Moxtra!</span>
               </Media>
             </Col>
           </Row>
