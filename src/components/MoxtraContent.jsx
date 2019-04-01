@@ -1,6 +1,10 @@
 import React from 'react';
-import { Media, Col, Row, Jumbotron, Container, Card, CardTitle, CardText, CardGroup, CardBody } from 'reactstrap';
+import { Media, Col, Row, Jumbotron, Container, Card, CardTitle, CardImg, CardText, CardGroup, CardBody } from 'reactstrap';
 import AOS from 'aos';
+
+import lofiCards from '../assets/moxtra/lo-fiCards.png';
+import lofiWhole from '../assets/moxtra/lo-fiWhole.png';
+
 
 class MoxtraContent extends React.Component {
   constructor(props) {
@@ -62,21 +66,14 @@ class MoxtraContent extends React.Component {
               Of course, to confirm my assumptions, I conducted series of user interviews who have never used/heard of Moxtra before. A lot of other people's sentiments resonated with mine. Itemized below are feedbacks that I jotted down during my research:
               <ul className="moxtra-painpoints">
                 <div className="numbers moxtra-color" id="good">The Good</div>
-                <li>Onboarding time, start to finish, is quick and short</li>
-                  add quote
+                <li>Onboarding process, from start to finish, is quick and short</li>
                 <li>Nice graphics on the onboarding carousel</li>
-                  add quote
                 <li>Sign up process is quick and painless with the ability to continue with Facebook, Google, and/or SSO</li>
-                  add quote
                 <div className="numbers moxtra-color" id="bad">The Bad</div>
                 <li>Ambiguous and nonintuitive names of app features and navigation labels</li>
-                  add quote
                 <li>In-app onboarding provides little to no clarity on what the product offers</li>
-                  add quote
                 <li>Application's visual design is plain and could use an update</li>
-                  add quote
                 <li>"Add Avatar" and "Your Plan" screens appears too soon in the app onboarding process</li>
-                add quote
               </ul>
               <br></br>
               To ensure focus, I verified that I was targeting these two categories of new users:<br></br><br></br> 
@@ -96,9 +93,11 @@ class MoxtraContent extends React.Component {
               <span className="chunky-underline" id="moxtra-underline-color">In-app onboarding serves no purpose if the value of the application is not properly conveyed to users.</span> As there are many competitors in Moxtra’s space, I felt that a breakdown of Moxtra vs. its competitors was a necessity. This would also help me determine which competitive advantages of the platform I should showcase to new users throughout the onboarding process.<br></br><br></br>
               [ADD COMPETITIVE ANALYSIS TABLE HERE]<br></br><br></br>
               With the help of the above table, I dissected the original onboarding cards and revamped it to have a clearer and stronger messaging.<br></br><br></br>
-              [ADD LO-FI FOR ONBOARDING CARDS]<br></br><br></br>
+              <CardImg top width="100%" src="http://assets.yurika.design/moxtra/lo-fiCards.png" className="proj-img no-shadow"></CardImg><br></br>
+              <span className="img-caption">Lo-fi Onboarding Carousel</span> <br></br><br></br>
               From there, I filled in the gaps and developed the rest of the mockups:<br></br><br></br>
-              [ADD LO-FI OF EVERYTHING]<br></br><br></br>
+              <CardImg top width="100%" src="http://assets.yurika.design/moxtra/lo-fiWhole.png" className="proj-img no-shadow"></CardImg> <br></br>
+              <span className="img-caption">Complete Lo-fi Mockup</span> <br></br><br></br>
               </Media>
             </Col>
           </Row>

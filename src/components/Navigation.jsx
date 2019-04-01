@@ -61,13 +61,13 @@ class Navigation extends React.Component {
     let conditionalLogo;
 
     if (window.location.pathname.includes("/tapcast")) {
-      conditionalLogo = <img className="logo" src={logotapcastcol} alt="Logo" />;
+      conditionalLogo = <img className="logo" src="http://assets.yurika.design/logo-tapcastcol.png"  alt="Logo" />;
     } else if (window.location.pathname.includes("/moxtra")) {
-      conditionalLogo = <img className="logo" src={logomoxtracol} alt="Logo" />;
+      conditionalLogo = <img className="logo" src="http://assets.yurika.design/logo-moxtracol.png"  alt="Logo" />;
     } else if (window.location.pathname.includes("/spotify")) {
-      conditionalLogo = <img className="logo" src={logospotifycol} alt="Logo" />;
+      conditionalLogo = <img className="logo" src="http://assets.yurika.design/logo-spotifycol.png" alt="Logo" />;
     } else {
-      conditionalLogo = <img className="logo" src={logo} alt="Logo" />;
+      conditionalLogo = <img className="logo" src="http://assets.yurika.design/logo.png" alt="Logo" />;
     }
     return (
       <div className={`navigation ${classHide}`}>

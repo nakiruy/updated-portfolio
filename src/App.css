@@ -317,19 +317,19 @@ button:focus {
 
 .tapcast-jumbo.jumbotron {
   margin-top: -6rem;
-  background-image: url("../src/assets/tapcastproj.png");
+  background-image: url("http://assets.yurika.design/tapcastproj.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .moxtra-jumbo.jumbotron {
-  background-image: url("../src/assets/moxtraproj.png");
+  background-image: url("http://assets.yurika.design/moxtraproj.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .spotify-jumbo.jumbotron {
-  background-image: url("../src/assets/spotifyproj.png");
+  background-image: url("http://assets.yurika.design/spotifyproj.png");
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: -5rem;
@@ -636,7 +636,7 @@ button:focus {
 
 .contact {
   /* background: linear-gradient(160deg, #9F54CC, #4724f7); */
-  background-image: url("../src/assets/contact.png");
+  background-image: url("http://assets.yurika.design/contact.png");
   background-repeat: no-repeat;
   background-size: cover;
   -webkit-filter: none;
@@ -821,7 +821,7 @@ hr {
 }
 
 .tapcast-projpic {
-  background-image: url("../src/assets/tapcastproj2.png");
+  background-image: url("http://assets.yurika.design/tapcastproj2.png");
   background-repeat: no-repeat;
   background-size: cover;
   filter: none;
@@ -831,7 +831,7 @@ hr {
 }
 
 .moxtra-projpic {
-  background-image: url("../src/assets/moxtraproj2.png");
+  background-image: url("http://assets.yurika.design/moxtraproj2.png");
   background-repeat: no-repeat;
   background-size: cover;
   filter: none;
@@ -841,7 +841,7 @@ hr {
 }
 
 .spotify-projpic {
-  background-image: url("../src/assets/spotifyproj2.png");
+  background-image: url("http://assets.yurika.design/spotifyproj2.png");
   background-repeat: no-repeat;
   background-size: cover;
   filter: none;

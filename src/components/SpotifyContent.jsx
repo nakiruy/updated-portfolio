@@ -63,8 +63,8 @@ class SpotifyContent extends React.Component {
               <Media body>
               When internet caught on that <a href="https://www.spotify.com/"><span className="spotify-links">Spotify</span></a> was testing a driving mode on their Android app in 2017, there was sizable anticipation for this new mode - allowing users to have a safer, music-listening experience on the go.<br></br><br></br>
               However, couple months later - as Spotify started rolling out the mode to real users - a plague of complaints flooded the internet.<br></br><br></br>
-              <CardImg top width="100%" src={complaintOne} className="proj-img"></CardImg><br></br><br></br> 
-              <CardImg top width="100%" src={complaintTwo} className="proj-img"></CardImg><br></br>
+              <CardImg top width="100%" src="http://assets.yurika.design/spotify/complaintOne.png" className="proj-img"></CardImg><br></br><br></br> 
+              <CardImg top width="100%" src="http://assets.yurika.design/spotify/complaintTwo.png" className="proj-img"></CardImg><br></br>
               <span className="img-caption">comments from spotify community</span> <br></br><br></br>
               Intrigued by the negative feedbacks, I decided to take on this challenge <span className="chunky-underline" id="spotify-underline-color">to improve the user experience of Spotify's car mode with a distraction-free, drivers-first interface</span>. 
               </Media>
@@ -103,13 +103,13 @@ class SpotifyContent extends React.Component {
                 <iframe title="HandWave Video" width="400" height="300" src="https://www.youtube.com/embed/ws8UipMmJLE" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
               </div>
               This library can add up to five gesture methods to any Android application: <span className="chunky-underline" id="spotify-underline-color">left</span> (by waving left), <span className="chunky-underline" id="spotify-underline-color">right</span> (by waving right), <span className="chunky-underline" id="spotify-underline-color">up</span> (by waving up), <span className="chunky-underline" id="spotify-underline-color">down</span> (by waving down), and <span className="chunky-underline" id="spotify-underline-color">selection</span> (by hovering a hand over the front camera). With methods established, I assigned each variable to an associated movement for this application:<br></br><br></br>
-              <CardImg top width="100%" src={spotifySketch} className="proj-img"></CardImg><br></br>
+              <CardImg top width="100%" src="http://assets.yurika.design/spotify/spotifySketch.png" className="proj-img"></CardImg><br></br>
               <span className="img-caption">Assignment of gestures & quick mockup</span> <br></br><br></br>
               Then I proceeded with the onboarding...<br></br><br></br>
-              <CardImg top width="100%" src={spotifyWireframe} className="proj-img no-shadow"></CardImg><br></br>
+              <CardImg top width="100%" src="http://assets.yurika.design/spotify/spotifyWireframe.png" className="proj-img no-shadow"></CardImg><br></br>
               <span className="img-caption">Onboarding Wireframe</span> <br></br><br></br>
               At this point, I had a solid foundation. However, my wireframe lacked the capability for users to navigate through their playlists (i.e. to tackle problem one of early users). Fortunately, Spotify introduced <a href="https://support.spotify.com/us/listen_everywhere/voice_assistants/spotify-voice/"><span className="spotify-links">Spotify Voice</span></a> during the time of this project inception and I added extra screens to the above flow.<br></br><br></br> 
-              <CardImg top width="100%" src={spotifyVoiceAdd} className="proj-img no-shadow"></CardImg><br></br>
+              <CardImg top width="100%" src="http://assets.yurika.design/spotify/spotifyVoiceAdd.png" className="proj-img no-shadow"></CardImg><br></br>
               <span className="img-caption">Spotify Voice Screens</span> <br></br><br></br>
               From there, it was all about putting pieces together.
               </Media>
@@ -125,7 +125,7 @@ class SpotifyContent extends React.Component {
                   <iframe title="Spotify Car Mode Prototype" className="spotify-prototype" width="424" height="916" src="//invis.io/GUQVGDOEHZD" frameBorder="0" allowFullScreen></iframe>
                 </div>
                 To summarize, the final iteration of this project ensures that it is following the <a href="https://developer.spotify.com/branding-guidelines/"><span className="spotify-links">design guidelines</span></a> as outlined by Spotify. Also, as an extra touch, I decided to add an overall purple theme to visually separate this driving mode from the main view. Also, let's not forget the most critical component to the application...<br></br><br></br>
-                <CardImg top width="100%" className="proj-img spotify-toggle" src={spotifyToggle}></CardImg><br></br>
+                <CardImg top width="100%" className="proj-img spotify-toggle" src="http://assets.yurika.design/spotify/spotifyToggle.png"></CardImg><br></br>
                 <span className="img-caption">Pretty self-explanatory</span> <br></br><br></br>
               </Media>
             </Col>

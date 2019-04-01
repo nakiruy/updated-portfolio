@@ -65,14 +65,13 @@ class AboutPhotosCarouselNew extends Component {
       withoutControls="false"
       swiping="true"
       >
-        <CardImg src={beach}></CardImg>
-        <CardImg src={cappucino}></CardImg>
-        <CardImg src={pancakes}></CardImg>
-        <CardImg src={us}></CardImg>
-        <CardImg src={baybridge}></CardImg>
-        <CardImg src={lucas}></CardImg>
-        <CardImg src={cafe}></CardImg>
-        <CardImg src={hibiscus}></CardImg>
+        <CardImg src="http://assets.yurika.design/beach.jpg"></CardImg>
+        <CardImg src="http://assets.yurika.design/cappucino.jpg"></CardImg>
+        <CardImg src="http://assets.yurika.design/pancakes.jpg"></CardImg>
+        <CardImg src="http://assets.yurika.design/baybridge.jpg"></CardImg>
+        <CardImg src="http://assets.yurika.design/lucas.jpg"></CardImg>
+        <CardImg src="http://assets.yurika.design/cafe.jpg"></CardImg>
+        <CardImg src="http://assets.yurika.design/hibiscus.jpg"></CardImg>
       </Carousel>
     );
   }
