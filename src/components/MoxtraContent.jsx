@@ -2,10 +2,6 @@ import React from 'react';
 import { Media, Col, Row, Jumbotron, Container, Card, CardTitle, CardImg, CardText, CardGroup, CardBody } from 'reactstrap';
 import AOS from 'aos';
 
-import lofiCards from '../assets/moxtra/lo-fiCards.png';
-import lofiWhole from '../assets/moxtra/lo-fiWhole.png';
-
-
 class MoxtraContent extends React.Component {
   constructor(props) {
     super(props);

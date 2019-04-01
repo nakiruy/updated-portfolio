@@ -1,14 +1,6 @@
 import React from 'react';
 import { Card, CardImg, CardColumns, CardBody } from 'reactstrap';
 
-import beach from '../assets/beach.jpg';
-import cappucino from '../assets/cappucino.jpg';
-import pancakes from '../assets/pancakes.jpg';
-import us from '../assets/us.jpg';
-import baybridge from '../assets/baybridge.jpg';
-import hibiscus from '../assets/hibiscus.jpg';
-
-
 const AboutPhotos = (props) => {
   return (
     <CardColumns className="about-photos">

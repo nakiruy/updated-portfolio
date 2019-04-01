@@ -1,10 +1,6 @@
 import React from 'react';
 import { Container, Col } from 'reactstrap';
 
-import email from '../assets/email.png';
-import linkedin from '../assets/linkedin.png';
-import instagram from '../assets/instagram.png';
-
 class SocialIcons extends React.Component {
   constructor(props) {
     super(props);

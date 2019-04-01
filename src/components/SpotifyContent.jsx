@@ -2,13 +2,6 @@ import React from 'react';
 import { Media, Col, Row, Jumbotron, Container, Card, CardImg, CardTitle, CardText, CardGroup, CardBody } from 'reactstrap';
 import AOS from 'aos';
 
-import complaintOne from '../assets/spotify/complaintOne.png';
-import complaintTwo from '../assets/spotify/complaintTwo.png';
-import spotifySketch from '../assets/spotify/spotifySketch.png';
-import spotifyWireframe from '../assets/spotify/spotifyWireframe.png';
-import spotifyVoiceAdd from '../assets/spotify/spotifyVoiceAdd.png';
-import spotifyToggle from '../assets/spotify/spotifyToggle.png';
-
 class SpotifyContent extends React.Component {
   constructor(props) {
     super(props);

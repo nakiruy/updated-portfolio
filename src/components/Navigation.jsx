@@ -7,11 +7,6 @@ import {
   Nav,
   NavItem,
   NavLink } from 'reactstrap';
-  
-import logo from '../assets/logo.png';
-import logotapcastcol from '../assets/logo-tapcastcol.png';
-import logomoxtracol from '../assets/logo-moxtracol.png';
-import logospotifycol from '../assets/logo-spotifycol.png';
 
 import { Slider } from 'react-burgers';
 

@@ -2,19 +2,6 @@ import React from 'react';
 import { Media, Col, Row, Jumbotron, Container, Card, CardImg, CardTitle, CardText, CardGroup, CardBody } from 'reactstrap';
 import AOS from 'aos';
 
-import oldTapcast from '../assets/tapcast/oldtapcast.png';
-import fullTapcastGrid from '../assets/tapcast/fullwgrid.png';
-import fullTapcast from '../assets/tapcast/fullLogo.png';
-import tapcastPIP from '../assets/tapcast/tapcastPIP.png';
-import tapcastFlow from '../assets/tapcast/tapcastFlow.png';
-import mockupBW from '../assets/tapcast/mockupBW.png';
-import mockupColor from '../assets/tapcast/mockupColor.png';
-import tapcastPlatform from '../assets/tapcast/tapcast-platform.png';
-import tapcastAudience from '../assets/tapcast/tapcast-audience.png';
-import tapcastLanding from '../assets/tapcast/tapcast-landing.png';
-import tapcastPayment from '../assets/tapcast/tapcast-payment.png';
-import tapcastSignup from '../assets/tapcast/tapcast-signup.png';
-
 class TapcastContent extends React.Component {
   constructor(props) {
     super(props);
