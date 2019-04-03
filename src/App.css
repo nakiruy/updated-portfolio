@@ -593,6 +593,48 @@ button:focus {
   object-fit: cover;
 }
 
+.slider-control-bottomcenter {
+  display: none;
+}
+
+.moxtra-final {
+  width: 80%;
+  height: 100% !important;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+.prev-arrow, .next-arrow {
+  width: 20px;
+  height: 20px;
+  border: #0052FF90 solid;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 5px;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  margin: -10px 10px;
+  background: transparent;
+}
+
+.next-arrow {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.slider-list {
+  height: auto!important;
+}
+
+.slider-slide {
+  position: sticky!important;
+}
+
+.about-arrow {
+  border: #ffffff90 solid;
+  border-width: 0 2px 2px 0;
+}
+
 .footer-row {
   margin-right: 0;
 }
@@ -1098,6 +1140,9 @@ hr {
   }
   .about-photos-carousel {
     display: none !important;
+  }
+  .moxtra-final {
+    width: 50% !important;
   }
 } 
 
