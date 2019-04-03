@@ -18,8 +18,8 @@ class AboutPhotosCarousel extends Component {
     return (
       <Carousel 
       className="about-photos-carousel"
-      withoutControls="false"
-      swiping="true"
+      withoutControls={true}
+      swiping={true}
       >
         <CardImg src="http://assets.yurika.design/beach.jpg"></CardImg>
         <CardImg src="http://assets.yurika.design/cappucino.jpg"></CardImg>

@@ -1,25 +1,20 @@
 import React, { Component } from 'react';
 import Carousel from 'nuka-carousel';
 import { CardImg } from 'reactstrap';
-import AOS from 'aos';
 
 class MoxtraSolution extends Component {
-  constructor(props) {
-    super(props);
-  }
-
-  componentDidMount(){
-    AOS.init({
-      duration : 2000
-    })
+  componentDidMount() {
+    setTimeout(() => {
+      window.dispatchEvent(new Event('resize'));
+    }, 0);
   }
 
   render() {
+    
     return (
       <Carousel 
-      className="moxtra-solution"
-      withoutControls="false"
-      swiping="true"
+      withoutControls={true}
+      swiping={true}
       >
         <CardImg className="moxtra-final" src="http://assets.yurika.design/moxtra/1.png"></CardImg>
         <CardImg className="moxtra-final" src="http://assets.yurika.design/moxtra/2.png"></CardImg>
