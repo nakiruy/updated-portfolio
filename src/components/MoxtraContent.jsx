@@ -107,7 +107,7 @@ class MoxtraContent extends React.Component {
             <Col lg="4" data-aos="fade-up">
               <h6 className="secondary-header process-heading"><div className="numbers moxtra-color">04.</div> The Solution</h6>
             </Col>
-            <Col lg="8">
+            <Col lg="8" data-aos="fade-up">
               <Media body>
                 <MoxtraSolution />
               </Media>

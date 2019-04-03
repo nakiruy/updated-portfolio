@@ -13,8 +13,15 @@ class MoxtraSolution extends Component {
     
     return (
       <Carousel 
-      withoutControls={true}
+      className="moxtra-carousel"
       swiping={true}
+      dragging={true}
+      renderCenterLeftControls={({ previousSlide }) => (
+        <button className="prev-arrow" onClick={previousSlide}></button>
+      )}
+      renderCenterRightControls={({ nextSlide }) => (
+        <button className="next-arrow" onClick={nextSlide}></button>
+      )}
       >
         <CardImg className="moxtra-final" src="http://assets.yurika.design/moxtra/1.png"></CardImg>
         <CardImg className="moxtra-final" src="http://assets.yurika.design/moxtra/2.png"></CardImg>

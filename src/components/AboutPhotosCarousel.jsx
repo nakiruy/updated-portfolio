@@ -18,8 +18,14 @@ class AboutPhotosCarousel extends Component {
     return (
       <Carousel 
       className="about-photos-carousel"
-      withoutControls={true}
       swiping={true}
+      dragging={true}
+      renderCenterLeftControls={({ previousSlide }) => (
+        <button className="prev-arrow about-arrow" onClick={previousSlide}></button>
+      )}
+      renderCenterRightControls={({ nextSlide }) => (
+        <button className="next-arrow about-arrow" onClick={nextSlide}></button>
+      )}
       >
         <CardImg src="http://assets.yurika.design/beach.jpg"></CardImg>
         <CardImg src="http://assets.yurika.design/cappucino.jpg"></CardImg>
