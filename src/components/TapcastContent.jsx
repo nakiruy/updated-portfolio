@@ -85,10 +85,10 @@ class TapcastContent extends React.Component {
                   <span className="img-caption">Signup to payment flowchart</span> <br></br><br></br>
                   To be competitive, I also felt that our platform needed some serious rebranding. I aimed for a modern, clean, simple look while being respectful of the previous design. I first redesigned the logo:<br></br><br></br>
                   <Row>
-                    <Col md="6">
+                    <Col xs="6">
                       <CardImg top width="100%" src="http://assets.yurika.design/tapcast/fullwgrid.png" className="proj-img no-shadow"></CardImg>
                     </Col>
-                    <Col md="6">
+                    <Col xs="6">
                       <CardImg top width="100%" src="http://assets.yurika.design/tapcast/fullLogo.png" className="proj-img no-shadow"></CardImg>
                     </Col>
                   </Row>

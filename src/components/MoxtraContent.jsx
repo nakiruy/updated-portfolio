@@ -107,7 +107,8 @@ class MoxtraContent extends React.Component {
             </Col>
             <Col lg="8" data-aos="fade-up">
               <Media body>
-              [ADD FINAL SOLUTION IN SEGMENTS - MAYBE A COMPARISON]
+              <CardImg top width="100%" src="http://assets.yurika.design/moxtra/moxtraCarousel.png" className="proj-img"></CardImg> <br></br>
+              <span className="img-caption">Moxtra Carousel</span> <br></br><br></br>
               </Media>
             </Col>
           </Row>
