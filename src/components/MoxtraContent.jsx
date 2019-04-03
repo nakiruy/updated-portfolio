@@ -58,7 +58,8 @@ class MoxtraContent extends React.Component {
             <Col lg="8" data-aos="fade-up">
               <Media body>
               <span className="chunky-underline" id="moxtra-underline-color">Good app onboarding is essential for user attention but Moxtra's was losing mine.</span> When I signed up for Moxtra iOS app for the first time, I found the experience stale and unclear on what Moxtra offered out of the box even after completing the in-app onboarding. I assumed that a lot of user may have felt the same.<br></br><br></br> 
-              [ADD ORIGINAL ONBOARDING FLOW HERE]<br></br><br></br> 
+              <CardImg top width="100%" src="http://assets.yurika.design/moxtra/moxtraOriginal.png" className="proj-img no-shadow"></CardImg> <br></br>
+              <span className="img-caption">Moxtra Original Onboarding</span> <br></br><br></br>
               Of course, to confirm my assumptions, I conducted series of user interviews who have never used/heard of Moxtra before. A lot of other people's sentiments resonated with mine. Itemized below are feedbacks that I jotted down during my research:
               <ul className="moxtra-painpoints">
                 <div className="numbers moxtra-color" id="good">The Good</div>
@@ -72,8 +73,10 @@ class MoxtraContent extends React.Component {
                 <li>"Add Avatar" and "Your Plan" screens appears too soon in the app onboarding process</li>
               </ul>
               <br></br>
-              To ensure focus, I verified that I was targeting these two categories of new users:<br></br><br></br> 
-              [ADD PERSONAS HERE]<br></br><br></br> 
+              To ensure focus, I created two new user personas:<br></br><br></br> 
+              <CardImg top width="100%" src="http://assets.yurika.design/moxtra/moxtraMatthew.png" className="proj-img"></CardImg> <br></br><br></br>
+              <CardImg top width="100%" src="http://assets.yurika.design/moxtra/moxtraPaul.png" className="proj-img"></CardImg> <br></br>
+              <span className="img-caption">User personas for Moxtra</span> <br></br><br></br>
               To summarize, the new onboarding flow of Moxtra’s iOS app required clearer messaging, better onboarding cues, and more vibrant visual design while achieving an overall goal to increase user attention during onboarding process.
               </Media>
             </Col>
@@ -87,7 +90,8 @@ class MoxtraContent extends React.Component {
               Now that I had confirmed the overarching goal and user pain points, <span className="chunky-underline" id="moxtra-underline-color">my first step is to always start out with pen and paper</span>. Here’s the result from my first go:<br></br><br></br> 
               [ADD SKETCHES WITH MULTIPLE OPTIONS]<br></br><br></br>
               <span className="chunky-underline" id="moxtra-underline-color">In-app onboarding serves no purpose if the value of the application is not properly conveyed to users.</span> As there are many competitors in Moxtra’s space, I felt that a breakdown of Moxtra vs. its competitors was a necessity. This would also help me determine which competitive advantages of the platform I should showcase to new users throughout the onboarding process.<br></br><br></br>
-              [ADD COMPETITIVE ANALYSIS TABLE HERE]<br></br><br></br>
+              <CardImg top width="100%" src="http://assets.yurika.design/moxtra/moxtraCompetition.png" className="proj-img no-shadow"></CardImg> <br></br>
+              <span className="img-caption">Moxtra vs. Competition</span> <br></br><br></br>
               With the help of the above table, I dissected the original onboarding cards and revamped it to have a clearer and stronger messaging.<br></br><br></br>
               <CardImg top width="100%" src="http://assets.yurika.design/moxtra/lo-fiCards.png" className="proj-img no-shadow"></CardImg><br></br>
               <span className="img-caption">Lo-fi Onboarding Carousel</span> <br></br><br></br>
