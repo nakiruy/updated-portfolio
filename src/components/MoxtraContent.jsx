@@ -2,6 +2,8 @@ import React from 'react';
 import { Media, Col, Row, Jumbotron, Container, Card, CardTitle, CardImg, CardText, CardGroup, CardBody } from 'reactstrap';
 import AOS from 'aos';
 
+import MoxtraSolution from './MoxtraSolution';
+
 class MoxtraContent extends React.Component {
   constructor(props) {
     super(props);
@@ -90,7 +92,7 @@ class MoxtraContent extends React.Component {
               Now that I had confirmed the overarching goal and user pain points, <span className="chunky-underline" id="moxtra-underline-color">my first step is to always start out with pen and paper</span>. Here’s the result from my first go:<br></br><br></br> 
               [ADD SKETCHES WITH MULTIPLE OPTIONS]<br></br><br></br>
               <span className="chunky-underline" id="moxtra-underline-color">In-app onboarding serves no purpose if the value of the application is not properly conveyed to users.</span> As there are many competitors in Moxtra’s space, I felt that a breakdown of Moxtra vs. its competitors was a necessity. This would also help me determine which competitive advantages of the platform I should showcase to new users throughout the onboarding process.<br></br><br></br>
-              <CardImg top width="100%" src="http://assets.yurika.design/moxtra/moxtraCompetition.png" className="proj-img no-shadow"></CardImg> <br></br>
+              <CardImg top width="100%" src="http://assets.yurika.design/moxtra/moxtraCompetition.png" className="proj-img"></CardImg> <br></br>
               <span className="img-caption">Moxtra vs. Competition</span> <br></br><br></br>
               With the help of the above table, I dissected the original onboarding cards and revamped it to have a clearer and stronger messaging.<br></br><br></br>
               <CardImg top width="100%" src="http://assets.yurika.design/moxtra/lo-fiCards.png" className="proj-img no-shadow"></CardImg><br></br>
@@ -107,8 +109,7 @@ class MoxtraContent extends React.Component {
             </Col>
             <Col lg="8" data-aos="fade-up">
               <Media body>
-              <CardImg top width="100%" src="http://assets.yurika.design/moxtra/moxtraCarousel.png" className="proj-img"></CardImg> <br></br>
-              <span className="img-caption">Moxtra Carousel</span> <br></br><br></br>
+                <MoxtraSolution />
               </Media>
             </Col>
           </Row>

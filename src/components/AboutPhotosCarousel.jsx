@@ -3,7 +3,7 @@ import Carousel from 'nuka-carousel';
 import { CardImg } from 'reactstrap';
 import AOS from 'aos';
 
-class AboutPhotosCarouselNew extends Component {
+class AboutPhotosCarousel extends Component {
   constructor(props) {
     super(props);
   }
@@ -34,4 +34,4 @@ class AboutPhotosCarouselNew extends Component {
 }
 
 
-export default AboutPhotosCarouselNew;
+export default AboutPhotosCarousel;
