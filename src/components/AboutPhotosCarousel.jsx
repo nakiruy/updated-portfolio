@@ -20,6 +20,7 @@ class AboutPhotosCarousel extends Component {
       className="about-photos-carousel"
       swiping={true}
       dragging={true}
+      wrapAround={true}
       renderCenterLeftControls={({ previousSlide }) => (
         <button className="prev-arrow about-arrow" onClick={previousSlide}></button>
       )}

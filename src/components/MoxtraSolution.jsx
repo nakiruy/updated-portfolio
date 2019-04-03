@@ -16,6 +16,7 @@ class MoxtraSolution extends Component {
       className="moxtra-carousel"
       swiping={true}
       dragging={true}
+      wrapAround={true}
       renderCenterLeftControls={({ previousSlide }) => (
         <button className="prev-arrow" onClick={previousSlide}></button>
       )}
