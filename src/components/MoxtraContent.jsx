@@ -100,7 +100,7 @@ class MoxtraContent extends React.Component {
               From there, I developed the rest of the mockup:<br></br><br></br>
               <CardImg top width="100%" src="http://assets.yurika.design/moxtra/lo-fiWhole.png" className="proj-img no-shadow"></CardImg> <br></br>
               <span className="img-caption">Complete Lo-fi Mockup</span> <br></br><br></br>
-              <CardImg top width="100%" src="http://assets.yurika.design/moxtra/moxtraHifi.png" className="proj-img no-shadow"></CardImg> <br></br>
+              <CardImg top width="100%" src="http://assets.yurika.design/moxtra/moxtraHi.png" className="proj-img no-shadow"></CardImg> <br></br>
               <span className="img-caption">Hi-fi mockup: Let's not forget color and glamour!</span> <br></br><br></br>
               </Media>
             </Col>
