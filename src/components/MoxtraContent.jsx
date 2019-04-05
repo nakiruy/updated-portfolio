@@ -49,7 +49,7 @@ class MoxtraContent extends React.Component {
             <Col lg="8" data-aos="fade-up">
               <Media body>
                 <a href="https://moxtra.com/"><span className="moxtra-links">Moxtra</span></a> is an embeddable, collaboration solution that allows its users to seamlessly power any application with collaboration features - messaging, file sharing, document sharing, video conferencing/chat, etc. It is widely available on iOS, Android, desktop, and web. They are a mobile-first company with a native iOS app and develops APIs and SDKs that integrates to other mobile applications.<br></br><br></br> 
-                During my time as a UI/UX Design Developer intern, we identified one of the pain points to the user experience is the onboarding. As my time at Moxtra came near, I was tasked <span className="chunky-underline" id="moxtra-underline-color">to improve and visually enhance the onboarding of Moxtra’s mobile application</span>.
+                During my time as a UI/UX Design Developer intern, we identified one of the pain points to the user experience is the onboarding. As my time at Moxtra approached the end, I was tasked <span className="chunky-underline" id="moxtra-underline-color">to improve and visually enhance the onboarding of Moxtra’s mobile application</span>.
               </Media>
             </Col>
           </Row>
@@ -61,7 +61,7 @@ class MoxtraContent extends React.Component {
               <Media body>
               <span className="chunky-underline" id="moxtra-underline-color">Good app onboarding is essential for user attention but Moxtra's was losing mine.</span> When I signed up for Moxtra iOS app for the first time, I found the experience stale and unclear on what Moxtra offered out of the box even after completing the in-app onboarding. I assumed that a lot of user may have felt the same.<br></br><br></br> 
               <CardImg top width="100%" src="http://assets.yurika.design/moxtra/moxtraOriginal.png" className="proj-img no-shadow"></CardImg> <br></br>
-              <span className="img-caption">Moxtra Original Onboarding</span> <br></br><br></br>
+              <span className="img-caption">Moxtra's Original Onboarding</span> <br></br><br></br>
               Of course, to confirm my assumptions, I conducted series of user interviews who have never used/heard of Moxtra before. A lot of other people's sentiments resonated with mine. Itemized below are feedbacks that I jotted down during my research:
               <ul className="moxtra-painpoints">
                 <div className="numbers moxtra-color" id="good">The Good</div>
@@ -70,7 +70,7 @@ class MoxtraContent extends React.Component {
                 <li>Sign up process is quick and painless with the ability to continue with Facebook, Google, and/or SSO</li>
                 <div className="numbers moxtra-color" id="bad">The Bad</div>
                 <li>Ambiguous and nonintuitive names of app features and navigation labels</li>
-                <li>In-app onboarding provides little to no clarity on what the product offers</li>
+                <li>In-app onboarding provides little to no clarity on what the product is</li>
                 <li>Application's visual design is plain and could use an update</li>
                 <li>"Add Avatar" and "Your Plan" screens appears too soon in the app onboarding process</li>
               </ul>
@@ -89,17 +89,19 @@ class MoxtraContent extends React.Component {
             </Col>
             <Col lg="8" data-aos="fade-up">
               <Media body>
-              Now that I had confirmed the overarching goal and user pain points, <span className="chunky-underline" id="moxtra-underline-color">my first step is to always start out with pen and paper</span>. Here’s the result from my first go:<br></br><br></br> 
-              [ADD SKETCHES WITH MULTIPLE OPTIONS]<br></br><br></br>
-              <span className="chunky-underline" id="moxtra-underline-color">In-app onboarding serves no purpose if the value of the application is not properly conveyed to users.</span> As there are many competitors in Moxtra’s space, I felt that a breakdown of Moxtra vs. its competitors was a necessity. This would also help me determine which competitive advantages of the platform I should showcase to new users throughout the onboarding process.<br></br><br></br>
+              Now that I had an idea in regards to the overarching goal and user pain points, <span className="chunky-underline" id="moxtra-underline-color">my first step is to always start out with pen and paper</span>. Here’s the result from my first brainstorming session:<br></br><br></br> 
+              <CardImg top width="100%" src="http://assets.yurika.design/moxtra/brainstorming.jpg" className="proj-img"></CardImg> <br></br><br></br>
+              Admittedly, I realized after my first few sketches that I was getting ahead of myself. <span className="chunky-underline" id="moxtra-underline-color">In-app onboarding serves no purpose if the value of the application is not properly conveyed to users.</span> As there are many competitors in Moxtra’s space, I felt that a breakdown of Moxtra vs. its competitors was necessary prior to proceeding. This would also help me determine which competitive advantages of the platform I should showcase to new users throughout the onboarding process.<br></br><br></br>
               <CardImg top width="100%" src="http://assets.yurika.design/moxtra/moxtraCompetition.png" className="proj-img"></CardImg> <br></br>
               <span className="img-caption">Moxtra vs. Competition</span> <br></br><br></br>
-              With the help of the above table, I dissected the original onboarding cards and revamped it to have a clearer and stronger messaging.<br></br><br></br>
+              With the help of the above table, I dissected and revamped the original onboarding cards for a clearer and stronger messaging.<br></br><br></br>
               <CardImg top width="100%" src="http://assets.yurika.design/moxtra/lo-fiCards.png" className="proj-img no-shadow"></CardImg><br></br>
               <span className="img-caption">Lo-fi Onboarding Carousel</span> <br></br><br></br>
-              From there, I filled in the gaps and developed the rest of the mockups:<br></br><br></br>
+              From there, I developed the rest of the mockup:<br></br><br></br>
               <CardImg top width="100%" src="http://assets.yurika.design/moxtra/lo-fiWhole.png" className="proj-img no-shadow"></CardImg> <br></br>
               <span className="img-caption">Complete Lo-fi Mockup</span> <br></br><br></br>
+              <CardImg top width="100%" src="http://assets.yurika.design/moxtra/moxtraHifi.png" className="proj-img no-shadow"></CardImg> <br></br>
+              <span className="img-caption">Hi-fi mockup: Let's not forget color and glamour!</span> <br></br><br></br>
               </Media>
             </Col>
           </Row>
@@ -109,7 +111,15 @@ class MoxtraContent extends React.Component {
             </Col>
             <Col lg="8" data-aos="fade-up">
               <Media body>
-                <MoxtraSolution />
+                <MoxtraSolution /><br></br><br></br>
+                Few things to note about the final implementation, 
+                <ul className="moxtra-painpoints" id="moxtra-solution">
+                  <li>Names and descriptions are now clearer vs. the original (e.g. Meet to Calendar)</li>
+                  <li>Verification is now <span className="chunky-underline" id="moxtra-underline-color">completed via SMS instead of email</span> - it's a mobile app, why not text?</li>
+                  <li>Emphasized sign up and de-emphasized log in on the onboarding carousel screens</li>
+                  <li>Updated visually to <span className="chunky-underline" id="moxtra-underline-color">trendy dark mode</span></li>
+                  <li>Removed "Add Avatar" and "Your Plan" screens from onboarding</li>
+                </ul>
               </Media>
             </Col>
           </Row>
@@ -132,7 +142,7 @@ class MoxtraContent extends React.Component {
               <Col lg="8" data-aos="fade-up">
                 <Media body>
                   <ol className="takeaways">
-                    <li>Don't be afraid to ask questions.</li>
+                    <li>Don't be afraid to backtrack and try again.</li>
                     <li>Implementing dark mode is not as simple as it looks.</li>
                     <li>Expecting perfection is stupidity - strive for better and keep iterating.</li>
                   </ol>

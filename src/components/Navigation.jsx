@@ -83,7 +83,7 @@ class Navigation extends React.Component {
                 <NavLink href="mailto:nakiruy@gmail.com">CONTACT</NavLink>
               </NavItem> */}
               <NavItem>
-                <NavLink href="https://drive.google.com/open?id=1RMoqss4mLbaCWmMR-NJWMfjJquQOC5OK">RESUME</NavLink>
+                <NavLink href="https://drive.google.com/file/d/1AhwxbLab45q7ihrDbbfHcflUUq-1hEcm/">RESUME</NavLink>
               </NavItem>
             </Nav>
           </Collapse>
