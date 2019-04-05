@@ -36,7 +36,7 @@ class MoxtraContent extends React.Component {
           <Card className="text-left" data-aos="fade-up">
             <CardBody>
               <CardTitle className="moxtra-color">Tools</CardTitle>
-              <CardText>Sketch, Balsamiq, Asana, Paper & Pen</CardText>
+              <CardText>Sketch, Paper & Pen</CardText>
             </CardBody>
           </Card>
         </CardGroup>
