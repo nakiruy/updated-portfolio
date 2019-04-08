@@ -788,7 +788,7 @@ hr {
 #copyright-copy {
   margin: 1rem 0;
   background: transparent;
-  font-size: 0.5rem !important;
+  font-size: 0.6rem !important;
   text-align: right;
   text-transform: uppercase;
   color: #fff;
@@ -889,7 +889,7 @@ hr {
   filter: none;
   -webkit-filter: none;
   width: 100%;
-  height: ;
+  height: 400px;
 }
 
 .spotify-projpic {
@@ -899,7 +899,7 @@ hr {
   filter: none;
   -webkit-filter: none;
   width: 100%;
-  height: ;
+  height: 400px;
 }
 
 .card-title {
