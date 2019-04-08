@@ -55,7 +55,7 @@ class SpotifyContent extends React.Component {
             <Col lg="8" data-aos="fade-up">
               <Media body>
               When internet caught on that <a href="https://www.spotify.com/"><span className="spotify-links">Spotify</span></a> was testing a driving mode on their Android app in 2017, there was sizable anticipation for this new mode - allowing users to have a safer, music-listening experience on the go.<br></br><br></br>
-              However, couple months later - as Spotify started rolling out the mode to real users - a plague of complaints flooded the internet.<br></br><br></br>
+              However, a couple of months later - as Spotify started rolling out the mode to real users - a plague of complaints flooded the internet.<br></br><br></br>
               <CardImg top width="100%" src="http://assets.yurika.design/spotify/complaintOne.png" className="proj-img"></CardImg><br></br><br></br> 
               <CardImg top width="100%" src="http://assets.yurika.design/spotify/complaintTwo.png" className="proj-img"></CardImg><br></br>
               <span className="img-caption">comments from spotify community</span> <br></br><br></br>
@@ -80,7 +80,7 @@ class SpotifyContent extends React.Component {
                 <li>No option to turn off car mode from Settings</li>
               </ol> <br></br>
               Fortunately, solutions for items one and three were simple enough. An addition of voice functionality for playlist selections and an on/off toggle for Car Mode should solve those issues. However, a solution for issue two was not so apparent because of the wide variety of preferences.<br></br><br></br> 
-              After brainstorming and testing out multiple sizes, it was evident that <span className="chunky-underline" id="spotify-underline-color">just simply making buttons bigger is not enough</span>. Instead, I determined that a hands-free, gesture-based would be sufficient to solve item two. This would mean that a user can control playback not only though tactile means but through gestural movements as well.
+              After brainstorming and testing out multiple sizes, it was evident that <span className="chunky-underline" id="spotify-underline-color">just simply making buttons bigger is not enough</span>. Instead, I determined that a hands-free, gesture-based would be sufficient to solve item two. This would mean that a user can control playback not only through tactile means but through gestural movements as well.
               </Media>
             </Col>
           </Row>
@@ -117,7 +117,7 @@ class SpotifyContent extends React.Component {
                 <div className="center" id="spotify-prototype">
                   <iframe title="Spotify Car Mode Prototype" className="spotify-prototype" width="424" height="916" src="//invis.io/GUQVGDOEHZD" frameBorder="0" allowFullScreen></iframe>
                 </div>
-                To summarize, the final iteration of this project ensures that it is following the <a href="https://developer.spotify.com/branding-guidelines/"><span className="spotify-links">design guidelines</span></a> as outlined by Spotify. Also, as an extra touch, I decided to add an overall purple theme to visually separate this driving mode from the main view. Also, let's not forget the most critical component to the application...<br></br><br></br>
+                To summarize, the final iteration of this project ensures that it is following the <a href="https://developer.spotify.com/branding-guidelines/"><span className="spotify-links">design guidelines</span></a> as outlined by Spotify. Also, as an extra touch, I decided to add an overall purple theme to visually separate this driving mode from the main view. Also, let's not forget the most critical component of the application...<br></br><br></br>
                 <CardImg top width="100%" className="proj-img spotify-toggle" src="http://assets.yurika.design/spotify/spotifyToggle.png"></CardImg><br></br>
                 <span className="img-caption">Pretty self-explanatory</span> <br></br><br></br>
               </Media>
@@ -130,7 +130,7 @@ class SpotifyContent extends React.Component {
             <Col lg="8" data-aos="fade-up">
               <Media body>
               To be frank, <span className="chunky-underline" id="spotify-underline-color">this might be my favorite project yet</span>. Recreating an existing feature on a large platform such as Spotify’s had its own challenges and tribulations but having a community of online users to receive feedback from helped facilitate the process. I enjoyed tackling early user problems from different angles and ultimately reach a solution that greatly differed from the initial implementation. Definitely got the creative juices flowing.<br></br><br></br>
-              Another plus to taking on this project is that I had the chance <span className="chunky-underline" id="spotify-underline-color">to find a solution from the implementation level</span>. At the time of writing, I spend majority of my days managing development sprints and crafting mockups and as a side effect, I haven’t looked from a developer’s perspective as much as I used to. This project served as a much needed refresher for me.<br></br><br></br>
+              Another plus to taking on this project is that I had the chance <span className="chunky-underline" id="spotify-underline-color">to find a solution from the implementation level</span>. At the time of writing, I spend the majority of my days managing development sprints and crafting mockups and as a side effect, I haven’t looked from a developer’s perspective as much as I used to. This project served as a much-needed refresher for me.<br></br><br></br>
               Looking back, one major missing component of my version of driving mode is that there is no way to skip through a song (at least with gestures). Although there are only five gesture methods available from the library, I would imagine there would be a way to add that method and/or circumvent the limit by allowing for a combination of gestures as an. <br></br><br></br>
               Either way, I’m glad to have applied myself to this project.<br></br><br></br>
               </Media>
