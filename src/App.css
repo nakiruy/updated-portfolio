@@ -1290,6 +1290,7 @@ hr {
     margin: 0;
     margin-top: -10rem;
     margin-bottom: 6rem;
+    height: auto;
   }
   .card-text:last-child {
     margin-bottom: 3rem;

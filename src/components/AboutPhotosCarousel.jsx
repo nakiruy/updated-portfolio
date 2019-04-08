@@ -4,9 +4,6 @@ import { CardImg } from 'reactstrap';
 import AOS from 'aos';
 
 class AboutPhotosCarousel extends Component {
-  constructor(props) {
-    super(props);
-  }
 
   componentDidMount(){
     AOS.init({
