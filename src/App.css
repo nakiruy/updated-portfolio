@@ -526,6 +526,7 @@ button:focus {
 
 .card {
   border: none;
+  border-radius: 0.1rem;
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
   background: #f4f4f4;
