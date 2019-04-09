@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 
 const SpotifyJumbo = (props) => {
   return (
+    <div>
+      <Link to="/projects/spotify">
       <Jumbotron className="spotify-jumbo">
         <Card className="description-wrapper" id="moxtra-wrapper" body>
           <h1 className="display-3" id="spotify-lead"><span className="highlight">Spotify Driving Mode</span></h1>
@@ -13,6 +15,8 @@ const SpotifyJumbo = (props) => {
           </p>
         </Card>
       </Jumbotron>
+      </Link>
+    </div>
   );
 };
 

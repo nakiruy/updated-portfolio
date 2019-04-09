@@ -5,6 +5,8 @@ import { Link } from 'react-router-dom';
 
 const MoxtraJumbo = (props) => {
   return (
+    <div>
+      <Link to="/projects/moxtra">
       <Jumbotron className="moxtra-jumbo">
         <Card className="moxtra-description-wrapper" body>
           <h1 className="display-3" id="moxtra-lead"><span className="highlight-moxtra">Onboarding Process for Moxtra</span></h1>
@@ -14,6 +16,8 @@ const MoxtraJumbo = (props) => {
           </p>
         </Card>
       </Jumbotron>
+      </Link>
+    </div>
   );
 };
 
