@@ -28,7 +28,7 @@ class ComingSoon extends React.Component {
       <Container className="footer" fluid>
         <Footer />
       </Container>
-    </div>
+      </div>
     )
   }
 }
