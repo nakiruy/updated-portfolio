@@ -112,6 +112,7 @@ class TapcastContent extends React.Component {
               </Col>
               <Col lg="8" data-aos="fade-up">
                 <Media body>
+                  <a href="https://invis.io/7FQVFPD92ZM"><span className="tapcast-links">Click here to view the full prototype</span></a><br></br><br></br>
                   <CardImg top width="100%" src="http://assets.yurika.design/tapcast/tapcast-platform.png" className="proj-img"></CardImg> <br></br>
                   <span className="img-caption">dashboard</span> <br></br><br></br>
                   <CardImg top width="100%" src="http://assets.yurika.design/tapcast/tapcast-landing.png"className="proj-img"></CardImg> <br></br>
@@ -121,8 +122,7 @@ class TapcastContent extends React.Component {
                   <CardImg top width="100%" src="http://assets.yurika.design/tapcast/tapcast-audience.png" className="proj-img"></CardImg> <br></br>
                   <span className="img-caption">audience page</span> <br></br><br></br>
                   <CardImg top width="100%" src="http://assets.yurika.design/tapcast/tapcast-payment.png" className="proj-img"></CardImg> <br></br>
-                  <span className="img-caption">payment</span> <br></br><br></br>
-                  <a href="https://invis.io/7FQVFPD92ZM"><span className="tapcast-links">Click here to view the full prototype</span></a>
+                  <span className="img-caption">payment</span> <br></br>
                 </Media>
               </Col>
             </Row>
