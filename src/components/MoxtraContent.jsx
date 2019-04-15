@@ -1,6 +1,7 @@
 import React from 'react';
 import { Media, Col, Row, Jumbotron, Container, Card, CardTitle, CardImg, CardText, CardGroup, CardBody } from 'reactstrap';
 import AOS from 'aos';
+import ImageZoom from 'react-medium-image-zoom';
 
 import MoxtraSolution from './MoxtraSolution';
 
@@ -76,8 +77,30 @@ class MoxtraContent extends React.Component {
               </ul>
               <br></br>
               To ensure focus, I created two new user personas:<br></br><br></br> 
-              <CardImg top width="100%" src="http://assets.yurika.design/moxtra/moxtraMatthew.png" className="proj-img"></CardImg> <br></br><br></br>
-              <CardImg top width="100%" src="http://assets.yurika.design/moxtra/moxtraPaul.png" className="proj-img"></CardImg> <br></br>
+              <ImageZoom
+                image={{
+                  src: 'http://assets.yurika.design/moxtra/moxtraMatthew.png',
+                  alt: 'Persona 1',
+                  className: 'proj-img',
+                  style: { width: '100%' }
+                }}
+                zoomImage={{
+                  src: 'http://assets.yurika.design/moxtra/moxtraMatthew.png',
+                  alt: 'Persona 1',
+                }}
+              /><br></br><br></br>
+              <ImageZoom
+                image={{
+                  src: 'http://assets.yurika.design/moxtra/moxtraPaul.png',
+                  alt: 'Persona 2',
+                  className: 'proj-img',
+                  style: { width: '100%' }
+                }}
+                zoomImage={{
+                  src: 'http://assets.yurika.design/moxtra/moxtraPaul.png',
+                  alt: 'Persona 2',
+                }}
+              /><br></br>
               <span className="img-caption">User personas for Moxtra</span> <br></br><br></br>
               To summarize, the new onboarding flow of Moxtra’s iOS app required clearer messaging, better onboarding cues, and more vibrant visual design while achieving the overall goal of increasing user attention during the onboarding process.
               </Media>
@@ -90,12 +113,45 @@ class MoxtraContent extends React.Component {
             <Col lg="8" data-aos="fade-up">
               <Media body>
               Once I have an idea in regards to the overarching goal and user pain points, <span className="chunky-underline" id="moxtra-underline-color">my first step is to always start out with pen and paper</span>. Here’s the result from my first brainstorming session:<br></br><br></br> 
-              <CardImg top width="100%" src="http://assets.yurika.design/moxtra/brainstorming.jpg" className="proj-img"></CardImg> <br></br><br></br>
+              <ImageZoom
+                image={{
+                  src: 'http://assets.yurika.design/moxtra/brainstorming.jpg',
+                  alt: 'Brainstorming',
+                  className: 'proj-img',
+                  style: { width: '100%' }
+                }}
+                zoomImage={{
+                  src: 'http://assets.yurika.design/moxtra/brainstorming.jpg',
+                  alt: 'Brainstorming',
+                }}
+              /><br></br><br></br>
               Admittedly, I realized after my first few sketches that I was getting ahead of myself. <span className="chunky-underline" id="moxtra-underline-color">In-app onboarding serves no purpose if the value of the application is not properly conveyed to users.</span> As there are many competitors in Moxtra’s space, I felt that a breakdown of Moxtra vs. its competitors was necessary prior to proceeding. This would also help me determine which competitive advantages of the platform I should showcase to new users throughout the onboarding process.<br></br><br></br>
-              <CardImg top width="100%" src="http://assets.yurika.design/moxtra/moxtraCompetition.png" className="proj-img"></CardImg> <br></br>
+              <ImageZoom
+                image={{
+                  src: 'http://assets.yurika.design/moxtra/moxtraCompetition.png',
+                  alt: 'Moxtra vs. Competition',
+                  className: 'proj-img',
+                  style: { width: '100%' }
+                }}
+                zoomImage={{
+                  src: 'http://assets.yurika.design/moxtra/moxtraCompetition.png',
+                  alt: 'Moxtra vs. Competition',
+                }}
+              /><br></br>
               <span className="img-caption">Moxtra vs. Competition</span> <br></br><br></br>
               With the help of the above table, I dissected and revamped the original onboarding cards for clearer and stronger message.<br></br><br></br>
-              <CardImg top width="100%" src="http://assets.yurika.design/moxtra/lo-fiCards.png" className="proj-img no-shadow"></CardImg><br></br>
+              <ImageZoom
+                image={{
+                  src: 'http://assets.yurika.design/moxtra/lo-fiCards.png',
+                  alt: 'Moxtra Lo-fi',
+                  className: 'proj-img no-shadow',
+                  style: { width: '100%' }
+                }}
+                zoomImage={{
+                  src: 'http://assets.yurika.design/moxtra/lo-fiCards.png',
+                  alt: 'Moxtra Lo-fi',
+                }}
+              /><br></br>
               <span className="img-caption">Lo-fi Onboarding Carousel</span> <br></br><br></br>
               From there, I developed the rest of the mockup:<br></br><br></br>
               <CardImg top width="100%" src="http://assets.yurika.design/moxtra/lo-fiWhole.png" className="proj-img no-shadow"></CardImg> <br></br>
