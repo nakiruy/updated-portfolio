@@ -106,13 +106,13 @@ class TapcastContent extends React.Component {
                   Moreover, we concluded internally that Tapcast as a product requires a heavy ramp-up period and extensive onboarding. Thus, keeping in mind the high priority business goal of converting as many new users as possible, I decided <span className="chunky-underline" id="tapcast-underline-color">to focus on the new user journey and payment flow</span> in this redesign.<br></br><br></br> 
                   <ImageZoom
                     image={{
-                      src: 'http://assets.yurika.design/tapcast/tapcastFlow.png',
+                      src: 'http://assets.yurika.design/tapcast/tapcastFlowNew.png',
                       alt: 'Tapcast Flowchart',
                       className: 'img',
                       style: { width: '100%' }
                     }}
                     zoomImage={{
-                      src: 'http://assets.yurika.design/tapcast/tapcastFlow.png',
+                      src: 'http://assets.yurika.design/tapcast/tapcastFlowNew.png',
                       alt: 'Tapcast Flowchart',
                     }}
                   /><br></br>
