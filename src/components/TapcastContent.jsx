@@ -79,7 +79,7 @@ class TapcastContent extends React.Component {
                 <Media body>
                   To kick start the redesign, I decided to research our competitors. Fortunately, Facebook has a <a href="https://www.facebook.com/business/solutions-explorer/"><span className="tapcast-links">handy directory</span></a> of their marketing partners which provides a quick overview of each company. This expedited my search for identifying Tapcast's closest competition.<br></br><br></br>
                   After comparing and contrasting a handful of companies as well as coupling user sessions/gathering feedbacks from our customer success team, it was clear that <span className="chunky-underline" id="tapcast-underline-color">our onboarding wasn't enough</span>.
-                  We provided no clear path for users to utilize the platform with zero cues to prompt users to act.<br></br><br></br> 
+                  We provided no clear path on how to utilize the platform with zero cues to prompt users to act.<br></br><br></br> 
                   Moreover, we concluded internally that Tapcast as a product requires a heavy ramp-up period and extensive onboarding. Thus, keeping in mind the high priority business goal of converting as many new users as possible, I decided <span className="chunky-underline" id="tapcast-underline-color">to focus on the new user journey and payment flow</span> in this redesign.<br></br><br></br> 
                   <CardImg top width="100%" src="http://assets.yurika.design/tapcast/tapcastFlow.png" className="proj-img no-shadow"></CardImg> <br></br>
                   <span className="img-caption">Signup to payment flowchart</span> <br></br><br></br>
