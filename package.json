@@ -10,6 +10,7 @@
     "react": "^16.6.3",
     "react-burgers": "^1.1.1",
     "react-dom": "^16.6.3",
+    "react-medium-image-zoom": "^3.0.15",
     "react-preloaders": "^2.1.4",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
