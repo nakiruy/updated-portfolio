@@ -54,12 +54,12 @@ class SpotifyContent extends React.Component {
             </Col>
             <Col lg="8" data-aos="fade-up">
               <Media body>
-              When internet caught on that <a href="https://www.spotify.com/"><span className="spotify-links">Spotify</span></a> was testing a driving mode on their Android app in 2017, there was sizable anticipation for this new mode - allowing users to have a safer, music-listening experience on the go.<br></br><br></br>
-              However, a couple of months later - as Spotify started rolling out the mode to real users - a plague of complaints flooded the internet.<br></br><br></br>
+              When internet caught on that <a href="https://www.spotify.com/"><span className="spotify-links">Spotify</span></a> was testing a driving mode on their Android app in 2017, there was sizable anticipation for this new mode - allowing users to have a safer music-listening experience on the go.<br></br><br></br>
+              However, a couple of months later - as Spotify started rolling out the mode to actual users - a plague of complaints flooded the internet.<br></br><br></br>
               <CardImg top width="100%" src="http://assets.yurika.design/spotify/complaintOne.png" className="proj-img"></CardImg><br></br><br></br> 
               <CardImg top width="100%" src="http://assets.yurika.design/spotify/complaintTwo.png" className="proj-img"></CardImg><br></br>
               <span className="img-caption">comments from spotify community</span> <br></br><br></br>
-              Intrigued by the negative feedbacks, I decided to take on this challenge <span className="chunky-underline" id="spotify-underline-color">to improve the user experience of Spotify's car mode with a distraction-free, drivers-first interface</span>. 
+              Intrigued by the negative feedback, I decided to take on this challenge <span className="chunky-underline" id="spotify-underline-color">to improve the user experience of Spotify's car mode with a distraction-free, drivers-first interface</span>. 
               </Media>
             </Col>
           </Row>
@@ -73,14 +73,14 @@ class SpotifyContent extends React.Component {
               {/* <span className="img-caption">original spotify car mode</span> <br></br><br></br>  */}
               <Media body>
               As mentioned above, there were rampant reports of poor UX practices with Spotify's car mode. A handful of Android users in the <a href="https://community.spotify.com/"><span className="spotify-links">Spotify Community</span></a> even stated they'll leave for a competitor due to these issues. <span className="chunky-underline" id="spotify-underline-color">Clearly, not a good sign</span>.<br></br><br></br>
-              I decided to consolidate reported issues to the most frequent mentions. Setting aside the buggy nature of car mode, here are the most common grievances as reported by the earliest adopters:<br></br><br></br>
+              I decided to consolidate reported issues to get a clearer understanding of the problem. Setting aside the buggy nature of car mode, here are the most common grievances as reported by early adopters:<br></br><br></br>
               <ol className="spotify-painpoints">
                 <li>Unable to select and jump through playlists from car mode interface</li>
                 <li>Better playback controls - note: preferences of button sizes varied among users</li>
                 <li>No option to turn off car mode from Settings</li>
               </ol> <br></br>
               Fortunately, solutions for items one and three were simple enough. An addition of voice functionality for playlist selections and an on/off toggle for Car Mode should solve those issues. However, a solution for issue two was not so apparent because of the wide variety of preferences.<br></br><br></br> 
-              After brainstorming and testing out multiple sizes, it was evident that <span className="chunky-underline" id="spotify-underline-color">just simply making buttons bigger is not enough</span>. Instead, I determined that a hands-free, gesture-based would be sufficient to solve item two. This would mean that a user can control playback not only through tactile means but through gestural movements as well.
+              After brainstorming and testing out multiple sizes, it was evident that <span className="chunky-underline" id="spotify-underline-color">just simply making buttons bigger is not enough</span>. Instead, I determined that a hands-free, gesture-based feature would be sufficient to solve item two. This would mean that a user can control playback not only through tactile means but through movements as well.
               </Media>
             </Col>
           </Row>
@@ -90,7 +90,7 @@ class SpotifyContent extends React.Component {
             </Col>
             <Col lg="8" data-aos="fade-up">
               <Media body>
-              As gesture-free control will be the core component of the application, it was essential to find an implementation method prior to building a user flow. Fortunately, I have some development experience so the first place I knew to search was <a href="https://github.com/"><span className="spotify-links">Github</span></a> and  <a href="https://stackoverflow.com/"><span className="spotify-links">StackOverflow</span></a>.<br></br><br></br>
+              As gesture control will be the core component of the application, it was essential to find an implementation method prior to building a user flow. Fortunately, I have some development experience so the first place I knew to search was <a href="https://github.com/"><span className="spotify-links">Github</span></a> and  <a href="https://stackoverflow.com/"><span className="spotify-links">StackOverflow</span></a>.<br></br><br></br>
               After some digging, I found a <a href="https://github.com/kritts/HandWave"><span className="spotify-links">perfect library</span></a> for this purpose. Essentially, this library allows developers to add hands-free capabilities to any Android apps by utilizing the front-facing camera of smartphones. Here is a video of the library’s capabilities for those interested:
               <div className="video-container">
                 <iframe title="HandWave Video" width="400" height="300" src="https://www.youtube.com/embed/ws8UipMmJLE" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
@@ -129,7 +129,7 @@ class SpotifyContent extends React.Component {
             </Col>
             <Col lg="8" data-aos="fade-up">
               <Media body>
-              To be frank, <span className="chunky-underline" id="spotify-underline-color">this might be my favorite project yet</span>. Recreating an existing feature on a large platform such as Spotify’s had its own challenges and tribulations but having a community of online users to receive feedback from helped facilitate the process. I enjoyed tackling early user problems from different angles and ultimately reach a solution that greatly differed from the initial implementation. Definitely got the creative juices flowing.<br></br><br></br>
+              To be frank, <span className="chunky-underline" id="spotify-underline-color">this is my favorite project yet</span>. Recreating an existing feature on a large platform such as Spotify’s had its own challenges but having a community of online users to receive feedback from helped facilitate the process. I enjoyed tackling early user problems from different angles and ultimately reach a solution that greatly differed from the initial implementation. Definitely got the creative juices flowing.<br></br><br></br>
               Another plus to taking on this project is that I had the chance <span className="chunky-underline" id="spotify-underline-color">to find a solution from the implementation level</span>. At the time of writing, I spend the majority of my days managing development sprints and crafting mockups and as a side effect, I haven’t looked from a developer’s perspective as much as I used to. This project served as a much-needed refresher for me.<br></br><br></br>
               Looking back, one major missing component of my version of driving mode is that there is no way to skip through a song (at least with gestures). Although there are only five gesture methods available from the library, I would imagine there would be a way to add that method and/or circumvent the limit by allowing for a combination of gestures as an. <br></br><br></br>
               Either way, I’m glad to have applied myself to this project.<br></br><br></br>
