@@ -65,7 +65,7 @@ class TapcastContent extends React.Component {
                     image={{
                       src: 'http://assets.yurika.design/tapcast/oldtapcast.png',
                       alt: 'Old Tapcast',
-                      className: 'img',
+                      className: 'proj-img',
                       style: { width: '100%' }
                     }}
                     zoomImage={{
@@ -80,7 +80,7 @@ class TapcastContent extends React.Component {
                     image={{
                       src: 'http://assets.yurika.design/tapcast/tapcastPIP.png',
                       alt: 'Tapcast PIP',
-                      className: 'img',
+                      className: 'proj-img',
                       style: { width: '100%' }
                     }}
                     zoomImage={{
@@ -108,7 +108,7 @@ class TapcastContent extends React.Component {
                     image={{
                       src: 'http://assets.yurika.design/tapcast/tapcastFlowNew.png',
                       alt: 'Tapcast Flowchart',
-                      className: 'img',
+                      className: 'proj-img',
                       style: { width: '100%' }
                     }}
                     zoomImage={{
@@ -134,7 +134,7 @@ class TapcastContent extends React.Component {
                         image={{
                           src: 'http://assets.yurika.design/tapcast/mockupBW.png',
                           alt: 'Tapcast Mockup BW',
-                          className: 'img',
+                          className: 'proj-img',
                           style: { width: '100%' }
                         }}
                         zoomImage={{
@@ -148,7 +148,7 @@ class TapcastContent extends React.Component {
                         image={{
                           src: 'http://assets.yurika.design/tapcast/mockupColor.png',
                           alt: 'Tapcast Mockup Color',
-                          className: 'img',
+                          className: 'proj-img',
                           style: { width: '100%' }
                         }}
                         zoomImage={{
@@ -173,7 +173,7 @@ class TapcastContent extends React.Component {
                       image={{
                         src: 'http://assets.yurika.design/tapcast/tapcast-platform.png',
                         alt: 'Dashboard',
-                        className: 'img',
+                        className: 'proj-img',
                         style: { width: '100%' }
                       }}
                       zoomImage={{
@@ -186,7 +186,7 @@ class TapcastContent extends React.Component {
                       image={{
                         src: 'http://assets.yurika.design/tapcast/tapcast-landing.png',
                         alt: 'Landing Page',
-                        className: 'img',
+                        className: 'proj-img',
                         style: { width: '100%' }
                       }}
                       zoomImage={{
@@ -199,7 +199,7 @@ class TapcastContent extends React.Component {
                       image={{
                         src: 'http://assets.yurika.design/tapcast/tapcast-signup.png',
                         alt: 'Signup Page',
-                        className: 'img',
+                        className: 'proj-img',
                         style: { width: '100%' }
                       }}
                       zoomImage={{
@@ -212,7 +212,7 @@ class TapcastContent extends React.Component {
                       image={{
                         src: 'http://assets.yurika.design/tapcast/tapcast-audience.png',
                         alt: 'Audience Page',
-                        className: 'img',
+                        className: 'proj-img',
                         style: { width: '100%' }
                       }}
                       zoomImage={{
@@ -225,7 +225,7 @@ class TapcastContent extends React.Component {
                       image={{
                         src: 'http://assets.yurika.design/tapcast/tapcast-payment.png',
                         alt: 'Payment Page',
-                        className: 'img',
+                        className: 'proj-img',
                         style: { width: '100%' }
                       }}
                       zoomImage={{
