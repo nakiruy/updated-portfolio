@@ -71,6 +71,7 @@ class TapcastContent extends React.Component {
                     zoomImage={{
                       src: 'http://assets.yurika.design/tapcast/oldtapcast.png',
                       alt: 'Old Tapcast',
+                      className: 'proj-img'
                     }}
                   /><br></br>
                   <span className="img-caption">tapcast v2.0</span> <br></br><br></br>
@@ -86,6 +87,7 @@ class TapcastContent extends React.Component {
                     zoomImage={{
                       src: 'http://assets.yurika.design/tapcast/tapcastPIP.png',
                       alt: 'Tapcast PIP',
+                      className: 'proj-img'
                     }}
                   /><br></br>
                   <span className="img-caption">Example of Tapcast SDK </span> <br></br><br></br>
@@ -114,6 +116,7 @@ class TapcastContent extends React.Component {
                     zoomImage={{
                       src: 'http://assets.yurika.design/tapcast/tapcastFlowNew.png',
                       alt: 'Tapcast Flowchart',
+                      className: 'proj-img'
                     }}
                   /><br></br>
                   <span className="img-caption">Signup to payment flowchart</span> <br></br><br></br>
@@ -140,6 +143,7 @@ class TapcastContent extends React.Component {
                         zoomImage={{
                           src: 'http://assets.yurika.design/tapcast/mockupBW.png',
                           alt: 'Tapcast Mockup BW',
+                          className: 'proj-img'
                         }}
                       /><br></br>
                     </Col>
@@ -154,6 +158,7 @@ class TapcastContent extends React.Component {
                         zoomImage={{
                           src: 'http://assets.yurika.design/tapcast/mockupColor.png',
                           alt: 'Tapcast Mockup Color',
+                          className: 'proj-img'
                         }}
                       /><br></br>
                     </Col>
@@ -179,6 +184,7 @@ class TapcastContent extends React.Component {
                       zoomImage={{
                         src: 'http://assets.yurika.design/tapcast/tapcast-platform.png',
                         alt: 'Dashboard',
+                        className: 'proj-img'
                       }}
                   /><br></br>
                   <span className="img-caption">dashboard</span> <br></br><br></br>
@@ -192,6 +198,7 @@ class TapcastContent extends React.Component {
                       zoomImage={{
                         src: 'http://assets.yurika.design/tapcast/tapcast-landing.png',
                         alt: 'Landing Page',
+                        className: 'proj-img'
                       }}
                   /><br></br>
                   <span className="img-caption">landing page</span> <br></br><br></br>
@@ -205,6 +212,7 @@ class TapcastContent extends React.Component {
                       zoomImage={{
                         src: 'http://assets.yurika.design/tapcast/tapcast-signup.png',
                         alt: 'Signup Page',
+                        className: 'proj-img'
                       }}
                   /><br></br>
                   <span className="img-caption">sign up</span> <br></br><br></br>
@@ -218,6 +226,7 @@ class TapcastContent extends React.Component {
                       zoomImage={{
                         src: 'http://assets.yurika.design/tapcast/tapcast-audience.png',
                         alt: 'Audience Page',
+                        className: 'proj-img'
                       }}
                   /><br></br>
                   <span className="img-caption">audience page</span> <br></br><br></br>
@@ -231,6 +240,7 @@ class TapcastContent extends React.Component {
                       zoomImage={{
                         src: 'http://assets.yurika.design/tapcast/tapcast-payment.png',
                         alt: 'Payment Page',
+                        className: 'proj-img'
                       }}
                   /><br></br>
                   <span className="img-caption">payment</span> <br></br>

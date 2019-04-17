@@ -87,6 +87,7 @@ class MoxtraContent extends React.Component {
                 zoomImage={{
                   src: 'http://assets.yurika.design/moxtra/moxtraMatthew.png',
                   alt: 'Persona 1',
+                  className: 'proj-img'
                 }}
               /><br></br><br></br>
               <ImageZoom
@@ -99,6 +100,7 @@ class MoxtraContent extends React.Component {
                 zoomImage={{
                   src: 'http://assets.yurika.design/moxtra/moxtraPaul.png',
                   alt: 'Persona 2',
+                  className: 'proj-img'
                 }}
               /><br></br>
               <span className="img-caption">User personas for Moxtra</span> <br></br><br></br>
@@ -123,6 +125,7 @@ class MoxtraContent extends React.Component {
                 zoomImage={{
                   src: 'http://assets.yurika.design/moxtra/brainstorming.jpg',
                   alt: 'Brainstorming',
+                  className: 'proj-img'
                 }}
               /><br></br><br></br>
               Admittedly, I realized after my first few sketches that I was getting ahead of myself. <span className="chunky-underline" id="moxtra-underline-color">In-app onboarding serves no purpose if the value of the application is not properly conveyed to users.</span> As there are many competitors in Moxtra’s space, I felt that a breakdown of Moxtra vs. its competitors was necessary prior to proceeding. This would also help me determine which competitive advantages of the platform I should showcase to new users throughout the onboarding process.<br></br><br></br>
@@ -136,6 +139,7 @@ class MoxtraContent extends React.Component {
                 zoomImage={{
                   src: 'http://assets.yurika.design/moxtra/moxtraCompetition.png',
                   alt: 'Moxtra vs. Competition',
+                  className: 'proj-img'
                 }}
               /><br></br>
               <span className="img-caption">Moxtra vs. Competition</span> <br></br><br></br>

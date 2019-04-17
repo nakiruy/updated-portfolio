@@ -67,6 +67,7 @@ class SpotifyContent extends React.Component {
                 zoomImage={{
                   src: 'http://assets.yurika.design/spotify/complaintOne.png',
                   alt: 'Complaint 1',
+                  className: 'proj-img'
                 }}
               /><br></br><br></br>
               <ImageZoom
@@ -79,6 +80,7 @@ class SpotifyContent extends React.Component {
                 zoomImage={{
                   src: 'http://assets.yurika.design/spotify/complaintTwo.png',
                   alt: 'Complaint 2',
+                  className: 'proj-img'
                 }}
               /><br></br><br></br>
               <span className="img-caption">comments from spotify community</span> <br></br><br></br>
@@ -129,6 +131,7 @@ class SpotifyContent extends React.Component {
                 zoomImage={{
                   src: 'http://assets.yurika.design/spotify/spotifySketch.png',
                   alt: 'Spotify Sketch',
+                  className: 'proj-img'
                 }}
               /><br></br>
               <span className="img-caption">Assignment of gestures & quick mockup</span> <br></br><br></br>
@@ -142,7 +145,7 @@ class SpotifyContent extends React.Component {
                 }}
                 zoomImage={{
                   src: 'http://assets.yurika.design/spotify/spotifyWireframe.png',
-                  alt: 'Spotify Wireframe',
+                  alt: 'Spotify Wireframe'
                 }}
               /><br></br>
               <span className="img-caption">Onboarding Wireframe</span> <br></br><br></br>
