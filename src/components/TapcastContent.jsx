@@ -163,7 +163,7 @@ class TapcastContent extends React.Component {
                       /><br></br>
                     </Col>
                   </Row>
-                  <span className="img-caption">Mockup iterations</span><br></br><br></br>
+                  <span className="img-caption">Mockup iterations</span><br></br>
                 </Media>
               </Col>
             </Row>
