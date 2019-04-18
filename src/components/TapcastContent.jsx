@@ -173,7 +173,7 @@ class TapcastContent extends React.Component {
               </Col>
               <Col lg="8" data-aos="fade-up">
                 <Media body>
-                  <a href="https://invis.io/7FQVFPD92ZM"><span className="tapcast-links">Click here to view the full prototype</span></a><br></br><br></br>
+                  {/* <a href="https://invis.io/7FQVFPD92ZM"><span className="tapcast-links">Click here to view the full prototype</span></a><br></br><br></br> */}
                   <ImageZoom
                       image={{
                         src: 'http://assets.yurika.design/tapcast/tapcast-platform.png',
@@ -243,7 +243,10 @@ class TapcastContent extends React.Component {
                         className: 'proj-img'
                       }}
                   /><br></br>
-                  <span className="img-caption">payment</span> <br></br>
+                  <span className="img-caption">payment</span> <br></br><br></br>
+                  <div className="text-center">
+                    <a href="https://invis.io/7FQVFPD92ZM"><span className="highlight" id="btn-tapcast"><span className="btn tapcast-btn">Click here to view the full prototype</span></span></a><br></br>
+                  </div>
                 </Media>
               </Col>
             </Row>

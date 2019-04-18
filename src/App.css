@@ -268,6 +268,12 @@ button:focus {
   box-shadow: 0 3px 10px rgba(71, 36, 247, 0.15); 
 }
 
+.tapcast-btn:hover {
+  background: #FF4F81;
+  border: 2px solid #FF4F81;
+  box-shadow: 0 3px 10px rgba(255, 79, 129, 0.15); 
+}
+
 .jumbotron {
   border-radius: 0.1rem;
   padding: 8rem 2rem;
@@ -1233,6 +1239,17 @@ hr {
     color: #fff !important;
     box-shadow: 0 3px 10px rgba(71, 36, 247, 0.15); 
     /* border-radius: 30px; */
+  }
+  .tapcast-btn {
+    background: transparent;
+    color: #1C1B1F !important;
+    border: 2px solid #1C1B1F;
+    box-shadow: none;
+  }
+  .tapcast-btn:hover {
+    background: #FF4F81;
+    border: 2px solid #FF4F81;
+    box-shadow: 0 3px 10px rgba(255, 79, 129, 0.15); 
   }
   .display-3 {
     line-height: 3rem;
