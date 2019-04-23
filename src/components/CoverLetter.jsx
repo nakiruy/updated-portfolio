@@ -26,10 +26,10 @@ class CoverLetter extends React.Component {
       <div>
       <Container className="header" fluid>
           <Navigation />
-          <div className="main" data-aos="fade-up">
+          <div className="main">
             <Container>
               <Col md="9" className="greetings">
-                <h1 className="headline">Welcome to my interactive cover letter, <span id="cover-letter-name">[NAME]</span>.</h1>
+                <h1 className="headline" data-aos="fade-up">Welcome to my interactive cover letter, <span id="cover-letter-name">[NAME]</span>.</h1>
                 <div data-aos="fade-up">
                   <h6 className="secondary-header" data-aos="fade-up">Why hire me?</h6>
                   <h6 className="about-desc" id="cover-letter-desc">

@@ -22,10 +22,10 @@ class EmailBanner extends React.Component {
           <Container className="contact-container">
             <Row>
               <Col lg="9">
-                <h1 className="contact-copy">Want to learn more? Download my resume.</h1>
+                <h1 className="contact-copy" id="email-copy">Like what you read? Let's chat!</h1>
               </Col>
               <Col lg="3">
-                <a href="mailto:nakiruy@gmail.com" className="btn" id="contact-btn">Download Resume</a>
+                <a href="mailto:nakiruy@gmail.com" className="btn" id="contact-btn">Email Yurika</a>
               </Col>
             </Row>
           </Container>

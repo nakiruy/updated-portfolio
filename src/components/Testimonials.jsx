@@ -7,13 +7,13 @@ const Testimonials = (props) => {
     <div>
       <Row>
         <Col md="4">
-          <Card className="testimonials">
+          <Card className="testimonials" id="first-testimonial">
             <CardBody className="testimonials-body">
               <CardTitle className="comma">"</CardTitle>
               <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
             </CardBody>
             <div className="testimonial-img"></div>
-            <CardFooter className="text-muted testimonials-names">Footer</CardFooter>
+            <CardFooter className="text-muted testimonials-names">Name</CardFooter>
           </Card>
         </Col>
         <Col md="4">
@@ -23,17 +23,17 @@ const Testimonials = (props) => {
               <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
             </CardBody>
             <div className="testimonial-img"></div>
-            <CardFooter className="text-muted testimonials-names">Footer</CardFooter>
+            <CardFooter className="text-muted testimonials-names">Name</CardFooter>
           </Card>
         </Col>
         <Col md="4">
-          <Card className="testimonials">
+          <Card className="testimonials" id="last-testimonial">
             <CardBody className="testimonials-body">
               <CardTitle className="comma">"</CardTitle>
               <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
             </CardBody>
             <div className="testimonial-img"></div>
-            <CardFooter className="text-muted testimonials-names">Footer</CardFooter>
+            <CardFooter className="text-muted testimonials-names">Name</CardFooter>
           </Card>
         </Col>
       </Row>
