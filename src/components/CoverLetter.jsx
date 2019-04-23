@@ -35,10 +35,14 @@ class CoverLetter extends React.Component {
                     With over [#] years in the tech industry, I’m well-positioned to contribute X, Y, and Z skills [that you care about] to your team. And aside from my experience and skills as outlined in my <a href="https://drive.google.com/file/d/1SBTaARz2vp_wtA2vxxLaTJL4y-ugLflG/"><span id="getintouch">resume</span></a>, 
                     https://medium.com/@janetktaylor/your-cover-letter-should-be-about-me-not-you-3f9c0c21773f
                   </h6>
+                  <h6 className="secondary-header">testimonials</h6>
                 </div>
-                <h6 className="secondary-header">testimonials</h6>
+              </Col>
+              <Col>
                 <Testimonials />
-                <h1 className="headline" id="not-header">Thank you for stopping by<span id="period">.</span></h1>
+              </Col>
+              <Col md="9" className="greetings">
+                <h1 className="headline" id="not-header">Thank you for your consideration<span id="period">.</span></h1>
               </Col>
             </Container>
           </div>

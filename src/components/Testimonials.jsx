@@ -7,30 +7,33 @@ const Testimonials = (props) => {
     <div>
       <Row>
         <Col lg="4">
-          <Card>
-            <CardHeader>Header</CardHeader>
-            <CardBody>
-              <CardTitle>Special Title Treatment</CardTitle>
+          <Card className="testimonials">
+            <CardBody className="testimonials-body">
+              <CardTitle className="comma">"</CardTitle>
               <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
             </CardBody>
+            <div className="testimonial-img"></div>
+            <CardFooter className="text-muted testimonials-names">Footer</CardFooter>
           </Card>
         </Col>
         <Col lg="4">
-          <Card>
-            <CardBody>
-              <CardTitle>Special Title Treatment</CardTitle>
+          <Card className="testimonials">
+            <CardBody className="testimonials-body">
+              <CardTitle className="comma">"</CardTitle>
               <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
             </CardBody>
-            <CardFooter className="text-muted">Footer</CardFooter>
+            <div className="testimonial-img"></div>
+            <CardFooter className="text-muted testimonials-names">Footer</CardFooter>
           </Card>
         </Col>
         <Col lg="4">
-          <Card>
-            <CardBody>
-              <CardTitle>Special Title Treatment</CardTitle>
+          <Card className="testimonials">
+            <CardBody className="testimonials-body">
+              <CardTitle className="comma">"</CardTitle>
               <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
             </CardBody>
-            <CardFooter className="text-muted">Footer</CardFooter>
+            <div className="testimonial-img"></div>
+            <CardFooter className="text-muted testimonials-names">Footer</CardFooter>
           </Card>
         </Col>
       </Row>
