@@ -84,7 +84,7 @@
         <!-- Start of Custom Tab Script -->
         <script>
           window.onblur = function () {
-            if (document.activeElement.tagName === "IFRAME") {
+            if (document.activeElement.tagName === "IFRAME" || document.location.pathname.indexOf("/coverletter") === 0 || document.location.pathname.indexOf("/coverletter/") === 0) {
               document.title = 'Yurika Jacobsson'; 
             } else {
               document.title = 'See you soon!'; 
