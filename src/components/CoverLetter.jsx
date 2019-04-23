@@ -4,6 +4,7 @@ import AOS from 'aos';
 
 import Navigation from './Navigation';
 import Testimonials from './Testimonials';
+import EmailBanner from './EmailBanner';
 import Footer from './Footer';
 
 class CoverLetter extends React.Component {
@@ -40,13 +41,14 @@ class CoverLetter extends React.Component {
               </Col>
               <Col>
                 <Testimonials />
+                <EmailBanner />
               </Col>
-              <Col md="9" className="greetings">
+              <Col md="9" className="thank-you">
                 <h1 className="headline" id="not-header">Thank you for your consideration<span id="period">.</span></h1>
               </Col>
             </Container>
           </div>
-        </Container>
+      </Container>
       <Container className="footer" fluid>
         <Footer />
       </Container>

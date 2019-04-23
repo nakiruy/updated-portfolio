@@ -6,7 +6,7 @@ const Testimonials = (props) => {
   return (
     <div>
       <Row>
-        <Col lg="4">
+        <Col md="4">
           <Card className="testimonials">
             <CardBody className="testimonials-body">
               <CardTitle className="comma">"</CardTitle>
@@ -16,7 +16,7 @@ const Testimonials = (props) => {
             <CardFooter className="text-muted testimonials-names">Footer</CardFooter>
           </Card>
         </Col>
-        <Col lg="4">
+        <Col md="4">
           <Card className="testimonials">
             <CardBody className="testimonials-body">
               <CardTitle className="comma">"</CardTitle>
@@ -26,7 +26,7 @@ const Testimonials = (props) => {
             <CardFooter className="text-muted testimonials-names">Footer</CardFooter>
           </Card>
         </Col>
-        <Col lg="4">
+        <Col md="4">
           <Card className="testimonials">
             <CardBody className="testimonials-body">
               <CardTitle className="comma">"</CardTitle>
