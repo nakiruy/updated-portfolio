@@ -12,6 +12,7 @@ import Moxtra from './components/Moxtra';
 import Spotify from './components/Spotify';
 import NotFound from './components/NotFound';
 import ComingSoon from './components/ComingSoon';
+import CoverLetter from './components/CoverLetter';
 
 import registerServiceWorker from './registerServiceWorker';
 
@@ -34,6 +35,7 @@ ReactDOM.render(
         <Route path="/projects/moxtra" component={Moxtra} />
         <Route path="/projects/spotify" component={Spotify} />
         <Route path="/projects/construction" component={ComingSoon} />
+        <Route path="/coverletter" component={CoverLetter} />
         <Route component={NotFound} />
     </Switch>
   </Router>, document.getElementById('root')
