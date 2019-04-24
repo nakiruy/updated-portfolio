@@ -105,7 +105,8 @@ class SpotifyContent extends React.Component {
                 <li>No option to turn off car mode from Settings</li>
               </ol> <br></br>
               Fortunately, solutions for items one and three were simple enough. An addition of voice functionality for playlist selections and an on/off toggle for Car Mode should solve those issues. However, a solution for issue two was not so apparent because of the wide variety of preferences.<br></br><br></br> 
-              After brainstorming and testing out multiple sizes, it was evident that <span className="chunky-underline" id="spotify-underline-color">just simply making buttons bigger is not enough</span>. Instead, I determined that a hands-free, gesture-based feature would be sufficient to solve item two. This would mean that a user can control playback not only through tactile means but through movements as well.
+              After brainstorming and testing out multiple sizes, it was evident that <span className="chunky-underline" id="spotify-underline-color">just simply making buttons bigger is not enough</span>. Instead, I determined that a hands-free, gesture-based feature would be sufficient to solve item two. This would mean that a user can control playback not only through tactile means but through movements as well.<br></br><br></br> 
+              At this point, you may be wondering, why gestures over voice or traditional touch interface? According to <a href="https://www.ideo.com/blog/why-gesture-is-the-next-big-thing-in-design"><span className="spotify-links">IDEO</span></a>, gestural methods are superior when you need to prioritize speed and in environments where one's surroundings can be loud and noisy. Thus I prioritized creating a responsive application that eliminates user's need to look at their phone to make sure their voice commands processed (as an example) and handles edge cases such as bad road noise and loud passengers.<br></br>
               </Media>
             </Col>
           </Row>
@@ -149,7 +150,7 @@ class SpotifyContent extends React.Component {
                 }}
               /><br></br>
               <span className="img-caption">Onboarding Wireframe</span> <br></br><br></br>
-              At this point, I had a solid foundation. However, my wireframe lacked the capability for users to navigate through their playlists (i.e. to tackle problem one of early users). Fortunately, Spotify introduced <a href="https://support.spotify.com/us/listen_everywhere/voice_assistants/spotify-voice/"><span className="spotify-links">Spotify Voice</span></a> during the time of this project inception and I added extra screens to the above flow.<br></br><br></br> 
+              At this point, I had a solid foundation. However, my wireframe lacked the capability for users to navigate through their playlists (i.e. to tackle problem one of early users). Fortunately, Spotify introduced <a href="https://support.spotify.com/us/listen_everywhere/voice_assistants/spotify-voice/"><span className="spotify-links">Spotify Voice</span></a> during the time of this project inception and as this capability would solve the aforementioned user issue, I added extra screens to the above flow.<br></br><br></br> 
               <ImageZoom
                 image={{
                   src: 'http://assets.yurika.design/spotify/spotifyVoiceAdd.png',

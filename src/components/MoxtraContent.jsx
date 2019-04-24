@@ -60,10 +60,10 @@ class MoxtraContent extends React.Component {
             </Col>
             <Col lg="8" data-aos="fade-up">
               <Media body>
-              <span className="chunky-underline" id="moxtra-underline-color">Good app onboarding is essential for user attention but Moxtra's was losing mine.</span> When I signed up for the Moxtra iOS app for the first time, I found the experience stale and unclear on what Moxtra offered out of the box even after completing the in-app onboarding. I assumed that a lot of users may have felt the same.<br></br><br></br> 
+              <span className="chunky-underline" id="moxtra-underline-color">Good app onboarding is essential for user attention but Moxtra's current onboarding was not capturing enough attention.</span> When I signed up for the Moxtra iOS app for the first time, I found the experience stale and unclear on what Moxtra offered out of the box even after completing the in-app onboarding.<br></br><br></br> 
               <CardImg top width="100%" src="http://assets.yurika.design/moxtra/moxtraOriginal.png" className="proj-img no-shadow"></CardImg> <br></br>
               <span className="img-caption">Moxtra's Original Onboarding</span> <br></br><br></br>
-              Of course, to confirm my assumptions, I conducted a series of interviews with potential users who have never used/heard of Moxtra before. A lot of other people's sentiments resonated with mine. Itemized below is feedback that I received:
+              I conducted three interviews with potential users who have never used/heard of Moxtra before. Itemized below is feedback that I received:
               <ul className="moxtra-painpoints">
                 <div className="numbers moxtra-color" id="good">The Good</div>
                 <li>Onboarding process, from start to finish, is quick and short</li>
@@ -177,7 +177,7 @@ class MoxtraContent extends React.Component {
                   <li>Names and descriptions are now clearer vs. the original (e.g. Meet to Calendar)</li>
                   <li>Verification is now <span className="chunky-underline" id="moxtra-underline-color">completed via SMS instead of email</span> - it's a mobile app, why not text?</li>
                   <li>Emphasized sign up and de-emphasized log in on the onboarding carousel screens</li>
-                  <li>Updated visually to <span className="chunky-underline" id="moxtra-underline-color">trendy dark mode</span></li>
+                  <li>Updated visually to <span className="chunky-underline" id="moxtra-underline-color">dark mode</span></li>
                   <li>Removed "Add Avatar" and "Your Plan" screens from onboarding</li>
                 </ul>
               </Media>
