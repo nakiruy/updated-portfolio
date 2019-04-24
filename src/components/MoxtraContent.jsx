@@ -60,50 +60,22 @@ class MoxtraContent extends React.Component {
             </Col>
             <Col lg="8" data-aos="fade-up">
               <Media body>
-              <span className="chunky-underline" id="moxtra-underline-color">Good app onboarding is essential for user attention but Moxtra's current onboarding was not capturing enough attention.</span> When I signed up for the Moxtra iOS app for the first time, I found the experience stale and unclear on what Moxtra offered out of the box even after completing the in-app onboarding.<br></br><br></br> 
+              <span className="chunky-underline" id="moxtra-underline-color">Good app onboarding is essential for user attention but Moxtra was losing many.</span> As this assignment was assigned to me near the end of my internship, I unfortunately never had the opportunity to collect real metrics of this issue. However, my manager did state that the design team never got the opportunity to focus on onboarding and therefore, could be better.<br></br><br></br> 
               <CardImg top width="100%" src="http://assets.yurika.design/moxtra/moxtraOriginal.png" className="proj-img no-shadow"></CardImg> <br></br>
               <span className="img-caption">Moxtra's Original Onboarding</span> <br></br><br></br>
-              I conducted three interviews with potential users who have never used/heard of Moxtra before. Itemized below is feedback that I received:
+              So to get a real sense of how the current onboarding was performing, I conducted three interviews with potential users who have never used/heard of Moxtra before. Itemized below is feedback that I received:
               <ul className="moxtra-painpoints">
                 <div className="numbers moxtra-color" id="good">The Good</div>
                 <li>Onboarding process, from start to finish, is quick and short</li>
                 <li>Nice graphics on the onboarding carousel</li>
                 <li>Sign up process is quick and painless with the ability to continue with Facebook, Google, and/or SSO</li>
                 <div className="numbers moxtra-color" id="bad">The Bad</div>
-                <li>Ambiguous and nonintuitive names of app features and navigation labels</li>
-                <li>In-app onboarding provides little to no clarity on what the product is</li>
-                <li>Application's visual design is plain and could use an update</li>
-                <li>"Add Avatar" and "Your Plan" screens appear too soon in the app onboarding process</li>
+                <li>100% of the users stated that app features and navigation labels were ambiguous and nonintuitive</li>
+                <li>Most agreed that in-app onboarding provides little to no clarity on what the product is</li>
+                <li>75% of users feld that the application's visual design is plain and could use an update</li>
+                <li>One user felt that the "Add Avatar" and "Your Plan" screens appear too soon in the app onboarding process</li>
               </ul>
               <br></br>
-              To ensure focus, I created two new user personas:<br></br><br></br> 
-              <ImageZoom
-                image={{
-                  src: 'http://assets.yurika.design/moxtra/moxtraMatthew.png',
-                  alt: 'Persona 1',
-                  className: 'proj-img',
-                  style: { width: '100%' }
-                }}
-                zoomImage={{
-                  src: 'http://assets.yurika.design/moxtra/moxtraMatthew.png',
-                  alt: 'Persona 1',
-                  className: 'proj-img'
-                }}
-              /><br></br><br></br>
-              <ImageZoom
-                image={{
-                  src: 'http://assets.yurika.design/moxtra/moxtraPaul.png',
-                  alt: 'Persona 2',
-                  className: 'proj-img',
-                  style: { width: '100%' }
-                }}
-                zoomImage={{
-                  src: 'http://assets.yurika.design/moxtra/moxtraPaul.png',
-                  alt: 'Persona 2',
-                  className: 'proj-img'
-                }}
-              /><br></br>
-              <span className="img-caption">User personas for Moxtra</span> <br></br><br></br>
               To summarize, the new onboarding flow of Moxtra’s iOS app required clearer messaging, better onboarding cues, and more vibrant visual design while achieving the overall goal of increasing user attention during the onboarding process.
               </Media>
             </Col>
