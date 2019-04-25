@@ -25,7 +25,7 @@ class ContactBanner extends React.Component {
                 <h1 className="contact-copy">Want to learn more? Download my resume.</h1>
               </Col>
               <Col lg="3">
-                <a href="https://drive.google.com/file/d/1ocFf_XA49iSUsGWhKIuuqTf8vZrdRHYC/" className="btn" id="contact-btn">Download Resume</a>
+                <a href="https://drive.google.com/file/d/10xLHhQ4QMzcSZYSvPBMBEuELecberQbz/" className="btn" id="contact-btn">Download Resume</a>
               </Col>
             </Row>
           </Container>
