@@ -34,7 +34,7 @@ class Lift extends React.Component {
                   <h6 className="about-desc" id="cover-letter-desc">
                     As a frontend engineer with design skills and experience in the advertising & marketing space, I am well-positioned to contribute to your agency with my technical skills.
                     In fact, I have built landing pages for my current company, QA much of the internal processes, and executed necessary analytics for email campaigns. My secondary function at my current role is of a designer and as a result, I am fluent in Sketch and other design technologies (e.g. InVision).<br></br><br></br>
-                    Aside from my experience and skills as outlined in my <a href="https://drive.google.com/file/d/10xLHhQ4QMzcSZYSvPBMBEuELecberQbz/"><span id="getintouch">resume</span></a>, what it cannot tell you is that I am a organized, motivated, and passionate individual. My background in multiple disciplines and industries empowers me as an individual contributor in collaboration, creation, and data-driven results.
+                    Aside from my experience and skills as outlined in my <a href="https://drive.google.com/file/d/10xLHhQ4QMzcSZYSvPBMBEuELecberQbz/"><span id="getintouch">resume</span></a>, what it cannot tell you is that I am an organized, motivated, and passionate individual. My background in multiple disciplines and industries empowers me as an individual contributor in collaboration, creation, and data-driven results.
                   </h6>
                 </div>
               </Col>
