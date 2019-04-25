@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const TapcastBillingJumbo = (props) => {
   return (
     <div>
-      <Link to="/projects/tapcast-billing">
+      <Link to="/projects/tapcastbilling">
       <Jumbotron className="tapcast-billing-jumbo">
         <Card className="tapcast-billing-description-wrapper" body>
           <h1 className="display-3" id="tapcast-billing-lead"><span className="highlight-tapcast-billing">Tapcast Billing</span></h1>

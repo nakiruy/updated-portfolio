@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const TapcastJumbo = (props) => {
   return (
       <div>
-        <Link to="/projects/tapcast">
+        <Link to="/projects/tapcastplatform">
         <Jumbotron className="tapcast-jumbo">
           <Card className="description-wrapper" body>
             <h1 className="display-3" id="tapcast-lead"><span className="highlight">Redesigning Tapcast Platform</span></h1>
