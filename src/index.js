@@ -13,6 +13,7 @@ import Spotify from './components/Spotify';
 import NotFound from './components/NotFound';
 import ComingSoon from './components/ComingSoon';
 import MightyHive from './components/MightyHive';
+import Lift from './components/Lift';
 
 import registerServiceWorker from './registerServiceWorker';
 
@@ -36,6 +37,7 @@ ReactDOM.render(
         <Route path="/projects/spotify" component={Spotify} />
         <Route path="/projects/construction" component={ComingSoon} />
         <Route path="/mightyhive" component={MightyHive} />
+        <Route path="/lift" component={Lift} />
         <Route component={NotFound} />
     </Switch>
   </Router>, document.getElementById('root')

@@ -6,7 +6,7 @@ import Navigation from './Navigation';
 import EmailBanner from './EmailBanner';
 import Footer from './Footer';
 
-class MightyHive extends React.Component {
+class Lift extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -28,13 +28,13 @@ class MightyHive extends React.Component {
           <div className="main">
             <Container>
               <Col md="9" className="greetings">
-                <h1 className="headline" data-aos="fade-up">Welcome to my online cover letter, <span id="cover-letter-name">MightyHive</span>.</h1>
+                <h1 className="headline" data-aos="fade-up">Welcome to my online cover letter, <span id="cover-letter-name">LIFT</span>.</h1>
                 <div data-aos="fade-up">
                   <h6 className="secondary-header" data-aos="fade-up">Why hire me?</h6>
                   <h6 className="about-desc" id="cover-letter-desc">
-                    As a frontend engineer with design skills and experience in the advertising & marketing space, I am well-positioned to contribute to your account management operations team with my technical skills.
-                    In fact, <span class="chunky-underline">I currently work alongside with my company's ad operations and account management team by implementing necessary analytics on clients' websites</span> and as a PM, analyzing user funnel data is of a daily occurrence. I have dealt with integration numerous times in my current position incuding Facebook Pixel, Google Tag Manager, Segment, etc.<br></br><br></br>
-                    Aside from my experience and skills as outlined in my <a href="https://drive.google.com/file/d/10xLHhQ4QMzcSZYSvPBMBEuELecberQbz/"><span id="getintouch">resume</span></a>, what it cannot tell you is that I am an organized, motivated, and passionate individual. My background in multiple disciplines and industries empowers me as an individual contributor in collaboration, creation, and data-driven results.
+                    As a frontend engineer with design skills and experience in the advertising & marketing space, I am well-positioned to contribute to your agency with my technical skills.
+                    In fact, I have built landing pages for my current company, QA much of the internal processes, and executed necessary analytics for email campaigns. My secondary function at my current role is of a designer and as a result, I am fluent in Sketch and other design technologies (e.g. InVision).<br></br><br></br>
+                    Aside from my experience and skills as outlined in my <a href="https://drive.google.com/file/d/10xLHhQ4QMzcSZYSvPBMBEuELecberQbz/"><span id="getintouch">resume</span></a>, what it cannot tell you is that I am a organized, motivated, and passionate individual. My background in multiple disciplines and industries empowers me as an individual contributor in collaboration, creation, and data-driven results.
                   </h6>
                 </div>
               </Col>
@@ -55,4 +55,4 @@ class MightyHive extends React.Component {
   }
 }
 
-export default MightyHive
+export default Lift
