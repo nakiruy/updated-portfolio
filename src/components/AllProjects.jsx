@@ -5,6 +5,7 @@ import AOS from 'aos';
 import TapcastJumbo from './TapcastJumbo';
 import MoxtraJumbo from './MoxtraJumbo';
 import SpotifyJumbo from './SpotifyJumbo';
+import TapcastBillingJumbo from './TapcastBillingJumbo';
 
 class AllProjects extends React.Component {
   constructor(props) {
@@ -25,8 +26,9 @@ class AllProjects extends React.Component {
           <Col className="projects" data-aos="fade-up">
             {/* <h1 className="headline" id="project-headline">Projects.</h1> */}
             <TapcastJumbo />
-            <MoxtraJumbo />
+            <TapcastBillingJumbo />
             <SpotifyJumbo />
+            <MoxtraJumbo />
             {/* <h6 className="secondary-header" id="contact-header">get in touch</h6> */}
           </Col>
         </Container>

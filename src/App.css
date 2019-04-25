@@ -346,6 +346,11 @@ button:focus {
   margin-bottom: -5rem;
 }
 
+.tapcast-billing-jumbo.jumbotron {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .display-3, .lead {
   text-align: left;
   margin: 1rem 0;
@@ -365,7 +370,7 @@ button:focus {
 
 }
 
-#btn-moxtra, #btn-tapcast, #btn-spotify {
+#btn-moxtra, #btn-tapcast, #btn-spotify, #btn-tapcast-billing {
   font-family: 'Lato', sans-serif;
 }
 
@@ -377,7 +382,7 @@ button:focus {
   border-radius: 0rem;
 }
 
-.moxtra-description-wrapper {
+.moxtra-description-wrapper, .tapcast-billing-description-wrapper {
   background: #fff !important;
   margin-right: -18.3rem;
   margin-left: 70%;
@@ -391,7 +396,7 @@ button:focus {
   padding: 0.5rem 0;
 }
 
-.highlight-moxtra {
+.highlight-moxtra, .highlight-tapcast-billing {
   /* background: #fff; */
   /* color: #1C1B1F; */
   padding: 0.5rem 0;
@@ -1198,8 +1203,14 @@ hr {
   .moxtra-jumbo.jumbotron {
     margin-right: 15rem;
     margin-left: -2rem;
+    margin-top: 8rem;
+    margin-bottom: -4rem;
   }
-  #moxtra-lead {
+  .tapcast-billing-jumbo.jumbotron {
+    margin-right: 15rem;
+    margin-left: -2rem;
+  }
+  #moxtra-lead, #tapcast-billing-lead {
     text-align: right;
     margin: 1rem 0;
   }
@@ -1269,7 +1280,7 @@ hr {
     margin: 100px 0 0 0;
     word-wrap: break-word;
   }
-  .highlight, .highlight-moxtra {
+  .highlight, .highlight-moxtra, .highlight-tapcast-billing {
     background: #fff;
     border: transparent; 
     opacity: 0.9;
@@ -1281,10 +1292,10 @@ hr {
     -webkit-filter: none;
     filter: none;
   }
-  .spotify-jumbo.jumbotron, .tapcast-jumbo.jumbotron, .moxtra-jumbo.jumbotron {
+  .spotify-jumbo.jumbotron, .tapcast-jumbo.jumbotron, .moxtra-jumbo.jumbotron, .tapcast-billing-jumbo.jumbotron {
     margin: -1.5rem -1.5rem 6rem -1.5rem;
   }
-  .spotify-jumbo.jumbotron {
+  .moxtra-jumbo.jumbotron {
     margin-bottom: -3rem;
   }
   .btn {
@@ -1323,7 +1334,7 @@ hr {
     background: transparent;
     margin-top: 1rem;
   }
-  #btn-moxtra, #btn-tapcast, #btn-spotify {
+  #btn-moxtra, #btn-tapcast, #btn-spotify, #btn-tapcast-billing {
     background: none;
   }
   .about-photos {
@@ -1361,7 +1372,7 @@ hr {
     transition: all .3s ease-in-out;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0); 
   }
-  .description-wrapper, .moxtra-description-wrapper {
+  .description-wrapper, .moxtra-description-wrapper, .tapcast-billing-description-wrapper {
     margin: 0;
     filter: none; 
     -webkit-filter: none;
