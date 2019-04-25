@@ -14,6 +14,7 @@ import NotFound from './components/NotFound';
 import ComingSoon from './components/ComingSoon';
 import MightyHive from './components/MightyHive';
 import Lift from './components/Lift';
+import FareHarbor from './components/FareHarbor';
 
 import registerServiceWorker from './registerServiceWorker';
 
@@ -38,6 +39,7 @@ ReactDOM.render(
         <Route path="/projects/construction" component={ComingSoon} />
         <Route path="/mightyhive" component={MightyHive} />
         <Route path="/lift" component={Lift} />
+        <Route path="/fareharbor" component={FareHarbor} />
         <Route component={NotFound} />
     </Switch>
   </Router>, document.getElementById('root')
