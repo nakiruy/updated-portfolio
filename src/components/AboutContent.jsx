@@ -27,10 +27,10 @@ class AboutContent extends React.Component {
             <div data-aos="fade-up">
               <h6 className="secondary-header" data-aos="fade-up">about</h6>
               <h6 className="about-desc">
-              Hello there! I’m <span className="chunky-underline">Yurika Jacobsson</span>. Currently, I am a <span className="chunky-underline">technical project manager/designer</span> at Tapcast, a marketing intelligence startup located in San Francisco Bay Area. Previously, I was a UI/UX design developer intern at Moxtra.
+              Hello there! I’m <span className="chunky-underline">Yurika Jacobsson</span>. Currently, I am a <span className="chunky-underline">technical project manager</span> at Tapcast, a marketing intelligence startup located in San Francisco Bay Area. Previously, I was a UI/UX design developer intern at Moxtra.
               </h6>
               <h6 className="about-desc">
-              Born in Tokyo and raised in Silicon Valley, I always drew from my environment to motivate myself <span className="chunky-underline">to design, create, and build</span>. I truly believe design can help develop a successful business and product.
+              Born in Tokyo and raised in Silicon Valley, I always drew from my environment to motivate myself <span className="chunky-underline">to design, create, and build</span>. I like to think that I belong in this great overlap between development and design.
               </h6>
               <h6 className="about-desc">
               When I’m not designing or developing, you can find me <span className="chunky-underline">perfecting the art of cold brew</span>, hunting down the next limited edition <span className="chunky-underline">sneakers (yes, I’m a sneakerhead)</span>, driving around in my ST, and if budget allows, <span className="chunky-underline">traveling to new locations</span>.
