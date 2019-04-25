@@ -12,7 +12,7 @@ const TapcastBillingJumbo = (props) => {
           <h1 className="display-3" id="tapcast-billing-lead"><span className="highlight-tapcast-billing">Tapcast Billing</span></h1>
           <p className="lead" id="tapcast-billing-lead"><span className="highlight-tapcast-billing">Mobile-first collaborative platform for all business needs.</span></p>
           <p className="lead" id="tapcast-billing-lead">
-            <Link to="/projects/tapcast-billing"><span className="highlight-tapcast-billing" id="btn-tapcast-billing"><span className="btn">View Project</span></span></Link>
+            <span className="highlight-tapcast-billing" id="btn-tapcast-billing"><span className="btn">View Project</span></span>
           </p>
         </Card>
       </Jumbotron>
