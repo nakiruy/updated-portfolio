@@ -49,8 +49,8 @@ class TapcastContent extends React.Component {
             <Col lg="8" data-aos="fade-up">
               <Media body>
                 <a href="https://www.tapcast.io"><span className="tapcast-links">Tapcast</span></a> is a data-driven, marketing intelligence platform aimed to help marketers to understand and scale their audiences. <br></br><br></br>
-                After the initial platform 2.0 release, I collaborated often with the product team as we discussed how we could further improve UX and possibly redesign the UI of the new Platform. <br></br><br></br>
-                As a project manager with design and technical chops, I decided to redesign the platform as my own side project <span className="chunky-underline" id="tapcast-underline-color">to revamp the Tapcast platform - its branding, visual components, onboarding, and most of all, experience.</span>
+                After the initial platform 2.0 release, we observed that there were many points of user drop-off and often discussed how we could counteract the churn rate through improving UX and redesigning the UI of the new platform. <br></br><br></br>
+                I decided to take the initiative to begin my own side project <span className="chunky-underline" id="tapcast-underline-color">to brainstorm solutions for lower customer attrition rate.</span>
               </Media>
             </Col>
             </Row>
@@ -246,7 +246,16 @@ class TapcastContent extends React.Component {
                   <span className="img-caption">payment</span> <br></br><br></br>
                   <div className="text-center">
                     <a href="https://invis.io/7FQVFPD92ZM"><span className="highlight" id="btn-tapcast"><span className="btn tapcast-btn">Click here to view the full prototype</span></span></a><br></br>
-                  </div>
+                  </div><br></br><br></br>
+                  As I stated prior, the focus of this redesign was new user journey and payment flow. Here are the summary of changes that this redesign tackled:<br></br><br></br>
+                  <ul className="tapcast-painpoints" id="tapcast-solution">
+                    <li>Addition of <span className="chunky-underline" id="tapcast-underline-color">Get Started checklist</span> (previously, there were none - we simply dropped the user to a sample heatmap page on the platform)</li>
+                    <li>Selection of ad accounts happens during the onboarding process and not <span className="chunky-underline" id="tapcast-underline-color">after</span> they were dropped off in the sample heatmaps dashboard</li>
+                    <li>User can opt-in to watching a <span className="chunky-underline" id="tapcast-underline-color">tutorial video</span> prior to viewing the platform in its entirety - reducing complexity</li>
+                    <li>Audience map page gives users <span className="chunky-underline" id="tapcast-underline-color">clearer steps</span> on what they'll have to do before seeing their heatmaps (i.e. first, select an ad account, second, select an audience, third, submit query and wait for the map to load)</li>
+                    <li>Incorporated <span className="chunky-underline" id="tapcast-underline-color">tooltips</span> for marketing terms such as Cost per Acquistion</li>
+                    <li>Added a <span className="chunky-underline" id="tapcast-underline-color">Congratulations modal</span> for users who completed the Get Started checklist and <span className="chunky-underline" id="tapcast-underline-color">a large CTA</span> to upgrade one's account</li>
+                </ul>
                 </Media>
               </Col>
             </Row>
