@@ -15,6 +15,7 @@ import ComingSoon from './components/ComingSoon';
 import MightyHive from './components/MightyHive';
 import Lift from './components/Lift';
 import FareHarbor from './components/FareHarbor';
+import Abstract from './components/Abstract';
 
 import registerServiceWorker from './registerServiceWorker';
 
@@ -40,6 +41,7 @@ ReactDOM.render(
         <Route path="/mightyhive" component={MightyHive} />
         <Route path="/lift" component={Lift} />
         <Route path="/fareharbor" component={FareHarbor} />
+        <Route path="/abstract" component={Abstract} />
         <Route component={NotFound} />
     </Switch>
   </Router>, document.getElementById('root')
