@@ -711,6 +711,11 @@ button:focus {
   border-width: 0 2px 2px 0;
 }
 
+#tapcast-billing-scroll-up {
+  border: #6273FF solid;
+  border-width: 0 2px 2px 0;
+}
+
 #moxtra-scroll-up {
   border: #0052FF solid;
   border-width: 0 2px 2px 0;
