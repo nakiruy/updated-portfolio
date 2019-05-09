@@ -9,7 +9,7 @@ const SpotifyJumbo = (props) => {
       <Jumbotron className="spotify-jumbo">
         <Card className="description-wrapper" id="moxtra-wrapper" body>
           <h1 className="display-3" id="spotify-lead"><span className="highlight">Spotify Driving Mode</span></h1>
-          <p className="lead" id="spotify-lead"><span className="highlight">Gesture-based solution for listening to music on the roads.</span></p>
+          <p className="lead" id="spotify-lead"><span className="highlight">Gesture-based solution for listening to music on the go.</span></p>
           <p className="lead" id="spotify-lead">
             <span className="highlight" id="btn-spotify"><span className="btn">View Project</span></span>
           </p>

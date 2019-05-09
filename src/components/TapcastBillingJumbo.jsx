@@ -9,8 +9,8 @@ const TapcastBillingJumbo = (props) => {
       <Link to="/projects/tapcastbilling">
       <Jumbotron className="tapcast-billing-jumbo">
         <Card className="tapcast-billing-description-wrapper" body>
-          <h1 className="display-3" id="tapcast-billing-lead"><span className="highlight-tapcast-billing">Tapcast Billing</span></h1>
-          <p className="lead" id="tapcast-billing-lead"><span className="highlight-tapcast-billing">Mobile-first collaborative platform for all business needs.</span></p>
+          <h1 className="display-3" id="tapcast-billing-lead"><span className="highlight-tapcast-billing">Improving Payments for Tapcast</span></h1>
+          <p className="lead" id="tapcast-billing-lead"><span className="highlight-tapcast-billing">Demystifying subscription billing method for SaaS customers.</span></p>
           <p className="lead" id="tapcast-billing-lead">
             <span className="highlight-tapcast-billing" id="btn-tapcast-billing"><span className="btn">View Project</span></span>
           </p>
