@@ -445,6 +445,10 @@ button:focus {
   background-image: linear-gradient(120deg, #FF4F8140 10%, #FF4F8140 110%); 
 }
 
+#tapcast-billing-underline-color {
+  background-image: linear-gradient(120deg, #6273FF40 10%, #6273FF40 110%); 
+}
+
 #moxtra-underline-color {
   background-image: linear-gradient(120deg, #0052FF40 10%, #0052FF40 110%); 
 }
@@ -467,6 +471,23 @@ button:focus {
 .tapcast-links:hover, .tapcast-links:active, .tapcast-links:focus {
   background-size: 0%;
   color: #FF4F81;
+  font-style: normal;
+}
+
+.tapcast-billing-links {
+  color: #1C1B1F;
+  text-decoration: none;
+  background-image: linear-gradient(120deg, #6273FF 10%, #6273FF 110%); 
+  background-repeat: no-repeat;
+  background-size: 100% 0.05em;
+  background-position: 0 100%;
+  transition: color 0.25s ease-in-out;
+  /* font-weight: 400; */
+}
+
+.tapcast-billing-links:hover, .tapcast-billing-links:active, .tapcast-billing-links:focus {
+  background-size: 0%;
+  color: #6273FF;
   font-style: normal;
 }
 
@@ -844,7 +865,7 @@ hr {
   z-index: 10;
 }
 
-#tapcast-secondary, #moxtra-secondary, #spotify-secondary {
+#tapcast-secondary, #moxtra-secondary, #spotify-secondary, #tapcast-billing-secondary {
   margin-top: 1rem;
   margin-bottom: 1.5rem;
   font-weight: 700;
@@ -854,6 +875,11 @@ hr {
 
 #tapcast-secondary, .tapcast-color, .tapcast-color::after {
   color: #FF4F81;
+  /* font-size: 1rem; */
+}
+
+#tapcast-billing-secondary, .tapcast-billing-color, .tapcast-billing-color::after {
+  color: #6273FF;
   /* font-size: 1rem; */
 }
 
