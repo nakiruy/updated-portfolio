@@ -24,6 +24,7 @@ import {
   Switch,
   BrowserRouter as Router
 } from 'react-router-dom';
+import TravelBank from './components/TravelBank';
 
 // ReactDOM.render(<App />, document.getElementById('root'));
 // registerServiceWorker();
@@ -42,6 +43,7 @@ ReactDOM.render(
         <Route path="/lift" component={Lift} />
         <Route path="/fareharbor" component={FareHarbor} />
         <Route path="/abstract" component={Abstract} />
+        <Route path="/travelbank" component={TravelBank} />
         <Route component={NotFound} />
     </Switch>
   </Router>, document.getElementById('root')
