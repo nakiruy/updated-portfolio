@@ -347,6 +347,7 @@ button:focus {
 }
 
 .tapcast-billing-jumbo.jumbotron {
+  background-image: url("http://assets.yurika.design/tapcastbillingproj.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
