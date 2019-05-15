@@ -34,7 +34,7 @@ class Abstract extends React.Component {
                   <h6 className="about-desc" id="cover-letter-desc">
                     Because I have the combination of skills and experience that sets me apart from other candidates and I am confident that I can deliver exceptional results to your company.
                     For example, I am a <span className="chunky-underline">frontend developer with design skills</span> so I am comfortable participating in design reviews, <span className="chunky-underline">proficient in React</span> (in fact, this page is built with React!), and <span className="chunky-underline">triaging bugs</span> because of my current role as a TPM. 
-                    I have built landing pages, designed mockups, developed prototypes, and managed a team of engineers in my current and past positions. I am also comfortable in <span className="chunky-underline">wearing multiple hats</span> due to my previous experiences in working at early-staged startups.
+                    I have built landing pages, designed mockups, developed prototypes, and managed a team of engineers in my current and past positions. I am also comfortable in <span className="chunky-underline">wearing multiple hats</span> due to my previous experiences in working at early-stage startups.
                     Aside from experiences and skills as outlined in my <a href="https://drive.google.com/file/d/10xLHhQ4QMzcSZYSvPBMBEuELecberQbz/"><span id="getintouch">resume</span></a>, what it cannot tell you is that I am an organized, motivated, passionate, and team-oriented individual. I would love to be part of a team that is making a difference to a crucial part of every business - design!<br></br><br></br>
                   </h6>
                 </div>

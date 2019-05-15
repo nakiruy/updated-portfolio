@@ -14,8 +14,9 @@ import NotFound from './components/NotFound';
 import ComingSoon from './components/ComingSoon';
 import MightyHive from './components/MightyHive';
 import Lift from './components/Lift';
-import FareHarbor from './components/FareHarbor';
 import Abstract from './components/Abstract';
+import TravelBank from './components/TravelBank';
+import Heap from './components/Heap';
 
 import registerServiceWorker from './registerServiceWorker';
 
@@ -24,7 +25,6 @@ import {
   Switch,
   BrowserRouter as Router
 } from 'react-router-dom';
-import TravelBank from './components/TravelBank';
 
 // ReactDOM.render(<App />, document.getElementById('root'));
 // registerServiceWorker();
@@ -41,9 +41,9 @@ ReactDOM.render(
         <Route path="/projects/construction" component={ComingSoon} />
         <Route path="/mightyhive" component={MightyHive} />
         <Route path="/lift" component={Lift} />
-        <Route path="/fareharbor" component={FareHarbor} />
         <Route path="/abstract" component={Abstract} />
         <Route path="/travelbank" component={TravelBank} />
+        <Route path="/heap" component={Heap} />
         <Route component={NotFound} />
     </Switch>
   </Router>, document.getElementById('root')

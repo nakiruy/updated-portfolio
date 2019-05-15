@@ -6,7 +6,7 @@ import Navigation from './Navigation';
 import EmailBanner from './EmailBanner';
 import Footer from './Footer';
 
-class TravelBank extends React.Component {
+class Heap extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -28,14 +28,14 @@ class TravelBank extends React.Component {
           <div className="main">
             <Container>
               <Col md="9" className="greetings">
-                <h1 className="headline" data-aos="fade-up">Welcome to my online cover letter, <span id="cover-letter-name">TravelBank</span>.</h1>
+                <h1 className="headline" data-aos="fade-up">Welcome to my online cover letter, <span id="cover-letter-name">Heap</span>.</h1>
                 <div data-aos="fade-up">
                   <h6 className="secondary-header" data-aos="fade-up">Why hire me?</h6>
                   <h6 className="about-desc" id="cover-letter-desc">
                     Because I have the combination of skills and experience that sets me apart from other candidates and I am confident that I can deliver exceptional results to your company.
-                    For example, since I am a <span className="chunky-underline">product designer with developer skills</span>, I have experience in using Sketch, Photoshop, Illustrator, Invision, and comfortable with HTML/CSS/JavaScript. 
-                    I have built landing pages, designed mockups, developed prototypes, and managed a team of engineers in my current and past positions. I am also comfortable in <span className="chunky-underline">wearing multiple hats</span> due to my previous experiences in working at early-stage startups.
-                    Aside from experiences and skills as outlined in my <a href="https://drive.google.com/file/d/10xLHhQ4QMzcSZYSvPBMBEuELecberQbz/"><span id="getintouch">resume</span></a>, what it cannot tell you is that I am an organized, motivated, passionate, and team-oriented individual. I would love to be part of a team that is making a difference to a crucial part of every business - design!<br></br><br></br>
+                    For example, since I am a <span className="chunky-underline">product designer with developer skills</span>, I have experience in using Sketch, Photoshop, Invision, and proficient with HTML/CSS/JavaScript (in fact, this page is built in React!). 
+                    I have built landing pages, designed mockups, developed prototypes, and managed a team of engineers. I am also comfortable with <span className="chunky-underline">wearing multiple hats and ambiguity</span> due to my previous experiences in working at early-stage startups.
+                    Aside from experiences and skills as outlined in my <a href="https://drive.google.com/file/d/10xLHhQ4QMzcSZYSvPBMBEuELecberQbz/"><span id="getintouch">resume</span></a>, what it cannot tell you is that I am an organized, motivated, passionate, and team-oriented individual. I would love to be part of a team that is making a difference to a crucial part of every business - analytics!<br></br><br></br>
                   </h6>
                 </div>
               </Col>
@@ -56,4 +56,4 @@ class TravelBank extends React.Component {
   }
 }
 
-export default TravelBank
+export default Heap
