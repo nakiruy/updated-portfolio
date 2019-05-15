@@ -14,7 +14,7 @@ class TapcastBillingHeader extends React.Component {
     return (
         <Container>
           <Col md="9" className="greetings" id="tapcast-greetings">
-            <h1 className="headline" id="tapcast-headline">Reimagining a marketing intelligence platform</h1>
+            <h1 className="headline" id="tapcast-headline">Clarifying payments for Tapcast SAAS customers</h1>
             <h6 className="secondary-header" id="tapcast-billing-secondary">tapcast</h6>
           </Col>
         </Container>
