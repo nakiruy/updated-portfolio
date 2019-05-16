@@ -15,8 +15,8 @@ import ComingSoon from './components/ComingSoon';
 import MightyHive from './components/MightyHive';
 import Lift from './components/Lift';
 import Abstract from './components/Abstract';
-import TravelBank from './components/TravelBank';
 import Heap from './components/Heap';
+import Zeplin from './components/Zeplin';
 
 import registerServiceWorker from './registerServiceWorker';
 
@@ -42,8 +42,8 @@ ReactDOM.render(
         <Route path="/mightyhive" component={MightyHive} />
         <Route path="/lift" component={Lift} />
         <Route path="/abstract" component={Abstract} />
-        <Route path="/travelbank" component={TravelBank} />
         <Route path="/heap" component={Heap} />
+        <Route path="/zeplin" component={Zeplin} />
         <Route component={NotFound} />
     </Switch>
   </Router>, document.getElementById('root')
