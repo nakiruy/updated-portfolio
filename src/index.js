@@ -17,6 +17,7 @@ import Lift from './components/Lift';
 import Abstract from './components/Abstract';
 import Heap from './components/Heap';
 import Zeplin from './components/Zeplin';
+import Pantheon from './components/Pantheon';
 
 import registerServiceWorker from './registerServiceWorker';
 
@@ -44,6 +45,7 @@ ReactDOM.render(
         <Route path="/abstract" component={Abstract} />
         <Route path="/heap" component={Heap} />
         <Route path="/zeplin" component={Zeplin} />
+        <Route path="/pantheon" component={Pantheon} />
         <Route component={NotFound} />
     </Switch>
   </Router>, document.getElementById('root')
