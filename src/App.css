@@ -1419,7 +1419,7 @@ hr {
     filter: none; 
     -webkit-filter: none;
   }
-  .tapcast-projpic, .moxtra-projpic, .spotify-projpic {
+  .tapcast-projpic, .moxtra-projpic, .spotify-projpic, .tapcast-billing-projpic {
     margin: 0;
     margin-top: -10rem;
     margin-bottom: 6rem;
