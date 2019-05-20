@@ -48,9 +48,9 @@ class TapcastBillingContent extends React.Component {
             </Col>
             <Col lg="8" data-aos="fade-up">
               <Media body>
-                <a href="https://www.tapcast.io"><span className="tapcast-billing-links">Tapcast</span></a> is a data-driven, marketing intelligence platform aimed to help marketers to understand and scale their audiences. <br></br><br></br>
-                After the initial platform 2.0 release, we observed that there were many points of user drop-off and often discussed how we could counteract the churn rate through improving UX and redesigning the UI of the new platform. <br></br><br></br>
-                I decided to take the initiative to begin my own side project <span className="chunky-underline" id="tapcast-billing-underline-color">to brainstorm solutions for lower customer attrition rate.</span>
+                <a href="https://www.tapcast.io"><span className="tapcast-billing-links">Tapcast</span></a> is a data-driven, marketing intelligence platform aimed to help marketers to understand and scale their Facebook audiences. <br></br><br></br>
+                Prior to Q4 2018, we frequently changed billing plans (in fact, we audited internally and found that we changed our billing model six times since the beginning of the year) and desperately needed a more permanent pricing model for our SaaS platform. <br></br><br></br>
+                In addition to the ever-changing landscape of Facebook after the Cambridge Analytica scandal, we were faced with a challenge of coming up with a billing model that satisfied Facebook, as well as our internal teams and customers. As a TPM, I established the user flow, designed mockups, and managed this project from inception to deployment. <br></br>             
               </Media>
             </Col>
             </Row>
@@ -60,39 +60,7 @@ class TapcastBillingContent extends React.Component {
               </Col>
               <Col lg="8" data-aos="fade-up">
                 <Media body>
-                  <span className="chunky-underline" id="tapcast-billing-underline-color">Tapcast platform is complicated.</span> <br></br><br></br>                  
-                  <ImageZoom
-                    image={{
-                      src: 'http://assets.yurika.design/tapcast/oldtapcast.png',
-                      alt: 'Old Tapcast',
-                      className: 'proj-img',
-                      style: { width: '100%' }
-                    }}
-                    zoomImage={{
-                      src: 'http://assets.yurika.design/tapcast/oldtapcast.png',
-                      alt: 'Old Tapcast',
-                      className: 'proj-img'
-                    }}
-                  /><br></br>
-                  <span className="img-caption">tapcast v2.0</span> <br></br><br></br>
-                  Why? The purpose of this platform is to provide marketing insights and help demystify <a href="https://www.facebook.com/business/insights/people/audiences"><span className="tapcast-billing-links">Facebook audiences</span></a>. However, advertising on Facebook is confusing to many (read <a href="https://www.wired.com/story/facebooks-targeted-ads-are-more-complex-than-it-lets-on/"><span className="tapcast-billing-links">here</span></a>, <a href="https://www.postplanner.com/blog/how-to-fix-facebook-ads-not-working"><span className="tapcast-billing-links">here</span></a>, and <a href="https://www.929marketing.com/blog/this-is-why-your-facebook-ads-didnt-work"><span className="tapcast-billing-links">here</span></a>) and without a baseline of knowledge of advertising on Facebook, it is a challenge to understand the platform, let alone its merit.<br></br><br></br>
-                  In addition, the new platform is vastly different from before. The previous iteration of the platform focused on targeted videos (think <a href="https://www.intercom.com"><span className="tapcast-billing-links">Intercom</span></a> but instead of chat, a video) which allowed users to install a video widget to their websites through Tapcast SDK. <br></br><br></br>
-                  <ImageZoom
-                    image={{
-                      src: 'http://assets.yurika.design/tapcast/tapcastPIP.png',
-                      alt: 'Tapcast PIP',
-                      className: 'proj-img',
-                      style: { width: '100%' }
-                    }}
-                    zoomImage={{
-                      src: 'http://assets.yurika.design/tapcast/tapcastPIP.png',
-                      alt: 'Tapcast PIP',
-                      className: 'proj-img'
-                    }}
-                  /><br></br>
-                  <span className="img-caption">Example of Tapcast SDK </span> <br></br><br></br>
-                  Unfortunately, this meant that many of our existing users did not have the prior knowledge of Facebook advertising and <span className="chunky-underline" id="tapcast-billing-underline-color">we quickly found out that understanding the new platform was a huge struggle for many</span>. As expected, we lost some existing users along the way and soon after, we started observing low conversion rates for new users as well.<br></br><br></br>
-                  In my view, a redesign was a no-brainer and I felt strongly that it would be <span className="chunky-underline" id="tapcast-billing-underline-color">the strategic ingredient to increase conversion rates</span>.
+                  One of the biggest problems were born out of our own doing. As mentioned above, we had implemented six different pricing models within the year. These changes ranged from number of ad accounts to subscription pricing and from plan names to whether or not we should charge clients based on Facebook ad spend. As changes accumulated, it was becoming increasing difficult to keep up with them. We were spending a lot of time keeping track of legacy billing models and especially creating workload debt in operations and development.  <br></br><br></br>
                 </Media>
               </Col>
             </Row>
