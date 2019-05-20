@@ -48,7 +48,7 @@ class TapcastContent extends React.Component {
             </Col>
             <Col lg="8" data-aos="fade-up">
               <Media body>
-                <a href="https://www.tapcast.io"><span className="tapcast-links">Tapcast</span></a> is a data-driven, marketing intelligence platform aimed to help marketers to understand and scale their audiences. <br></br><br></br>
+                <a href="https://www.tapcast.io"><span className="tapcast-links">Tapcast</span></a> is a data-driven, marketing intelligence platform aimed to help marketers to understand and scale their Facebook audiences. <br></br><br></br>
                 After the initial platform 2.0 release, we observed that there were many points of user drop-off and often discussed how we could counteract the churn rate through improving UX and redesigning the UI of the new platform. <br></br><br></br>
                 I decided to take the initiative to begin my own side project <span className="chunky-underline" id="tapcast-underline-color">to brainstorm solutions for lower customer attrition rate.</span>
               </Media>
