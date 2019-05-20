@@ -35,7 +35,7 @@ class Lyric extends React.Component {
                     Because I have the combination of skills and experience that sets me apart from other candidates and I am confident that I can deliver exceptional results to your company.
                     For example, I am a <span className="chunky-underline">product designer who can code</span> so I am proficient in designing with Sketch, Photoshop, Invision, and <span className="chunky-underline">comfortable with HTML/CSS/JavaScript</span> (in fact, this page is built with React!).
                     I have built landing pages, designed mockups, developed prototypes, and managed a team of engineers in my current and past positions. I am also comfortable in <span className="chunky-underline">wearing multiple hats</span> due to my previous experiences in working at early-stage startups.
-                    Aside from experiences and skills as outlined in my <a href="https://drive.google.com/file/d/10xLHhQ4QMzcSZYSvPBMBEuELecberQbz/"><span id="getintouch">resume</span></a>, what it cannot tell you is that I am an organized, motivated, passionate, and team-oriented individual. I would love to be part of a team that is making a difference to a crucial part of every business - design!<br></br><br></br>
+                    Aside from experiences and skills as outlined in my <a href="https://drive.google.com/file/d/10xLHhQ4QMzcSZYSvPBMBEuELecberQbz/"><span id="getintouch">resume</span></a>, what it cannot tell you is that I am an organized, motivated, passionate, and team-oriented individual. Hope to hear from you soon!<br></br><br></br>
                   </h6>
                 </div>
               </Col>
