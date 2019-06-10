@@ -34,7 +34,7 @@ class Navigation extends React.Component {
   hideBar = () => {
     const { isHide } = this.state
 
-    if (window.pageYOffset === 0) {
+    if (window.pageYOffset <= 0) {
       this.setState({ isHide: false })
     }
     window.pageYOffset >= this.prev ?
