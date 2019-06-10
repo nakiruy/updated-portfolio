@@ -21,7 +21,7 @@ class MoxtraSolution extends Component {
       <Carousel 
       className="moxtra-carousel"
       swiping={true}
-      dragging={false}
+      dragging={true}
       // wrapAround={true}
       renderCenterLeftControls={({ previousSlide }) => (
         <button className="prev-arrow" onClick={previousSlide}></button>
@@ -30,7 +30,7 @@ class MoxtraSolution extends Component {
         <button className="next-arrow" onClick={nextSlide}></button>
       )}
       slideIndex={this.state.slideIndex}
-      afterSlide={slideIndex => this.setState({ slideIndex })}
+      afterSlide={slideIndex => this.setState({ slideIndex: slideIndex++ })}
       slidesToShow={1}
       >
         <CardImg className="moxtra-final" src="http://assets.yurika.design/moxtra/1.png"></CardImg>
