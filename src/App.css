@@ -53,6 +53,7 @@ a:hover, a:focus, a:active {
 .navigation.hide {
   visibility: hidden;
   /* display: none; */
+  -webkit-transform: translateZ(0);
 }
 
 .navbar {
@@ -528,7 +529,7 @@ button:focus {
 }
 
 .rotate180 {
-  -webkit-transform: rotate(180deg);
+  /* -webkit-transform: rotate(180deg); */
   -moz-transform: rotate(180deg);
   -o-transform: rotate(180deg);
   -ms-transform: rotate(180deg);

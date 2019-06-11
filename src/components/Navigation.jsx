@@ -18,7 +18,7 @@ class Navigation extends React.Component {
       isOpen: false,
       isHide: false
     };
-    this.toggle = this.toggle.bind(this);
+    // this.toggle = this.toggle.bind(this);
   }
 
   componentDidMount() {
@@ -34,25 +34,25 @@ class Navigation extends React.Component {
   hideBar = () => {
     const { isHide } = this.state
 
-    if (window.pageYOffset <= 0) {
+    if (window.scrollY == 0) {
       this.setState({ isHide: false })
     }
-    window.pageYOffset >= this.prev ?
+    window.scrollY > this.prev ?
     !isHide && this.setState({ isHide: true })
     :
     isHide && this.setState({ isHide: false });
 
-    this.prev = window.pageYOffset;
+    this.prev = window.scrollY;
  }
 
-  toggle() {
+  toggle = () => {
     this.setState({
       isOpen: !this.state.isOpen
     });
   }
 
   render() {
-    const classHide = this.state.isHide ? 'hide' : '';
+    let classHide = this.state.isHide ? 'hide' : '';
     let conditionalLogo;
 
     if (window.location.pathname.includes("/tapcast")) {
