@@ -34,9 +34,8 @@ class Navigation extends React.Component {
   hideBar = () => {
     const { isHide } = this.state
 
-    if (window.scrollY <= 0) {
+    if (window.scrollY == 0) {
       // this.setState({ isHide: false })
-      window.scrollTo(0, 1);
     }
     window.scrollY > this.prev ?
     !isHide && this.setState({ isHide: true })
