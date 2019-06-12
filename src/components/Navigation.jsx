@@ -35,7 +35,7 @@ class Navigation extends React.Component {
     const { isHide } = this.state
 
     if (window.scrollY == 0) {
-      // this.setState({ isHide: false })
+      this.setState({ isHide: false })
     }
     window.scrollY > this.prev ?
     !isHide && this.setState({ isHide: true })
