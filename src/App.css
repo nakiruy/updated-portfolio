@@ -615,6 +615,20 @@ button:focus {
   object-fit: cover;
 }
 
+.moxtra-solution > img { 
+  width: 100%;
+  height: 600px;
+  object-fit: contain;
+}
+
+.carousel-indicators {
+  display: none;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-image: none;
+}
+
 .slider-control-bottomcenter {
   display: none;
 }
@@ -637,6 +651,7 @@ button:focus {
   -webkit-transform: rotate(135deg);
   margin: -10px 10px;
   background: transparent;
+  margin: 300px 0;
 }
 
 .next-arrow {
