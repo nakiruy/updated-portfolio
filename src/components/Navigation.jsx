@@ -61,6 +61,8 @@ class Navigation extends React.Component {
       conditionalLogo = <img className="logo" src="http://assets.yurika.design/logo-moxtracol.png"  alt="Logo" />;
     } else if (window.location.pathname.includes("/spotify")) {
       conditionalLogo = <img className="logo" src="http://assets.yurika.design/logo-spotifycol.png" alt="Logo" />;
+    } else if (window.location.pathname.includes("/groupon")) {
+      conditionalLogo = <img className="logo" src="http://assets.yurika.design/logo-spotifycol.png" alt="Logo" />;
     } else {
       conditionalLogo = <img className="logo" src="http://assets.yurika.design/logo.png" alt="Logo" />;
     }

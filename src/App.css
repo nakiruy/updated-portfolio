@@ -449,6 +449,10 @@ button:focus {
   background-image: linear-gradient(120deg, #1DB95440 10%, #1DB95440 110%); 
 }
 
+#groupon-underline-color {
+  background-image: linear-gradient(120deg, #82b54840 10%, #82b54840 110%); 
+}
+
 .tapcast-links {
   color: #1C1B1F;
   text-decoration: none;
@@ -497,6 +501,23 @@ button:focus {
 .spotify-links:hover, .spotify-links:active, .spotify-links:focus {
   background-size: 0%;
   color: #1DB954;
+  font-style: normal;
+}
+
+.groupon-links {
+  color: #1C1B1F;
+  text-decoration: none;
+  background-image: linear-gradient(120deg, #82b548 10%, #82b548 110%); 
+  background-repeat: no-repeat;
+  background-size: 100% 0.05em;
+  background-position: 0 100%;
+  transition: color 0.25s ease-in-out;
+  /* font-weight: 400; */
+}
+
+.groupon-links:hover, .groupon-links:active, .groupon-links:focus {
+  background-size: 0%;
+  color: #82b548;
   font-style: normal;
 }
 
@@ -703,6 +724,11 @@ button:focus {
   border-width: 0 2px 2px 0;
 }
 
+#groupon-scroll-up {
+  border: #82b548 solid;
+  border-width: 0 2px 2px 0;
+}
+
 /* Contact */
 
 .contact {
@@ -841,13 +867,13 @@ hr {
   font-style: normal;
 }
 
-#tapcast-greetings, #moxtra-greetings, #spotify-greetings {
+#tapcast-greetings, #moxtra-greetings, #spotify-greetings, #groupon-greetings {
   margin-top: 6rem;
   padding: 5em 0;
   z-index: 10;
 }
 
-#tapcast-secondary, #moxtra-secondary, #spotify-secondary {
+#tapcast-secondary, #moxtra-secondary, #spotify-secondary, #groupon-secondary {
   margin-top: 1rem;
   margin-bottom: 1.5rem;
   font-weight: 700;
@@ -870,6 +896,12 @@ hr {
   /* font-size: 1rem; */
 }
 
+#groupon-secondary, .groupon-color, .groupon-color::after {
+  color: #82b548;
+  /* font-size: 1rem; */
+}
+
+
 /* .tapcast-color::after {
   background: #FF4F81;
 }
@@ -882,11 +914,11 @@ hr {
   background: #1DB954;
 } */
 
-#tapcast-secondary::after, #moxtra-secondary::after, #spotify-secondary::after {
+#tapcast-secondary::after, #moxtra-secondary::after, #spotify-secondary::after, #groupon-secondary::after {
   display: none;
 }
 
-.tapcast-projpic, .moxtra-projpic, .spotify-projpic {
+.tapcast-projpic, .moxtra-projpic, .spotify-projpic, .groupon-projpic {
   margin-top: -10rem;
   z-index: 1;
   pointer-events: none;

@@ -19,6 +19,7 @@ import Heap from './components/Heap';
 import Zeplin from './components/Zeplin';
 import Pantheon from './components/Pantheon';
 import Lyric from './components/Lyric';
+import GrouponReview from './components/GrouponReview';
 
 import registerServiceWorker from './registerServiceWorker';
 
@@ -41,6 +42,7 @@ ReactDOM.render(
         <Route path="/projects/moxtra" component={Moxtra} />
         <Route path="/projects/spotify" component={Spotify} />
         <Route path="/projects/construction" component={ComingSoon} />
+        <Route path="/reviews/groupon" component={GrouponReview} />
         <Route path="/mightyhive" component={MightyHive} />
         <Route path="/lift" component={Lift} />
         <Route path="/abstract" component={Abstract} />

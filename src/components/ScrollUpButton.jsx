@@ -20,6 +20,8 @@ class ScrollUpButton extends React.Component {
       dynamicId = "moxtra-scroll-up";
     } else if (window.location.pathname === "/projects/spotify") {
       dynamicId = "spotify-scroll-up";
+    } else if (window.location.pathname === "/reviews/groupon") {
+      dynamicId = "groupon-scroll-up";
     }
 
     return (
