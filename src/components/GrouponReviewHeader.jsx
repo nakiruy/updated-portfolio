@@ -16,7 +16,7 @@ class GrouponReviewHeader extends React.Component {
         <Container>
           <Col md="9" className="greetings" id="groupon-greetings">
             <h1 className="headline" id="groupon-headline">Desktop App Review</h1>
-            <h6 className="secondary-header" id="groupon-secondary">Groupon</h6>
+            <h6 className="secondary-header" id="groupon-secondary"><br></br></h6>
             {/* Objective: Enhancing onboarding flow */}
           </Col>
         </Container>

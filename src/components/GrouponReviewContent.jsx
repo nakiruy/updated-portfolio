@@ -23,7 +23,7 @@ class GrouponReviewContent extends React.Component {
         <Col className="groupon-process">
           <Row>
             <Col lg="4" data-aos="fade-up">
-              <h6 className="secondary-header process-heading"><div className="numbers groupon-color">01.</div> The Beginning</h6>
+              <h6 className="secondary-header process-heading"><div className="numbers groupon-color"> </div>Criteria</h6>
             </Col>
             <Col lg="8" data-aos="fade-up">
               <Media body>
@@ -34,7 +34,18 @@ class GrouponReviewContent extends React.Component {
           </Row>
           <Row>
             <Col lg="4" data-aos="fade-up">
-              <h6 className="secondary-header process-heading"><div className="numbers groupon-color">02.</div> The Problem</h6>
+              <h6 className="secondary-header process-heading"><div className="numbers groupon-color"> </div>Criteria</h6>
+            </Col>
+            <Col lg="8" data-aos="fade-up">
+              <Media body>
+                <a href="https://groupon.com/"><span className="groupon-links">Groupon</span></a> is an embeddable collaboration solution that allows its users to seamlessly power any application with collaboration features - messaging, file sharing, document sharing, video conferencing/chat, etc. It is widely available on iOS, Android, desktop, and web. In addition, it is a mobile-first company with a native iOS app and they develop APIs and SDKs that integrate to other mobile applications.<br></br><br></br> 
+                During my time as a UI/UX design developer intern, we identified that the onboarding is one of the pain points to the user experience. As my time at Moxtra approached the end, I was tasked <span className="chunky-underline" id="groupon-underline-color">to improve and visually enhance the onboarding of Moxtra’s mobile application</span>.
+              </Media>
+            </Col>
+          </Row>
+          <Row>
+            <Col lg="4" data-aos="fade-up">
+              <h6 className="secondary-header process-heading"><div className="numbers groupon-color"> </div>Sign Up</h6>
             </Col>
             <Col lg="8" data-aos="fade-up">
               <Media body>
@@ -60,7 +71,7 @@ class GrouponReviewContent extends React.Component {
           </Row>
           <Row>
             <Col lg="4" data-aos="fade-up">
-              <h6 className="secondary-header process-heading"><div className="numbers groupon-color">03.</div> The Process</h6>
+              <h6 className="secondary-header process-heading"><div className="numbers groupon-color"> </div>The Process</h6>
             </Col>
             <Col lg="8" data-aos="fade-up">
               <Media body>
@@ -117,7 +128,7 @@ class GrouponReviewContent extends React.Component {
           </Row>
           <Row>
             <Col lg="4" data-aos="fade-up">
-              <h6 className="secondary-header process-heading"><div className="numbers groupon-color">04.</div> The Solution</h6>
+              <h6 className="secondary-header process-heading"><div className="numbers groupon-color"> </div>The Solution</h6>
             </Col>
             <Col lg="8" data-aos="fade-up">
               <Media body>
@@ -134,7 +145,7 @@ class GrouponReviewContent extends React.Component {
           </Row>
           <Row>
             <Col lg="4" data-aos="fade-up">
-              <h6 className="secondary-header process-heading"><div className="numbers groupon-color">05.</div> The End</h6>
+              <h6 className="secondary-header process-heading"><div className="numbers groupon-color"> </div>The End</h6>
             </Col>
             <Col lg="8" data-aos="fade-up">
               <Media body>
