@@ -23,55 +23,48 @@ class GrouponReviewContent extends React.Component {
         <Col className="groupon-process">
           <Row>
             <Col lg="4" data-aos="fade-up">
-              <h6 className="secondary-header process-heading"><div className="numbers groupon-color"> </div>Criteria</h6>
+              <h6 className="secondary-header process-heading"><div className="numbers groupon-color"> </div>Quick Facts & Background</h6>
             </Col>
             <Col lg="8" data-aos="fade-up">
               <Media body>
-                <a href="https://groupon.com/"><span className="groupon-links">Groupon</span></a> is an embeddable collaboration solution that allows its users to seamlessly power any application with collaboration features - messaging, file sharing, document sharing, video conferencing/chat, etc. It is widely available on iOS, Android, desktop, and web. In addition, it is a mobile-first company with a native iOS app and they develop APIs and SDKs that integrate to other mobile applications.<br></br><br></br> 
-                During my time as a UI/UX design developer intern, we identified that the onboarding is one of the pain points to the user experience. As my time at Moxtra approached the end, I was tasked <span className="chunky-underline" id="groupon-underline-color">to improve and visually enhance the onboarding of Moxtra’s mobile application</span>.
+                <a href="https://groupon.com/"><span className="groupon-links">Groupon</span></a> is an online marketplace that connects people with local businesses by offering discounts in activities, travel, goods, services, and more. As they put it, their mission is <span className="chunky-underline" id="groupon-underline-color">to be the daily habit in local commerce.</span><br></br><br></br> 
+                According to their <a href="https://s22.q4cdn.com/731250486/files/doc_downloads/2019/Q1-2019-Fact-Sheet_Final.pdf"><span className="groupon-links">Q1 2019 Fact Sheet</span></a>, they currently have 47.2 million active users with 20% of user traffic stemming from desktop. Their primary users are comprised of college-educated, urban women ranging from ages 25 to 44 and secondary users being early adopters with a sizeable disposable income (<a href="https://www.feedough.com/how-does-groupon-make-money-groupon-business-model/"><span className="groupon-links">source</span></a>). As business, Groupon generates revenue through commissions for every customers referred to merchant.<br></br><br></br>
               </Media>
             </Col>
           </Row>
           <Row>
             <Col lg="4" data-aos="fade-up">
-              <h6 className="secondary-header process-heading"><div className="numbers groupon-color"> </div>Criteria</h6>
+              <h6 className="secondary-header process-heading"><div className="numbers groupon-color"> </div>Grading Criteria</h6>
             </Col>
             <Col lg="8" data-aos="fade-up">
               <Media body>
-                <a href="https://groupon.com/"><span className="groupon-links">Groupon</span></a> is an embeddable collaboration solution that allows its users to seamlessly power any application with collaboration features - messaging, file sharing, document sharing, video conferencing/chat, etc. It is widely available on iOS, Android, desktop, and web. In addition, it is a mobile-first company with a native iOS app and they develop APIs and SDKs that integrate to other mobile applications.<br></br><br></br> 
-                During my time as a UI/UX design developer intern, we identified that the onboarding is one of the pain points to the user experience. As my time at Moxtra approached the end, I was tasked <span className="chunky-underline" id="groupon-underline-color">to improve and visually enhance the onboarding of Moxtra’s mobile application</span>.
+                Prior to jumping into the app critique, I'd like to set the criteria so I can critique this application with focus and tact:
+                <Media body>
+                  <ul className="takeaways" id="groupon-criteria">
+                    <li>How well does this application</li>
+                    <li>Implementing dark mode is not as simple as it looks.</li>
+                    <li>Expecting perfection is stupidity - strive for better and keep iterating.</li>
+                  </ul><br></br><br></br>
+                </Media>
               </Media>
             </Col>
           </Row>
           <Row>
             <Col lg="4" data-aos="fade-up">
-              <h6 className="secondary-header process-heading"><div className="numbers groupon-color"> </div>Sign Up</h6>
+              <h6 className="secondary-header process-heading"><div className="numbers groupon-color"> </div>First Impressions</h6>
             </Col>
             <Col lg="8" data-aos="fade-up">
               <Media body>
               <span className="chunky-underline" id="groupon-underline-color">Good app onboarding is essential for user attention but Moxtra was losing many.</span> As this assignment was assigned to me near the end of my internship, I unfortunately never had the opportunity to collect real metrics of this issue. However, my manager did state that the design team never got the opportunity to focus on onboarding and therefore, could be better.<br></br><br></br> 
               <CardImg top width="100%" src="http://assets.yurika.design/moxtra/moxtraOriginal.png" className="proj-img no-shadow"></CardImg> <br></br>
               <span className="img-caption">Moxtra's Original Onboarding</span> <br></br><br></br>
-              So to get a real sense of how the current onboarding was performing, I conducted three interviews with potential users who have never used/heard of Moxtra before. Itemized below is feedback that I received:
-              <ul className="moxtra-painpoints">
-                <div className="numbers groupon-color" id="good">The Good</div>
-                <li>Onboarding process, from start to finish, is quick and short</li>
-                <li>Nice graphics on the onboarding carousel</li>
-                <li>Sign up process is quick and painless with the ability to continue with Facebook, Google, and/or SSO</li>
-                <div className="numbers groupon-color" id="bad">The Bad</div>
-                <li>100% of the users stated that app features and navigation labels were ambiguous and nonintuitive</li>
-                <li>Most agreed that in-app onboarding provides little to no clarity on what the product is</li>
-                <li>75% of users feld that the application's visual design is plain and could use an update</li>
-                <li>One user felt that the "Add Avatar" and "Your Plan" screens appear too soon in the app onboarding process</li>
-              </ul>
-              <br></br>
               To summarize, the new onboarding flow of Moxtra’s iOS app required clearer messaging, better onboarding cues, and more vibrant visual design while achieving the overall goal of increasing user attention during the onboarding process.
               </Media>
             </Col>
           </Row>
           <Row>
             <Col lg="4" data-aos="fade-up">
-              <h6 className="secondary-header process-heading"><div className="numbers groupon-color"> </div>The Process</h6>
+              <h6 className="secondary-header process-heading"><div className="numbers groupon-color"> </div>Onboarding</h6>
             </Col>
             <Col lg="8" data-aos="fade-up">
               <Media body>
@@ -128,7 +121,7 @@ class GrouponReviewContent extends React.Component {
           </Row>
           <Row>
             <Col lg="4" data-aos="fade-up">
-              <h6 className="secondary-header process-heading"><div className="numbers groupon-color"> </div>The Solution</h6>
+              <h6 className="secondary-header process-heading"><div className="numbers groupon-color"> </div>Information Architecture</h6>
             </Col>
             <Col lg="8" data-aos="fade-up">
               <Media body>
@@ -145,7 +138,7 @@ class GrouponReviewContent extends React.Component {
           </Row>
           <Row>
             <Col lg="4" data-aos="fade-up">
-              <h6 className="secondary-header process-heading"><div className="numbers groupon-color"> </div>The End</h6>
+              <h6 className="secondary-header process-heading"><div className="numbers groupon-color"> </div>UI/Interaction Design</h6>
             </Col>
             <Col lg="8" data-aos="fade-up">
               <Media body>
