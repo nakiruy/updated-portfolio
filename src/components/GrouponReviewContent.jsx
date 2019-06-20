@@ -34,16 +34,17 @@ class GrouponReviewContent extends React.Component {
           </Row>
           <Row>
             <Col lg="4" data-aos="fade-up">
-              <h6 className="secondary-header process-heading"><div className="numbers groupon-color"> </div>Grading Criteria</h6>
+              <h6 className="secondary-header process-heading"><div className="numbers groupon-color"> </div>Considerations</h6>
             </Col>
             <Col lg="8" data-aos="fade-up">
               <Media body>
-                Prior to jumping into the app critique, I'd like to set the criteria so I can critique this application with focus and tact:
                 <Media body>
-                  <ul className="takeaways" id="groupon-criteria">
-                    <li>How well does this application</li>
-                    <li>Implementing dark mode is not as simple as it looks.</li>
-                    <li>Expecting perfection is stupidity - strive for better and keep iterating.</li>
+                  <ul className="takeaways" id="groupon-consideration">
+                    <li><b>Usability.</b> Is it easy to use? </li>
+                    <li><b>Clarity.</b> Is it clear?</li>
+                    <li><b>UX.</b> Is it pleasant to use?</li>
+                    <li><b>Effectiveness.</b> Is it solving user problems efficiently?</li>
+                    <li><b>Feedback.</b> Is it communicating successes and/or failures to its users?</li>
                   </ul><br></br><br></br>
                 </Media>
               </Media>
@@ -55,10 +56,7 @@ class GrouponReviewContent extends React.Component {
             </Col>
             <Col lg="8" data-aos="fade-up">
               <Media body>
-              <span className="chunky-underline" id="groupon-underline-color">Good app onboarding is essential for user attention but Moxtra was losing many.</span> As this assignment was assigned to me near the end of my internship, I unfortunately never had the opportunity to collect real metrics of this issue. However, my manager did state that the design team never got the opportunity to focus on onboarding and therefore, could be better.<br></br><br></br> 
-              <CardImg top width="100%" src="http://assets.yurika.design/moxtra/moxtraOriginal.png" className="proj-img no-shadow"></CardImg> <br></br>
-              <span className="img-caption">Moxtra's Original Onboarding</span> <br></br><br></br>
-              To summarize, the new onboarding flow of Moxtra’s iOS app required clearer messaging, better onboarding cues, and more vibrant visual design while achieving the overall goal of increasing user attention during the onboarding process.
+                <iframe src="https://player.vimeo.com/video/343515349?autoplay=1&loop=1&autopause=0&title=0&byline=0&portrait=0&muted=1" width="100%" height="350" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
               </Media>
             </Col>
           </Row>
@@ -68,77 +66,75 @@ class GrouponReviewContent extends React.Component {
             </Col>
             <Col lg="8" data-aos="fade-up">
               <Media body>
-              Once I have an idea in regards to the overarching goal and user pain points, <span className="chunky-underline" id="groupon-underline-color">my first step is to always start out with pen and paper</span>. Here’s the result from my first brainstorming session:<br></br><br></br> 
-              <ImageZoom
-                image={{
-                  src: 'http://assets.yurika.design/moxtra/brainstorming.jpg',
-                  alt: 'Brainstorming',
-                  className: 'proj-img',
-                  style: { width: '100%' }
-                }}
-                zoomImage={{
-                  src: 'http://assets.yurika.design/moxtra/brainstorming.jpg',
-                  alt: 'Brainstorming',
-                  className: 'proj-img'
-                }}
-              /><br></br><br></br>
-              Admittedly, I realized after my first few sketches that I was getting ahead of myself. <span className="chunky-underline" id="groupon-underline-color">In-app onboarding serves no purpose if the value of the application is not properly conveyed to users.</span> As there are many competitors in Moxtra’s space, I felt that a breakdown of Moxtra vs. its competitors was necessary prior to proceeding. This would also help me determine which competitive advantages of the platform I should showcase to new users throughout the onboarding process.<br></br><br></br>
-              <ImageZoom
-                image={{
-                  src: 'http://assets.yurika.design/moxtra/moxtraCompetition.png',
-                  alt: 'Moxtra vs. Competition',
-                  className: 'proj-img',
-                  style: { width: '100%' }
-                }}
-                zoomImage={{
-                  src: 'http://assets.yurika.design/moxtra/moxtraCompetition.png',
-                  alt: 'Moxtra vs. Competition',
-                  className: 'proj-img'
-                }}
-              /><br></br>
-              <span className="img-caption">Moxtra vs. Competition</span> <br></br><br></br>
-              With the help of the above table, I dissected and revamped the original onboarding cards for clearer and stronger message.<br></br><br></br>
-              <ImageZoom
-                image={{
-                  src: 'http://assets.yurika.design/moxtra/lo-fiCards.png',
-                  alt: 'Moxtra Lo-fi',
-                  className: 'proj-img no-shadow',
-                  style: { width: '100%' }
-                }}
-                zoomImage={{
-                  src: 'http://assets.yurika.design/moxtra/lo-fiCards.png',
-                  alt: 'Moxtra Lo-fi',
-                }}
-              /><br></br>
-              <span className="img-caption">Lo-fi Onboarding Carousel</span> <br></br><br></br>
-              From there, I developed the rest of the mockup:<br></br><br></br>
-              <CardImg top width="100%" src="http://assets.yurika.design/moxtra/lo-fiWhole.png" className="proj-img no-shadow"></CardImg> <br></br>
-              <span className="img-caption">Complete Lo-fi Mockup</span> <br></br><br></br>
-              <CardImg top width="100%" src="http://assets.yurika.design/moxtra/moxtraHi.png" className="proj-img no-shadow"></CardImg> <br></br>
-              <span className="img-caption">Hi-fi mockup: Let's not forget color and glamour!</span> <br></br><br></br>
+                <iframe src="https://player.vimeo.com/video/343351917?autoplay=1&loop=1&autopause=0&title=0&byline=0&portrait=0&muted=1" width="100%" height="350" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe><br></br><br></br> 
               </Media>
             </Col>
           </Row>
           <Row>
             <Col lg="4" data-aos="fade-up">
-              <h6 className="secondary-header process-heading"><div className="numbers groupon-color"> </div>Information Architecture</h6>
+              <h6 className="secondary-header process-heading"><div className="numbers groupon-color"> </div>Structure</h6>
             </Col>
             <Col lg="8" data-aos="fade-up">
               <Media body>
-                Few things to note about the final implementation, 
-                <ul className="moxtra-painpoints" id="moxtra-solution">
-                  <li>Names and descriptions are now clearer vs. the original (e.g. Meet to Calendar)</li>
-                  <li>Verification is now <span className="chunky-underline" id="groupon-underline-color">completed via SMS instead of email</span> - it's a mobile app, why not text?</li>
-                  <li>Emphasized sign up and de-emphasized log in on the onboarding carousel screens</li>
-                  <li>Updated visually to <span className="chunky-underline" id="groupon-underline-color">dark mode</span></li>
-                  <li>Removed "Add Avatar" and "Your Plan" screens from onboarding</li>
-                </ul>
+                <iframe src="https://player.vimeo.com/video/343537960?autoplay=1&loop=1&autopause=0&title=0&byline=0&portrait=0&muted=1" width="100%" height="350" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe><br></br><br></br> 
               </Media>
             </Col>
           </Row>
           <Row>
             <Col lg="4" data-aos="fade-up">
-              <h6 className="secondary-header process-heading"><div className="numbers groupon-color"> </div>UI/Interaction Design</h6>
+              <h6 className="secondary-header process-heading"><div className="numbers groupon-color"> </div>Search</h6>
+            </Col>
+            <Col lg="8" data-aos="fade-up">
+              <Media body>
+                <iframe src="https://player.vimeo.com/video/343539607?autoplay=1&loop=1&autopause=0&title=0&byline=0&portrait=0&muted=1" width="100%" height="350" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe><br></br><br></br> 
+              </Media>
+            </Col>
+          </Row>
+          <Row>
+            <Col lg="4" data-aos="fade-up">
+              <h6 className="secondary-header process-heading"><div className="numbers groupon-color"> </div>Product Page</h6>
+            </Col>
+            <Col lg="8" data-aos="fade-up">
+              <Media body>
+                <iframe src="https://player.vimeo.com/video/343533654?autoplay=1&loop=1&autopause=0&title=0&byline=0&portrait=0&muted=1" width="100%" height="350" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe><br></br><br></br> 
+              </Media>
+            </Col>
+          </Row>
+          <Row>
+            <Col lg="4" data-aos="fade-up">
+              <h6 className="secondary-header process-heading"><div className="numbers groupon-color"> </div>Add to Cart</h6>
+            </Col>
+            <Col lg="8" data-aos="fade-up">
+              <Media body>
+                <iframe src="https://player.vimeo.com/video/343546449?autoplay=1&loop=1&autopause=0&title=0&byline=0&portrait=0&muted=1" width="100%" height="350" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe><br></br><br></br> 
+              </Media>
+            </Col>
+          </Row>
+          <Row>
+            <Col lg="4" data-aos="fade-up">
+              <h6 className="secondary-header process-heading"><div className="numbers groupon-color"> </div>UI / Interaction Design</h6>
+            </Col>
+            <Col lg="8" data-aos="fade-up">
+              <Media body>
+                <iframe src="https://player.vimeo.com/video/343543924?autoplay=1&loop=1&autopause=0&title=0&byline=0&portrait=0&muted=1" width="100%" height="350" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe><br></br><br></br> 
+                <ImageZoom
+                  image={{
+                    src: 'http://assets.yurika.design/groupon-ui.png',
+                    alt: 'Groupon UI',
+                    className: 'proj-img no-shadow',
+                    style: { width: '100%' }
+                  }}
+                  zoomImage={{
+                    src: 'http://assets.yurika.design/groupon-ui.png',
+                    alt: 'Groupon UI',
+                  }}
+                /><br></br>
+              </Media>
+            </Col>
+          </Row>
+          <Row>
+            <Col lg="4" data-aos="fade-up">
+              <h6 className="secondary-header process-heading"><div className="numbers groupon-color"> </div>Final Thoughts</h6>
             </Col>
             <Col lg="8" data-aos="fade-up">
               <Media body>
@@ -148,20 +144,6 @@ class GrouponReviewContent extends React.Component {
               </Media>
             </Col>
           </Row>
-          <Row>
-              <Col lg="4" data-aos="fade-up">
-                <h6 className="secondary-header" id="groupon-secondary">key takeways</h6>
-              </Col>
-              <Col lg="8" data-aos="fade-up">
-                <Media body>
-                  <ol className="takeaways">
-                    <li>Don't be afraid to backtrack and try again.</li>
-                    <li>Implementing dark mode is not as simple as it looks.</li>
-                    <li>Expecting perfection is stupidity - strive for better and keep iterating.</li>
-                  </ol><br></br><br></br>
-                </Media>
-              </Col>
-            </Row>
         </Col>
     </Container>
     );
