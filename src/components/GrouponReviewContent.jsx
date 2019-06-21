@@ -32,10 +32,10 @@ class GrouponReviewContent extends React.Component {
                 <ul className="takeaways" id="groupon-consideration">
                     <li>47.2 million active users</li>
                     <li>20% of user traffic from desktop</li>
-                    <li>Main demographic are college-educated, urban women ranging from ages 25 to 44 (<a href="https://www.feedough.com/how-does-groupon-make-money-groupon-business-model/"><span className="groupon-links">source</span></a></li>
+                    <li>Their main demographic are college-educated, urban women ranging from ages 25 to 44 (<a href="https://www.feedough.com/how-does-groupon-make-money-groupon-business-model/"><span className="groupon-links">source</span></a>)</li>
                     <li>Primary users - subscribers using Groupon to purchase discounted goods, services, etc.</li>
                     <li>Secondary users - local businesses listing goods, services, etc. on the website</li>
-                    <li>Generates revenue through commissions for every customers referred to merchant</li>
+                    <li>Generates revenue through commissions for every customer referred to merchant</li>
                   </ul><br></br><br></br>
               </Media>
             </Col>
@@ -47,11 +47,11 @@ class GrouponReviewContent extends React.Component {
             <Col lg="8" data-aos="fade-up">
               <Media body>
                   <ul className="takeaways" id="groupon-consideration">
-                    <li><b>Usability.</b> Is it easy to use? </li>
-                    <li><b>Clarity.</b> Is it clear?</li>
-                    <li><b>UX.</b> Is it pleasant to use?</li>
-                    <li><b>Effectiveness.</b> Is it solving user problems efficiently?</li>
-                    <li><b>Feedback.</b> Is it communicating successes and/or failures to its users?</li>
+                    <li><b>Usability.</b></li>
+                    <li><b>Clarity.</b></li>
+                    <li><b>UX.</b></li>
+                    <li><b>Effectiveness.</b></li>
+                    <li><b>Feedback.</b></li>
                   </ul><br></br><br></br>
               </Media>
             </Col>
@@ -165,9 +165,13 @@ class GrouponReviewContent extends React.Component {
             </Col>
             <Col lg="8" data-aos="fade-up">
               <Media body>
-              <span className="chunky-underline" id="groupon-underline-color">As my first independent design project, there are a slew of items I would change if I were to tackle this problem now.</span> For example, the icons are notably too rounded for a business application. Sharper edges for this icon library would have been better suited for this visual representation of a business like Moxtra’s. 
-              Using fewer variants of colors would have also helped this application to look more “serious”. In terms of user flow, adding a way to keep user engagement <span className="chunky-underline" id="groupon-underline-color">after</span> the user leaves the application would have increased user engagement over time. Perhaps adding incentives for users to return to the application (like <a href="https://www.starbucks.com/starbucks-rewards"><span className="groupon-links">Starbucks Rewards</span></a>) would have driven user retention. One idea I would love to have implemented is that there would be a bot added as one of the contacts when a user first signs up and that bot could be the driver for a user to keep coming back to Moxtra. I’d like to think this bot could be similar to a friend telling you to check out a new app or a clothing line - prompting you to do so. <br></br><br></br>
-              <span className="chunky-underline" id="groupon-underline-color">Despite the flaws, I took plenty away from this project that helped me to become a better designer and developer.</span> This internship gave me a solid grasp on the fundamentals of design and as a self-taught learner, this was invaluable to me. My manager taught me the iterative processes and organizing assets in Sketch which I still use in both in design and development today. <span className="chunky-underline" id="groupon-underline-color">Thank you, Moxtra!</span>
+                <ul className="takeaways" id="groupon-consideration">
+                    <li><b>Usability.</b> Is it easy to use? </li>
+                    <li><b>Clarity.</b> Is it clear?</li>
+                    <li><b>UX.</b> Is it pleasant to use?</li>
+                    <li><b>Effectiveness.</b> Is it solving user problems efficiently?</li>
+                    <li><b>Feedback.</b> Is it communicating successes and/or failures to its users?</li>
+                  </ul><br></br><br></br>
               </Media>
             </Col>
           </Row>
