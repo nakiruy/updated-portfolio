@@ -74,68 +74,30 @@ class TapcastBillingContent extends React.Component {
               </Col>
               <Col lg="8" data-aos="fade-up">
                 <Media body>
-                  To kick start the redesign, I decided to research our competitors. Fortunately, Facebook has a <a href="https://www.facebook.com/business/solutions-explorer/"><span className="tapcast-billing-links">handy directory</span></a> of their marketing partners which provides a quick overview of each company. This expedited my search for identifying Tapcast's closest competition.<br></br><br></br>
-                  After comparing and contrasting a handful of companies as well as coupling user sessions/gathering feedbacks from our customer success team, it was clear that <span className="chunky-underline" id="tapcast-billing-underline-color">our onboarding wasn't enough</span>.
-                  We provided no clear path on how to utilize the platform with zero cues to prompt users to act.<br></br><br></br> 
-                  Moreover, we concluded internally that Tapcast as a product requires a heavy ramp-up period and extensive onboarding. Thus, keeping in mind the high priority business goal of converting as many new users as possible, I decided <span className="chunky-underline" id="tapcast-billing-underline-color">to focus on the new user journey and payment flow</span> in this redesign.<br></br><br></br> 
-                  <ImageZoom
-                    image={{
-                      src: 'http://assets.yurika.design/tapcast/tapcastFlowNew.png',
-                      alt: 'Tapcast Flowchart',
-                      className: 'proj-img',
-                      style: { width: '100%' }
-                    }}
-                    zoomImage={{
-                      src: 'http://assets.yurika.design/tapcast/tapcastFlowNew.png',
-                      alt: 'Tapcast Flowchart',
-                      className: 'proj-img'
-                    }}
-                  /><br></br>
-                  <span className="img-caption">Signup to payment flowchart</span> <br></br><br></br>
-                  To be competitive, I also felt that our platform needed to be rebranded. I aimed for a modern, clean, simple look while being respectful of the previous design. I first redesigned the logo:<br></br><br></br>
-                  <Row>
-                    <Col xs="6">
-                      <CardImg top width="100%" src="http://assets.yurika.design/tapcast/fullwgrid.png" className="proj-img no-shadow"></CardImg>
-                    </Col>
-                    <Col xs="6">
-                      <CardImg top width="100%" src="http://assets.yurika.design/tapcast/fullLogo.png" className="proj-img no-shadow"></CardImg>
-                    </Col>
-                  </Row>
-                  <span className="img-caption">new tapcast logos</span> <br></br><br></br>
-                  With logo design complete, I started to iteratively build the final design.<br></br><br></br>
-                  <Row>
-                    <Col md="6">
-                      <ImageZoom
-                        image={{
-                          src: 'http://assets.yurika.design/tapcast/mockupBW.png',
-                          alt: 'Tapcast Mockup BW',
-                          className: 'proj-img',
-                          style: { width: '100%' }
-                        }}
-                        zoomImage={{
-                          src: 'http://assets.yurika.design/tapcast/mockupBW.png',
-                          alt: 'Tapcast Mockup BW',
-                          className: 'proj-img'
-                        }}
-                      /><br></br>
-                    </Col>
-                    <Col md="6">
-                      <ImageZoom
-                        image={{
-                          src: 'http://assets.yurika.design/tapcast/mockupColor.png',
-                          alt: 'Tapcast Mockup Color',
-                          className: 'proj-img',
-                          style: { width: '100%' }
-                        }}
-                        zoomImage={{
-                          src: 'http://assets.yurika.design/tapcast/mockupColor.png',
-                          alt: 'Tapcast Mockup Color',
-                          className: 'proj-img'
-                        }}
-                      /><br></br>
-                    </Col>
-                  </Row>
-                  <span className="img-caption">Mockup iterations</span><br></br>
+                To kickstart this process, we first consolidated the most common customer feedback that we had thus far in regards to our payment method. 
+
+                - “Why am I being charged $299? What are the factors that are driving up the cost?”
+                - “How can I add more ad accounts and how would that impact my current billing plan?”
+                - “Is there a cheaper pricing option? I’m a small-business owner/startup and can’t afford the suggested pricing plans currently.”
+                - “How do I upgrade?”
+
+                We then laid out our current pricing plans and payment flow:
+
+                - Three plans for software: Essentials, Premium, and Enterprise with pricing starting at $299, $499, and $2500 respectively.
+                - Essentials plan included one user and one ad account with access to most features
+                - Premium plan included ten users and one ad account with access to all features
+                - Enterprise plan included unlimited users and ad accounts
+                - Users can upgrade accounts by clicking on Subscription under user profile dropdown and then clicking Buy/Upgrade to be rerouted to the Billing page
+                - Then the user would have to select a plan, enter a billing address, and enter a credit card number to complete process
+
+                Next, we established pain points of above user flow by conducting quick user surveys with our customers and also observing behaviors on FullStory. 
+
+                After numerous planned and ad-hoc meetings with stakeholders and internal team, I broke down what changes we needed to implement for a new billing process on Asana: 
+
+                - Create a dynamic pricing model based on the client’s trailing 30-day ad spend on Facebook and the number of ad accounts
+                - Provide pricing breakdown for potential and existing clients to clarify our billing model
+                - Integrate billing to onboarding flow for transparency upfront and avoid obscurity on where and how one can upgrade
+                - Limit free trial days to 7 days and one ad account but allow free trial users to have access to all features (previously, we allowed 14 days free trial but we noticed many potential users tended to drop off after the second week)
                 </Media>
               </Col>
             </Row>
