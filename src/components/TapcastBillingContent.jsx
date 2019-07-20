@@ -107,89 +107,6 @@ class TapcastBillingContent extends React.Component {
               </Col>
               <Col lg="8" data-aos="fade-up">
                 <Media body>
-                  {/* <a href="https://invis.io/7FQVFPD92ZM"><span className="tapcast-billing-links">Click here to view the full prototype</span></a><br></br><br></br> */}
-                  <ImageZoom
-                      image={{
-                        src: 'http://assets.yurika.design/tapcast/tapcast-platform.png',
-                        alt: 'Dashboard',
-                        className: 'proj-img',
-                        style: { width: '100%' }
-                      }}
-                      zoomImage={{
-                        src: 'http://assets.yurika.design/tapcast/tapcast-platform.png',
-                        alt: 'Dashboard',
-                        className: 'proj-img'
-                      }}
-                  /><br></br>
-                  <span className="img-caption">dashboard</span> <br></br><br></br>
-                  <ImageZoom
-                      image={{
-                        src: 'http://assets.yurika.design/tapcast/tapcast-landing.png',
-                        alt: 'Landing Page',
-                        className: 'proj-img',
-                        style: { width: '100%' }
-                      }}
-                      zoomImage={{
-                        src: 'http://assets.yurika.design/tapcast/tapcast-landing.png',
-                        alt: 'Landing Page',
-                        className: 'proj-img'
-                      }}
-                  /><br></br>
-                  <span className="img-caption">landing page</span> <br></br><br></br>
-                  <ImageZoom
-                      image={{
-                        src: 'http://assets.yurika.design/tapcast/tapcast-signup.png',
-                        alt: 'Signup Page',
-                        className: 'proj-img',
-                        style: { width: '100%' }
-                      }}
-                      zoomImage={{
-                        src: 'http://assets.yurika.design/tapcast/tapcast-signup.png',
-                        alt: 'Signup Page',
-                        className: 'proj-img'
-                      }}
-                  /><br></br>
-                  <span className="img-caption">sign up</span> <br></br><br></br>
-                  <ImageZoom
-                      image={{
-                        src: 'http://assets.yurika.design/tapcast/tapcast-audience.png',
-                        alt: 'Audience Page',
-                        className: 'proj-img',
-                        style: { width: '100%' }
-                      }}
-                      zoomImage={{
-                        src: 'http://assets.yurika.design/tapcast/tapcast-audience.png',
-                        alt: 'Audience Page',
-                        className: 'proj-img'
-                      }}
-                  /><br></br>
-                  <span className="img-caption">audience page</span> <br></br><br></br>
-                  <ImageZoom
-                      image={{
-                        src: 'http://assets.yurika.design/tapcast/tapcast-payment.png',
-                        alt: 'Payment Page',
-                        className: 'proj-img',
-                        style: { width: '100%' }
-                      }}
-                      zoomImage={{
-                        src: 'http://assets.yurika.design/tapcast/tapcast-payment.png',
-                        alt: 'Payment Page',
-                        className: 'proj-img'
-                      }}
-                  /><br></br>
-                  <span className="img-caption">payment</span> <br></br><br></br>
-                  <div className="text-center">
-                    <a href="https://invis.io/7FQVFPD92ZM"><span className="highlight" id="btn-tapcast"><span className="btn tapcast-btn">Click here to view the full prototype</span></span></a><br></br>
-                  </div><br></br><br></br>
-                  As I stated prior, the focus of this redesign was new user journey and payment flow. Here are the summary of changes that this redesign tackled:<br></br><br></br>
-                  <ul className="tapcast-painpoints" id="tapcast-solution">
-                    <li>Addition of <span className="chunky-underline" id="tapcast-billing-underline-color">Get Started checklist</span> (previously, there were none - we simply dropped the user to a sample heatmap page on the platform)</li>
-                    <li>Selection of ad accounts happens during the onboarding process and not <span className="chunky-underline" id="tapcast-billing-underline-color">after</span> they were dropped off in the sample heatmaps dashboard</li>
-                    <li>User can opt-in to watching a <span className="chunky-underline" id="tapcast-billing-underline-color">tutorial video</span> prior to viewing the platform in its entirety - reducing complexity</li>
-                    <li>Audience map page gives users <span className="chunky-underline" id="tapcast-billing-underline-color">clearer steps</span> on what they'll have to do before seeing their heatmaps (i.e. first, select an ad account, second, select an audience, third, submit query and wait for the map to load)</li>
-                    <li>Incorporated <span className="chunky-underline" id="tapcast-billing-underline-color">tooltips</span> for marketing terms such as Cost per Acquistion</li>
-                    <li>Added a <span className="chunky-underline" id="tapcast-billing-underline-color">Congratulations modal</span> for users who completed the Get Started checklist and <span className="chunky-underline" id="tapcast-billing-underline-color">a large CTA</span> to upgrade one's account</li>
-                </ul>
                 </Media>
               </Col>
             </Row>
@@ -199,10 +116,6 @@ class TapcastBillingContent extends React.Component {
               </Col>
               <Col lg="8" data-aos="fade-up">
                 <Media body>
-                Although this project never took off to be in a development sprint (as with any startup, engineering resources was scarce), <span className="chunky-underline" id="tapcast-billing-underline-color">this project was extremely valuable to growing my capabilities to design with numerous constraints.</span><br></br><br></br>
-                Due to limited engineering resources, one of the biggest constraints in implementing this project was overhauling the existing platform design while keeping the number of custom UI elements minimal but still redesign the platform to look vastly different from its previous form. I was also limited to using assets from <a href="https://material-ui.com"><span className="tapcast-billing-links">Material UI</span></a> which added to the challenge.
-                Last but not least, I had to strictly abide with Facebook app review policies and formulate UX flows that satisfied those requirements as well. <br></br><br></br>
-                As you may have noticed, there are a handful of scenarios that I did not flesh out during the creation of this project. That is, what if a user’s free trial expires before they upgrade? What if a new user decides not to follow the Get Started checklist? Is the platform intuitive enough for a new user to understand without going through the checklist? What if they do not have a pre-existing ad account on Facebook? Needless to say, I hope to tackle these issues when this project is incorporated into the product roadmap.<br></br><br></br>
                 </Media>
               </Col>
             </Row>
