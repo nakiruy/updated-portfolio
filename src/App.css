@@ -408,6 +408,39 @@ button:focus {
   padding: 0.5rem 0;
 }
 
+/* Auth Modal */
+
+.modal-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+.modal-footer {
+  border-top: none;
+}
+
+.form-control {
+  color: #4724F7;
+  border-radius: 0.1rem;
+  outline: 0px !important;
+  -webkit-appearance: none;
+  box-shadow: none !important;
+}
+
+.form-control:hover, .form-control:active {
+  color: #4724F7;
+}
+
+.form-control:focus {
+  border-color:#4724F750;
+  color: #4724F7;
+}
+
 /* About */
 
 #about-fact {

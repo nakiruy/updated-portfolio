@@ -14,9 +14,10 @@ class TapcastBillingJumbo extends React.Component {
 
   toggleModal = () => {
     this.setState({
-      modal: !this.state.show
+      show: !this.state.show
     });
     console.log('toggle!')
+    console.log(this.state.show)
   }
 
   render() {
@@ -32,7 +33,7 @@ class TapcastBillingJumbo extends React.Component {
               </p>
             </Card>
           </Jumbotron>
-          <AuthModal initialModalState={false} />
+          <AuthModal toggleModal={this.toggleModal} initialModalState={this.state.show} />
         </div>
       </div>
     )}

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
+import { Button, Modal, ModalHeader, ModalBody, ModalFooter, FormGroup, Label, Input } from 'reactstrap';
 
 class AuthModal extends React.Component {
   constructor(props) {
@@ -7,26 +7,22 @@ class AuthModal extends React.Component {
     this.state = {
       modal: props.initialModalState
     };
-  }
-
-  toggle = () => {
-    this.setState({
-      modal: !this.state.modal
-    });
 }
 
   render() {
     return (
-      <div>
+      <div className="auth-modal">
         {/* <Button color="danger" onClick={this.toggle}>TOGGLE</Button> */}
-        <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
-          <ModalHeader toggle={this.togglel}>Password Protected</ModalHeader>
+        <Modal isOpen={this.props.initialModalState} toggle={this.props.toggleModal} className={this.props.className} centered>
+          <ModalHeader toggle={this.props.toggleModal}>Password Protected</ModalHeader>
           <ModalBody>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <FormGroup>
+              <Label for="examplePassword">To view, please enter the password or request password.</Label>
+              <Input type="password" name="password" id="examplePassword" placeholder="Password" />
+            </FormGroup>
           </ModalBody>
           <ModalFooter>
-            <Button onClick={this.toggle}>Do Something</Button>{' '}
-            <Button onClick={this.toggle}>Cancel</Button>
+            <span class="btn" onClick={this.props.toggleModal}>View Project</span>
           </ModalFooter>
         </Modal>
       </div>
