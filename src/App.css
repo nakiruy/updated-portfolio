@@ -422,10 +422,15 @@ button:focus {
 
 .modal-footer {
   border-top: none;
+  padding: 0 1rem 1rem 1rem;
+}
+
+.close {
+  color:#1C1B1F;
 }
 
 .form-control {
-  color: #4724F7;
+  /* color: #4724F7; */
   border-radius: 0.1rem;
   outline: 0px !important;
   -webkit-appearance: none;
@@ -433,12 +438,18 @@ button:focus {
 }
 
 .form-control:hover, .form-control:active {
-  color: #4724F7;
+  /* color: #4724F7; */
 }
 
 .form-control:focus {
   border-color:#4724F750;
   color: #4724F7;
+}
+
+#request-pw {
+  background-size: 0%;
+  color: #4724f7;
+  font-style: normal;
 }
 
 /* About */

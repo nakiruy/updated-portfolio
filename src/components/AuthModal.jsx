@@ -7,7 +7,15 @@ class AuthModal extends React.Component {
     this.state = {
       modal: props.initialModalState
     };
-}
+  }
+
+  handlePasswordChange = (e) =>  {
+    this.setState({password: e.target.value});
+  }
+
+  handleSubmit = () => {
+    console.log('submit');
+  }
 
   render() {
     return (
@@ -17,12 +25,12 @@ class AuthModal extends React.Component {
           <ModalHeader toggle={this.props.toggleModal}>Password Protected</ModalHeader>
           <ModalBody>
             <FormGroup>
-              <Label for="examplePassword">To view, please enter the password or request password.</Label>
+              <Label for="project-password">To view, please enter the password or <a href="mailto:nakiruy@gmail.com"><span id="request-pw">request password</span></a>.</Label>
               <Input type="password" name="password" id="examplePassword" placeholder="Password" />
             </FormGroup>
           </ModalBody>
           <ModalFooter>
-            <span class="btn" onClick={this.props.toggleModal}>View Project</span>
+            <span className="btn" onClick={this.handleSubmit}>View Project</span>
           </ModalFooter>
         </Modal>
       </div>
