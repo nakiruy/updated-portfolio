@@ -16,8 +16,6 @@ class TapcastBillingJumbo extends React.Component {
     this.setState({
       show: !this.state.show
     });
-    console.log('toggle!')
-    console.log(this.state.show)
   }
 
   render() {

@@ -19,7 +19,6 @@ class AuthModal extends React.Component {
 
   handleSubmit = () => {
     if (this.state.password === 'Hello') {
-      console.log(this.state.password, 'submit')
       this.setState({ redirect: true })
     } 
   }
