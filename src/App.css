@@ -163,6 +163,7 @@ button:focus {
   /* font-size: 2.38rem; */
   background: linear-gradient(120deg, #F74824 10%, #4724f7 110%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -435,10 +436,6 @@ button:focus {
   outline: 0px !important;
   -webkit-appearance: none;
   box-shadow: none !important;
-}
-
-.form-control:hover, .form-control:active {
-  /* color: #4724F7; */
 }
 
 .form-control:focus, .bad-password:focus {
