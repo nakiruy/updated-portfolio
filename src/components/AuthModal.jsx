@@ -8,7 +8,8 @@ class AuthModal extends React.Component {
     this.state = {
       modal: props.initialModalState,
       password: '',
-      redirect: false
+      redirect: false,
+      invalid: false
     };
   }
 
@@ -20,11 +21,17 @@ class AuthModal extends React.Component {
   handleSubmit = () => {
     if (this.state.password === 'Hello') {
       this.setState({ redirect: true })
-    } 
+    } else {
+      this.setState({ invalid: true })
+    }
   }
 
   render() {
-    const { redirect } = this.state
+    const { redirect, invalid } = this.state
+    let badPassword
+    if (invalid) {
+      badPassword = 'bad-password'
+    }
     return (
       <div className="auth-modal">
         {/* <Button color="danger" onClick={this.toggle}>TOGGLE</Button> */}
@@ -33,7 +40,7 @@ class AuthModal extends React.Component {
           <ModalBody>
             <FormGroup>
               <Label for="project-password">To view, please enter the password or <a href="mailto:nakiruy@gmail.com"><span id="request-pw">request password</span></a>.</Label>
-              <Input type="password" name="password" id="examplePassword" placeholder="Password" onChange={this.handlePasswordChange} />
+              <Input className={badPassword} type="password" name="password" id="projPassword" placeholder="Password" onChange={this.handlePasswordChange} />
             </FormGroup>
           </ModalBody>
           <ModalFooter>

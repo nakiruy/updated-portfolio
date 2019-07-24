@@ -441,7 +441,7 @@ button:focus {
   /* color: #4724F7; */
 }
 
-.form-control:focus {
+.form-control:focus, .bad-password:focus {
   border-color:#4724F750;
   color: #4724F7;
 }
@@ -450,6 +450,11 @@ button:focus {
   background-size: 0%;
   color: #4724f7;
   font-style: normal;
+}
+
+.bad-password {
+  border-color:#f74724;
+  color: #f74724;
 }
 
 /* About */
