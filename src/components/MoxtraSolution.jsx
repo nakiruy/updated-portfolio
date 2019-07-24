@@ -3,6 +3,12 @@ import Carousel from 'nuka-carousel';
 import { CardImg } from 'reactstrap';
 
 class MoxtraSolution extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      slideIndex: 0
+    };
+  }
   componentDidMount() {
     setTimeout(() => {
       window.dispatchEvent(new Event('resize'));
@@ -16,13 +22,16 @@ class MoxtraSolution extends Component {
       className="moxtra-carousel"
       swiping={true}
       dragging={true}
-      wrapAround={true}
+      // wrapAround={true}
       renderCenterLeftControls={({ previousSlide }) => (
         <button className="prev-arrow" onClick={previousSlide}></button>
       )}
       renderCenterRightControls={({ nextSlide }) => (
         <button className="next-arrow" onClick={nextSlide}></button>
       )}
+      slideIndex={this.state.slideIndex}
+      afterSlide={slideIndex => this.setState({ slideIndex: slideIndex++ })}
+      slidesToShow={1}
       >
         <CardImg className="moxtra-final" src="http://assets.yurika.design/moxtra/1.png"></CardImg>
         <CardImg className="moxtra-final" src="http://assets.yurika.design/moxtra/2.png"></CardImg>

@@ -4,6 +4,7 @@ import AOS from 'aos';
 import ImageZoom from 'react-medium-image-zoom';
 
 import MoxtraSolution from './MoxtraSolution';
+import MoxtraSolutionAlt from './MoxtraSolutionAlt';
 
 class MoxtraContent extends React.Component {
   constructor(props) {
@@ -143,7 +144,7 @@ class MoxtraContent extends React.Component {
             </Col>
             <Col lg="8" data-aos="fade-up">
               <Media body>
-                <MoxtraSolution /><br></br><br></br>
+                <MoxtraSolutionAlt /><br></br><br></br>
                 Few things to note about the final implementation, 
                 <ul className="moxtra-painpoints" id="moxtra-solution">
                   <li>Names and descriptions are now clearer vs. the original (e.g. Meet to Calendar)</li>

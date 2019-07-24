@@ -15,7 +15,12 @@ import NotFound from './components/NotFound';
 import ComingSoon from './components/ComingSoon';
 import MightyHive from './components/MightyHive';
 import Lift from './components/Lift';
-import FareHarbor from './components/FareHarbor';
+import Abstract from './components/Abstract';
+import Heap from './components/Heap';
+import Zeplin from './components/Zeplin';
+import Pantheon from './components/Pantheon';
+import Lyric from './components/Lyric';
+import GrouponReview from './components/GrouponReview';
 
 import registerServiceWorker from './registerServiceWorker';
 
@@ -39,9 +44,14 @@ ReactDOM.render(
         <Route path="/projects/spotify" component={Spotify} />
         <Route path="/projects/tapcastbilling" component={TapcastBilling} />
         <Route path="/projects/construction" component={ComingSoon} />
+        <Route path="/reviews/groupon" component={GrouponReview} />
         <Route path="/mightyhive" component={MightyHive} />
         <Route path="/lift" component={Lift} />
-        <Route path="/fareharbor" component={FareHarbor} />
+        <Route path="/abstract" component={Abstract} />
+        <Route path="/heap" component={Heap} />
+        <Route path="/zeplin" component={Zeplin} />
+        <Route path="/pantheon" component={Pantheon} />
+        <Route path="/lyric" component={Lyric} />
         <Route component={NotFound} />
     </Switch>
   </Router>, document.getElementById('root')
