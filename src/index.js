@@ -10,6 +10,7 @@ import Resume from './components/Resume';
 import Tapcast from './components/Tapcast';
 import Moxtra from './components/Moxtra';
 import Spotify from './components/Spotify';
+import TapcastBilling from './components/TapcastBilling';
 import NotFound from './components/NotFound';
 import ComingSoon from './components/ComingSoon';
 import MightyHive from './components/MightyHive';
@@ -38,9 +39,10 @@ ReactDOM.render(
         <Route exact path="/" component={App} />
         <Route path="/about" component={About} />
         <Route path="/resume" component={Resume} />
-        <Route path="/projects/tapcast" component={Tapcast} />
+        <Route path="/projects/tapcastplatform" component={Tapcast} />
         <Route path="/projects/moxtra" component={Moxtra} />
         <Route path="/projects/spotify" component={Spotify} />
+        <Route path="/projects/tapcastbilling" component={TapcastBilling} />
         <Route path="/projects/construction" component={ComingSoon} />
         <Route path="/reviews/groupon" component={GrouponReview} />
         <Route path="/mightyhive" component={MightyHive} />

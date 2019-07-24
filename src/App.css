@@ -165,6 +165,7 @@ button:focus {
   /* font-size: 2.38rem; */
   background: linear-gradient(120deg, #F74824 10%, #4724f7 110%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -353,6 +354,12 @@ button:focus {
   margin-bottom: -5rem;
 }
 
+.tapcast-billing-jumbo.jumbotron {
+  background-image: url("http://assets.yurika.design/tapcastbillingproj.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .display-3, .lead {
   text-align: left;
   margin: 1rem 0;
@@ -372,7 +379,7 @@ button:focus {
 
 }
 
-#btn-moxtra, #btn-tapcast, #btn-spotify {
+#btn-moxtra, #btn-tapcast, #btn-spotify, #btn-tapcast-billing {
   font-family: 'Lato', sans-serif;
 }
 
@@ -384,7 +391,7 @@ button:focus {
   border-radius: 0rem;
 }
 
-.moxtra-description-wrapper {
+.moxtra-description-wrapper, .tapcast-billing-description-wrapper {
   background: #fff !important;
   margin-right: -18.3rem;
   margin-left: 70%;
@@ -398,10 +405,55 @@ button:focus {
   padding: 0.5rem 0;
 }
 
-.highlight-moxtra {
+.highlight-moxtra, .highlight-tapcast-billing {
   /* background: #fff; */
   /* color: #1C1B1F; */
   padding: 0.5rem 0;
+}
+
+/* Auth Modal */
+
+.modal-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+.modal-footer {
+  border-top: none;
+  padding: 0 1rem 1rem 1rem;
+}
+
+.close {
+  color:#1C1B1F;
+}
+
+.form-control {
+  /* color: #4724F7; */
+  border-radius: 0.1rem;
+  outline: 0px !important;
+  -webkit-appearance: none;
+  box-shadow: none !important;
+}
+
+.form-control:focus, .bad-password:focus {
+  border-color:#4724F750;
+  color: #4724F7;
+}
+
+#request-pw {
+  background-size: 0%;
+  color: #4724f7;
+  font-style: normal;
+}
+
+.bad-password {
+  border-color:#f74724;
+  color: #f74724;
 }
 
 /* About */
@@ -447,6 +499,10 @@ button:focus {
   background-image: linear-gradient(120deg, #FF4F8140 10%, #FF4F8140 110%); 
 }
 
+#tapcast-billing-underline-color {
+  background-image: linear-gradient(120deg, #6273FF40 10%, #6273FF40 110%); 
+}
+
 #moxtra-underline-color {
   background-image: linear-gradient(120deg, #0052FF40 10%, #0052FF40 110%); 
 }
@@ -473,6 +529,23 @@ button:focus {
 .tapcast-links:hover, .tapcast-links:active, .tapcast-links:focus {
   background-size: 0%;
   color: #FF4F81;
+  font-style: normal;
+}
+
+.tapcast-billing-links {
+  color: #1C1B1F;
+  text-decoration: none;
+  background-image: linear-gradient(120deg, #6273FF 10%, #6273FF 110%); 
+  background-repeat: no-repeat;
+  background-size: 100% 0.05em;
+  background-position: 0 100%;
+  transition: color 0.25s ease-in-out;
+  /* font-weight: 400; */
+}
+
+.tapcast-billing-links:hover, .tapcast-billing-links:active, .tapcast-billing-links:focus {
+  background-size: 0%;
+  color: #6273FF;
   font-style: normal;
 }
 
@@ -720,6 +793,11 @@ button:focus {
   border-width: 0 2px 2px 0;
 }
 
+#tapcast-billing-scroll-up {
+  border: #6273FF solid;
+  border-width: 0 2px 2px 0;
+}
+
 #moxtra-scroll-up {
   border: #0052FF solid;
   border-width: 0 2px 2px 0;
@@ -879,7 +957,7 @@ hr {
   z-index: 10;
 }
 
-#tapcast-secondary, #moxtra-secondary, #spotify-secondary, #groupon-secondary {
+#tapcast-secondary, #moxtra-secondary, #spotify-secondary, #groupon-secondary, #tapcast-billing-secondary {
   margin-top: 1rem;
   margin-bottom: 1.5rem;
   font-weight: 700;
@@ -889,6 +967,11 @@ hr {
 
 #tapcast-secondary, .tapcast-color, .tapcast-color::after {
   color: #FF4F81;
+  /* font-size: 1rem; */
+}
+
+#tapcast-billing-secondary, .tapcast-billing-color, .tapcast-billing-color::after {
+  color: #6273FF;
   /* font-size: 1rem; */
 }
 
@@ -924,7 +1007,7 @@ hr {
   display: none;
 }
 
-.tapcast-projpic, .moxtra-projpic, .spotify-projpic, .groupon-projpic {
+.tapcast-projpic, .moxtra-projpic, .spotify-projpic, .groupon-projpic, .tapcast-billing-projpic {
   margin-top: -10rem;
   z-index: 1;
   pointer-events: none;
@@ -932,6 +1015,16 @@ hr {
 
 .tapcast-projpic {
   background-image: url("http://assets.yurika.design/tapcastproj2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: none;
+  -webkit-filter: none;
+  width: 100%;
+  height: 400px;
+}
+
+.tapcast-billing-projpic {
+  background-image: url("http://assets.yurika.design/tapcastbillingproj2.png");
   background-repeat: no-repeat;
   background-size: cover;
   filter: none;
@@ -1254,8 +1347,14 @@ hr {
   .moxtra-jumbo.jumbotron {
     margin-right: 15rem;
     margin-left: -2rem;
+    margin-top: 8rem;
+    margin-bottom: -4rem;
   }
-  #moxtra-lead {
+  .tapcast-billing-jumbo.jumbotron {
+    margin-right: 15rem;
+    margin-left: -2rem;
+  }
+  #moxtra-lead, #tapcast-billing-lead {
     text-align: right;
     margin: 1rem 0;
   }
@@ -1332,7 +1431,7 @@ hr {
     margin: 100px 0 0 0;
     word-wrap: break-word;
   }
-  .highlight, .highlight-moxtra {
+  .highlight, .highlight-moxtra, .highlight-tapcast-billing {
     background: #fff;
     border: transparent; 
     opacity: 0.9;
@@ -1344,10 +1443,10 @@ hr {
     -webkit-filter: none;
     filter: none;
   }
-  .spotify-jumbo.jumbotron, .tapcast-jumbo.jumbotron, .moxtra-jumbo.jumbotron {
+  .spotify-jumbo.jumbotron, .tapcast-jumbo.jumbotron, .moxtra-jumbo.jumbotron, .tapcast-billing-jumbo.jumbotron {
     margin: -1.5rem -1.5rem 6rem -1.5rem;
   }
-  .spotify-jumbo.jumbotron {
+  .moxtra-jumbo.jumbotron {
     margin-bottom: -3rem;
   }
   .btn {
@@ -1386,7 +1485,7 @@ hr {
     background: transparent;
     margin-top: 1rem;
   }
-  #btn-moxtra, #btn-tapcast, #btn-spotify {
+  #btn-moxtra, #btn-tapcast, #btn-spotify, #btn-tapcast-billing {
     background: none;
   }
   .about-photos {
@@ -1424,12 +1523,12 @@ hr {
     transition: all .3s ease-in-out;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0); 
   }
-  .description-wrapper, .moxtra-description-wrapper {
+  .description-wrapper, .moxtra-description-wrapper, .tapcast-billing-description-wrapper {
     margin: 0;
     filter: none; 
     -webkit-filter: none;
   }
-  .tapcast-projpic, .moxtra-projpic, .spotify-projpic, .groupon-projpic {
+  .tapcast-projpic, .moxtra-projpic, .spotify-projpic, .groupon-projpic, .tapcast-billing-projpic {
     margin: 0;
     margin-top: -10rem;
     margin-bottom: 6rem;

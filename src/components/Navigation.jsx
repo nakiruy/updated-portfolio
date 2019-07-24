@@ -55,12 +55,14 @@ class Navigation extends React.Component {
     let classHide = this.state.isHide ? 'hide' : '';
     let conditionalLogo;
 
-    if (window.location.pathname.includes("/tapcast")) {
+    if (window.location.pathname.includes("/tapcastplatform")) {
       conditionalLogo = <img className="logo" src="http://assets.yurika.design/logo-tapcastcol.png"  alt="Logo" />;
     } else if (window.location.pathname.includes("/moxtra")) {
       conditionalLogo = <img className="logo" src="http://assets.yurika.design/logo-moxtracol.png"  alt="Logo" />;
     } else if (window.location.pathname.includes("/spotify")) {
       conditionalLogo = <img className="logo" src="http://assets.yurika.design/logo-spotifycol.png" alt="Logo" />;
+    } else if (window.location.pathname.includes("/tapcastbilling")) {
+      conditionalLogo = <img className="logo" src="http://assets.yurika.design/logo-tapcastbillingcol.png" alt="Logo" />;
     } else if (window.location.pathname.includes("/groupon")) {
       conditionalLogo = <img className="logo" src="http://assets.yurika.design/logo-grouponcol.png" alt="Logo" />;
     } else {

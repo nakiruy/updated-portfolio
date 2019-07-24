@@ -14,12 +14,14 @@ class ScrollUpButton extends React.Component {
   render() {
     let dynamicId;
 
-    if (window.location.pathname === "/projects/tapcast") {
+    if (window.location.pathname === "/projects/tapcastplatform") {
       dynamicId = "tapcast-scroll-up";
     } else if (window.location.pathname === "/projects/moxtra") {
       dynamicId = "moxtra-scroll-up";
     } else if (window.location.pathname === "/projects/spotify") {
       dynamicId = "spotify-scroll-up";
+    } else if (window.location.pathname === "/projects/tapcastbilling") {
+      dynamicId = "tapcast-billing-scroll-up";
     } else if (window.location.pathname === "/reviews/groupon") {
       dynamicId = "groupon-scroll-up";
     }

@@ -14,13 +14,15 @@ class ProjectNav extends React.Component {
   render() {
     let nextButton;
 
-    if (window.location.pathname === "/projects/tapcast") {
-      nextButton = <Link to="/projects/spotify"><span className="project-navlink">Spotify</span></Link>
+    if (window.location.pathname === "/projects/tapcastplatform") {
+      nextButton = <Link to="/projects/tapcastbilling"><span className="project-navlink">Tapcast Billing</span></Link>
     } else if (window.location.pathname === "/projects/moxtra") {
-      nextButton = <Link to="/projects/tapcast"><span className="project-navlink">Tapcast</span></Link>
+      nextButton = <Link to="/projects/tapcastplatform"><span className="project-navlink">Tapcast Platform</span></Link>
     } else if (window.location.pathname === "/projects/spotify") {
       nextButton = <Link to="/projects/moxtra"><span className="project-navlink">Moxtra</span></Link>
-    } 
+    } else if (window.location.pathname === "/projects/tapcastbilling") {
+      nextButton = <Link to="/projects/spotify"><span className="project-navlink">Spotify</span></Link>
+    }
 
     return (
       <Container>

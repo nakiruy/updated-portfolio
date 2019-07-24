@@ -12,7 +12,7 @@ const MoxtraJumbo = (props) => {
           <h1 className="display-3" id="moxtra-lead"><span className="highlight-moxtra">Onboarding Process for Moxtra</span></h1>
           <p className="lead" id="moxtra-lead"><span className="highlight-moxtra">Mobile-first collaborative platform for all business needs.</span></p>
           <p className="lead" id="moxtra-lead">
-            <Link to="/projects/moxtra"><span className="highlight-moxtra" id="btn-moxtra"><span className="btn">View Project</span></span></Link>
+            <span className="highlight-moxtra" id="btn-moxtra"><span className="btn">View Project</span></span>
           </p>
         </Card>
       </Jumbotron>
