@@ -456,6 +456,12 @@ button:focus {
   color: #f74724;
 }
 
+.bad-password-msg {
+  color: #f74724;
+  margin-left: 0.1rem;
+  font-size: 0.75rem;
+}
+
 /* About */
 
 #about-fact {

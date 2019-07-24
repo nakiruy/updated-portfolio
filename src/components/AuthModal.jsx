@@ -14,11 +14,23 @@ class AuthModal extends React.Component {
   }
 
   handlePasswordChange = (e) =>  {
-    e.preventDefault()
+    e.preventDefault();
     this.setState({ password: e.target.value });
   }
 
-  handleSubmit = () => {
+  handleEnterKey = (e) =>  {
+    if (e.keyCode === 13){
+      e.preventDefault();
+      if (this.state.password === 'GamlaStan') {
+        this.setState({ redirect: true })
+      } else {
+        this.setState({ invalid: true })
+      }
+    }
+  }
+
+  handleSubmit = (e) => {
+    e.preventDefault();
     if (this.state.password === 'GamlaStan') {
       this.setState({ redirect: true })
     } else {
@@ -29,8 +41,10 @@ class AuthModal extends React.Component {
   render() {
     const { redirect, invalid } = this.state
     let badPassword
+    let badPasswordMsg
     if (invalid) {
       badPassword = 'bad-password'
+      badPasswordMsg = <span className="bad-password-msg">Incorrect Password. Please try again.</span>
     }
     return (
       <div className="auth-modal">
@@ -40,7 +54,8 @@ class AuthModal extends React.Component {
           <ModalBody>
             <FormGroup>
               <Label for="project-password">To view, please enter the password or <a href="mailto:nakiruy@gmail.com"><span id="request-pw">request password</span></a>.</Label>
-              <Input className={badPassword} type="password" name="password" id="projPassword" placeholder="Password" onChange={this.handlePasswordChange} />
+              <Input className={badPassword} type="password" name="password" id="projPassword" placeholder="Password" onFocus={() => this.setState({ invalid: false })} onKeyDown={this.handleEnterKey} onChange={this.handlePasswordChange} />
+              {badPasswordMsg}
             </FormGroup>
           </ModalBody>
           <ModalFooter>
