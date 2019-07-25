@@ -2,7 +2,6 @@ import React from 'react';
 
 import { Container, Card, Row, Col } from 'reactstrap';
 import { Link } from 'react-router-dom';
-import { HashLink } from 'react-router-hash-link';
 
 import AuthModal from './AuthModal';
 
