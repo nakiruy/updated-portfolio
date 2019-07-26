@@ -50,7 +50,7 @@ class TapcastBillingContent extends React.Component {
               <Media body>
                 <a href="https://www.tapcast.io"><span className="tapcast-billing-links">Tapcast</span></a> is a data-driven, marketing intelligence platform aimed to help marketers to understand and scale their Facebook audiences. <br></br><br></br>
                 Prior to Q4 2018, we frequently changed billing plans (in fact, we audited internally and found that we changed our billing model six times since the beginning of the year) and desperately needed a more permanent pricing model for our SaaS platform. <br></br><br></br>
-                In addition to the ever-changing landscape of Facebook after the Cambridge Analytica scandal, we were faced with a challenge of coming up with a billing model that satisfied Facebook, as well as our internal teams and customers. As a TPM, I established the user flow, designed mockups, and managed this project from inception to deployment. <br></br>             
+                In addition to the ever-changing landscape of Facebook after the Cambridge Analytica scandal, we were faced with a challenge of coming up with a billing model that satisfied Facebook, as well as our internal teams and customers. As a designer and a PM at Tapcast, I established the user flow, designed mockups, and managed this project from inception to deployment. <br></br>             
               </Media>
             </Col>
             </Row>

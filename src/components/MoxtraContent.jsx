@@ -3,7 +3,6 @@ import { Media, Col, Row, Jumbotron, Container, Card, CardTitle, CardImg, CardTe
 import AOS from 'aos';
 import ImageZoom from 'react-medium-image-zoom';
 
-import MoxtraSolution from './MoxtraSolution';
 import MoxtraSolutionAlt from './MoxtraSolutionAlt';
 
 class MoxtraContent extends React.Component {
