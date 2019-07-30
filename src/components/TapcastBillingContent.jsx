@@ -61,9 +61,21 @@ class TapcastBillingContent extends React.Component {
               <Col lg="8" data-aos="fade-up">
                 <Media body>
                   One of the biggest problems were born out of our own doing. As briefly mentioned above, we had implemented six different pricing models within the year. These changes ranged from number of ad accounts to subscription pricing and from plan names to whether or not we should charge clients based on Facebook ad spend. As changes accumulated, it was becoming increasingly difficult to keep up with them. We were spending a lot of time keeping track of legacy billing models which led to a massive workload debt in operations and development sides of the business.  <br></br><br></br>
-                  Moreover, despite the efforts and pivots, we discovered via funnel analysis that our total conversion rate of purchases was less than ideal. 
-                  [Insert funnel analysis pic here]
-                  [Insert caption]
+                  Moreover, despite the efforts and pivots, we discovered via funnel analysis that our total conversion rate of purchases was less than ideal.<br></br><br></br>
+                  <ImageZoom
+                        image={{
+                          src: 'http://assets.yurika.design/tapcastbilling/before.png',
+                          alt: 'Dashboard',
+                          className: 'proj-img',
+                          style: { width: '100%' }
+                        }}
+                        zoomImage={{
+                          src: 'http://assets.yurika.design/tapcastbilling/before.png',
+                          alt: 'Dashboard',
+                          className: 'proj-img'
+                        }}
+                    /><br></br>
+                    <span className="img-caption">dashboard</span> <br></br><br></br>
                   Needless to say, we strongly felt that we could do better. 
                 </Media>
               </Col>
@@ -107,6 +119,104 @@ class TapcastBillingContent extends React.Component {
               </Col>
               <Col lg="8" data-aos="fade-up">
                 <Media body>
+                  <ImageZoom
+                        image={{
+                          src: 'http://assets.yurika.design/tapcastbilling/initial.jpg',
+                          alt: 'Dashboard',
+                          className: 'proj-img',
+                          style: { width: '100%' }
+                        }}
+                        zoomImage={{
+                          src: 'http://assets.yurika.design/tapcastbilling/initial.jpg',
+                          alt: 'Dashboard',
+                          className: 'proj-img'
+                        }}
+                    /><br></br>
+                    <span className="img-caption">dashboard</span> <br></br><br></br>
+                    <ImageZoom
+                        image={{
+                          src: 'http://assets.yurika.design/tapcastbilling/freetrial.jpg',
+                          alt: 'Dashboard',
+                          className: 'proj-img',
+                          style: { width: '100%' }
+                        }}
+                        zoomImage={{
+                          src: 'http://assets.yurika.design/tapcastbilling/freetrial.jpg',
+                          alt: 'Dashboard',
+                          className: 'proj-img'
+                        }}
+                    /><br></br>
+                    <span className="img-caption">dashboard</span> <br></br><br></br>
+                    <ImageZoom
+                        image={{
+                          src: 'http://assets.yurika.design/tapcastbilling/selectadaccount199add.jpg',
+                          alt: 'Dashboard',
+                          className: 'proj-img',
+                          style: { width: '100%' }
+                        }}
+                        zoomImage={{
+                          src: 'http://assets.yurika.design/tapcastbilling/selectadaccount199add.jpg',
+                          alt: 'Dashboard',
+                          className: 'proj-img'
+                        }}
+                    /><br></br>
+                    <span className="img-caption">dashboard</span> <br></br><br></br>
+                    <ImageZoom
+                        image={{
+                          src: 'http://assets.yurika.design/tapcastbilling/selectadaccount199update.jpg',
+                          alt: 'Dashboard',
+                          className: 'proj-img',
+                          style: { width: '100%' }
+                        }}
+                        zoomImage={{
+                          src: 'http://assets.yurika.design/tapcastbilling/selectadaccount199update.jpg',
+                          alt: 'Dashboard',
+                          className: 'proj-img'
+                        }}
+                    /><br></br>
+                    <span className="img-caption">dashboard</span> <br></br><br></br>
+                    <ImageZoom
+                        image={{
+                          src: 'http://assets.yurika.design/tapcastbilling/selectadaccount299.jpg',
+                          alt: 'Dashboard',
+                          className: 'proj-img',
+                          style: { width: '100%' }
+                        }}
+                        zoomImage={{
+                          src: 'http://assets.yurika.design/tapcastbilling/selectadaccount299.jpg',
+                          alt: 'Dashboard',
+                          className: 'proj-img'
+                        }}
+                    /><br></br>
+                    <span className="img-caption">dashboard</span> <br></br><br></br>
+                    <ImageZoom
+                        image={{
+                          src: 'http://assets.yurika.design/tapcastbilling/select2adaccounts.jpg',
+                          alt: 'Dashboard',
+                          className: 'proj-img',
+                          style: { width: '100%' }
+                        }}
+                        zoomImage={{
+                          src: 'http://assets.yurika.design/tapcastbilling/select2adaccounts.jpg',
+                          alt: 'Dashboard',
+                          className: 'proj-img'
+                        }}
+                    /><br></br>
+                    <span className="img-caption">dashboard</span> <br></br><br></br>
+                    <ImageZoom
+                        image={{
+                          src: 'http://assets.yurika.design/tapcastbilling/enterprise.jpg',
+                          alt: 'Dashboard',
+                          className: 'proj-img',
+                          style: { width: '100%' }
+                        }}
+                        zoomImage={{
+                          src: 'http://assets.yurika.design/tapcastbilling/enterprise.jpg',
+                          alt: 'Dashboard',
+                          className: 'proj-img'
+                        }}
+                    /><br></br>
+                    <span className="img-caption">dashboard</span> <br></br><br></br>
                 </Media>
               </Col>
             </Row>
