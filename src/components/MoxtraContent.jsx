@@ -169,7 +169,7 @@ class MoxtraContent extends React.Component {
           </Row>
           <Row>
               <Col lg="4" data-aos="fade-up">
-                <h6 className="secondary-header" id="moxtra-secondary">key takeways</h6>
+                <h6 className="secondary-header" id="moxtra-secondary">key takeaways</h6>
               </Col>
               <Col lg="8" data-aos="fade-up">
                 <Media body>
