@@ -1168,6 +1168,11 @@ hr {
   margin-top: 3rem;
 }
 
+.tapcast-painpoints {
+  margin-left: -1.4rem;
+  list-style-type: square;
+}
+
 .moxtra-painpoints {
   margin-top: -3rem;
   margin-left: -1.4rem;

@@ -75,7 +75,7 @@ class TapcastBillingContent extends React.Component {
                           className: 'proj-img'
                         }}
                     /><br></br>
-                    <span className="img-caption">dashboard</span> <br></br><br></br>
+                    <span className="img-caption">Initial purchase conversion rate</span> <br></br><br></br>
                   Needless to say, we strongly felt that we could do better. 
                 </Media>
               </Col>
@@ -87,29 +87,35 @@ class TapcastBillingContent extends React.Component {
               <Col lg="8" data-aos="fade-up">
                 <Media body>
                 To kickstart this process, we first consolidated the most common customer feedback to grasp where we had fallen short in our current pricing model.
-
-                - “Why am I being charged $299? What are the factors that are driving up the cost?”
-                - “How can I add more ad accounts and how would that impact my current billing plan?”
-                - “Is there a cheaper pricing option? I’m a small-business owner/startup and can’t afford the suggested pricing plans currently.”
-                - “How do I upgrade?”
-
+                <br></br><br></br>
+                <ul className="tapcast-painpoints" id="tapcast-solution">
+                  <li>"Why am I being charged $299? What are the factors that are driving up the cost?"</li>
+                  <li>"How can I add more ad accounts and how would that impact my current billing plan?"</li>
+                  <li>"Is there a cheaper pricing option? I’m a small-business owner/startup and can’t afford the suggested pricing plans currently."</li>
+                  <li>"How do I upgrade?"</li>
+                </ul>
+                <br></br>
                 We then laid out our current pricing plans and payment flow:
-
-                - Three plans for software: Essentials, Premium, and Enterprise with pricing starting at $299, $499, and $2500 respectively.
-                - Essentials plan included one user and one ad account with access to most features
-                - Premium plan included ten users and one ad account with access to all features
-                - Enterprise plan included unlimited users and ad accounts
-                - Users can upgrade accounts by clicking on Subscription under user profile dropdown and then clicking Buy/Upgrade to be rerouted to the Billing page
-                - Then the user would have to select a plan, enter a billing address, and enter a credit card number to complete process
-
-                Comparing and contrasting what we had versus customer complaints, we gained a high-level sense of where we went south. However, we wanted a clearer picture of the problem. We all agreed to diverge and conduct an analysis of our own. As a part of this process, I conducted quick surveys both internally and externally and observed customer behaviors using FullStory.
-
+                <br></br><br></br>
+                <ul className="tapcast-painpoints" id="tapcast-solution">
+                  <li>Three plans for software: Essentials, Premium, and Enterprise with pricing starting at $299, $499, and $2500 respectively</li>
+                  <li>Essentials plan included one user and one ad account with access to most features</li>
+                  <li>Premium plan included ten users and one ad account with access to all features</li>
+                  <li>Enterprise plan included unlimited users and ad accounts</li>
+                  <li>Users can upgrade accounts by clicking on Subscription under user profile dropdown and then clicking Buy/Upgrade to be rerouted to the Billing page</li>
+                  <li>Then the user would have to select a plan, enter a billing address, and enter a credit card number to complete process</li>
+                </ul>
+                <br></br>
+                Comparing and contrasting what we had versus customer complaints, we gained a high-level sense of where we went south. However, we wanted a clearer picture of the problem. We all agreed to diverge and conduct an analysis of our own. As a part of this process, I conducted quick surveys both internally and externally and observed customer behaviors using <a href="https://www.fullstory.com/"><span className="tapcast-billing-links">FullStory</span></a>.
+                <br></br><br></br>
                 After numerous planned and ad-hoc meetings in regards to this problem, I combined our findings and broke down what changes we needed to implement for a new billing process on Asana: 
-
-                - Create a dynamic pricing model based on the client’s trailing 30-day ad spend on Facebook and the number of ad accounts
-                - Provide pricing breakdown for potential and existing clients to clarify our billing model
-                - Integrate billing to onboarding flow for transparency upfront and avoid obscurity on where and how one can upgrade
-                - Limit free trial days to 7 days and one ad account but allow free trial users to have access to all features (previously, we allowed 14 days free trial but we noticed many potential users tended to drop off after the second week)
+                <br></br><br></br>
+                <ul className="tapcast-painpoints" id="tapcast-solution">
+                  <li>Create a dynamic pricing model based on the client’s trailing 30-day ad spend on Facebook and the number of ad accounts</li>
+                  <li>Provide pricing breakdown for potential and existing clients to clarify our billing model</li>
+                  <li>Integrate billing to onboarding flow for transparency upfront and avoid obscurity on where and how one can upgrade</li>
+                  <li>Limit free trial days to 7 days and one ad account but allow free trial users to have access to all features (previously, we allowed 14 days free trial but we noticed many potential users tended to drop off after the second week)</li>
+                </ul>
                 </Media>
               </Col>
             </Row>
@@ -132,7 +138,7 @@ class TapcastBillingContent extends React.Component {
                           className: 'proj-img'
                         }}
                     /><br></br>
-                    <span className="img-caption">dashboard</span> <br></br><br></br>
+                    <span className="img-caption">Before selection</span> <br></br><br></br>
                     <ImageZoom
                         image={{
                           src: 'http://assets.yurika.design/tapcastbilling/freetrial.jpg',
@@ -146,7 +152,7 @@ class TapcastBillingContent extends React.Component {
                           className: 'proj-img'
                         }}
                     /><br></br>
-                    <span className="img-caption">dashboard</span> <br></br><br></br>
+                    <span className="img-caption">Free trial</span> <br></br><br></br>
                     <ImageZoom
                         image={{
                           src: 'http://assets.yurika.design/tapcastbilling/selectadaccount199add.jpg',
@@ -160,21 +166,7 @@ class TapcastBillingContent extends React.Component {
                           className: 'proj-img'
                         }}
                     /><br></br>
-                    <span className="img-caption">dashboard</span> <br></br><br></br>
-                    <ImageZoom
-                        image={{
-                          src: 'http://assets.yurika.design/tapcastbilling/selectadaccount199update.jpg',
-                          alt: 'Dashboard',
-                          className: 'proj-img',
-                          style: { width: '100%' }
-                        }}
-                        zoomImage={{
-                          src: 'http://assets.yurika.design/tapcastbilling/selectadaccount199update.jpg',
-                          alt: 'Dashboard',
-                          className: 'proj-img'
-                        }}
-                    /><br></br>
-                    <span className="img-caption">dashboard</span> <br></br><br></br>
+                    <span className="img-caption">Initial selection</span> <br></br><br></br>
                     <ImageZoom
                         image={{
                           src: 'http://assets.yurika.design/tapcastbilling/selectadaccount299.jpg',
@@ -188,7 +180,7 @@ class TapcastBillingContent extends React.Component {
                           className: 'proj-img'
                         }}
                     /><br></br>
-                    <span className="img-caption">dashboard</span> <br></br><br></br>
+                    <span className="img-caption">Modify selection</span> <br></br><br></br>
                     <ImageZoom
                         image={{
                           src: 'http://assets.yurika.design/tapcastbilling/select2adaccounts.jpg',
@@ -202,7 +194,7 @@ class TapcastBillingContent extends React.Component {
                           className: 'proj-img'
                         }}
                     /><br></br>
-                    <span className="img-caption">dashboard</span> <br></br><br></br>
+                    <span className="img-caption">Add selection</span> <br></br><br></br>
                     <ImageZoom
                         image={{
                           src: 'http://assets.yurika.design/tapcastbilling/enterprise.jpg',
@@ -216,15 +208,18 @@ class TapcastBillingContent extends React.Component {
                           className: 'proj-img'
                         }}
                     /><br></br>
-                    <span className="img-caption">dashboard</span> <br></br><br></br>
+                    <span className="img-caption">Enterprise plan</span> <br></br><br></br>
                     Key changes to note:
-                    - Increased pricing visibility to users by combining the selection of ad accounts with the payment/upgrade functionality (part of onboarding)
-                    - Previously, a user could upgrade their plan from /subscription/upgrade path and select their desired monthly plan
-                    - Now, users can pay upfront if they’d like as payment modal is part of the onboarding and even if they choose not to, they’ll know exactly where to go at a later time 
-                    - Added a high-level overview of the number of ad accounts, 30 days associated ad spend, and monthly price
-                    - Added a breakdown tooltip if a user would like to see the granular calculation of given price
-                    - Incorporated a summary for each payment scenario so the customer can see the terms of billing in full transparency
-                    - Decreased friction by minimizing the steps in the payment process (previously, we had four steps and now two)
+                    <br></br>
+                    <ul className="tapcast-painpoints" id="tapcast-solution">
+                      <li>Increased pricing visibility to users by combining the selection of ad accounts with the payment/upgrade functionality (part of onboarding)</li>
+                      <li>Previously, a user could upgrade their plan from /subscription/upgrade path and select their desired monthly plan</li>
+                      <li>Now, users can pay upfront if they’d like as payment modal is part of the onboarding and even if they choose not to, they’ll know exactly where to go at a later time</li>
+                      <li>Added a high-level overview of the number of ad accounts, 30 days associated ad spend, and monthly price</li>
+                      <li>Added a breakdown tooltip if a user would like to see the granular calculation of given price</li>
+                      <li>Incorporated a summary for each payment scenario so the customer can see the terms of billing in full transparency</li>
+                      <li>Decreased friction by minimizing the steps in the payment process (previously, we had four steps and now two)</li>
+                    </ul>
                 </Media>
               </Col>
             </Row>
@@ -235,7 +230,7 @@ class TapcastBillingContent extends React.Component {
               <Col lg="8" data-aos="fade-up">
                 <Media body>
                 We successfully released this particular pricing iteration back in early December 2018 as part of our v2.5.0 release. Since then, we have doubled the conversion rate from user registration to purchase (from 3.8% to 8.2%) and the volume of related support tickets decreased significantly (previously, most of our support tickets related to pricing was in regards to how to upgrade and why pricing was the way it was - we have now tackled that). Internally, we were able to decrease our workload debt not only in customer service but in operations, development, and sales since we no longer needed to keep track of six different legacy pricing plans. We were then able to contribute our time in more high-value tasks. As we are a small team, this was a huge win for us. 
-
+                <br></br><br></br>
                 As I am writing this (August 2019), we have had minor changes to the original spec such as integrating credit card/billing information from a link to a next step in the upgrade process for a more seamless experience. But overall, we have mostly kept the original flow and pricing model. 
                 </Media>
               </Col>

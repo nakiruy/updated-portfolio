@@ -144,7 +144,7 @@ class MoxtraContent extends React.Component {
             <Col lg="8" data-aos="fade-up">
               <Media body>
                 <MoxtraSolutionAlt /><br></br><br></br>
-                Few things to note about the final implementation, 
+                Few things to note about the final implementation -
                 <ul className="moxtra-painpoints" id="moxtra-solution">
                   <li>Names and descriptions are now clearer vs. the original (e.g. Meet to Calendar)</li>
                   <li>Verification is now <span className="chunky-underline" id="moxtra-underline-color">completed via SMS instead of email</span> - it's a mobile app, why not text?</li>

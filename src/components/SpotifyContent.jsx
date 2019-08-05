@@ -179,7 +179,7 @@ class SpotifyContent extends React.Component {
                 </div>
                 To summarize, the final iteration of this project ensures that it is following the <a href="https://developer.spotify.com/branding-guidelines/"><span className="spotify-links">design guidelines</span></a> as outlined by Spotify. Also, as an extra touch, I decided to add an overall purple theme to visually separate this driving mode from the main view. Also, let's not forget the most critical component of the application...<br></br><br></br>
                 <CardImg top width="100%" className="proj-img spotify-toggle" src="http://assets.yurika.design/spotify/spotifyToggle.png"></CardImg><br></br>
-                <span className="img-caption">Pretty self-explanatory</span> <br></br><br></br>
+                <span className="img-caption">Much needed toggle button</span> <br></br><br></br>
               </Media>
             </Col>
           </Row>
