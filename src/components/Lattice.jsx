@@ -6,7 +6,7 @@ import Navigation from './Navigation';
 import EmailBanner from './EmailBanner';
 import Footer from './Footer';
 
-class Intercom extends React.Component {
+class Lattice extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -28,7 +28,7 @@ class Intercom extends React.Component {
           <div className="main">
             <Container>
               <Col md="9" className="greetings">
-                <h1 className="headline" data-aos="fade-up">Welcome to my online cover letter, <span id="cover-letter-name">Intercom</span>.</h1>
+                <h1 className="headline" data-aos="fade-up">Welcome to my online cover letter, <span id="cover-letter-name">Lattice</span>.</h1>
                 <div data-aos="fade-up">
                   <h6 className="secondary-header" data-aos="fade-up">Why interview me?</h6>
                   <h6 className="about-desc" id="cover-letter-desc">
@@ -56,4 +56,4 @@ class Intercom extends React.Component {
   }
 }
 
-export default Intercom
+export default Lattice

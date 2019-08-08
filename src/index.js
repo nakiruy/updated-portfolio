@@ -20,7 +20,7 @@ import Heap from './components/Heap';
 import Zeplin from './components/Zeplin';
 import Pantheon from './components/Pantheon';
 import Lyric from './components/Lyric';
-import Intercom from './components/Intercom';
+import Lattice from './components/Lattice';
 import GrouponReview from './components/GrouponReview';
 
 import registerServiceWorker from './registerServiceWorker';
@@ -53,7 +53,7 @@ ReactDOM.render(
         <Route path="/zeplin" component={Zeplin} />
         <Route path="/pantheon" component={Pantheon} />
         <Route path="/lyric" component={Lyric} />
-        <Route path="/intercom" component={Intercom} />
+        <Route path="/lattice" component={Lattice} />
         <Route component={NotFound} />
     </Switch>
   </Router>, document.getElementById('root')
