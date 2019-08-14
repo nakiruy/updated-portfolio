@@ -21,6 +21,7 @@ import Zeplin from './components/Zeplin';
 import Pantheon from './components/Pantheon';
 import Lyric from './components/Lyric';
 import Lattice from './components/Lattice';
+import Customerio from './components/Customerio';
 import GrouponReview from './components/GrouponReview';
 
 import registerServiceWorker from './registerServiceWorker';
@@ -54,6 +55,7 @@ ReactDOM.render(
         <Route path="/pantheon" component={Pantheon} />
         <Route path="/lyric" component={Lyric} />
         <Route path="/lattice" component={Lattice} />
+        <Route path="/customerio" component={Customerio} />
         <Route component={NotFound} />
     </Switch>
   </Router>, document.getElementById('root')
