@@ -155,13 +155,13 @@ class TapcastBillingContent extends React.Component {
                     <span className="img-caption">Free trial</span> <br></br><br></br>
                     <ImageZoom
                         image={{
-                          src: 'http://assets.yurika.design/tapcastbilling/selectadaccount199add.jpg',
+                          src: 'http://assets.yurika.design/tapcastbilling/selectadaccount199.jpg',
                           alt: 'Dashboard',
                           className: 'proj-img',
                           style: { width: '100%' }
                         }}
                         zoomImage={{
-                          src: 'http://assets.yurika.design/tapcastbilling/selectadaccount199add.jpg',
+                          src: 'http://assets.yurika.design/tapcastbilling/selectadaccount199.jpg',
                           alt: 'Dashboard',
                           className: 'proj-img'
                         }}
