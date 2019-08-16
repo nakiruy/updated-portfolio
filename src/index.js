@@ -22,6 +22,7 @@ import Pantheon from './components/Pantheon';
 import Lyric from './components/Lyric';
 import Lattice from './components/Lattice';
 import Customerio from './components/Customerio';
+import Star from './components/Star';
 import GrouponReview from './components/GrouponReview';
 
 import registerServiceWorker from './registerServiceWorker';
@@ -56,6 +57,7 @@ ReactDOM.render(
         <Route path="/lyric" component={Lyric} />
         <Route path="/lattice" component={Lattice} />
         <Route path="/customerio" component={Customerio} />
+        <Route path="/star" component={Star} />
         <Route component={NotFound} />
     </Switch>
   </Router>, document.getElementById('root')
