@@ -33,4 +33,4 @@ const AboutPhotos = (props) => {
   );
 };
 
-export default AboutPhotos;
+export default AboutPhotos
