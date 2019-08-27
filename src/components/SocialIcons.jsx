@@ -16,13 +16,13 @@ class SocialIcons extends React.Component {
             <Container>
               <Col>
                   <a href="mailto:nakiruy@gmail.com">
-                      <img className="contact-icon" id="email-icon" src="http://assets.yurika.design/email.png" alt="Email" />
+                      <img className="contact-icon" id="email-icon" src="https://assets.yurika.design/email.png" alt="Email" />
                   </a>
                   <a href="https://www.linkedin.com/in/yurikajacobsson/">
-                      <img className="contact-icon" src="http://assets.yurika.design/linkedin.png" alt="LinkedIn" />
+                      <img className="contact-icon" src="https://assets.yurika.design/linkedin.png" alt="LinkedIn" />
                   </a>
                   <a href="https://www.instagram.com/yurikaffeine/">
-                      <img className="contact-icon" id="ig-icon" src="http://assets.yurika.design/instagram.png" alt="Instagram" />
+                      <img className="contact-icon" id="ig-icon" src="https://assets.yurika.design/instagram.png" alt="Instagram" />
                   </a>
                 </Col>
             </Container>
