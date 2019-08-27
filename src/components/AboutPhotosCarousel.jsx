@@ -25,13 +25,13 @@ class AboutPhotosCarousel extends Component {
         <button className="next-arrow about-arrow" onClick={nextSlide}></button>
       )}
       >
-        <CardImg src="http://assets.yurika.design/beach.jpg"></CardImg>
-        <CardImg src="http://assets.yurika.design/cappucino.jpg"></CardImg>
-        <CardImg src="http://assets.yurika.design/pancakes.jpg"></CardImg>
-        <CardImg src="http://assets.yurika.design/baybridge.jpg"></CardImg>
-        <CardImg src="http://assets.yurika.design/lucas.jpg"></CardImg>
-        <CardImg src="http://assets.yurika.design/cafe.jpg"></CardImg>
-        <CardImg src="http://assets.yurika.design/hibiscus.jpg"></CardImg>
+        <CardImg src="https://assets.yurika.design/beach.jpg"></CardImg>
+        <CardImg src="https://assets.yurika.design/cappucino.jpg"></CardImg>
+        <CardImg src="https://assets.yurika.design/pancakes.jpg"></CardImg>
+        <CardImg src="https://assets.yurika.design/baybridge.jpg"></CardImg>
+        <CardImg src="https://assets.yurika.design/lucas.jpg"></CardImg>
+        <CardImg src="https://assets.yurika.design/cafe.jpg"></CardImg>
+        <CardImg src="https://assets.yurika.design/hibiscus.jpg"></CardImg>
       </Carousel>
     );
   }

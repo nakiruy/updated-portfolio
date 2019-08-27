@@ -63,13 +63,13 @@ class TapcastContent extends React.Component {
                   <span className="chunky-underline" id="tapcast-underline-color">Tapcast platform is complicated.</span> <br></br><br></br>                  
                   <ImageZoom
                     image={{
-                      src: 'http://assets.yurika.design/tapcast/oldtapcast.png',
+                      src: 'https://assets.yurika.design/tapcast/oldtapcast.png',
                       alt: 'Old Tapcast',
                       className: 'proj-img',
                       style: { width: '100%' }
                     }}
                     zoomImage={{
-                      src: 'http://assets.yurika.design/tapcast/oldtapcast.png',
+                      src: 'https://assets.yurika.design/tapcast/oldtapcast.png',
                       alt: 'Old Tapcast',
                       className: 'proj-img'
                     }}
@@ -79,13 +79,13 @@ class TapcastContent extends React.Component {
                   In addition, the new platform is vastly different from before. The previous iteration of the platform focused on targeted videos (think <a href="https://www.intercom.com"><span className="tapcast-links">Intercom</span></a> but instead of chat, a video) which allowed users to install a video widget to their websites through Tapcast SDK. <br></br><br></br>
                   <ImageZoom
                     image={{
-                      src: 'http://assets.yurika.design/tapcast/tapcastPIP.png',
+                      src: 'https://assets.yurika.design/tapcast/tapcastPIP.png',
                       alt: 'Tapcast PIP',
                       className: 'proj-img',
                       style: { width: '100%' }
                     }}
                     zoomImage={{
-                      src: 'http://assets.yurika.design/tapcast/tapcastPIP.png',
+                      src: 'https://assets.yurika.design/tapcast/tapcastPIP.png',
                       alt: 'Tapcast PIP',
                       className: 'proj-img'
                     }}
@@ -108,13 +108,13 @@ class TapcastContent extends React.Component {
                   Moreover, we concluded internally that Tapcast as a product requires a heavy ramp-up period and extensive onboarding. Thus, keeping in mind the high priority business goal of converting as many new users as possible, I decided <span className="chunky-underline" id="tapcast-underline-color">to focus on the new user journey and payment flow</span> in this redesign.<br></br><br></br> 
                   <ImageZoom
                     image={{
-                      src: 'http://assets.yurika.design/tapcast/tapcastFlowNew.png',
+                      src: 'https://assets.yurika.design/tapcast/tapcastFlowNew.png',
                       alt: 'Tapcast Flowchart',
                       className: 'proj-img',
                       style: { width: '100%' }
                     }}
                     zoomImage={{
-                      src: 'http://assets.yurika.design/tapcast/tapcastFlowNew.png',
+                      src: 'https://assets.yurika.design/tapcast/tapcastFlowNew.png',
                       alt: 'Tapcast Flowchart',
                       className: 'proj-img'
                     }}
@@ -123,10 +123,10 @@ class TapcastContent extends React.Component {
                   To be competitive, I also felt that our platform needed to be rebranded. I aimed for a modern, clean, simple look while being respectful of the previous design. I first redesigned the logo:<br></br><br></br>
                   <Row>
                     <Col xs="6">
-                      <CardImg top width="100%" src="http://assets.yurika.design/tapcast/fullwgrid.png" className="proj-img no-shadow"></CardImg>
+                      <CardImg top width="100%" src="https://assets.yurika.design/tapcast/fullwgrid.png" className="proj-img no-shadow"></CardImg>
                     </Col>
                     <Col xs="6">
-                      <CardImg top width="100%" src="http://assets.yurika.design/tapcast/fullLogo.png" className="proj-img no-shadow"></CardImg>
+                      <CardImg top width="100%" src="https://assets.yurika.design/tapcast/fullLogo.png" className="proj-img no-shadow"></CardImg>
                     </Col>
                   </Row>
                   <span className="img-caption">new tapcast logos</span> <br></br><br></br>
@@ -135,13 +135,13 @@ class TapcastContent extends React.Component {
                     <Col md="6">
                       <ImageZoom
                         image={{
-                          src: 'http://assets.yurika.design/tapcast/mockupBW.png',
+                          src: 'https://assets.yurika.design/tapcast/mockupBW.png',
                           alt: 'Tapcast Mockup BW',
                           className: 'proj-img',
                           style: { width: '100%' }
                         }}
                         zoomImage={{
-                          src: 'http://assets.yurika.design/tapcast/mockupBW.png',
+                          src: 'https://assets.yurika.design/tapcast/mockupBW.png',
                           alt: 'Tapcast Mockup BW',
                           className: 'proj-img'
                         }}
@@ -150,13 +150,13 @@ class TapcastContent extends React.Component {
                     <Col md="6">
                       <ImageZoom
                         image={{
-                          src: 'http://assets.yurika.design/tapcast/mockupColor.png',
+                          src: 'https://assets.yurika.design/tapcast/mockupColor.png',
                           alt: 'Tapcast Mockup Color',
                           className: 'proj-img',
                           style: { width: '100%' }
                         }}
                         zoomImage={{
-                          src: 'http://assets.yurika.design/tapcast/mockupColor.png',
+                          src: 'https://assets.yurika.design/tapcast/mockupColor.png',
                           alt: 'Tapcast Mockup Color',
                           className: 'proj-img'
                         }}
@@ -176,13 +176,13 @@ class TapcastContent extends React.Component {
                   {/* <a href="https://invis.io/7FQVFPD92ZM"><span className="tapcast-links">Click here to view the full prototype</span></a><br></br><br></br> */}
                   <ImageZoom
                       image={{
-                        src: 'http://assets.yurika.design/tapcast/tapcast-platform.png',
+                        src: 'https://assets.yurika.design/tapcast/tapcast-platform.png',
                         alt: 'Dashboard',
                         className: 'proj-img',
                         style: { width: '100%' }
                       }}
                       zoomImage={{
-                        src: 'http://assets.yurika.design/tapcast/tapcast-platform.png',
+                        src: 'https://assets.yurika.design/tapcast/tapcast-platform.png',
                         alt: 'Dashboard',
                         className: 'proj-img'
                       }}
@@ -190,13 +190,13 @@ class TapcastContent extends React.Component {
                   <span className="img-caption">dashboard</span> <br></br><br></br>
                   <ImageZoom
                       image={{
-                        src: 'http://assets.yurika.design/tapcast/tapcast-landing.png',
+                        src: 'https://assets.yurika.design/tapcast/tapcast-landing.png',
                         alt: 'Landing Page',
                         className: 'proj-img',
                         style: { width: '100%' }
                       }}
                       zoomImage={{
-                        src: 'http://assets.yurika.design/tapcast/tapcast-landing.png',
+                        src: 'https://assets.yurika.design/tapcast/tapcast-landing.png',
                         alt: 'Landing Page',
                         className: 'proj-img'
                       }}
@@ -204,13 +204,13 @@ class TapcastContent extends React.Component {
                   <span className="img-caption">landing page</span> <br></br><br></br>
                   <ImageZoom
                       image={{
-                        src: 'http://assets.yurika.design/tapcast/tapcast-signup.png',
+                        src: 'https://assets.yurika.design/tapcast/tapcast-signup.png',
                         alt: 'Signup Page',
                         className: 'proj-img',
                         style: { width: '100%' }
                       }}
                       zoomImage={{
-                        src: 'http://assets.yurika.design/tapcast/tapcast-signup.png',
+                        src: 'https://assets.yurika.design/tapcast/tapcast-signup.png',
                         alt: 'Signup Page',
                         className: 'proj-img'
                       }}
@@ -218,13 +218,13 @@ class TapcastContent extends React.Component {
                   <span className="img-caption">sign up</span> <br></br><br></br>
                   <ImageZoom
                       image={{
-                        src: 'http://assets.yurika.design/tapcast/tapcast-audience.png',
+                        src: 'https://assets.yurika.design/tapcast/tapcast-audience.png',
                         alt: 'Audience Page',
                         className: 'proj-img',
                         style: { width: '100%' }
                       }}
                       zoomImage={{
-                        src: 'http://assets.yurika.design/tapcast/tapcast-audience.png',
+                        src: 'https://assets.yurika.design/tapcast/tapcast-audience.png',
                         alt: 'Audience Page',
                         className: 'proj-img'
                       }}
@@ -232,13 +232,13 @@ class TapcastContent extends React.Component {
                   <span className="img-caption">audience page</span> <br></br><br></br>
                   <ImageZoom
                       image={{
-                        src: 'http://assets.yurika.design/tapcast/tapcast-payment.png',
+                        src: 'https://assets.yurika.design/tapcast/tapcast-payment.png',
                         alt: 'Payment Page',
                         className: 'proj-img',
                         style: { width: '100%' }
                       }}
                       zoomImage={{
-                        src: 'http://assets.yurika.design/tapcast/tapcast-payment.png',
+                        src: 'https://assets.yurika.design/tapcast/tapcast-payment.png',
                         alt: 'Payment Page',
                         className: 'proj-img'
                       }}

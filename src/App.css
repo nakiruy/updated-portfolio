@@ -336,26 +336,26 @@ button:focus {
 
 .tapcast-jumbo.jumbotron {
   margin-top: -6rem;
-  background-image: url("http://assets.yurika.design/tapcastproj.png");
+  background-image: url("https://assets.yurika.design/tapcastproj.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .moxtra-jumbo.jumbotron {
-  background-image: url("http://assets.yurika.design/moxtraproj.png");
+  background-image: url("https://assets.yurika.design/moxtraproj.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .spotify-jumbo.jumbotron {
-  background-image: url("http://assets.yurika.design/spotifyproj.png");
+  background-image: url("https://assets.yurika.design/spotifyproj.png");
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: -5rem;
 }
 
 .tapcast-billing-jumbo.jumbotron {
-  background-image: url("http://assets.yurika.design/tapcastbillingproj.png");
+  background-image: url("https://assets.yurika.design/tapcastbillingproj.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -823,7 +823,7 @@ button:focus {
 
 .contact {
   /* background: linear-gradient(160deg, #9F54CC, #4724f7); */
-  background-image: url("http://assets.yurika.design/contact.png");
+  background-image: url("https://assets.yurika.design/contact.png");
   background-repeat: no-repeat;
   background-size: cover;
   -webkit-filter: none;
@@ -1020,7 +1020,7 @@ hr {
 }
 
 .tapcast-projpic {
-  background-image: url("http://assets.yurika.design/tapcastproj2.png");
+  background-image: url("https://assets.yurika.design/tapcastproj2.png");
   background-repeat: no-repeat;
   background-size: cover;
   filter: none;
@@ -1030,7 +1030,7 @@ hr {
 }
 
 .tapcast-billing-projpic {
-  background-image: url("http://assets.yurika.design/tapcastbillingproj2.png");
+  background-image: url("https://assets.yurika.design/tapcastbillingproj2.png");
   background-repeat: no-repeat;
   background-size: cover;
   filter: none;
@@ -1040,7 +1040,7 @@ hr {
 }
 
 .moxtra-projpic {
-  background-image: url("http://assets.yurika.design/moxtraproj2.png");
+  background-image: url("https://assets.yurika.design/moxtraproj2.png");
   background-repeat: no-repeat;
   background-size: cover;
   filter: none;
@@ -1050,7 +1050,7 @@ hr {
 }
 
 .spotify-projpic {
-  background-image: url("http://assets.yurika.design/spotifyproj2.png");
+  background-image: url("https://assets.yurika.design/spotifyproj2.png");
   background-repeat: no-repeat;
   background-size: cover;
   filter: none;

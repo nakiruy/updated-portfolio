@@ -61,7 +61,7 @@ class MoxtraContent extends React.Component {
             <Col lg="8" data-aos="fade-up">
               <Media body>
               <span className="chunky-underline" id="moxtra-underline-color">Good app onboarding is essential for user attention but Moxtra was losing many.</span> As this assignment was assigned to me near the end of my internship, I unfortunately never had the opportunity to collect real metrics of this issue. However, my manager did state that the design team never got the opportunity to focus on onboarding and therefore, could be better.<br></br><br></br> 
-              <CardImg top width="100%" src="http://assets.yurika.design/moxtra/moxtraOriginal.png" className="proj-img no-shadow"></CardImg> <br></br>
+              <CardImg top width="100%" src="https://assets.yurika.design/moxtra/moxtraOriginal.png" className="proj-img no-shadow"></CardImg> <br></br>
               <span className="img-caption">Moxtra's Original Onboarding</span> <br></br><br></br>
               So to get a real sense of how the current onboarding was performing, I conducted three interviews with potential users who have never used/heard of Moxtra before. Itemized below is feedback that I received:
               <ul className="moxtra-painpoints">
@@ -89,13 +89,13 @@ class MoxtraContent extends React.Component {
               Once I have an idea in regards to the overarching goal and user pain points, <span className="chunky-underline" id="moxtra-underline-color">my first step is to always start out with pen and paper</span>. Here’s the result from my first brainstorming session:<br></br><br></br> 
               <ImageZoom
                 image={{
-                  src: 'http://assets.yurika.design/moxtra/brainstorming.jpg',
+                  src: 'https://assets.yurika.design/moxtra/brainstorming.jpg',
                   alt: 'Brainstorming',
                   className: 'proj-img',
                   style: { width: '100%' }
                 }}
                 zoomImage={{
-                  src: 'http://assets.yurika.design/moxtra/brainstorming.jpg',
+                  src: 'https://assets.yurika.design/moxtra/brainstorming.jpg',
                   alt: 'Brainstorming',
                   className: 'proj-img'
                 }}
@@ -103,13 +103,13 @@ class MoxtraContent extends React.Component {
               Admittedly, I realized after my first few sketches that I was getting ahead of myself. <span className="chunky-underline" id="moxtra-underline-color">In-app onboarding serves no purpose if the value of the application is not properly conveyed to users.</span> As there are many competitors in Moxtra’s space, I felt that a breakdown of Moxtra vs. its competitors was necessary prior to proceeding. This would also help me determine which competitive advantages of the platform I should showcase to new users throughout the onboarding process.<br></br><br></br>
               <ImageZoom
                 image={{
-                  src: 'http://assets.yurika.design/moxtra/moxtraCompetition.png',
+                  src: 'https://assets.yurika.design/moxtra/moxtraCompetition.png',
                   alt: 'Moxtra vs. Competition',
                   className: 'proj-img',
                   style: { width: '100%' }
                 }}
                 zoomImage={{
-                  src: 'http://assets.yurika.design/moxtra/moxtraCompetition.png',
+                  src: 'https://assets.yurika.design/moxtra/moxtraCompetition.png',
                   alt: 'Moxtra vs. Competition',
                   className: 'proj-img'
                 }}
@@ -118,21 +118,21 @@ class MoxtraContent extends React.Component {
               With the help of the above table, I dissected and revamped the original onboarding cards for clearer and stronger message.<br></br><br></br>
               <ImageZoom
                 image={{
-                  src: 'http://assets.yurika.design/moxtra/lo-fiCards.png',
+                  src: 'https://assets.yurika.design/moxtra/lo-fiCards.png',
                   alt: 'Moxtra Lo-fi',
                   className: 'proj-img no-shadow',
                   style: { width: '100%' }
                 }}
                 zoomImage={{
-                  src: 'http://assets.yurika.design/moxtra/lo-fiCards.png',
+                  src: 'https://assets.yurika.design/moxtra/lo-fiCards.png',
                   alt: 'Moxtra Lo-fi',
                 }}
               /><br></br>
               <span className="img-caption">Lo-fi Onboarding Carousel</span> <br></br><br></br>
               From there, I developed the rest of the mockup:<br></br><br></br>
-              <CardImg top width="100%" src="http://assets.yurika.design/moxtra/lo-fiWhole.png" className="proj-img no-shadow"></CardImg> <br></br>
+              <CardImg top width="100%" src="https://assets.yurika.design/moxtra/lo-fiWhole.png" className="proj-img no-shadow"></CardImg> <br></br>
               <span className="img-caption">Complete Lo-fi Mockup</span> <br></br><br></br>
-              <CardImg top width="100%" src="http://assets.yurika.design/moxtra/moxtraHi.png" className="proj-img no-shadow"></CardImg> <br></br>
+              <CardImg top width="100%" src="https://assets.yurika.design/moxtra/moxtraHi.png" className="proj-img no-shadow"></CardImg> <br></br>
               <span className="img-caption">Hi-fi mockup: Let's not forget color and glamour!</span> <br></br><br></br>
               </Media>
             </Col>

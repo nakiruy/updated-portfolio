@@ -125,13 +125,13 @@ class GrouponReviewContent extends React.Component {
                 <iframe src="https://player.vimeo.com/video/343543924?autoplay=1&loop=1&autopause=0&title=0&byline=0&portrait=0&muted=1" width="100%" height="350" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe><br></br><br></br> 
                 <ImageZoom
                   image={{
-                    src: 'http://assets.yurika.design/groupon-ui.png',
+                    src: 'https://assets.yurika.design/groupon-ui.png',
                     alt: 'Groupon UI',
                     className: 'proj-img no-shadow',
                     style: { width: '100%' }
                   }}
                   zoomImage={{
-                    src: 'http://assets.yurika.design/groupon-ui.png',
+                    src: 'https://assets.yurika.design/groupon-ui.png',
                     alt: 'Groupon UI',
                   }}
                 /><br></br>
@@ -146,13 +146,13 @@ class GrouponReviewContent extends React.Component {
               <Media body>
                 <ImageZoom
                   image={{
-                    src: 'http://assets.yurika.design/groupon-wcag-rating.png',
+                    src: 'https://assets.yurika.design/groupon-wcag-rating.png',
                     alt: 'Groupon UI',
                     className: 'proj-img no-shadow',
                     style: { width: '100%' }
                   }}
                   zoomImage={{
-                    src: 'http://assets.yurika.design/groupon-wcag-rating.png',
+                    src: 'https://assets.yurika.design/groupon-wcag-rating.png',
                     alt: 'Groupon UI',
                   }}
                 /><br></br>

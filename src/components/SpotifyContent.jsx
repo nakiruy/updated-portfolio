@@ -59,26 +59,26 @@ class SpotifyContent extends React.Component {
               However, a couple of months later - as Spotify started rolling out the mode to actual users - a plague of complaints flooded the internet.<br></br><br></br>
               <ImageZoom
                 image={{
-                  src: 'http://assets.yurika.design/spotify/complaintOne.png',
+                  src: 'https://assets.yurika.design/spotify/complaintOne.png',
                   alt: 'Complaint 1',
                   className: 'proj-img',
                   style: { width: '100%' }
                 }}
                 zoomImage={{
-                  src: 'http://assets.yurika.design/spotify/complaintOne.png',
+                  src: 'https://assets.yurika.design/spotify/complaintOne.png',
                   alt: 'Complaint 1',
                   className: 'proj-img'
                 }}
               /><br></br><br></br>
               <ImageZoom
                 image={{
-                  src: 'http://assets.yurika.design/spotify/complaintTwo.png',
+                  src: 'https://assets.yurika.design/spotify/complaintTwo.png',
                   alt: 'Complaint 2',
                   className: 'proj-img',
                   style: { width: '100%' }
                 }}
                 zoomImage={{
-                  src: 'http://assets.yurika.design/spotify/complaintTwo.png',
+                  src: 'https://assets.yurika.design/spotify/complaintTwo.png',
                   alt: 'Complaint 2',
                   className: 'proj-img'
                 }}
@@ -124,13 +124,13 @@ class SpotifyContent extends React.Component {
               This library can add up to five gesture methods to any Android application: <span className="chunky-underline" id="spotify-underline-color">left</span> (by waving left), <span className="chunky-underline" id="spotify-underline-color">right</span> (by waving right), <span className="chunky-underline" id="spotify-underline-color">up</span> (by waving up), <span className="chunky-underline" id="spotify-underline-color">down</span> (by waving down), and <span className="chunky-underline" id="spotify-underline-color">selection</span> (by hovering a hand over the front camera). With methods established, I assigned each variable to an associated movement for this application:<br></br><br></br>
               <ImageZoom
                 image={{
-                  src: 'http://assets.yurika.design/spotify/spotifySketch.png',
+                  src: 'https://assets.yurika.design/spotify/spotifySketch.png',
                   alt: 'Spotify Sketch',
                   className: 'proj-img',
                   style: { width: '100%' }
                 }}
                 zoomImage={{
-                  src: 'http://assets.yurika.design/spotify/spotifySketch.png',
+                  src: 'https://assets.yurika.design/spotify/spotifySketch.png',
                   alt: 'Spotify Sketch',
                   className: 'proj-img'
                 }}
@@ -139,13 +139,13 @@ class SpotifyContent extends React.Component {
               Then I proceeded with the onboarding...<br></br><br></br>
               <ImageZoom
                 image={{
-                  src: 'http://assets.yurika.design/spotify/spotifyWireframe.png',
+                  src: 'https://assets.yurika.design/spotify/spotifyWireframe.png',
                   alt: 'Spotify Wireframe',
                   className: 'proj-img no-shadow',
                   style: { width: '100%' }
                 }}
                 zoomImage={{
-                  src: 'http://assets.yurika.design/spotify/spotifyWireframe.png',
+                  src: 'https://assets.yurika.design/spotify/spotifyWireframe.png',
                   alt: 'Spotify Wireframe'
                 }}
               /><br></br>
@@ -153,13 +153,13 @@ class SpotifyContent extends React.Component {
               At this point, I had a solid foundation. However, my wireframe lacked the capability for users to navigate through their playlists (i.e. to tackle problem one of early users). Fortunately, Spotify introduced <a href="https://support.spotify.com/us/listen_everywhere/voice_assistants/spotify-voice/"><span className="spotify-links">Spotify Voice</span></a> during the time of this project inception and as this capability would solve the aforementioned user issue, I added extra screens to the above flow.<br></br><br></br> 
               <ImageZoom
                 image={{
-                  src: 'http://assets.yurika.design/spotify/spotifyVoiceAdd.png',
+                  src: 'https://assets.yurika.design/spotify/spotifyVoiceAdd.png',
                   alt: 'Spotify Voice Screens',
                   className: 'proj-img no-shadow',
                   style: { width: '100%' }
                 }}
                 zoomImage={{
-                  src: 'http://assets.yurika.design/spotify/spotifyVoiceAdd.png',
+                  src: 'https://assets.yurika.design/spotify/spotifyVoiceAdd.png',
                   alt: 'Spotify Voice Screens',
                 }}
               /><br></br>
@@ -178,7 +178,7 @@ class SpotifyContent extends React.Component {
                   <iframe title="Spotify Car Mode Prototype" className="spotify-prototype" width="424" height="916" src="//invis.io/GUQVGDOEHZD" frameBorder="0" allowFullScreen></iframe>
                 </div>
                 To summarize, the final iteration of this project ensures that it is following the <a href="https://developer.spotify.com/branding-guidelines/"><span className="spotify-links">design guidelines</span></a> as outlined by Spotify. Also, as an extra touch, I decided to add an overall purple theme to visually separate this driving mode from the main view. Also, let's not forget the most critical component of the application...<br></br><br></br>
-                <CardImg top width="100%" className="proj-img spotify-toggle" src="http://assets.yurika.design/spotify/spotifyToggle.png"></CardImg><br></br>
+                <CardImg top width="100%" className="proj-img spotify-toggle" src="https://assets.yurika.design/spotify/spotifyToggle.png"></CardImg><br></br>
                 <span className="img-caption">Much needed toggle button</span> <br></br><br></br>
               </Media>
             </Col>

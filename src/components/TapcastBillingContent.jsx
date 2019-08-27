@@ -64,13 +64,13 @@ class TapcastBillingContent extends React.Component {
                   Moreover, despite the efforts and pivots, we discovered via funnel analysis that our total conversion rate of purchases was less than ideal.<br></br><br></br>
                   <ImageZoom
                         image={{
-                          src: 'http://assets.yurika.design/tapcastbilling/before.png',
+                          src: 'https://assets.yurika.design/tapcastbilling/before.png',
                           alt: 'Dashboard',
                           className: 'proj-img',
                           style: { width: '100%' }
                         }}
                         zoomImage={{
-                          src: 'http://assets.yurika.design/tapcastbilling/before.png',
+                          src: 'https://assets.yurika.design/tapcastbilling/before.png',
                           alt: 'Dashboard',
                           className: 'proj-img'
                         }}
@@ -127,13 +127,13 @@ class TapcastBillingContent extends React.Component {
                 <Media body>
                   <ImageZoom
                         image={{
-                          src: 'http://assets.yurika.design/tapcastbilling/initial.jpg',
+                          src: 'https://assets.yurika.design/tapcastbilling/initial.jpg',
                           alt: 'Dashboard',
                           className: 'proj-img',
                           style: { width: '100%' }
                         }}
                         zoomImage={{
-                          src: 'http://assets.yurika.design/tapcastbilling/initial.jpg',
+                          src: 'https://assets.yurika.design/tapcastbilling/initial.jpg',
                           alt: 'Dashboard',
                           className: 'proj-img'
                         }}
@@ -141,13 +141,13 @@ class TapcastBillingContent extends React.Component {
                     <span className="img-caption">Before selection</span> <br></br><br></br>
                     <ImageZoom
                         image={{
-                          src: 'http://assets.yurika.design/tapcastbilling/freetrial.jpg',
+                          src: 'https://assets.yurika.design/tapcastbilling/freetrial.jpg',
                           alt: 'Dashboard',
                           className: 'proj-img',
                           style: { width: '100%' }
                         }}
                         zoomImage={{
-                          src: 'http://assets.yurika.design/tapcastbilling/freetrial.jpg',
+                          src: 'https://assets.yurika.design/tapcastbilling/freetrial.jpg',
                           alt: 'Dashboard',
                           className: 'proj-img'
                         }}
@@ -155,13 +155,13 @@ class TapcastBillingContent extends React.Component {
                     <span className="img-caption">Free trial</span> <br></br><br></br>
                     <ImageZoom
                         image={{
-                          src: 'http://assets.yurika.design/tapcastbilling/selectadaccount199.jpg',
+                          src: 'https://assets.yurika.design/tapcastbilling/selectadaccount199.jpg',
                           alt: 'Dashboard',
                           className: 'proj-img',
                           style: { width: '100%' }
                         }}
                         zoomImage={{
-                          src: 'http://assets.yurika.design/tapcastbilling/selectadaccount199.jpg',
+                          src: 'https://assets.yurika.design/tapcastbilling/selectadaccount199.jpg',
                           alt: 'Dashboard',
                           className: 'proj-img'
                         }}
@@ -169,13 +169,13 @@ class TapcastBillingContent extends React.Component {
                     <span className="img-caption">Initial selection</span> <br></br><br></br>
                     <ImageZoom
                         image={{
-                          src: 'http://assets.yurika.design/tapcastbilling/selectadaccount299.jpg',
+                          src: 'https://assets.yurika.design/tapcastbilling/selectadaccount299.jpg',
                           alt: 'Dashboard',
                           className: 'proj-img',
                           style: { width: '100%' }
                         }}
                         zoomImage={{
-                          src: 'http://assets.yurika.design/tapcastbilling/selectadaccount299.jpg',
+                          src: 'https://assets.yurika.design/tapcastbilling/selectadaccount299.jpg',
                           alt: 'Dashboard',
                           className: 'proj-img'
                         }}
@@ -183,13 +183,13 @@ class TapcastBillingContent extends React.Component {
                     <span className="img-caption">Modify selection</span> <br></br><br></br>
                     <ImageZoom
                         image={{
-                          src: 'http://assets.yurika.design/tapcastbilling/select2adaccounts.jpg',
+                          src: 'https://assets.yurika.design/tapcastbilling/select2adaccounts.jpg',
                           alt: 'Dashboard',
                           className: 'proj-img',
                           style: { width: '100%' }
                         }}
                         zoomImage={{
-                          src: 'http://assets.yurika.design/tapcastbilling/select2adaccounts.jpg',
+                          src: 'https://assets.yurika.design/tapcastbilling/select2adaccounts.jpg',
                           alt: 'Dashboard',
                           className: 'proj-img'
                         }}
@@ -197,13 +197,13 @@ class TapcastBillingContent extends React.Component {
                     <span className="img-caption">Add selection</span> <br></br><br></br>
                     <ImageZoom
                         image={{
-                          src: 'http://assets.yurika.design/tapcastbilling/enterprise.jpg',
+                          src: 'https://assets.yurika.design/tapcastbilling/enterprise.jpg',
                           alt: 'Dashboard',
                           className: 'proj-img',
                           style: { width: '100%' }
                         }}
                         zoomImage={{
-                          src: 'http://assets.yurika.design/tapcastbilling/enterprise.jpg',
+                          src: 'https://assets.yurika.design/tapcastbilling/enterprise.jpg',
                           alt: 'Dashboard',
                           className: 'proj-img'
                         }}
