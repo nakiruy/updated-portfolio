@@ -1,5 +1,5 @@
 import React from 'react';
-import { Media, Col, Row, Jumbotron, Container, Card, CardImg, CardTitle, CardText, CardGroup, CardBody } from 'reactstrap';
+import { Media, Col, Row, Jumbotron, Container, Card, CardTitle, CardText, CardGroup, CardBody } from 'reactstrap';
 import AOS from 'aos';
 import ImageZoom from 'react-medium-image-zoom';
 
