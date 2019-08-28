@@ -265,10 +265,11 @@ class TapcastContent extends React.Component {
               </Col>
               <Col lg="8" data-aos="fade-up">
                 <Media body>
-                Although this project never took off to be in a development sprint (as with any startup, engineering resources was scarce), <span className="chunky-underline" id="tapcast-underline-color">this project was extremely valuable to growing my capabilities to design with numerous constraints.</span><br></br><br></br>
-                Due to limited engineering resources, one of the biggest constraints in implementing this project was overhauling the existing platform design while keeping the number of custom UI elements minimal but still redesign the platform to look vastly different from its previous form. I was also limited to using assets from <a href="https://material-ui.com"><span className="tapcast-links">Material UI</span></a> which added to the challenge.
-                Last but not least, I had to strictly abide with Facebook app review policies and formulate UX flows that satisfied those requirements as well. <br></br><br></br>
-                As you may have noticed, there are a handful of scenarios that I did not flesh out during the creation of this project. That is, what if a user’s free trial expires before they upgrade? What if a new user decides not to follow the Get Started checklist? Is the platform intuitive enough for a new user to understand without going through the checklist? What if they do not have a pre-existing ad account on Facebook? Needless to say, I hope to tackle these issues when this project is incorporated into the product roadmap.<br></br><br></br>
+                Although this project never took off as part of a development effort (there wasn't enough engineering bandwidth to kickstart this project), <span className="chunky-underline" id="tapcast-underline-color">the project was extremely valuable in growing my capabilities as a designer and navigate through business and engineering constraints.</span><br></br><br></br>
+                For example, knowing engineering resources are generally scarce, I knew I had to craft a redesign that kept custom UI elements at a minimum and reuse resources from a predefined component library (<a href="https://material-ui.com"><span className="tapcast-links">Material UI</span></a>).
+                In addition, I had to strictly abide by Facebook app review policies and formulate UX flows that satisfied those requirements (see <a href="https://developers.facebook.com/docs/facebook-login/best-practices/"><span className="tapcast-links">Facebook Login Best Practices</span></a>). <br></br><br></br>
+                <span className="chunky-underline" id="tapcast-underline-color">Despite the project not being fully realized in the product design, there were components that made into the live application.</span> Notably, the Get Started checklist, Create Audience button, Select Ad Account modal, and Welcome to Tapcast introduction video are still incorporated into the design today.
+                 Overall, not only did this redesign grow me as a designer, but it also helped me to understand the complexities involving platform UI overhaul, and the business importance of a frictionless user onboarding flow.<br></br><br></br>
                 </Media>
               </Col>
             </Row>
@@ -280,7 +281,7 @@ class TapcastContent extends React.Component {
                 <Media body>
                   <ol className="takeaways">
                     <li>Embrace constraints and challenge yourself.</li>
-                    <li>Collaborate with stakeholders and cross-functionally to understand the overarching pain points of customers.</li>
+                    <li>Collaborate with stakeholders and work cross-functionally to understand the overarching pain points of customers.</li>
                     <li>Set project scope and maintain focus yet be open to changes.</li>
                   </ol>
                 </Media>
