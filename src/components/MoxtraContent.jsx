@@ -72,7 +72,7 @@ class MoxtraContent extends React.Component {
                 <div className="numbers moxtra-color" id="bad">The Bad</div>
                 <li>100% of the users stated that app features and navigation labels were ambiguous and nonintuitive</li>
                 <li>Most agreed that in-app onboarding provides little to no clarity on what the product is</li>
-                <li>75% of users feld that the application's visual design is plain and could use an update</li>
+                <li>75% of users felt that the application's visual design is plain and could use an update</li>
                 <li>One user felt that the "Add Avatar" and "Your Plan" screens appear too soon in the app onboarding process</li>
               </ul>
               <br></br>
