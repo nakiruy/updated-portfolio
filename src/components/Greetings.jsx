@@ -15,7 +15,7 @@ class Greetings extends React.Component {
     return (
         <Container>
           <Col md="9" className="greetings">
-            <h1 className="headline"><Link to="/about"><span id="name">Yurika Jacobsson</span></Link> is a designer located in the Bay Area. <span id="designer">Also a frontend developer</span>.</h1>
+            <h1 className="headline"><Link to="/about"><span id="name">Yurika Jacobsson</span></Link> is a <span id="designer">product designer</span> located in the Bay Area.</h1>
             {/* <h6 id="subtitle">- Get in touch.</h6>  */}
             {/* <a href="#" className="btn" id="contact">Contact Me</a> */}
             {/* <div className="arrowDownContainer">

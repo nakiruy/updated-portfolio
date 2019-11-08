@@ -864,7 +864,7 @@ button:focus {
 
 /* SocialIcons */
 
-.social-icons {
+.contact-icons {
   text-align: left;
 }
 
@@ -1509,7 +1509,7 @@ hr {
   .carousel-indicators {
     display: none;
   }
-  .social-icons {
+  .contact-icons {
     text-align: center;
   }
   #copyright-copy {
