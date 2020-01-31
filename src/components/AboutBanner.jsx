@@ -20,7 +20,7 @@ class AboutBanner extends React.Component {
                 <h1 className="about-copy">Want to learn more?</h1>
               </Col>
               <Col lg="2">
-                <a href="https://drive.google.com/file/d/1eKN9C3ctdTQ1kI03yxyHtY6oJ85POLY1/" className="btn" id="contact-btn"><div id="getintouch">Download Resume</div></a>
+                <a href="https://drive.google.com/file/d/1ZT7E42VgzeEiyoBLHUx71oV7IS59dc-4/" className="btn" id="contact-btn"><div id="getintouch">Download Resume</div></a>
               </Col>
             </Row>
           </Container>
